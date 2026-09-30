@@ -1,4 +1,4 @@
-position,player,salary,projection,ceiling,projected_ownership,stack_role,leverage_role,pre_lock_reason
+position,player,salary,model_projection,model_ceiling,our_ownership_estimate,stack_role,leverage_role,pre_lock_reason
 QB,TBD,,,,,,,
 RB,TBD,,,,,,,
 RB,TBD,,,,,,,

@@ -1,6 +1,6 @@
 """Evaluation helpers for the NFL DFS projection-analysis project.
 
-The functions in this file compare pre-slate forecasts with actual results.
+The functions in this file compare our pre-slate forecasts with actual results.
 They are intentionally small so the calculations are easy to audit.
 """
 
@@ -12,7 +12,7 @@ import pandas as pd
 
 def add_projection_errors(
     players: pd.DataFrame,
-    projection_col: str = "projection",
+    projection_col: str = "model_projection",
     actual_col: str = "actual_points",
 ) -> pd.DataFrame:
     """Add signed and absolute player projection errors.
@@ -89,10 +89,10 @@ def projection_accuracy_summary(
 
 def add_ownership_errors(
     players: pd.DataFrame,
-    projected_col: str = "projected_ownership",
+    projected_col: str = "our_ownership_estimate",
     actual_col: str = "actual_ownership",
 ) -> pd.DataFrame:
-    """Compare projected ownership with actual contest ownership.
+    """Compare our ownership estimate with actual contest ownership.
 
     Ownership values should use the same scale in both columns.
     For example, use 18.5 for 18.5% in both columns.

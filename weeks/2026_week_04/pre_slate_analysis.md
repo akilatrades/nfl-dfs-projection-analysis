@@ -27,6 +27,51 @@ The goal is to be different **for a reason**.
 
 ---
 
+## Step 0 — Build our own player projections
+
+Before comparing players, create the expected football stat lines in:
+
+`projection_inputs.csv`
+
+The model does not begin with a fantasy-point projection. It begins with assumptions such as:
+
+- pass attempts,
+- carries,
+- targets,
+- catch rate,
+- yards per carry,
+- yards per reception,
+- expected touchdowns,
+- and recent fantasy-point volatility.
+
+Then run:
+
+```bash
+python run_projections.py weeks/2026_week_04/projection_inputs.csv
+```
+
+That creates `player_pool.csv` with:
+
+- our model projection,
+- our model floor,
+- our model ceiling,
+- value per $1,000 of salary,
+- and our ownership estimate.
+
+### Projection check
+
+Before using the numbers, ask:
+
+- Does the expected workload make sense?
+- Did an injury or role change alter the volume?
+- Is the efficiency assumption too optimistic?
+- Is the touchdown expectation reasonable?
+- Is the ceiling being driven by real volatility or by a bad input?
+
+The goal is not to make the model look precise. The goal is to make every assumption visible.
+
+---
+
 ## Step 1 — Rank the game environments
 
 Before choosing individual players, identify which games have the strongest overall fantasy setup.
@@ -80,7 +125,7 @@ The opposing player is often called a **bring-back**.
 
 Use this table to compare the main stack ideas.
 
-| Stack | Combined Salary | Combined Projection | Combined Ceiling | Combined Ownership | Why It Works |
+| Stack | Combined Salary | Our Projection | Our Ceiling | Our Ownership Estimate | Why It Works |
 |---|---:|---:|---:|---:|---|
 | TBD |  |  |  |  |  |
 | TBD |  |  |  |  |  |
@@ -94,11 +139,11 @@ Use this table to compare the main stack ideas.
 
 ## Step 3 — Compare ceiling and ownership
 
-Projection tells us the expected score.
+Our model projection is the expected DraftKings score produced by our stat assumptions.
 
-Ceiling tells us how high the player can reasonably score.
+Our model ceiling is the higher-end score produced from the player's projection and recent volatility.
 
-Ownership tells us how many other lineups are expected to use that player.
+Our ownership estimate is our pre-lock forecast of how popular the player will be.
 
 A lower-owned player is interesting when the ceiling stays close to a more popular alternative.
 
@@ -149,7 +194,7 @@ Use this section to record the actual places where we plan to differ from the fi
 ### Leverage decision 1
 
 **Player / construction:** TBD  
-**Projected ownership:** TBD  
+**Our ownership estimate:** TBD  
 **Popular alternative:** TBD  
 **Why the ceiling is still strong:** TBD  
 **What football outcome makes this work:** TBD
@@ -171,9 +216,9 @@ If there is no strong reason for a second leverage play, do not force one.
 For each candidate lineup, record:
 
 - salary used,
-- projected points,
-- projected ceiling,
-- ownership profile,
+- our projected points,
+- our projected ceiling,
+- our ownership estimate,
 - primary stack,
 - leverage decisions,
 - and the overall lineup story.
@@ -243,10 +288,10 @@ If the last answer is no, ownership may be driving the lineup too much.
 
 **Final salary used:** TBD
 
-**Final projected points:** TBD
+**Final model projection:** TBD
 
-**Final projected ceiling:** TBD
+**Final model ceiling:** TBD
 
-**Final projected ownership profile:** TBD
+**Final ownership estimate:** TBD
 
 This section should be completed before the lineup locks.

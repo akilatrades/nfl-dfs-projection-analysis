@@ -251,7 +251,7 @@ When the corresponding contest data is available, the project can add:
 
 - each player's final DraftKings points,
 - actual ownership,
-- projected ownership,
+- our ownership estimate,
 - projection error,
 - lineup score,
 - contest percentile,

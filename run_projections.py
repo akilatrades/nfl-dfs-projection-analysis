@@ -54,6 +54,7 @@ def main() -> None:
         "leverage_note",
         "decision",
         "reason",
+        "status_note",
     ]
 
     for column in output_columns:

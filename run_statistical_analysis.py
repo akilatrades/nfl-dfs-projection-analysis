@@ -15,6 +15,7 @@ from pathlib import Path
 import pandas as pd
 
 from src.statistical_analysis import (
+    add_candidate_ownership_estimate,
     add_position_percentiles,
     add_salary_hit_probabilities,
     add_tournament_leverage_index,
@@ -42,6 +43,7 @@ def main() -> None:
     players = pd.read_csv(args.player_pool)
 
     analyzed = add_position_percentiles(players)
+    analyzed = add_candidate_ownership_estimate(analyzed)
     analyzed = add_salary_hit_probabilities(analyzed)
     analyzed = add_tournament_leverage_index(analyzed)
 

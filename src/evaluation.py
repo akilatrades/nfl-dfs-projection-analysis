@@ -48,7 +48,7 @@ def add_projection_errors(
 
 def projection_accuracy_summary(
     players: pd.DataFrame,
-    projection_col: str = "projection",
+    projection_col: str = "model_projection",
     actual_col: str = "actual_points",
 ) -> pd.Series:
     """Calculate MAE, RMSE, and average signed error.
@@ -119,7 +119,7 @@ def add_ownership_errors(
 
 def ownership_accuracy_summary(
     players: pd.DataFrame,
-    projected_col: str = "projected_ownership",
+    projected_col: str = "our_ownership_estimate",
     actual_col: str = "actual_ownership",
 ) -> pd.Series:
     """Return simple ownership forecast error statistics."""

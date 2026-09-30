@@ -425,7 +425,7 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 | Red-zone opportunity | A carry or target near the opponent's goal line, where touchdowns are more likely. |
 | Lineup lock | The point when a contest or player can no longer be changed under the contest rules. |
 | Projection error | Actual DraftKings points minus projected DraftKings points. |
-| Ownership error | Actual ownership minus projected ownership. |
+| Ownership error | Actual ownership minus our pre-lock ownership estimate. |
 | MAE | Mean Absolute Error. The average size of projection misses without caring whether the projection was too high or too low. |
 | RMSE | Root Mean Squared Error. A projection-error measure that gives larger misses more weight. |
 | Variance | Natural uncertainty in outcomes. A good decision can still have a bad result because NFL performance is volatile. |

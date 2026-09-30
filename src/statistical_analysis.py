@@ -58,6 +58,86 @@ def add_position_percentiles(players: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def add_candidate_ownership_estimate(
+    players: pd.DataFrame,
+    target_sums: dict[str, float] | None = None,
+    temperature: float = 80.0,
+) -> pd.DataFrame:
+    """Create our first candidate-pool popularity estimate.
+
+    This is NOT imported ownership data.
+
+    The estimate is built only from this project's own:
+        projection percentile
+        value percentile
+        ceiling percentile
+
+    First, a popularity score is calculated:
+
+        45% projection percentile
+        35% value percentile
+        20% ceiling percentile
+
+    The score is then converted into a percentage within each position.
+
+    target_sums controls how much total ownership is assigned to the research
+    pool at each position. Because this project does not yet model every
+    player on the slate, these percentages are best treated as a relative
+    popularity estimate rather than a fully calibrated field forecast.
+    """
+    required = {
+        "position",
+        "projection_percentile",
+        "value_percentile",
+        "ceiling_percentile",
+    }
+    missing = required.difference(players.columns)
+    if missing:
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
+
+    if temperature <= 0:
+        raise ValueError("temperature must be positive.")
+
+    if target_sums is None:
+        target_sums = {
+            "QB": 60.0,
+            "RB": 100.0,
+            "WR": 130.0,
+            "TE": 45.0,
+        }
+
+    out = players.copy()
+
+    out["popularity_score"] = (
+        0.45 * out["projection_percentile"]
+        + 0.35 * out["value_percentile"]
+        + 0.20 * out["ceiling_percentile"]
+    )
+
+    out["our_ownership_estimate"] = np.nan
+
+    for position, group in out.groupby("position"):
+        target = target_sums.get(position)
+
+        if target is None:
+            continue
+
+        centered = (
+            group["popularity_score"]
+            - group["popularity_score"].mean()
+        )
+
+        weights = np.exp(centered / temperature)
+        ownership = weights / weights.sum() * target
+
+        out.loc[
+            group.index,
+            "our_ownership_estimate",
+        ] = ownership
+
+    return out
+
+
 def add_salary_hit_probabilities(
     players: pd.DataFrame,
     range_z: float = 1.28,

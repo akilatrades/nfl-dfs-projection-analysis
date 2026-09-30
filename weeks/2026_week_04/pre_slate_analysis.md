@@ -202,7 +202,7 @@ Use this section to record the actual places where we plan to differ from the fi
 ### Leverage decision 2
 
 **Player / construction:** TBD  
-**Projected ownership:** TBD  
+**Our ownership estimate:** TBD  
 **Popular alternative:** TBD  
 **Why the ceiling is still strong:** TBD  
 **What football outcome makes this work:** TBD

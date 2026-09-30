@@ -1,2 +1,2 @@
-player,position,team,opponent,salary,projection,ceiling,projected_ownership,team_total,game_total,expected_role,correlation_note,leverage_note,decision,reason
-TBD,TBD,TBD,TBD,,,,,,,,,,,,
+player,position,team,opponent,salary,model_projection,model_floor,model_ceiling,value_per_1000,our_ownership_estimate,team_total,game_total,role_note,correlation_note,leverage_note,decision,reason
+TBD,TBD,TBD,TBD,,,,,,,,,,,,,

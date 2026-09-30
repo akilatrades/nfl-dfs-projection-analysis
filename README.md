@@ -20,6 +20,66 @@ updated process
 
 The project is not built around posting winning or losing lineups. The focus is whether the **decision process** was sound, where the projections were wrong, where lineup construction reduced ceiling, and what should change on the next slate.
 
+## What these lineups are for
+
+The lineups in this project are built for **NFL DraftKings Daily Fantasy Sports (DFS) contests**.
+
+In DFS, a user does not draft one season-long team. Instead, a new lineup is created for a specific group of NFL games, called a **slate**.
+
+For the type of DraftKings lineup used in this project, the lineup contains:
+
+```text
+1 Quarterback (QB)
+2 Running Backs (RB)
+3 Wide Receivers (WR)
+1 Tight End (TE)
+1 FLEX
+1 Defense / Special Teams (DST)
+```
+
+The **FLEX** spot can be filled by an RB, WR, or TE.
+
+Each player has a salary. The lineup must stay under the contest salary cap. The Week 3 lineup used the full **$50,000 salary cap**.
+
+DraftKings awards fantasy points based on what the selected players do in the actual NFL games. The lineup competes against other lineups entered into the same contest.
+
+This project is currently focused on **single-entry tournament analysis**.
+
+A **single-entry** contest allows each participant to enter only one lineup. A **tournament** pays based on finishing position, so the goal is not only to build a lineup with a solid average projection. The lineup also needs enough upside to finish near the top of the field.
+
+That is why this project studies more than raw projections. It also looks at:
+
+- player ceiling,
+- lineup correlation,
+- projected ownership,
+- leverage,
+- game environment,
+- salary allocation,
+- late news,
+- and post-slate projection error.
+
+The exact DraftKings scoring and contest rules can vary by contest, so the contest page should always be treated as the final source for live rules.
+
+## How to read this project
+
+The project is designed to be followed in this order:
+
+```text
+README
+  ->
+understand the contest and the terms
+  ->
+review the weekly pre-slate decisions
+  ->
+review the actual results
+  ->
+measure projection and ownership errors
+  ->
+document what should change next week
+```
+
+Each week is another observation in the same ongoing research project. The goal is to improve the process over time instead of treating every slate as an isolated win or loss.
+
 ## Current research questions
 
 The project tracks questions such as:
@@ -31,35 +91,6 @@ The project tracks questions such as:
 5. When does leverage improve a lineup, and when is it being forced?
 6. How should late injury/news updates change projections without creating false certainty?
 7. Which types of mistakes are model errors, and which are normal variance?
-
-## Core terms used throughout the project
-
-**Projection**  
-An estimate of how many DraftKings points a player is expected to score.
-
-**Ceiling**  
-A player's higher-end scoring outcome. Tournament lineups need enough players capable of producing scores well above their median expectation.
-
-**Ownership**  
-The percentage of lineups in a contest expected to roster a player.
-
-**Chalk**  
-A player expected to be highly owned.
-
-**Leverage**  
-Using a lower-owned player or construction that can gain ground on the field if a popular alternative fails. Leverage is useful only when the lower-owned option still has a realistic ceiling.
-
-**Correlation**  
-The relationship between players' fantasy outcomes. For example, a quarterback and one of his pass catchers can score points together when the same passing touchdown benefits both players.
-
-**Stack**  
-A lineup construction that intentionally combines correlated players, commonly a quarterback with one or more pass catchers and sometimes an opposing player.
-
-**Value**  
-Projected fantasy points relative to salary. Value matters, but a cheap player can still be a weak tournament play if the role does not provide enough ceiling.
-
-**Single Entry (SE)**  
-A contest where each user can enter only one lineup. The project treats SE differently from large-field multi-entry tournaments because there is less need to force extreme leverage.
 
 ## Lineup construction process
 
@@ -160,6 +191,54 @@ nfl-dfs-projection-analysis/
 ```
 
 Each new slate is added to the same project. The methods, definitions, and evaluation code are updated as the research develops.
+
+## Glossary
+
+<details>
+<summary><strong>Open glossary</strong></summary>
+
+| Term | Plain-English meaning |
+|---|---|
+| DFS | Daily Fantasy Sports. A new fantasy lineup is built for a specific slate of games rather than for an entire season. |
+| Slate | The group of NFL games included in a particular DraftKings contest. |
+| Contest | The DraftKings competition the lineup is entered into. |
+| Lineup | The group of players selected for one contest entry. |
+| Salary | The DraftKings cost assigned to a player. |
+| Salary cap | The maximum combined salary allowed for the lineup. The Week 3 lineup used a $50,000 cap. |
+| QB | Quarterback. One QB is used in the lineup format tracked here. |
+| RB | Running back. Two RB spots are used. |
+| WR | Wide receiver. Three WR spots are used. |
+| TE | Tight end. One TE spot is used. |
+| FLEX | A flexible roster spot that can be filled by an RB, WR, or TE. |
+| DST | Defense / Special Teams. This roster spot uses an NFL team's defense and special-teams unit. |
+| Single Entry (SE) | A contest where each participant can enter only one lineup. |
+| Tournament | A contest where payouts depend on finishing position. High finishes matter much more than simply being above average. |
+| Field | All of the other lineups entered into the same contest. |
+| Projection | An estimate of how many DraftKings points a player is expected to score. |
+| Median projection | A central or middle expected outcome. It is useful, but it does not describe the player's full range of possible scores. |
+| Ceiling | A higher-end scoring outcome. Tournament lineups need enough players capable of scoring well above their median expectation. |
+| Floor | A lower-end estimate of what a player may score if the game does not go well. |
+| Ownership | The percentage of contest lineups expected to roster a player. |
+| Actual ownership | The percentage of the real contest field that ultimately rostered a player. |
+| Chalk | A player expected to be highly owned. |
+| Leverage | A lower-owned player or construction that can gain ground on the field if a popular alternative fails, provided the lower-owned option still has enough upside. |
+| Correlation | The relationship between fantasy outcomes. Two players are positively correlated when the same football events can help both score. |
+| Stack | A lineup construction that intentionally combines correlated players, often a quarterback with one or more pass catchers. |
+| Bring-back | An opposing player added to a stack because a high-scoring, competitive game can benefit both teams. |
+| Game environment | The overall fantasy setup of one NFL game, including scoring expectations, pace, player roles, and how likely the game is to stay competitive. |
+| Value | Projected fantasy points relative to salary. A player can be good value without necessarily having enough tournament ceiling. |
+| Salary efficiency | Another way to describe how much projected production a lineup gets for the salary spent. |
+| Late news | Injury, inactive, depth-chart, or role information that becomes available close to lineup lock. |
+| Lineup lock | The point when a contest or player can no longer be changed under the contest rules. |
+| Projection error | Actual DraftKings points minus projected DraftKings points. |
+| Ownership error | Actual ownership minus projected ownership. |
+| MAE | Mean Absolute Error. The average size of projection misses without caring whether the projection was too high or too low. |
+| RMSE | Root Mean Squared Error. A projection-error measure that gives larger misses more weight. |
+| Variance | Natural uncertainty in outcomes. A good decision can still have a bad result because NFL performance is volatile. |
+| Process | The information and reasoning used before the result was known. |
+| Outcome | What actually happened after the games were played. A good outcome does not automatically mean the process was good, and a bad outcome does not automatically mean the process was bad. |
+
+</details>
 
 ## Data policy
 

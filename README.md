@@ -314,6 +314,9 @@ The Week 4 folder also contains:
 - `lineup_candidates.csv` — compares possible single-entry constructions.
 - `final_lineup.csv` — records the final pre-lock lineup and the reason for each roster spot.
 - `statistical_analysis.md` — explains the Week 4 statistical models in plain English.
+- `model_run_2026-09-30.md` — records the first completed Week 4 model run, findings, limitations, and next steps.
+- `player_analysis.csv` — stores the Week 4 statistical player outputs.
+- `sensitivity_analysis.csv` — shows which assumptions move projections the most.
 
 The goal is to record the decision process first and judge the outcome second.
 

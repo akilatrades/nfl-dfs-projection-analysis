@@ -1,5 +1,33 @@
 # 2026 Week 3 — Single-Entry Post-Slate Review
 
+## What this lineup was for
+
+This lineup was built for a **$50 NFL DraftKings single-entry tournament**.
+
+Single-entry means one participant can submit only one lineup into the contest. Because the contest is a tournament, the objective is not simply to build nine players with the highest average projections. The lineup needs enough combined upside to finish near the top of the field.
+
+The lineup format used here has nine roster spots:
+
+```text
+1 QB
+2 RB
+3 WR
+1 TE
+1 FLEX
+1 DST
+```
+
+The FLEX can be an RB, WR, or TE.
+
+Each player has a DraftKings salary, and the complete lineup must stay within the salary cap. This Week 3 lineup used the full **$50,000 cap**.
+
+The review below asks two separate questions:
+
+1. **Was the pre-slate reasoning sound?**
+2. **What can be improved regardless of the final result?**
+
+That distinction matters because NFL fantasy outcomes contain a lot of variance. A good decision can fail, and a weak decision can occasionally work.
+
 ## Lineup
 
 The Week 3 $50 single-entry lineup was:
@@ -18,7 +46,7 @@ The Week 3 $50 single-entry lineup was:
 
 Total salary: **$50,000**
 
-This review focuses on the construction process rather than simply labeling the lineup a success or failure.
+This review focuses on the construction process rather than simply labeling the lineup a success or failure. The goal is to identify which decisions were repeatable and which parts of the lineup reduced its tournament ceiling.
 
 ## What the lineup was trying to do
 

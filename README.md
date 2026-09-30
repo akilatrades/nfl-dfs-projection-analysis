@@ -102,7 +102,7 @@ The Week 3 review led to a revised order of operations:
 3. Use projections to compare players
 4. Evaluate ownership
 5. Add only 1-2 deliberate leverage decisions
-6. Check the lineup as a complete portfolio of outcomes
+6. Check whether the complete lineup has enough upside
 ```
 
 This order matters.
@@ -212,7 +212,8 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 | FLEX | A flexible roster spot that can be filled by an RB, WR, or TE. |
 | DST | Defense / Special Teams. This roster spot uses an NFL team's defense and special-teams unit. |
 | Single Entry (SE) | A contest where each participant can enter only one lineup. |
-| Tournament | A contest where payouts depend on finishing position. High finishes matter much more than simply being above average. |
+| Tournament / GPP | A contest where payouts depend on finishing position. High finishes matter much more than simply being above average. GPP is a common DFS term for this type of prize-pool tournament. |
+| Cash game | A contest where a larger share of the field is paid and the goal is more about beating a cutoff than finishing first. This project is focused on tournaments, not cash-game lineup building. |
 | Field | All of the other lineups entered into the same contest. |
 | Projection | An estimate of how many DraftKings points a player is expected to score. |
 | Median projection | A central or middle expected outcome. It is useful, but it does not describe the player's full range of possible scores. |
@@ -227,8 +228,13 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 | Bring-back | An opposing player added to a stack because a high-scoring, competitive game can benefit both teams. |
 | Game environment | The overall fantasy setup of one NFL game, including scoring expectations, pace, player roles, and how likely the game is to stay competitive. |
 | Value | Projected fantasy points relative to salary. A player can be good value without necessarily having enough tournament ceiling. |
+| Point-per-dollar | A simple way to compare projected fantasy production with salary. It is useful, but tournament decisions should not rely on it alone. |
 | Salary efficiency | Another way to describe how much projected production a lineup gets for the salary spent. |
 | Late news | Injury, inactive, depth-chart, or role information that becomes available close to lineup lock. |
+| Target | A pass thrown toward a specific receiver. |
+| Target share | The percentage of a team's pass attempts directed at a player. |
+| Route | A pass pattern run by a receiver on a passing play. More routes usually create more chances to earn targets. |
+| Red-zone opportunity | A carry or target near the opponent's goal line, where touchdowns are more likely. |
 | Lineup lock | The point when a contest or player can no longer be changed under the contest rules. |
 | Projection error | Actual DraftKings points minus projected DraftKings points. |
 | Ownership error | Actual ownership minus projected ownership. |

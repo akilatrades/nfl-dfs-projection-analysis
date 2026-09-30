@@ -139,6 +139,30 @@ The post-slate review found several process issues:
 
 See [Week 3 review](weeks/2026_week_03/README.md) for the full case study.
 
+## Week 4 pre-slate workflow
+
+Week 4 is the first slate where the revised process is being used **before** lineup lock.
+
+The pre-slate work is stored in:
+
+**[Week 4 pre-slate analysis](weeks/2026_week_04/pre_slate_analysis.md)**
+
+The Week 4 files are designed to answer four questions before the result is known:
+
+1. Which games offer the strongest fantasy environments?
+2. Which player combinations provide useful correlation?
+3. Where can we gain ownership leverage without giving up too much ceiling?
+4. Why is the final lineup different from the field?
+
+The Week 4 folder also contains:
+
+- `game_environments.csv` — ranks the games before individual players are selected.
+- `player_pool.csv` — tracks salary, projection, ceiling, ownership, role, and decision notes.
+- `lineup_candidates.csv` — compares possible single-entry constructions.
+- `final_lineup.csv` — records the final pre-lock lineup and the reason for each roster spot.
+
+The goal is to record the decision process first and judge the outcome second.
+
 ## What will be stored each week
 
 Before lock, the project can store:
@@ -184,9 +208,15 @@ nfl-dfs-projection-analysis/
 ├── src/
 │   └── evaluation.py
 ├── weeks/
-│   └── 2026_week_03/
-│       ├── README.md
-│       └── lineup.csv
+│   ├── 2026_week_03/
+│   │   ├── README.md
+│   │   └── lineup.csv
+│   └── 2026_week_04/
+│       ├── pre_slate_analysis.md
+│       ├── game_environments.csv
+│       ├── player_pool.csv
+│       ├── lineup_candidates.csv
+│       └── final_lineup.csv
 └── requirements.txt
 ```
 

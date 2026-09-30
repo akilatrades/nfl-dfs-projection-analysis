@@ -49,11 +49,11 @@ This project is currently focused on **single-entry tournament analysis**.
 
 A **single-entry** contest allows each participant to enter only one lineup. A **tournament** pays based on finishing position, so the goal is not only to build a lineup with a solid average projection. The lineup also needs enough upside to finish near the top of the field.
 
-That is why this project studies more than raw projections. It also looks at:
+That is why this project studies more than one expected fantasy-point number. It also looks at:
 
 - player ceiling,
 - lineup correlation,
-- projected ownership,
+- our ownership estimate,
 - leverage,
 - game environment,
 - salary allocation,
@@ -86,7 +86,7 @@ Each week is another observation in the same ongoing research project. The goal 
 
 This repository now generates its **own fantasy-point projections**.
 
-The model does not begin with somebody else's fantasy-point number. It begins with football assumptions that we can see, explain, change, and later test.
+The model begins with football assumptions that we can see, explain, change, and later test.
 
 For an offensive player, the basic process is:
 
@@ -128,6 +128,46 @@ Then receiving yards:
 The touchdown input can be fractional because it represents an **expected value**. A projection of 0.40 receiving touchdowns does not mean the player will score 0.40 touchdowns in a real game. It means the model is treating the player's touchdown expectation as 0.40 before the game is played.
 
 Those expected statistics are then converted into DraftKings fantasy points.
+
+### How the fantasy-point conversion works
+
+The first version of the model uses the standard DraftKings NFL scoring structure for offensive players:
+
+| Event | DraftKings points used by the model |
+|---|---:|
+| Passing yard | 0.04 |
+| Passing touchdown | 4 |
+| Interception thrown | -1 |
+| Rushing yard | 0.10 |
+| Rushing touchdown | 6 |
+| Reception | 1 |
+| Receiving yard | 0.10 |
+| Receiving touchdown | 6 |
+| Fumble lost | -1 |
+| Two-point conversion | 2 |
+| 300+ passing yards | +3 bonus |
+| 100+ rushing yards | +3 bonus |
+| 100+ receiving yards | +3 bonus |
+
+For the yardage bonuses, the model uses a **probability** rather than automatically awarding the bonus from the mean projection.
+
+Example:
+
+```text
+Probability of 100+ receiving yards = 20%
+Bonus value = 3 points
+
+Expected bonus contribution:
+20% × 3
+= 0.6 projected points
+```
+
+That is more realistic than giving a full three-point bonus simply because a player's average projection happens to be near 100 yards.
+
+DST uses expected sacks, turnovers, touchdowns, safeties, blocks, and an expected points-allowed scoring value.
+
+DraftKings scoring reference used for the model:
+https://dknetwork.draftkings.com/2025/08/27/nfl-dfs-beginners-guide-draftkings/
 
 ### What goes into our projections
 
@@ -196,8 +236,8 @@ That creates another forecast we can measure and improve.
 
 The project tracks questions such as:
 
-1. How accurate are player projections compared with actual DraftKings scoring?
-2. How accurate are ownership projections?
+1. How accurate are our model projections compared with actual DraftKings scoring?
+2. How accurate are our ownership estimates?
 3. Does salary efficiency lead to strong tournament lineups, or can it sacrifice ceiling?
 4. How much does lineup correlation matter in single-entry tournaments?
 5. When does leverage improve a lineup, and when is it being forced?
@@ -301,9 +341,9 @@ After the slate, the project can add:
 |---|---|
 | Actual DK points | Final DraftKings fantasy score |
 | Actual ownership | Contest ownership |
-| Projection error | Actual points minus projected points |
-| Ownership error | Actual ownership minus projected ownership |
-| Ceiling hit | Whether the player reached the defined ceiling range |
+| Projection error | Actual points minus our model projection |
+| Ownership error | Actual ownership minus our ownership estimate |
+| Ceiling hit | Whether the player reached our defined ceiling range |
 | Process grade | Whether the original reasoning was supported by the information available before lock |
 | Review notes | What should change next time |
 

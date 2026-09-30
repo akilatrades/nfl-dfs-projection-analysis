@@ -313,8 +313,20 @@ The Week 4 folder also contains:
 - `player_pool.csv` — stores our model projection, floor, ceiling, value, ownership estimate, role, and decision notes.
 - `lineup_candidates.csv` — compares possible single-entry constructions.
 - `final_lineup.csv` — records the final pre-lock lineup and the reason for each roster spot.
+- `statistical_analysis.md` — explains the Week 4 statistical models in plain English.
 
 The goal is to record the decision process first and judge the outcome second.
+
+Week 4 also adds a statistical layer on top of our own projections. It includes:
+
+- position percentile ranks,
+- estimated 3x and 4x hit probabilities,
+- 50,000-outcome player simulations,
+- a tournament leverage index,
+- projection sensitivity analysis,
+- and baseline lineup simulations.
+
+See **[Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md)** for the full explanation.
 
 ## What will be stored each week
 
@@ -360,8 +372,11 @@ nfl-dfs-projection-analysis/
 │   └── README.md
 ├── src/
 │   ├── projections.py
+│   ├── statistical_analysis.py
+│   ├── lineup_analysis.py
 │   └── evaluation.py
 ├── run_projections.py
+├── run_statistical_analysis.py
 ├── weeks/
 │   ├── 2026_week_03/
 │   │   ├── README.md
@@ -372,7 +387,8 @@ nfl-dfs-projection-analysis/
 │       ├── projection_inputs.csv
 │       ├── player_pool.csv
 │       ├── lineup_candidates.csv
-│       └── final_lineup.csv
+│       ├── final_lineup.csv
+│       └── statistical_analysis.md
 └── requirements.txt
 ```
 
@@ -428,6 +444,14 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 | Ownership error | Actual ownership minus our pre-lock ownership estimate. |
 | MAE | Mean Absolute Error. The average size of projection misses without caring whether the projection was too high or too low. |
 | RMSE | Root Mean Squared Error. A projection-error measure that gives larger misses more weight. |
+| Percentile | A ranking that shows where a value sits relative to a group. A 90th-percentile projection is higher than about 90% of the comparison group. |
+| Monte Carlo simulation | Repeating a model many times with random outcomes to estimate a range of possible results instead of relying on one number. |
+| 3x value | Fantasy points equal to three points per $1,000 of salary. A $6,000 player reaches 3x at 18 DK points. |
+| 4x value | Fantasy points equal to four points per $1,000 of salary. A $6,000 player reaches 4x at 24 DK points. |
+| Hit probability | The model's estimated chance that a player reaches a chosen scoring target. |
+| Sensitivity analysis | Recalculating a projection after changing one input to see how strongly that assumption affects the final result. |
+| Upper tail | The higher-scoring part of a simulated outcome distribution. Tournament analysis pays special attention to this area because top finishes require unusually strong scores. |
+| Tournament leverage index | A project-specific metric comparing estimated 4x hit probability with our ownership estimate. It is a research tool, not an industry-standard statistic. |
 | Variance | Natural uncertainty in outcomes. A good decision can still have a bad result because NFL performance is volatile. |
 | Process | The information and reasoning used before the result was known. |
 | Outcome | What actually happened after the games were played. A good outcome does not automatically mean the process was good, and a bad outcome does not automatically mean the process was bad. |
@@ -463,6 +487,11 @@ As more slates are added, the project can calculate:
 - projection error by position,
 - ownership calibration,
 - ceiling-hit rate,
+- player percentile analysis,
+- 3x and 4x hit probabilities,
+- Monte Carlo outcome distributions,
+- projection sensitivity analysis,
+- lineup upper-tail simulation,
 - chalk performance,
 - leverage performance,
 - stack performance,

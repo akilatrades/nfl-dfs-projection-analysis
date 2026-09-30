@@ -5,9 +5,11 @@ An ongoing NFL DraftKings research project focused on projection quality, lineup
 The goal is to treat each slate as a forecasting and decision-analysis problem:
 
 ```text
-player data
+public player/team data
     ->
-projections and ownership expectations
+our projection model
+    ->
+our ownership estimate
     ->
 lineup decisions
     ->
@@ -79,6 +81,116 @@ document what should change next week
 ```
 
 Each week is another observation in the same ongoing research project. The goal is to improve the process over time instead of treating every slate as an isolated win or loss.
+
+## Our projection model
+
+This repository now generates its **own fantasy-point projections**.
+
+The model does not begin with somebody else's fantasy-point number. It begins with football assumptions that we can see, explain, change, and later test.
+
+For an offensive player, the basic process is:
+
+```text
+expected opportunity
+    ->
+expected efficiency
+    ->
+expected football statistics
+    ->
+DraftKings fantasy points
+```
+
+### Example: wide receiver
+
+Suppose we estimate:
+
+```text
+8 targets
+65% catch rate
+12 yards per reception
+0.40 expected receiving touchdowns
+```
+
+The model first estimates receptions:
+
+```text
+8 targets × 65%
+= 5.2 receptions
+```
+
+Then receiving yards:
+
+```text
+5.2 receptions × 12 yards
+= 62.4 receiving yards
+```
+
+The touchdown input can be fractional because it represents an **expected value**. A projection of 0.40 receiving touchdowns does not mean the player will score 0.40 touchdowns in a real game. It means the model is treating the player's touchdown expectation as 0.40 before the game is played.
+
+Those expected statistics are then converted into DraftKings fantasy points.
+
+### What goes into our projections
+
+Depending on position, the model can use:
+
+- expected pass attempts,
+- completion rate,
+- yards per completion,
+- expected passing touchdowns,
+- expected interceptions,
+- expected carries,
+- yards per carry,
+- expected rushing touchdowns,
+- expected targets,
+- catch rate,
+- yards per reception,
+- expected receiving touchdowns,
+- recent fantasy-point volatility,
+- and the probability of reaching DraftKings yardage bonuses.
+
+The inputs are built from public football information and our own assumptions.
+
+The important part is that every projected point can be traced back to an assumption.
+
+If a projection looks wrong, we can ask:
+
+> Was the expected volume wrong, was the efficiency assumption wrong, or was the scoring conversion wrong?
+
+That gives us something we can actually improve.
+
+### Projection, floor, and ceiling
+
+The model produces three main numbers:
+
+**Model projection**  
+Our expected DraftKings score based on the stat assumptions.
+
+**Model floor**  
+A lower-end estimate based on the player's recent fantasy-point volatility.
+
+**Model ceiling**  
+A higher-end estimate based on the same volatility.
+
+The first version uses a simple statistical range around the projection. As more weeks are collected, this can be replaced with a full player-outcome simulation.
+
+### Our ownership estimate
+
+Ownership is also treated as **our estimate**, not as a number that is assumed to be correct.
+
+Before lock, we estimate how popular a player may be based on factors such as:
+
+- salary,
+- our projection,
+- our value calculation,
+- our ceiling,
+- game environment,
+- position alternatives,
+- role changes,
+- and late news.
+
+After the slate, we compare our estimate with the player's actual contest ownership.
+
+That creates another forecast we can measure and improve.
 
 ## Current research questions
 
@@ -157,7 +269,8 @@ The Week 4 files are designed to answer four questions before the result is know
 The Week 4 folder also contains:
 
 - `game_environments.csv` — ranks the games before individual players are selected.
-- `player_pool.csv` — tracks salary, projection, ceiling, ownership, role, and decision notes.
+- `projection_inputs.csv` — stores the football assumptions used to create our projections.
+- `player_pool.csv` — stores our model projection, floor, ceiling, value, ownership estimate, role, and decision notes.
 - `lineup_candidates.csv` — compares possible single-entry constructions.
 - `final_lineup.csv` — records the final pre-lock lineup and the reason for each roster spot.
 
@@ -172,9 +285,9 @@ Before lock, the project can store:
 | Player | Player name |
 | Position | DraftKings roster position |
 | Salary | DraftKings salary |
-| Projection | Expected DK points |
-| Ceiling | Higher-end projected outcome |
-| Projected ownership | Expected field ownership |
+| Model projection | Our expected DraftKings points calculated from the projection inputs |
+| Model ceiling | Our higher-end scoring estimate |
+| Our ownership estimate | Our pre-lock estimate of expected field ownership |
 | Team total | Expected team scoring environment |
 | Game total | Expected combined game scoring |
 | Role notes | Expected snaps, routes, carries, targets, etc. |
@@ -206,7 +319,9 @@ nfl-dfs-projection-analysis/
 ├── data/
 │   └── README.md
 ├── src/
+│   ├── projections.py
 │   └── evaluation.py
+├── run_projections.py
 ├── weeks/
 │   ├── 2026_week_03/
 │   │   ├── README.md
@@ -214,6 +329,7 @@ nfl-dfs-projection-analysis/
 │   └── 2026_week_04/
 │       ├── pre_slate_analysis.md
 │       ├── game_environments.csv
+│       ├── projection_inputs.csv
 │       ├── player_pool.csv
 │       ├── lineup_candidates.csv
 │       └── final_lineup.csv
@@ -245,11 +361,13 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 | Tournament / GPP | A contest where payouts depend on finishing position. High finishes matter much more than simply being above average. GPP is a common DFS term for this type of prize-pool tournament. |
 | Cash game | A contest where a larger share of the field is paid and the goal is more about beating a cutoff than finishing first. This project is focused on tournaments, not cash-game lineup building. |
 | Field | All of the other lineups entered into the same contest. |
-| Projection | An estimate of how many DraftKings points a player is expected to score. |
-| Median projection | A central or middle expected outcome. It is useful, but it does not describe the player's full range of possible scores. |
+| Model projection | The DraftKings score produced by our own stat-based projection model. |
+| Expected value | The average result implied by the model before the game is played. This can include fractional values, such as 0.40 expected touchdowns. |
+| Projection input | A football assumption used by our model, such as targets, carries, catch rate, or expected touchdowns. |
 | Ceiling | A higher-end scoring outcome. Tournament lineups need enough players capable of scoring well above their median expectation. |
 | Floor | A lower-end estimate of what a player may score if the game does not go well. |
-| Ownership | The percentage of contest lineups expected to roster a player. |
+| Ownership | The percentage of contest lineups that roster a player. Before lock, this has to be estimated. |
+| Our ownership estimate | Our pre-lock forecast of how popular a player will be in the contest. |
 | Actual ownership | The percentage of the real contest field that ultimately rostered a player. |
 | Chalk | A player expected to be highly owned. |
 | Leverage | A lower-owned player or construction that can gain ground on the field if a popular alternative fails, provided the lower-owned option still has enough upside. |
@@ -276,22 +394,25 @@ Each new slate is added to the same project. The methods, definitions, and evalu
 
 </details>
 
-## Data policy
+## Data and model inputs
 
-Paid projection files from third-party DFS services should not be redistributed in this repository.
+The project is built around **our own projections**.
 
-The project can use:
+The repository can use public information such as:
 
-- public NFL data,
-- DraftKings salary data where redistribution is permitted,
-- manually entered personal projections,
-- derived statistics,
-- model outputs,
-- lineup decisions,
-- post-slate results,
-- aggregated error metrics.
+- NFL box scores and game logs,
+- player usage,
+- team play volume,
+- targets and carries,
+- snap and route information when available,
+- DraftKings salaries,
+- game totals and team totals,
+- injury and inactive news,
+- and actual contest results after the slate.
 
-If a paid projection service is used as an input, the repository should store only calculations or conclusions that can be shared without reproducing the provider's proprietary dataset.
+These inputs are converted into our own expected stat lines and our own DraftKings projections.
+
+The repository should store the assumptions that created a projection whenever possible. That makes the model auditable: another person can see why a player projected the way he did instead of seeing only a final fantasy-point number.
 
 ## Planned analysis
 
@@ -309,6 +430,6 @@ As more slates are added, the project can calculate:
 - salary efficiency versus actual ceiling,
 - results before and after late-news adjustments.
 
-Eventually, the project can compare outside projections with an independently built blended projection model.
+Eventually, the project can replace the first simple projection ranges with full outcome simulations, build an ownership model from our historical contest data, and test whether each version of our model improves out-of-sample.
 
 Educational and analytical use only.

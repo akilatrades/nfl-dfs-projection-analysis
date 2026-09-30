@@ -1,0 +1,28 @@
+player,position,team,opponent,salary,games,pass_attempts_raw,completions_raw,pass_yards_raw,pass_td_raw,interceptions_raw,rush_attempts_raw,rush_yards_raw,rush_td_raw,targets_raw,receptions_raw,rec_yards_raw,rec_td_raw,team_total,game_total,status_note,snapshot_date,data_note
+Josh Allen,QB,BUF,NE,7700,3,86,56,786,5,2,28,114,6,0,0,0,0,27.500000,48.500000,questionable_knee_monitor,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Brock Purdy,QB,SF,DEN,6700,3,83,60,789,9,1,10,93,1,0,0,0,0,25.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Patrick Mahomes,QB,KC,LV,6500,3,98,67,812,7,2,10,41,1,0,0,0,0,26.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Trevor Lawrence,QB,JAX,CIN,5900,3,81,54,616,7,2,8,34,0,0,0,0,0,24.500000,51.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Dak Prescott,QB,DAL,HOU,6400,3,105,73,730,7,1,10,59,0,0,0,0,0,22.500000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Joe Burrow,QB,CIN,JAX,6800,3,103,73,743,6,1,8,32,0,0,0,0,0,27.000000,51.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Drake Maye,QB,NE,BUF,6000,3,80,51,585,1,6,15,82,0,0,0,0,0,21.000000,48.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Kenneth Walker III,RB,KC,LV,8200,3,0,0,0,0,0,65,360,2,18,11,82,2,26.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Christian McCaffrey,RB,SF,DEN,7700,3,0,0,0,0,0,35,166,3,17,13,104,0,25.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Derrick Henry,RB,BAL,TEN,8400,3,0,0,0,0,0,66,301,6,5,5,38,0,27.500000,43.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Ashton Jeanty,RB,LV,KC,7100,3,0,0,0,0,0,63,206,0,16,13,97,2,21.500000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Chase Brown,RB,CIN,JAX,6100,3,0,0,0,0,0,49,197,1,13,10,32,0,27.000000,51.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Breece Hall,RB,NYJ,CHI,6200,3,0,0,0,0,0,51,163,1,10,10,102,0,19.500000,42.500000,week_to_week_quad_hold,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Jaxon Smith-Njigba,WR,SEA,LAC,9100,3,0,0,0,0,0,0,0,0,36,27,405,6,25.250000,43.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+CeeDee Lamb,WR,DAL,HOU,7800,3,0,0,0,0,0,0,0,0,25,20,309,3,22.500000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Garrett Wilson,WR,NYJ,CHI,6800,3,0,0,0,0,0,0,0,0,27,21,243,2,19.500000,42.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Ja'Marr Chase,WR,CIN,JAX,8100,3,0,0,0,0,0,0,0,0,25,18,185,3,27.000000,51.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+DeVonta Smith,WR,PHI,LAR,7100,3,0,0,0,0,0,0,0,0,27,19,235,1,20.250000,43.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Tee Higgins,WR,CIN,JAX,6100,3,0,0,0,0,0,0,0,0,23,14,244,1,27.000000,51.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+DJ Moore,WR,BUF,NE,5700,3,0,0,0,0,0,0,0,0,18,11,167,1,27.500000,48.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+George Pickens,WR,DAL,HOU,6300,3,0,0,0,0,0,0,0,0,25,16,150,0,22.500000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Jaylen Waddle,WR,DEN,SF,6200,3,0,0,0,0,0,0,0,0,20,11,150,0,22.500000,47.500000,questionable_leg_monitor,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Trey McBride,TE,ARI,NYG,6500,3,0,0,0,0,0,0,0,0,34,26,211,2,22.500000,43.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Dalton Schultz,TE,HOU,DAL,4800,3,0,0,0,0,0,0,0,0,25,19,205,0,25.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+George Kittle,TE,SF,DEN,5100,3,0,0,0,0,0,0,0,0,16,12,174,3,25.000000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Mark Andrews,TE,BAL,TEN,4200,3,0,0,0,0,0,0,0,0,18,13,122,0,27.500000,43.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo
+Brock Bowers,TE,LV,KC,6900,1,0,0,0,0,0,0,0,0,13,10,116,1,21.500000,47.500000,active,2026-09-30,Public football stats only; fantasy projections generated in this repo

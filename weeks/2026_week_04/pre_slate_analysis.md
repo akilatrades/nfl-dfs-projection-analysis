@@ -58,6 +58,18 @@ That creates `player_pool.csv` with:
 - value per $1,000 of salary,
 - and our ownership estimate.
 
+Then run the statistical layer:
+
+```bash
+python run_statistical_analysis.py weeks/2026_week_04/player_pool.csv
+```
+
+That creates `player_analysis.csv` with position percentiles, 3x/4x hit probabilities, simulation percentiles, and the tournament leverage index.
+
+For the plain-English explanation of those statistics, see:
+
+[Week 4 statistical analysis](statistical_analysis.md)
+
 ### Projection check
 
 Before using the numbers, ask:

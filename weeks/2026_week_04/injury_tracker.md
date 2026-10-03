@@ -1,42 +1,50 @@
 # 2026 Week 4 — Injury Tracker
 
-**Last updated:** Friday, October 2, 2026 — morning pass
+**Last updated:** Saturday, October 3, 2026
 
-This file is updated before the player-pool review. It separates injury/news changes from projection and ownership decisions so that late-week availability does not get mixed with player-selection bias.
+This file is checked before the player-pool build so injury/news changes remain separate from player-selection decisions.
 
-## Current DFS-relevant injuries
+## Confirmed DFS-relevant statuses
 
-| Player / unit | Team | Status / practice trend | DFS impact | Action before pool build |
-|---|---|---|---|---|
-| Josh Allen | BUF | No longer carrying the knee concern in the active injury report used for this pass | Removes the earlier injury discount from the Week 4 QB evaluation | Treat as active; no injury downgrade |
-| Drake Maye | NE | Full participant Thursday with right-shoulder listing | Availability appears much less concerning than a DNP/LP tag would imply | Keep active, but retain shoulder note |
-| Breece Hall | NYJ | Quad injury; described as week-to-week. Braelon Allen has been taking the majority of RB reps | Major workload swing if Hall sits; Braelon Allen becomes a priority re-projection candidate | Hold Hall out of final pool decisions until game status is clearer |
-| Nico Collins | HOU | Returned to practice; limited with hamstring after missing Weeks 2-3 | His return changes Stroud, Schultz and the rest of Houston target distribution | Do not finalize HOU projections until Friday designation/workload expectation is updated |
-| DeVonta Smith | PHI | Hamstring; DNP Wednesday and Thursday | Material target redistribution if inactive or limited | Downgrade to injury monitor; do not treat baseline projection as final |
-| Dallas Goedert | PHI | Knee; continued absence noted in Thursday reporting | Raises target availability for remaining PHI pass catchers if confirmed out | Reflect in PHI pass-catcher re-projection |
-| Puka Nacua | LAR | Hip/groin; limited in practice, with Sean McVay saying he expects Nacua to play | Reclaims a major share of Rams targets and affects Davante Adams / ancillary receivers | Add to pool only with a return-from-injury workload assumption |
-| Christian McCaffrey | SF | Full participant Thursday after veteran rest Wednesday | No current injury downgrade needed | Treat as active |
-| Mike Evans | SF | Ribs; missed Thursday practice | Could concentrate SF targets elsewhere if inactive | Monitor Friday designation before SF stack decisions |
-| D'Andre Swift | CHI | Knee; missed Thursday practice | Could materially change Bears backfield volume | Monitor before adding CHI RBs to the pool |
-| Jakobi Meyers | JAX | Thumb; limited Wednesday and Thursday | Potential effect on Jacksonville target concentration in the slate-high-total game | Monitor Friday designation; do not assume full baseline workload yet |
+| Player | Team | Status | Pool impact |
+|---|---|---|---|
+| Breece Hall | NYJ | OUT — quadricep | Remove from pool; Braelon Allen moves into the workload re-projection queue |
+| DeVonta Smith | PHI | OUT — hamstring | Remove from pool; Philadelphia target tree must be rebuilt |
+| Dallas Goedert | PHI | OUT — knee | Remove from pool; additional targets available for remaining Eagles pass catchers |
+| Puka Nacua | LAR | No game designation after a full Friday practice | Eligible for the pool; use a return-from-injury workload assumption |
+| Nico Collins | HOU | No final game designation on the official Week 4 injury list | Eligible for the pool; Houston target tree must be re-projected |
+| Ladd McConkey | LAC | QUESTIONABLE — foot | Conditional pool only until Sunday inactive news |
+| Mike Evans | SF | QUESTIONABLE — ribs | Conditional pool only until Sunday inactive news |
+| Zay Flowers | BAL | QUESTIONABLE — hamstring | Conditional pool only until Sunday inactive news |
+| Justin Jefferson | MIN | OUT — ankle | Remove from pool; Jordan Addison gains target-share interest |
+| Caleb Williams | CHI | OUT — hamstring | Downgrade Chicago passing-game confidence |
 
-## Defensive injuries with possible offensive impact
+## Defensive injuries that may affect game environments
 
-- **Dallas secondary:** multiple Cowboys defensive backs were limited or did not practice in the Thursday reporting. If those absences persist, Houston passing-game matchup assumptions may need a modest upward adjustment.
-- **Buffalo secondary:** CB Christian Benford missed Thursday practice with a toe injury. This matters more to New England pass-catcher efficiency than to raw volume.
-- **Cincinnati secondary:** late-week reports indicate the Bengals defensive backfield may be shorthanded. Because JAX-CIN is already one of the strongest game environments, this is worth incorporating after final designations.
-- **San Francisco front:** Nick Bosa remained a DNP Thursday in the reporting reviewed for this pass. If unavailable, Denver's pressure matchup improves.
+- New England: Christian Gonzalez and Christian Barmore are OUT. This strengthens Buffalo's offensive environment.
+- Dallas: Cobie Durant and DeMarvion Overshown are OUT. Houston gets a modest matchup boost.
+- Cincinnati: Kyle Dugger is OUT and multiple defenders are questionable. Keep Jacksonville stacks in the primary research group.
+- San Francisco: Nick Bosa and Mykel Williams are OUT. Denver's pressure matchup improves.
+- Los Angeles Rams: Aaron Donald is OUT. Philadelphia loses one major pass-rush obstacle.
 
-## Sources checked in this pass
+## Injury-driven model additions
 
-- New York Jets, Oct. 2: https://www.newyorkjets.com/news/braelon-allen-prepared-to-play-in-breece-hall-absence-10-02-2026
-- New England Patriots / Bills Week 4 injury report: https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2
-- Houston Texans Week 4 injury report: https://www.houstontexans.com/news/week-4-injury-report-texans-vs-cowboys
-- Houston Texans, Nico Collins return to practice: https://www.houstontexans.com/news/nico-collins-back-at-practice-as-texans-prepare-for-cowboys
-- Philadelphia Eagles / Rams injury report: https://www.philadelphiaeagles.com/news/rams-vs-eagles-injury-report-2026-nfl-week-4-devonta-smith-puka-nacua
-- NFL.com, Puka Nacua expected return: https://www.nfl.com/news/los-angeles-rams-expect-wr-puka-nacua-to-play-in-week-4-vs-eagles
-- Jacksonville Jaguars Thursday injury update: https://www.jaguars.com/news/jaguars-thursday-just-go-out-there-and-compete
+The next projection pass should add or refresh:
+- Braelon Allen
+- C.J. Stroud
+- Nico Collins
+- Puka Nacua
+- Jordan Addison
+- Philadelphia replacement pass catchers
+- Dalton Kincaid
+- Jakobi Meyers
 
-## Rule for the next step
+## Sources
 
-Do **not** rebuild the final player pool until the Friday injury designations are checked. The next model pass should first adjust role/volume assumptions for confirmed inactives, limited-return players, and replacement starters.
+- NFL Week 4 injury report: https://www.nfl.com/news/nfl-week-4-injury-report-player-statuses-for-all-16-games
+- Rams final Week 4 injury report: https://www.therams.com/news/rams-injury-report-week-4-2026-at-eagles-puka-nacua-good-to-go-colby-parkinson-questionable-terrance-ferguson-jaylen-watson-and-aaron-donald-ruled-out
+- Eagles/Rams injury report: https://www.philadelphiaeagles.com/news/rams-vs-eagles-injury-report-2026-nfl-week-4-devonta-smith-puka-nacua
+
+## Next step
+
+The injury gate is now complete enough to form preliminary single-entry and large-field tournament player pools. Sunday inactive news will still be checked before final lineups.

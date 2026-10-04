@@ -101,9 +101,9 @@ Fill in the table below.
 
 | Game | Game Total | Team A Total | Team B Total | Spread | Why It Could Produce DFS Points | Rank |
 |---|---:|---:|---:|---:|---|---:|
-| TBD |  |  |  |  |  |  |
-| TBD |  |  |  |  |  |  |
-| TBD |  |  |  |  |  |  |
+| JAX @ CIN | 51.5 | 24.5 | 27.0 | 2.5 | Slate-high baseline total and small spread; strongest two-sided stack environment | 1 |
+| NE @ BUF | 48.5 | 21.0 | 27.5 | 6.5 | Strong Buffalo implied total with some blowout risk | 2 |
+| DAL @ HOU | 47.5 | 22.5 | 25.0 | 2.5 | Close spread and useful two-sided passing environment | 3 |
 
 ### Question to answer
 
@@ -139,9 +139,9 @@ Use this table to compare the main stack ideas.
 
 | Stack | Combined Salary | Our Projection | Our Ceiling | Our Ownership Estimate | Why It Works |
 |---|---:|---:|---:|---:|---|
-| TBD |  |  |  |  |  |
-| TBD |  |  |  |  |  |
-| TBD |  |  |  |  |  |
+| Burrow + Chase + Higgins + JAX bring-back | Varies by bring-back | See Sunday variance file | High | Popular core | Concentrated exposure to the slate's strongest game environment |
+| Lawrence + Jacksonville receiver(s) + CIN bring-back | Lower QB salary | See Sunday variance file | High | Moderate | Uses the cheaper QB side of the same top environment |
+| Stroud + Nico + DAL bring-back | Flexible | See Sunday variance file | High | Lower than JAX-CIN core | Main coherent pivot away from the chalkiest game stack |
 
 ### Question to answer
 
@@ -225,6 +225,24 @@ If there is no strong reason for a second leverage play, do not force one.
 
 ## Step 5 — Build candidate lineups
 
+The Sunday candidate file is now populated with:
+- four initial correlated constructions,
+- the raw-ceiling Burrow build,
+- the ownership-adjusted Burrow build,
+- and the DAL-HOU leverage alternative.
+
+See `lineup_candidates.csv` and `se_variance_analysis_2026-10-04.md`.
+
+### Step 5A — Compare variance, not only average projection
+
+The Sunday pass added an exploratory upper-tail comparison.
+
+Instead of asking only "Which lineup projects the highest?", we also compared how often each construction reached unusually high simulated scores.
+
+This matters because single-entry tournaments reward top finishes, not just average outcomes.
+
+
+
 For each candidate lineup, record:
 
 - salary used,
@@ -284,26 +302,37 @@ If the last answer is no, ownership may be driving the lineup too much.
 
 ## Final pre-lock thesis
 
-**Primary game environment:** TBD
+**Primary game environment:** JAX @ CIN
 
-**Primary stack:** TBD
+**Primary stack:** Joe Burrow + Ja'Marr Chase + Tee Higgins
 
-**Main leverage decision:** TBD
+**Main leverage decision:** Use Jakobi Meyers as the less-obvious Jacksonville bring-back in the current ownership-adjusted SE leader.
 
-**Second leverage decision, if used:** TBD
+**Second leverage decision, if used:** James Cook changes the one-off construction while keeping strong role/ceiling.
 
-**Why this lineup can finish near the top:** TBD
+**Why this lineup can finish near the top:** The Cincinnati stack can score together in the slate's best game environment, the Jacksonville bring-back benefits if the game stays competitive, and the remaining values are tied to identifiable roles rather than speculative cheap salary.
 
-**What could make the lineup fail:** TBD
+**What could make the lineup fail:** JAX-CIN underperforms, Cincinnati touchdowns are distributed away from the stack, or the injury-created values receive less work than expected.
 
-**Late-news changes made:** TBD
+**Late-news changes made:** Breece Hall out increased Braelon Allen's importance; Justin Jefferson out increased Jordan Addison's importance; Nico Collins' return strengthened DAL-HOU as the main pivot.
 
-**Final salary used:** TBD
+**Current salary used:** $49,800 for the ownership-adjusted leader.
 
-**Final model projection:** TBD
+**Current exploratory mean:** 126.9 DK points.
 
-**Final model ceiling:** TBD
+**Current exploratory P95:** 176.4 DK points.
 
-**Final ownership estimate:** TBD
+**Current exploratory P(170+):** 6.9%.
+
+**Ownership estimate:** Still provisional; ownership is being used as a soft tiebreaker rather than a precise field forecast.
 
 This section should be completed before the lineup locks.
+
+
+---
+
+## Sunday correlated simulation note
+
+The detailed Sunday walkthrough is stored in [se_variance_analysis_2026-10-04.md](se_variance_analysis_2026-10-04.md).
+
+The exploratory correlated simulation results are saved for audit, but the current repository Python engine does not yet fully reproduce that correlated layer from raw inputs. The distinction is documented so later review can separate finished code from exploratory analysis.

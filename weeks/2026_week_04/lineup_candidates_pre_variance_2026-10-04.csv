@@ -1,0 +1,4 @@
+lineup_id,salary_used,reserved_for_dst,model_projection,sum_model_ceiling,sim_mean,sim_p90,sim_p95,sim_p99,primary_stack,our_combined_ownership_estimate,lineup_story,notes
+1,47300,2700,115.5051,190.3851,116.4631,142.3790,149.7106,163.4520,Brock Purdy + George Kittle,92.8401,SF passing stack with salary distributed across midrange skill players,Offense-only baseline; DST not selected; correlation not yet included in simulation
+2,47100,2900,113.8042,188.6842,114.7059,140.8212,148.3091,162.3866,Joe Burrow + Tee Higgins,90.6251,CIN stack from the slate-high game total with flexible DST salary,Offense-only baseline; DST not selected; correlation not yet included in simulation
+3,46700,3300,113.1526,188.0326,114.1412,140.1154,147.6095,161.5425,Dak Prescott + George Pickens,90.2528,DAL passing stack in a close high-total game with extra DST salary room,Offense-only baseline; DST not selected; correlation not yet included in simulation

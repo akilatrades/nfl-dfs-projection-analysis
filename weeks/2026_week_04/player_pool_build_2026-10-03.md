@@ -146,3 +146,77 @@ Weight ceiling, correlation, and lower-owned paths more heavily. Avoid combining
 4. Compare our projections against the field.
 5. Prune to the final SE and GPP pools.
 6. Build candidate lineups.
+
+
+---
+
+# Sunday, October 4 Update — From Player Pool to Lineup Construction
+
+The Saturday player pool was intentionally broad. Sunday morning moved from "who is worth researching?" to "which complete single-entry constructions make sense?"
+
+## What changed
+
+The main changes were:
+
+1. **JAX-CIN remained the primary game environment.**
+2. **DAL-HOU became the main leverage alternative.**
+3. **Braelon Allen and Jordan Addison were treated as role-based value, not just cheap salary.**
+4. **The lineup process stopped treating every value play equally.**
+5. **Complete lineups were compared with upper-tail / variance analysis instead of only median projection.**
+6. **Ownership was used as a tiebreaker, not as the first reason to select a player.**
+
+## Sunday single-entry shortlist
+
+### Primary Cincinnati stack
+
+```text
+Joe Burrow
++ Ja'Marr Chase
++ Tee Higgins
++ Jacksonville bring-back
+```
+
+This construction became the preferred single-entry family because the game offers the strongest combined scoring environment and the Cincinnati pieces can reach their ceiling together.
+
+Two Jacksonville bring-backs were compared:
+
+- **Parker Washington** for the stronger raw projection / ceiling version.
+- **Jakobi Meyers** for the less-obvious ownership-adjusted version.
+
+### Main pivot
+
+```text
+C.J. Stroud
++ Nico Collins
++ George Pickens bring-back
+```
+
+This is the preferred major game-environment pivot if JAX-CIN becomes too concentrated in the field.
+
+## Value rules learned from Week 3
+
+The Sunday process uses a stricter value filter.
+
+A value player must have:
+
+- a believable snap / route / touch role,
+- enough ceiling to matter in a tournament,
+- and a reason the salary has not caught up.
+
+Cheap salary by itself is no longer enough.
+
+That is why Braelon Allen and Jordan Addison were treated as stronger values than uncertain replacement receivers.
+
+## Current ranking
+
+1. Burrow + Chase + Higgins + Jakobi Meyers — preferred ownership-adjusted SE construction.
+2. Burrow + Chase + Higgins + Parker Washington — highest raw exploratory ceiling.
+3. Stroud + Nico Collins + George Pickens — strongest major pivot.
+
+See [Sunday single-entry variance analysis](se_variance_analysis_2026-10-04.md) for the full beginner-friendly walkthrough and simulation notes.
+
+## Final caution
+
+This remains a **pre-lock** research snapshot.
+
+Official inactive news and any meaningful last-minute role changes can still move players in or out of the final lineup.

@@ -1,0 +1,8 @@
+candidate_id,stage,salary_used,primary_stack,sim_mean,sim_p90,sim_p95,sim_p99,prob_150_plus,prob_160_plus,prob_170_plus,ownership_adjustment,status,notes
+A,initial_correlated_pass,49900,"Trevor Lawrence + Parker Washington + Brenton Strange; Tee Higgins bring-back",125.3,156.3,167.4,,,4.25%,none,comparison,"Initial Sunday candidate; correlated game-stack structure"
+B,initial_correlated_pass,50000,"Joe Burrow + Tee Higgins; Parker Washington bring-back",128.5,159.9,171.1,,,5.37%,none,comparison,"Best of the four initial candidates after variance-aware comparison"
+C,initial_correlated_pass,49900,"C.J. Stroud + Nico Collins; CeeDee Lamb bring-back",125.0,156.5,167.7,,,4.27%,none,comparison,"DAL-HOU leverage candidate"
+D,initial_correlated_pass,49800,"Patrick Mahomes + Rashee Rice; Brock Bowers bring-back",122.7,151.9,162.5,,,2.97%,none,comparison,"Afternoon pivot; lower simulated upper tail in exploratory pass"
+SE_RAW,expanded_search,49800,"Joe Burrow + Ja'Marr Chase + Tee Higgins; Parker Washington bring-back",130.6,165.3,178.7,208.5,20.9%,13.0%,7.8%,none,current_raw_ceiling_leader,"Highest exploratory mean and upper tail among Sunday candidates"
+SE_OWN,expanded_search,49800,"Joe Burrow + Ja'Marr Chase + Tee Higgins; Jakobi Meyers bring-back",126.9,,176.4,,,,6.9%,soft,current_se_leader,"Gives up some raw projection for a less obvious Jacksonville bring-back; ownership is a soft tiebreaker only"
+DAL_HOU,expanded_search,50000,"C.J. Stroud + Nico Collins + George Pickens",128.0,,173.3,,,,6.1%,soft,leverage_alternative,"Best major game-stack pivot away from JAX-CIN in the exploratory pass"

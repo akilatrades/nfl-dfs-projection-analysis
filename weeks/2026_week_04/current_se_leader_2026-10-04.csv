@@ -1,0 +1,10 @@
+position,player,salary,team,opponent,role_in_lineup,reason,status
+QB,Joe Burrow,6800,CIN,JAX,Primary stack QB,"Quarterback for the preferred JAX-CIN correlated ceiling construction",current_leader
+RB,James Cook,7400,BUF,NE,High-ceiling one-off,"Changes the one-off structure while preserving strong role and ceiling",current_leader
+RB,Braelon Allen,5200,NYJ,CHI,Role-based value,"Breece Hall out; expected workload increase makes the salary useful without relying only on cheapness",current_leader
+WR,Ja'Marr Chase,8100,CIN,JAX,Primary stack WR1,"Directly correlated with Burrow and carries slate-breaking receiving ceiling",current_leader
+WR,Tee Higgins,6100,CIN,JAX,Primary stack WR2,"Second concentrated Cincinnati pass-game piece in the slate's top environment",current_leader
+WR,Jordan Addison,5300,MIN,MIA,Role-based value,"Justin Jefferson out; established role can absorb additional targets",current_leader
+TE,T.J. Hockenson,3300,MIN,MIA,Salary-efficient established role,"Cheap TE exposure without relying on an unknown replacement role",current_leader
+FLEX,Jakobi Meyers,5000,JAX,CIN,Bring-back / leverage,"Less-obvious Jacksonville bring-back that preserves the JAX-CIN game script",current_leader
+DST,Rams DST,2600,LAR,PHI,DST value,"Salary-compatible defense used in the exploratory Sunday construction",current_leader

@@ -332,3 +332,91 @@ They do not replace questions such as:
 - Is the model relying on an uncertain touchdown assumption?
 
 The purpose of the statistical layer is to make the Week 4 decision process more measurable and easier to review after the slate.
+
+
+---
+
+## 7. Sunday exploratory correlated-lineup simulation
+
+The original Week 4 statistical layer was intentionally simple: simulate each player's fantasy outcome and compare independent lineup totals.
+
+On Sunday, the lineup review added an **exploratory correlation layer** because tournament stacks do not behave like nine unrelated players.
+
+### Beginner explanation
+
+Suppose Joe Burrow throws a touchdown to Ja'Marr Chase.
+
+That one football play helps both players:
+
+```text
+Burrow -> passing TD points
+Chase  -> receiving TD + reception + yardage points
+```
+
+Their outcomes are therefore connected.
+
+The same idea can apply at the game level. If JAX-CIN becomes a shootout, a Cincinnati stack and a Jacksonville bring-back can all benefit from the same fast, high-scoring game script.
+
+### What the exploratory Sunday pass tried to represent
+
+The reasoning used:
+
+- strong positive correlation for a QB and his pass catcher,
+- a smaller positive game-level relationship for an opposing bring-back,
+- and mostly independent variation for unrelated one-off players.
+
+The Sunday pass then compared **upper-tail lineup outcomes**, including:
+
+- mean score,
+- 90th percentile,
+- 95th percentile,
+- 99th percentile when available,
+- probability of 150+,
+- probability of 160+,
+- and probability of 170+.
+
+The saved results are in:
+
+- `simulation_results_2026-10-04.csv`
+- `lineup_candidates.csv`
+- `se_variance_analysis_2026-10-04.md`
+
+### Why this changed the lineup ranking
+
+The early Week 4 process preferred a Trevor Lawrence construction because it offered a cheap quarterback in the slate's strongest environment.
+
+After the exploratory variance comparison, the Burrow constructions showed a stronger upper tail.
+
+That moved the process from:
+
+```text
+"Lawrence is cheaper in the best game"
+```
+
+to:
+
+```text
+"Which complete correlated lineup has the best chance to produce a tournament-level score?"
+```
+
+That is a more useful single-entry question.
+
+### Important implementation status
+
+The current committed Python code in `src/statistical_analysis.py` still uses the first-version independent player simulation.
+
+The Sunday correlated results are therefore saved as an **exploratory research snapshot**, not as a claim that the existing code already reproduces them from raw inputs.
+
+This distinction is intentional.
+
+The next model-development task is to implement a reproducible correlated lineup engine with:
+
+1. explicit player means and volatility,
+2. game-level random factors,
+3. QB/pass-catcher correlation,
+4. bring-back correlation,
+5. a fixed random seed,
+6. saved simulation settings,
+7. and exact CSV output.
+
+Until that code exists, the Sunday correlated figures should be treated as a documented analysis experiment rather than a finished production model.

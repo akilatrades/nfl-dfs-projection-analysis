@@ -331,6 +331,47 @@ Week 4 also adds a statistical layer on top of our own projections. It includes:
 
 See **[Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md)** for the full explanation.
 
+
+
+### Week 4 Sunday variance-aware pass
+
+Week 4 added a second lineup-analysis stage on Sunday morning.
+
+After injuries and game environments were updated, candidate lineups were compared using an exploratory **variance-aware / correlated upper-tail analysis**.
+
+The beginner-friendly walkthrough is here:
+
+**[Week 4 Sunday SE variance analysis](weeks/2026_week_04/se_variance_analysis_2026-10-04.md)**
+
+The supporting files are:
+
+- `lineup_candidates_pre_variance_2026-10-04.csv` — archive of the earlier independent baseline candidates.
+- `lineup_candidates.csv` — Sunday candidate lineups and their roles.
+- `simulation_results_2026-10-04.csv` — saved Sunday exploratory distribution summaries.
+- `current_se_leader_2026-10-04.csv` — snapshot of the current ownership-adjusted single-entry leader.
+
+The Sunday workflow is:
+
+```text
+injury / role check
+    ->
+game environment
+    ->
+correlated stack
+    ->
+role-based value
+    ->
+upper-tail comparison
+    ->
+small ownership adjustment
+    ->
+pre-lock leader
+```
+
+One important research rule is preserved: **exploratory analysis is labeled as exploratory**.
+
+The repository's existing Python statistical code still implements the original independent player simulation. The Sunday correlated results are documented and saved, but a fully reproducible correlated simulation engine is still a future code task.
+
 ## What will be stored each week
 
 Before lock, the project can store:

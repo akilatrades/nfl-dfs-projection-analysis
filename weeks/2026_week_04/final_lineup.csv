@@ -1,10 +1,28 @@
-position,player,salary,model_projection,model_ceiling,our_ownership_estimate,stack_role,leverage_role,pre_lock_reason
-QB,TBD,,,,,,,
-RB,TBD,,,,,,,
-RB,TBD,,,,,,,
-WR,TBD,,,,,,,
-WR,TBD,,,,,,,
-WR,TBD,,,,,,,
-TE,TBD,,,,,,,
-FLEX,TBD,,,,,,,
-DST,TBD,,,,,,,
+contest,entries,position,player,salary,dk_points,stack_role,post_slate_note
+"$50 Single Entry",4545,QB,"Joe Burrow",6800,28.72,"CIN primary stack","428 pass yds; 1 pass TD; 2 INT; rushing TD"
+"$50 Single Entry",4545,RB,"Kyren Williams",5900,36.70,"one-off ceiling","80 rush yds; 10-67 receiving; 2 rush TD"
+"$50 Single Entry",4545,RB,"Braelon Allen",5200,8.70,"injury-created value","role thesis was sound; ceiling did not arrive"
+"$50 Single Entry",4545,WR,"Ja'Marr Chase",8100,5.70,"CIN primary stack","concussion; classify mainly as injury variance"
+"$50 Single Entry",4545,WR,"Tee Higgins",6100,29.70,"CIN primary stack","11 receptions; 157 yds"
+"$50 Single Entry",4545,WR,"Jordan Addison",5300,9.20,"role-based value","4 receptions; 52 yds"
+"$50 Single Entry",4545,TE,"T.J. Hockenson",3300,27.90,"role-based value","13 receptions; 119 yds"
+"$50 Single Entry",4545,FLEX,"Parker Washington",6500,2.00,"JAX bring-back","process review target; failed despite game-stack thesis"
+"$50 Single Entry",4545,DST,"Rams DST",2600,5.00,"DST","4 sacks; 20 points allowed"
+"$27 Single Entry",3239,QB,"Joe Burrow",6800,28.72,"CIN primary stack","428 pass yds; 1 pass TD; 2 INT; rushing TD"
+"$27 Single Entry",3239,RB,"James Cook",7400,16.30,"one-off ceiling","75 rush yds; rush TD; 2-8 receiving"
+"$27 Single Entry",3239,RB,"Braelon Allen",5200,8.70,"injury-created value","role thesis was sound; ceiling did not arrive"
+"$27 Single Entry",3239,WR,"Ja'Marr Chase",8100,5.70,"CIN primary stack","concussion; classify mainly as injury variance"
+"$27 Single Entry",3239,WR,"Tee Higgins",6100,29.70,"CIN primary stack","11 receptions; 157 yds"
+"$27 Single Entry",3239,WR,"Jordan Addison",5300,9.20,"role-based value","4 receptions; 52 yds"
+"$27 Single Entry",3239,TE,"T.J. Hockenson",3300,27.90,"role-based value","13 receptions; 119 yds"
+"$27 Single Entry",3239,FLEX,"Jakobi Meyers",5000,6.30,"ownership-adjusted JAX bring-back","3 receptions; 33 yds"
+"$27 Single Entry",3239,DST,"Rams DST",2600,5.00,"DST","4 sacks; 20 points allowed"
+"$20 Millionaire",161764,QB,"Joe Burrow",6800,28.72,"CIN primary stack","later confirmed in chat; was not committed pre-lock"
+"$20 Millionaire",161764,RB,"Kyren Williams",5900,36.70,"one-off ceiling","later confirmed in chat; was not committed pre-lock"
+"$20 Millionaire",161764,RB,"Braelon Allen",5200,8.70,"injury-created value","later confirmed in chat; was not committed pre-lock"
+"$20 Millionaire",161764,WR,"Ja'Marr Chase",8100,5.70,"CIN primary stack","concussion; later confirmed in chat"
+"$20 Millionaire",161764,WR,"Tee Higgins",6100,29.70,"CIN primary stack","later confirmed in chat"
+"$20 Millionaire",161764,WR,"Jordan Addison",5300,9.20,"role-based value","later confirmed in chat"
+"$20 Millionaire",161764,TE,"T.J. Hockenson",3300,27.90,"role-based value","later confirmed in chat"
+"$20 Millionaire",161764,FLEX,"Parker Washington",6500,2.00,"JAX bring-back","later confirmed in chat; process review target"
+"$20 Millionaire",161764,DST,"Rams DST",2600,5.00,"DST","later confirmed in chat"

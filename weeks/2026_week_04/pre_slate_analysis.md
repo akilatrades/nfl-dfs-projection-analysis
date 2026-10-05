@@ -7,8 +7,8 @@ The purpose is to record what we believed before the games were played so the po
 ## Contest
 
 **Contest type:** NFL DraftKings single-entry tournament  
-**Entry count:** TBD  
-**Entry fee:** TBD  
+**Entry count:** Not recorded in the archived pre-lock notes  
+**Entry fee:** Not recorded in the archived pre-lock notes  
 **Salary cap:** $50,000  
 **Lineups entered:** 1
 
@@ -203,21 +203,9 @@ For single entry, the lineup does not need nine low-owned players.
 
 Use this section to record the actual places where we plan to differ from the field.
 
-### Leverage decision 1
+### Leverage decision record
 
-**Player / construction:** TBD  
-**Our ownership estimate:** TBD  
-**Popular alternative:** TBD  
-**Why the ceiling is still strong:** TBD  
-**What football outcome makes this work:** TBD
-
-### Leverage decision 2
-
-**Player / construction:** TBD  
-**Our ownership estimate:** TBD  
-**Popular alternative:** TBD  
-**Why the ceiling is still strong:** TBD  
-**What football outcome makes this work:** TBD
+The working template was superseded by the completed **Final pre-lock thesis** below. The final thesis records the selected leverage construction and the football outcome required for it to succeed.
 
 If there is no strong reason for a second leverage play, do not force one.
 
@@ -326,7 +314,7 @@ If the last answer is no, ownership may be driving the lineup too much.
 
 **Ownership estimate:** Still provisional; ownership is being used as a soft tiebreaker rather than a precise field forecast.
 
-This section should be completed before the lineup locks.
+This section is preserved as the final archived pre-lock thesis.
 
 
 ---

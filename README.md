@@ -1,548 +1,129 @@
-# NFL DFS Projection Analysis
+# NFL DFS Projection & Decision Analysis
 
-An ongoing NFL DraftKings research project focused on projection quality, lineup construction, ownership, correlation, leverage, and post-slate review.
+[![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)
 
-The goal is to treat each slate as a forecasting and decision-analysis problem:
+Python research framework for NFL DraftKings single-entry tournament analysis. The project converts explicit football assumptions into player projections, quantifies uncertainty and ownership-related trade-offs, evaluates correlated lineup construction, and preserves pre-event decisions for post-event error analysis.
 
-```text
-public player/team data
-    ->
-our projection model
-    ->
-our ownership estimate
-    ->
-lineup decisions
-    ->
-actual results
-    ->
-error analysis
-    ->
-updated process
-```
+The objective is not to present individual lineups as predictive certainty. It is to build an auditable forecasting and decision process in which assumptions, model outputs, lineup choices, and realized errors can be reviewed independently.
 
-The project is not built around posting winning or losing lineups. The focus is whether the **decision process** was sound, where the projections were wrong, where lineup construction reduced ceiling, and what should change on the next slate.
-
-## What these lineups are for
-
-The lineups in this project are built for **NFL DraftKings Daily Fantasy Sports (DFS) contests**.
-
-In DFS, a user does not draft one season-long team. Instead, a new lineup is created for a specific group of NFL games, called a **slate**.
-
-For the type of DraftKings lineup used in this project, the lineup contains:
+## Analytical workflow
 
 ```text
-1 Quarterback (QB)
-2 Running Backs (RB)
-3 Wide Receivers (WR)
-1 Tight End (TE)
-1 FLEX
-1 Defense / Special Teams (DST)
+Public football / market inputs
+        |
+        v
+Expected opportunity and efficiency assumptions
+        |
+        v
+Player projections
+        |
+        +--> Floor / ceiling estimates
+        +--> Position percentiles
+        +--> Salary-based hit probabilities
+        +--> Ownership estimate
+        +--> Sensitivity analysis
+        |
+        v
+Game-environment and correlation analysis
+        |
+        v
+Candidate lineup comparison
+        |
+        v
+Pre-lock decision record
+        |
+        v
+Actual results and post-slate error analysis
 ```
 
-The **FLEX** spot can be filled by an RB, WR, or TE.
+## Model components
 
-Each player has a salary. The lineup must stay under the contest salary cap. The Week 3 lineup used the full **$50,000 salary cap**.
-
-DraftKings awards fantasy points based on what the selected players do in the actual NFL games. The lineup competes against other lineups entered into the same contest.
-
-This project is currently focused on **single-entry tournament analysis**.
-
-A **single-entry** contest allows each participant to enter only one lineup. A **tournament** pays based on finishing position, so the goal is not only to build a lineup with a solid average projection. The lineup also needs enough upside to finish near the top of the field.
-
-That is why this project studies more than one expected fantasy-point number. It also looks at:
-
-- player ceiling,
-- lineup correlation,
-- our ownership estimate,
-- leverage,
-- game environment,
-- salary allocation,
-- late news,
-- and post-slate projection error.
-
-The exact DraftKings scoring and contest rules can vary by contest, so the contest page should always be treated as the final source for live rules.
-
-## How to read this project
-
-The project is designed to be followed in this order:
-
-```text
-README
-  ->
-understand the contest and the terms
-  ->
-review the weekly pre-slate decisions
-  ->
-review the actual results
-  ->
-measure projection and ownership errors
-  ->
-document what should change next week
-```
-
-Each week is another observation in the same ongoing research project. The goal is to improve the process over time instead of treating every slate as an isolated win or loss.
-
-## Our projection model
-
-This repository now generates its **own fantasy-point projections**.
-
-The model begins with football assumptions that we can see, explain, change, and later test.
-
-For an offensive player, the basic process is:
-
-```text
-expected opportunity
-    ->
-expected efficiency
-    ->
-expected football statistics
-    ->
-DraftKings fantasy points
-```
-
-### Example: wide receiver
-
-Suppose we estimate:
-
-```text
-8 targets
-65% catch rate
-12 yards per reception
-0.40 expected receiving touchdowns
-```
-
-The model first estimates receptions:
-
-```text
-8 targets × 65%
-= 5.2 receptions
-```
-
-Then receiving yards:
-
-```text
-5.2 receptions × 12 yards
-= 62.4 receiving yards
-```
-
-The touchdown input can be fractional because it represents an **expected value**. A projection of 0.40 receiving touchdowns does not mean the player will score 0.40 touchdowns in a real game. It means the model is treating the player's touchdown expectation as 0.40 before the game is played.
-
-Those expected statistics are then converted into DraftKings fantasy points.
-
-### How the fantasy-point conversion works
-
-The first version of the model uses the standard DraftKings NFL scoring structure for offensive players:
-
-| Event | DraftKings points used by the model |
-|---|---:|
-| Passing yard | 0.04 |
-| Passing touchdown | 4 |
-| Interception thrown | -1 |
-| Rushing yard | 0.10 |
-| Rushing touchdown | 6 |
-| Reception | 1 |
-| Receiving yard | 0.10 |
-| Receiving touchdown | 6 |
-| Fumble lost | -1 |
-| Two-point conversion | 2 |
-| 300+ passing yards | +3 bonus |
-| 100+ rushing yards | +3 bonus |
-| 100+ receiving yards | +3 bonus |
-
-For the yardage bonuses, the model uses a **probability** rather than automatically awarding the bonus from the mean projection.
-
-Example:
-
-```text
-Probability of 100+ receiving yards = 20%
-Bonus value = 3 points
-
-Expected bonus contribution:
-20% × 3
-= 0.6 projected points
-```
-
-That is more realistic than giving a full three-point bonus simply because a player's average projection happens to be near 100 yards.
-
-DST uses expected sacks, turnovers, touchdowns, safeties, blocks, and an expected points-allowed scoring value.
-
-DraftKings scoring reference used for the model:
-https://dknetwork.draftkings.com/2025/08/27/nfl-dfs-beginners-guide-draftkings/
-
-### What goes into our projections
-
-Depending on position, the model can use:
-
-- expected pass attempts,
-- completion rate,
-- yards per completion,
-- expected passing touchdowns,
-- expected interceptions,
-- expected carries,
-- yards per carry,
-- expected rushing touchdowns,
-- expected targets,
-- catch rate,
-- yards per reception,
-- expected receiving touchdowns,
-- recent fantasy-point volatility,
-- and the probability of reaching DraftKings yardage bonuses.
-
-The inputs are built from public football information and our own assumptions.
-
-The important part is that every projected point can be traced back to an assumption.
-
-If a projection looks wrong, we can ask:
-
-> Was the expected volume wrong, was the efficiency assumption wrong, or was the scoring conversion wrong?
-
-That gives us something we can actually improve.
-
-### Projection, floor, and ceiling
-
-The model produces three main numbers:
-
-**Model projection**  
-Our expected DraftKings score based on the stat assumptions.
-
-**Model floor**  
-A lower-end estimate based on the player's recent fantasy-point volatility.
-
-**Model ceiling**  
-A higher-end estimate based on the same volatility.
-
-The first version uses a simple statistical range around the projection. As more weeks are collected, this can be replaced with a full player-outcome simulation.
-
-### Our ownership estimate
-
-Ownership is also treated as **our estimate**, not as a number that is assumed to be correct.
-
-Before lock, we estimate how popular a player may be based on factors such as:
-
-- salary,
-- our projection,
-- our value calculation,
-- our ceiling,
-- game environment,
-- position alternatives,
-- role changes,
-- and late news.
-
-After the slate, we compare our estimate with the player's actual contest ownership.
-
-That creates another forecast we can measure and improve.
-
-## Current research questions
-
-The project tracks questions such as:
-
-1. How accurate are our model projections compared with actual DraftKings scoring?
-2. How accurate are our ownership estimates?
-3. Does salary efficiency lead to strong tournament lineups, or can it sacrifice ceiling?
-4. How much does lineup correlation matter in single-entry tournaments?
-5. When does leverage improve a lineup, and when is it being forced?
-6. How should late injury/news updates change projections without creating false certainty?
-7. Which types of mistakes are model errors, and which are normal variance?
-
-## Lineup construction process
-
-The Week 3 review led to a revised order of operations:
-
-```text
-1. Identify strong game environments
-2. Build for correlated ceiling
-3. Use projections to compare players
-4. Evaluate ownership
-5. Add only 1-2 deliberate leverage decisions
-6. Check whether the complete lineup has enough upside
-```
-
-This order matters.
-
-A lineup should not begin with "Who is the best point-per-dollar play?" and then fill eight remaining positions independently. Tournament scoring is driven by the combined ceiling of the lineup and by how those players can succeed together.
-
-## Week 3 case study
-
-The first documented case study is the 2026 Week 3 $50 single-entry lineup:
-
-| Position | Player |
+| Area | Implementation |
 |---|---|
-| QB | Tyler Shough |
-| RB | Kenneth Walker III |
-| RB | Jaylen Warren |
-| WR | Amon-Ra St. Brown |
-| WR | Jalen Coker |
-| WR | Devaughn Vele |
-| TE | Dalton Schultz |
-| FLEX | Breece Hall |
-| DST | Vikings DST |
+| Projection engine | Converts expected passing, rushing, receiving, and DST inputs into DraftKings points |
+| Uncertainty | Projection ranges plus simulation-based upper-tail summaries |
+| Ownership | Transparent candidate-pool popularity estimate derived from project metrics |
+| Relative strength | Position-specific projection, ceiling, and value percentiles |
+| Tournament metrics | 3x / 4x hit probabilities and a project-specific leverage index |
+| Sensitivity | Recalculates projections after controlled changes to key assumptions |
+| Game environment | Ranks games using totals, team totals, spread, role concentration, and context |
+| Lineup analysis | Evaluates salary, projection, ceiling, correlation, ownership, and lineup thesis |
+| Validation | Compares pre-lock projections and ownership estimates with realized results |
+| Audit trail | Stores pre-slate assumptions separately from post-slate review |
 
-Salary used: **$50,000**
+## Research design
 
-The post-slate review found several process issues:
+The model starts from expected football statistics rather than importing a finished fantasy-point projection. Inputs can include pass attempts, completion rate, carries, targets, catch rate, yards per carry, yards per reception, touchdown expectations, recent volatility, and bonus probabilities.
 
-- Tyler Shough was selected mainly for salary efficiency instead of prioritizing a higher-ceiling game environment.
-- The lineup did not contain enough meaningful correlation.
-- The late-news upgrade on Jalen Coker was treated too aggressively; more opportunity did not guarantee concentrated target volume.
-- Breece Hall was used as leverage, but the leverage case was stronger than the ceiling case.
-- Devaughn Vele and Dalton Schultz helped make the salary work but lowered the lineup's overall tournament ceiling.
-- Kenneth Walker III, Jaylen Warren, and Amon-Ra St. Brown were stronger parts of the process.
-- A Lawrence/Parker construction had been identified before lock as a stronger game-environment thesis, but it was not the lineup ultimately entered.
+This design keeps the projection explainable: a forecast miss can be traced back to volume, efficiency, scoring conversion, or uncertainty assumptions rather than treated as an opaque model error.
 
-See [Week 3 review](weeks/2026_week_03/README.md) for the full case study.
+See [docs/methodology.md](docs/methodology.md) for the analytical framework and [docs/limitations.md](docs/limitations.md) for the current model-use boundary.
 
-## Week 4 pre-slate workflow
+## Case studies
 
-Week 4 is the first slate where the revised process is being used **before** lineup lock.
+The repository keeps weekly research records so the process can be evaluated without hindsight.
 
-The pre-slate work is stored in:
+- [2026 Week 3 review](weeks/2026_week_03/README.md) — initial single-entry process review and identified construction errors.
+- [2026 Week 4 pre-slate analysis](weeks/2026_week_04/pre_slate_analysis.md) — assumptions and lineup thesis recorded before lock.
+- [2026 Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md) — percentile, hit-probability, simulation, and sensitivity outputs.
+- [2026 Week 4 post-slate review](weeks/2026_week_04/post_slate_review_2026-10-04.md) — realized results and process evaluation.
 
-**[Week 4 pre-slate analysis](weeks/2026_week_04/pre_slate_analysis.md)**
+The Week 4 correlated upper-tail work is explicitly classified as exploratory because the saved analysis is not yet fully reproduced by the repository's core Python pipeline. It is retained as research history rather than represented as a production-ready model component.
 
-The Week 4 files are designed to answer four questions before the result is known:
-
-1. Which games offer the strongest fantasy environments?
-2. Which player combinations provide useful correlation?
-3. Where can we gain ownership leverage without giving up too much ceiling?
-4. Why is the final lineup different from the field?
-
-The Week 4 folder also contains:
-
-- `game_environments.csv` — ranks the games before individual players are selected.
-- `projection_inputs.csv` — stores the football assumptions used to create our projections.
-- `player_pool.csv` — stores our model projection, floor, ceiling, value, ownership estimate, role, and decision notes.
-- `lineup_candidates.csv` — compares possible single-entry constructions.
-- `final_lineup.csv` — records the final pre-lock lineup and the reason for each roster spot.
-- `statistical_analysis.md` — explains the Week 4 statistical models in plain English.
-- `model_run_2026-09-30.md` — records the first completed Week 4 model run, findings, limitations, and next steps.
-- `player_analysis.csv` — stores the Week 4 statistical player outputs.
-- `sensitivity_analysis.csv` — shows which assumptions move projections the most.
-
-The goal is to record the decision process first and judge the outcome second.
-
-Week 4 also adds a statistical layer on top of our own projections. It includes:
-
-- position percentile ranks,
-- estimated 3x and 4x hit probabilities,
-- 50,000-outcome player simulations,
-- a tournament leverage index,
-- projection sensitivity analysis,
-- and baseline lineup simulations.
-
-See **[Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md)** for the full explanation.
-
-
-
-### Week 4 Sunday variance-aware pass
-
-Week 4 added a second lineup-analysis stage on Sunday morning.
-
-After injuries and game environments were updated, candidate lineups were compared using an exploratory **variance-aware / correlated upper-tail analysis**.
-
-The beginner-friendly walkthrough is here:
-
-**[Week 4 Sunday SE variance analysis](weeks/2026_week_04/se_variance_analysis_2026-10-04.md)**
-
-The supporting files are:
-
-- `lineup_candidates_pre_variance_2026-10-04.csv` — archive of the earlier independent baseline candidates.
-- `lineup_candidates.csv` — Sunday candidate lineups and their roles.
-- `simulation_results_2026-10-04.csv` — saved Sunday exploratory distribution summaries.
-- `current_se_leader_2026-10-04.csv` — snapshot of the current ownership-adjusted single-entry leader.
-
-The Sunday workflow is:
+## Repository structure
 
 ```text
-injury / role check
-    ->
-game environment
-    ->
-correlated stack
-    ->
-role-based value
-    ->
-upper-tail comparison
-    ->
-small ownership adjustment
-    ->
-pre-lock leader
-```
-
-One important research rule is preserved: **exploratory analysis is labeled as exploratory**.
-
-The repository's existing Python statistical code still implements the original independent player simulation. The Sunday correlated results are documented and saved, but a fully reproducible correlated simulation engine is still a future code task.
-
-## What will be stored each week
-
-Before lock, the project can store:
-
-| Field | Meaning |
-|---|---|
-| Player | Player name |
-| Position | DraftKings roster position |
-| Salary | DraftKings salary |
-| Model projection | Our expected DraftKings points calculated from the projection inputs |
-| Model ceiling | Our higher-end scoring estimate |
-| Our ownership estimate | Our pre-lock estimate of expected field ownership |
-| Team total | Expected team scoring environment |
-| Game total | Expected combined game scoring |
-| Role notes | Expected snaps, routes, carries, targets, etc. |
-| Correlation notes | Which lineup pieces can succeed together |
-| Decision | Play, fade, neutral, or lineup-specific use |
-| Reason | Why the decision was made before results were known |
-
-After the slate, the project can add:
-
-| Field | Meaning |
-|---|---|
-| Actual DK points | Final DraftKings fantasy score |
-| Actual ownership | Contest ownership |
-| Projection error | Actual points minus our model projection |
-| Ownership error | Actual ownership minus our ownership estimate |
-| Ceiling hit | Whether the player reached our defined ceiling range |
-| Process grade | Whether the original reasoning was supported by the information available before lock |
-| Review notes | What should change next time |
-
-The goal is to preserve the distinction between a **bad result** and a **bad decision**.
-
-A strong decision can lose because NFL outcomes are volatile. A weak decision can also win. The review process should judge the information and logic that existed before the slate, then separately measure the actual outcome.
-
-## Project structure
-
-```text
-nfl-dfs-projection-analysis/
-├── README.md
+.
+├── .github/workflows/
 ├── data/
-│   └── README.md
+├── docs/
 ├── src/
-│   ├── projections.py
-│   ├── statistical_analysis.py
+│   ├── evaluation.py
+│   ├── game_environment.py
+│   ├── input_model.py
 │   ├── lineup_analysis.py
-│   └── evaluation.py
-├── run_projections.py
-├── run_statistical_analysis.py
+│   ├── projections.py
+│   └── statistical_analysis.py
+├── tests/
 ├── weeks/
 │   ├── 2026_week_03/
-│   │   ├── README.md
-│   │   └── lineup.csv
 │   └── 2026_week_04/
-│       ├── pre_slate_analysis.md
-│       ├── game_environments.csv
-│       ├── projection_inputs.csv
-│       ├── player_pool.csv
-│       ├── lineup_candidates.csv
-│       ├── final_lineup.csv
-│       └── statistical_analysis.md
+├── run_baseline_inputs.py
+├── run_game_environments.py
+├── run_projections.py
+├── run_statistical_analysis.py
+├── pyproject.toml
 └── requirements.txt
 ```
 
-Each new slate is added to the same project. The methods, definitions, and evaluation code are updated as the research develops.
+## Reproduce the core analysis
 
-## Glossary
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install pytest
+pytest
+python run_projections.py weeks/2026_week_04/projection_inputs.csv
+python run_statistical_analysis.py weeks/2026_week_04/player_pool.csv
+```
 
-<details>
-<summary><strong>Open glossary</strong></summary>
+Windows activation:
 
-| Term | Plain-English meaning |
-|---|---|
-| DFS | Daily Fantasy Sports. A new fantasy lineup is built for a specific slate of games rather than for an entire season. |
-| Slate | The group of NFL games included in a particular DraftKings contest. |
-| Contest | The DraftKings competition the lineup is entered into. |
-| Lineup | The group of players selected for one contest entry. |
-| Salary | The DraftKings cost assigned to a player. |
-| Salary cap | The maximum combined salary allowed for the lineup. The Week 3 lineup used a $50,000 cap. |
-| QB | Quarterback. One QB is used in the lineup format tracked here. |
-| RB | Running back. Two RB spots are used. |
-| WR | Wide receiver. Three WR spots are used. |
-| TE | Tight end. One TE spot is used. |
-| FLEX | A flexible roster spot that can be filled by an RB, WR, or TE. |
-| DST | Defense / Special Teams. This roster spot uses an NFL team's defense and special-teams unit. |
-| Single Entry (SE) | A contest where each participant can enter only one lineup. |
-| Tournament / GPP | A contest where payouts depend on finishing position. High finishes matter much more than simply being above average. GPP is a common DFS term for this type of prize-pool tournament. |
-| Cash game | A contest where a larger share of the field is paid and the goal is more about beating a cutoff than finishing first. This project is focused on tournaments, not cash-game lineup building. |
-| Field | All of the other lineups entered into the same contest. |
-| Model projection | The DraftKings score produced by our own stat-based projection model. |
-| Expected value | The average result implied by the model before the game is played. This can include fractional values, such as 0.40 expected touchdowns. |
-| Projection input | A football assumption used by our model, such as targets, carries, catch rate, or expected touchdowns. |
-| Ceiling | A higher-end scoring outcome. Tournament lineups need enough players capable of scoring well above their median expectation. |
-| Floor | A lower-end estimate of what a player may score if the game does not go well. |
-| Ownership | The percentage of contest lineups that roster a player. Before lock, this has to be estimated. |
-| Our ownership estimate | Our pre-lock forecast of how popular a player will be in the contest. |
-| Actual ownership | The percentage of the real contest field that ultimately rostered a player. |
-| Chalk | A player expected to be highly owned. |
-| Leverage | A lower-owned player or construction that can gain ground on the field if a popular alternative fails, provided the lower-owned option still has enough upside. |
-| Correlation | The relationship between fantasy outcomes. Two players are positively correlated when the same football events can help both score. |
-| Stack | A lineup construction that intentionally combines correlated players, often a quarterback with one or more pass catchers. |
-| Bring-back | An opposing player added to a stack because a high-scoring, competitive game can benefit both teams. |
-| Game environment | The overall fantasy setup of one NFL game, including scoring expectations, pace, player roles, and how likely the game is to stay competitive. |
-| Value | Projected fantasy points relative to salary. A player can be good value without necessarily having enough tournament ceiling. |
-| Point-per-dollar | A simple way to compare projected fantasy production with salary. It is useful, but tournament decisions should not rely on it alone. |
-| Salary efficiency | Another way to describe how much projected production a lineup gets for the salary spent. |
-| Late news | Injury, inactive, depth-chart, or role information that becomes available close to lineup lock. |
-| Target | A pass thrown toward a specific receiver. |
-| Target share | The percentage of a team's pass attempts directed at a player. |
-| Route | A pass pattern run by a receiver on a passing play. More routes usually create more chances to earn targets. |
-| Red-zone opportunity | A carry or target near the opponent's goal line, where touchdowns are more likely. |
-| Lineup lock | The point when a contest or player can no longer be changed under the contest rules. |
-| Projection error | Actual DraftKings points minus projected DraftKings points. |
-| Ownership error | Actual ownership minus our pre-lock ownership estimate. |
-| MAE | Mean Absolute Error. The average size of projection misses without caring whether the projection was too high or too low. |
-| RMSE | Root Mean Squared Error. A projection-error measure that gives larger misses more weight. |
-| Percentile | A ranking that shows where a value sits relative to a group. A 90th-percentile projection is higher than about 90% of the comparison group. |
-| Monte Carlo simulation | Repeating a model many times with random outcomes to estimate a range of possible results instead of relying on one number. |
-| 3x value | Fantasy points equal to three points per $1,000 of salary. A $6,000 player reaches 3x at 18 DK points. |
-| 4x value | Fantasy points equal to four points per $1,000 of salary. A $6,000 player reaches 4x at 24 DK points. |
-| Hit probability | The model's estimated chance that a player reaches a chosen scoring target. |
-| Sensitivity analysis | Recalculating a projection after changing one input to see how strongly that assumption affects the final result. |
-| Upper tail | The higher-scoring part of a simulated outcome distribution. Tournament analysis pays special attention to this area because top finishes require unusually strong scores. |
-| Tournament leverage index | A project-specific metric comparing estimated 4x hit probability with our ownership estimate. It is a research tool, not an industry-standard statistic. |
-| Variance | Natural uncertainty in outcomes. A good decision can still have a bad result because NFL performance is volatile. |
-| Process | The information and reasoning used before the result was known. |
-| Outcome | What actually happened after the games were played. A good outcome does not automatically mean the process was good, and a bad outcome does not automatically mean the process was bad. |
+```text
+.venv\Scripts\activate
+```
 
-</details>
+## Validation and controls
 
-## Data and model inputs
+The project includes automated unit tests for projection arithmetic, value calculations, percentile logic, hit probabilities, deterministic simulation behavior, sensitivity analysis, and input validation.
 
-The project is built around **our own projections**.
+Pre-slate and post-slate records are kept separate to reduce hindsight bias. Model assumptions are stored alongside outputs whenever practical, and exploratory analysis is labeled separately from reproducible production code.
 
-The repository can use public information such as:
+## Current limitations
 
-- NFL box scores and game logs,
-- player usage,
-- team play volume,
-- targets and carries,
-- snap and route information when available,
-- DraftKings salaries,
-- game totals and team totals,
-- injury and inactive news,
-- and actual contest results after the slate.
+The current framework remains a research model. Important limitations include manually estimated football inputs, a simplified ownership model, normal / truncated-normal approximations in parts of the uncertainty layer, incomplete field-level ownership calibration, and a correlated lineup simulation layer that is not yet integrated into the core reproducible engine.
 
-These inputs are converted into our own expected stat lines and our own DraftKings projections.
-
-The repository should store the assumptions that created a projection whenever possible. That makes the model auditable: another person can see why a player projected the way he did instead of seeing only a final fantasy-point number.
-
-## Planned analysis
-
-As more slates are added, the project can calculate:
-
-- mean absolute projection error,
-- root mean squared projection error,
-- projection error by position,
-- ownership calibration,
-- ceiling-hit rate,
-- player percentile analysis,
-- 3x and 4x hit probabilities,
-- Monte Carlo outcome distributions,
-- projection sensitivity analysis,
-- lineup upper-tail simulation,
-- chalk performance,
-- leverage performance,
-- stack performance,
-- game-environment performance,
-- salary efficiency versus actual ceiling,
-- results before and after late-news adjustments.
-
-Eventually, the project can replace the first simple projection ranges with full outcome simulations, build an ownership model from our historical contest data, and test whether each version of our model improves out-of-sample.
+No model output should be interpreted as a guaranteed contest outcome.
 
 Educational and analytical use only.

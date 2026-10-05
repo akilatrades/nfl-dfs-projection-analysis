@@ -1,0 +1,21 @@
+[project]
+name = "nfl-dfs-projection-analysis"
+version = "0.2.0"
+description = "Transparent NFL DFS projection, uncertainty, ownership, and decision-analysis research"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Akila Juan"}]
+keywords = [
+  "sports-analytics",
+  "forecasting",
+  "monte-carlo",
+  "decision-analysis",
+  "nfl",
+  "dfs",
+  "python",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

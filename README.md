@@ -8,23 +8,54 @@ The objective is not to present individual lineups as predictive certainty. It i
 
 ## Current results
 
-The project currently contains documented research through **2026 Week 4**. Week 3 identified an overreliance on isolated salary efficiency and led to a revised process centered on game environment, correlation, projection quality, and selective leverage.
+The project currently includes completed research through **2026 Week 4**.
 
-Week 4 was the first full test of that revised framework.
+Week 3 showed that the original process relied too much on finding individually cheap or efficient players. After that review, the process was changed to put more weight on strong games, players who can score well together, overall upside, and only a small amount of lower-owned differentiation.
 
-| Week 4 contest | Entries | Actual DK score |
+Week 4 was the first full test of that revised process.
+
+| Week 4 contest | Number of entries | Lineup score |
 |---|---:|---:|
-| $50 Single Entry | 4,545 | **153.62** |
-| $27 Single Entry | 3,239 | **137.52** |
-| $20 Millionaire | 161,764 | **153.62** |
+| $50 Single Entry | 4,545 | **153.62 DK points** |
+| $27 Single Entry | 3,239 | **137.52 DK points** |
+| $20 Millionaire | 161,764 | **153.62 DK points** |
 
-The strongest exploratory raw-ceiling Week 4 candidate had a simulated **mean of 130.6 DK points**, **P95 of 178.7**, and **P99 of 208.5**. The corresponding $50 single-entry construction ultimately scored **153.62**, above its simulated mean but below the modeled extreme upper tail.
+### What the simulation expected
 
-Several core decisions produced ceiling outcomes—Joe Burrow scored **28.72**, Tee Higgins **29.70**, Kyren Williams **36.70**, and T.J. Hockenson **27.90**—while secondary pieces limited the final lineup. Ja'Marr Chase's **5.70** is classified primarily as injury variance because of a concussion; Parker Washington's **2.00** is treated as a more meaningful process-review target because he was a deliberate bring-back in the primary game thesis.
+Before the games, the strongest high-upside lineup had:
 
-The ownership-adjusted $27 construction scored **137.52**, reinforcing a current research rule: **do not sacrifice meaningful projection or ceiling solely to become lower owned**.
+- an average simulated score of **130.6 points**
+- a 95th-percentile score of **178.7 points**
+- a 99th-percentile score of **208.5 points**
 
-Current interpretation: the revised process improved lineup structure and identified a credible upper-tail construction, but the sample is still too small to claim a persistent edge. Final contest rank, cash line, and actual ownership were not captured for Week 4, so field-relative performance cannot yet be validated. Future weeks are designed to add those outcomes and evaluate projection error, ownership calibration, contest percentile, and portfolio diversification over a larger out-of-sample history.
+A 95th-percentile result means only about **5% of simulated outcomes scored higher**. A 99th-percentile result means only about **1% scored higher**.
+
+The actual $50 single-entry lineup scored **153.62 points**. That was better than the simulated average, but it did not reach the extreme high-end outcomes the model showed were possible.
+
+### What worked
+
+Several important players produced strong scores:
+
+- Joe Burrow: **28.72**
+- Tee Higgins: **29.70**
+- Kyren Williams: **36.70**
+- T.J. Hockenson: **27.90**
+
+That suggests the overall idea of targeting a strong game environment and combining it with high-upside individual plays was reasonable.
+
+### What did not work
+
+Ja'Marr Chase scored only **5.70 points** after leaving with a concussion. The project treats that mainly as injury-related randomness rather than evidence that the pre-game decision was bad.
+
+Parker Washington scored **2.00 points** and is a more important process-review case because he was intentionally chosen as the Jacksonville player paired with the Cincinnati stack. That result raises the question of whether his individual role and scoring upside were strong enough, even if the lineup correlation made sense.
+
+The ownership-adjusted $27 lineup scored **137.52 points**, lower than the raw-ceiling version. The current lesson is simple: **do not give up too much expected scoring upside just to make a lineup less popular.**
+
+### Current takeaway
+
+The revised process produced a better-structured lineup and the model identified a lineup with real upside. However, there are still too few completed weeks to say that the model has a proven long-term advantage.
+
+The Week 4 records also do not yet include final contest rank, the cash line, or actual player ownership. Those fields will be important in future weeks because they show not only how many points the lineup scored, but how well it performed against the actual field.
 
 ## Analytical workflow
 

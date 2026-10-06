@@ -6,6 +6,26 @@ Python research framework for NFL DraftKings single-entry tournament analysis. T
 
 The objective is not to present individual lineups as predictive certainty. It is to build an auditable forecasting and decision process in which assumptions, model outputs, lineup choices, and realized errors can be reviewed independently.
 
+## Current results
+
+The project currently contains documented research through **2026 Week 4**. Week 3 identified an overreliance on isolated salary efficiency and led to a revised process centered on game environment, correlation, projection quality, and selective leverage.
+
+Week 4 was the first full test of that revised framework.
+
+| Week 4 contest | Entries | Actual DK score |
+|---|---:|---:|
+| $50 Single Entry | 4,545 | **153.62** |
+| $27 Single Entry | 3,239 | **137.52** |
+| $20 Millionaire | 161,764 | **153.62** |
+
+The strongest exploratory raw-ceiling Week 4 candidate had a simulated **mean of 130.6 DK points**, **P95 of 178.7**, and **P99 of 208.5**. The corresponding $50 single-entry construction ultimately scored **153.62**, above its simulated mean but below the modeled extreme upper tail.
+
+Several core decisions produced ceiling outcomes—Joe Burrow scored **28.72**, Tee Higgins **29.70**, Kyren Williams **36.70**, and T.J. Hockenson **27.90**—while secondary pieces limited the final lineup. Ja'Marr Chase's **5.70** is classified primarily as injury variance because of a concussion; Parker Washington's **2.00** is treated as a more meaningful process-review target because he was a deliberate bring-back in the primary game thesis.
+
+The ownership-adjusted $27 construction scored **137.52**, reinforcing a current research rule: **do not sacrifice meaningful projection or ceiling solely to become lower owned**.
+
+Current interpretation: the revised process improved lineup structure and identified a credible upper-tail construction, but the sample is still too small to claim a persistent edge. Final contest rank, cash line, and actual ownership were not captured for Week 4, so field-relative performance cannot yet be validated. Future weeks are designed to add those outcomes and evaluate projection error, ownership calibration, contest percentile, and portfolio diversification over a larger out-of-sample history.
+
 ## Analytical workflow
 
 ```text

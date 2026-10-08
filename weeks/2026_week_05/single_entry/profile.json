@@ -8,8 +8,27 @@
   "field_size": null,
   "payout_structure": null,
   "slate": "2026-10-11 Sunday afternoon; awaiting contest verification",
-  "quarterbacks": ["Jacoby Brissett", "Drake Maye", "Jared Goff"],
-  "held_players": ["Mitch Tinsley", "Dohnte Meyers", "Stefon Diggs", "Tyson Bagent"],
-  "policy": "Compare coherent lineups and workload uncertainty; no ownership bonus or forced contrarian pick; no automatic final selection",
-  "held_reason": "Unconfirmed CIN replacement receiving roles; Diggs DNP; Bagent starting status not final. These are research holds, not out designations."
+  "quarterbacks": [
+    "Jacoby Brissett",
+    "Drake Maye",
+    "Jared Goff"
+  ],
+  "held_players": [
+    "Mitch Tinsley",
+    "Dohnte Meyers",
+    "Stefon Diggs",
+    "Tyson Bagent"
+  ],
+  "policy": "One provisional analyst-selected tournament lineup for 4,000\u20136,000 entries; correlated game stack, no ownership bonus or forced contrarian pick; final salaries and active status pending",
+  "held_reason": "Unconfirmed CIN replacement receiving roles; Diggs DNP; Bagent starting status not final. These are research holds, not out designations.",
+  "field_size_target": {
+    "minimum": 4000,
+    "maximum": 6000,
+    "basis": "User requested 4-6k contest; interpreted as entries"
+  },
+  "field_build_holds": [
+    "Jaylen Warren",
+    "Emanuel Wilson"
+  ],
+  "recommended_candidate": "jacoby_brissett_stack2_bringback"
 }

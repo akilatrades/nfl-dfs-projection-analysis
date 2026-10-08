@@ -1,6 +1,10 @@
-# Week 5 — $12 single-entry research
+# Week 5 — $12 single entry, 4,000–6,000 entries
 
-**Active scope: single-entry only.** Target entry fee: $12. Contest name, field size, prize structure and official salary export are still unverified. Entry fee is not a proxy for field size. The earlier general Week 5 analysis is retained as a baseline; it is not a final entry recommendation.
+**Active scope: one lineup for a target field of 4,000–6,000 entries, interpreted from the user’s “4-6k contest” request.** Entry fee: $12. Exact contest identity, payout structure and official salary export remain unverified. The field range informs analyst construction preferences; it is not an input to a calibrated tournament model.
+
+## Current recommendation — $49,900
+
+See [the lineup and decision record](recommendation.md) and [the reproducible roster](recommended_lineup.csv). Select **Brissett / Brown / Judkins / St. Brown / Michael Wilson / Odunze / Schultz / McBride / Chargers DST**. This provisional build uses an Arizona double stack with St. Brown returning from Detroit, and holds Warren and Emanuel Wilson pending backfield clarity. The earlier comparisons below remain research baselines. No entry has been submitted.
 
 ## Decision approach
 
@@ -8,7 +12,7 @@ Choose one complete lineup after checking workload, salary and correlated scorin
 
 The present tool compares expected points and workload stresses. It does not estimate cash probability, tournament win probability, ownership-adjusted value or expected payout. None of the estimates below are a fantasy-point floor.
 
-## What the new screen changes
+## Earlier single-entry screen
 
 Hold Tinsley and Meyers pending confirmation of replacement receiving roles. Hold Diggs pending clarification after consecutive missed practices. Hold Bagent until the starter is confirmed. These holds are **research choices**, not claims that the players are inactive. Consequently, Daniels and Burrow stack families are deferred in this pass: the saved pool does not contain an adequately verified alternative pass catcher for either. They can return as the pool and injury evidence improve.
 
@@ -45,9 +49,9 @@ This is a **comparison candidate**, not a new lock. It concentrates on Arizona p
 
 Specifically, the scenario set tests PIT/SEA/CIN workload changes but does not symmetrically stress every player's role or a failed Arizona passing environment. This can favor Brissett and the Arizona receivers. A 1–2-point advantage between families is too small to treat as established superiority under these manual priors. There is no new evidence here that Brissett is a better real-world quarterback play than Maye or Goff.
 
-## Research priorities before one final entry
+## Remaining checks before entry
 
-1. Match the $12 contest screenshot or URL to the field size, prize curve and game set; import its salary export.
+1. The user supplied a 4,000–6,000-entry target. Match the exact $12 contest to its prize curve and game set; import its salary export.
 2. Recheck [Dowdle](https://www.steelers.com/team/injury-report/) and [Charbonnet](https://www.seahawks.com/team/injury-report/). Limited practice does not establish game availability or projected workload.
 3. Replace the manual workload priors with documented recent usage, then test comparable target/attempt and TD uncertainty across all three QB families.
 4. Reopen Cincinnati and Washington stacks when their receiving roles are adequately supported. Check weather and final inactives before freezing the entry.
@@ -56,4 +60,4 @@ These steps are prerequisites for a stronger recommendation, not work represente
 
 ## Reproduce
 
-Run `python run_single_entry.py` from the repository root. `profile.json` records the contest scope and temporary holds; `comparison.csv` and `lineups.csv` contain the results; `manifest.json` records their input/code hashes. All salaries remain published references pending contest verification.
+Run `python run_single_entry.py` for the earlier comparison and `python run_single_entry_field.py` for the current recommendation, from the repository root. `profile.json` records the contest scope and temporary holds; `comparison.csv` and `lineups.csv` contain the results; `manifest.json` records their input/code hashes. All salaries remain published references pending contest verification.

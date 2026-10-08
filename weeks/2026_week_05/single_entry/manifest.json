@@ -6,7 +6,7 @@
   "candidate_specifications": 9,
   "selection": "compare_objectives_no_automatic_final_lineup",
   "sha256": {
-    "weeks/2026_week_05/single_entry/profile.json": "19df189d532444989e70f7cb788fa0f1c9de608c6681c1bad3ecf0f51c710427",
+    "weeks/2026_week_05/single_entry/profile.json": "4cf1ef985633c199f8213e6a61a47da7d80658e26d877917123ea657a2d010a6",
     "weeks/2026_week_05/projection_inputs.csv": "8d3db7a28bd4ee139fda79852d213dd1b742d2081fb2436cfb34289c7f94db11",
     "run_single_entry.py": "c92af841517651072ebcebc9a9e9c47007cbd25f6166a1b5a29d1fc2c7373bdd",
     "run_week5_research.py": "19c1ed71317a5d50428e897433a0281f42b4e5ba9397e26c1e73da9cae8424b2",

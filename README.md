@@ -114,7 +114,7 @@ See [docs/methodology.md](docs/methodology.md) for the analytical framework and 
 
 ## Current contest focus
 
-Active Week 5 research targets **$12 single-entry only**. The [single-entry comparison](weeks/2026_week_05/single_entry/README.md) tests three QB families with temporary holds for unresolved roles; the field size and payout structure remain unverified. Historical Week 4 contest records are retained.
+Active Week 5 research targets **$12 single entry with 4,000–6,000 entries**. The [current $49,900 recommendation](weeks/2026_week_05/single_entry/recommendation.md) pairs Brissett with Michael Wilson and McBride, with St. Brown on the other side. It is provisional pending official salaries and final availability. The field size is a user-supplied target; exact contest identity and payouts are unverified. Historical Week 4 records are retained.
 
 ## Latest reproducible research
 
@@ -122,6 +122,7 @@ Active Week 5 research targets **$12 single-entry only**. The [single-entry comp
 python run_week4_audit.py
 python run_week5_research.py
 python run_single_entry.py
+python run_single_entry_field.py
 ```
 
 Week 5 uses manual analyst priors, published salary references and a 35-player pool. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.

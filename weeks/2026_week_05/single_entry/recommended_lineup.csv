@@ -1,0 +1,10 @@
+candidate_id,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,joint_downside,condition
+jacoby_brissett_stack2_bringback,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_stack2_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_stack2_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_stack2_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_stack2_bringback,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,Confirm active at lock
+jacoby_brissett_stack2_bringback,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,Confirm active at lock

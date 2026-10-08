@@ -1,0 +1,55 @@
+candidate_id,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,joint_downside,condition
+jacoby_brissett_stack1_bringback,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_stack1_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_stack1_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+jacoby_brissett_stack1_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_stack1_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_stack1_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_stack1_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_stack1_bringback,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,Confirm active at lock
+jacoby_brissett_stack1_bringback,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,Confirm active at lock
+jacoby_brissett_stack2_bringback,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_stack2_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_stack2_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_stack2_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_stack2_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_stack2_bringback,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,Confirm active at lock
+jacoby_brissett_stack2_bringback,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,Confirm active at lock
+drake_maye_stack1_bringback,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,Confirm active at lock
+drake_maye_stack1_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_stack1_bringback,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,Confirm active at lock
+drake_maye_stack1_bringback,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,Confirm active at lock
+drake_maye_stack1_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,Confirm active at lock
+drake_maye_stack1_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+drake_maye_stack1_bringback,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,Confirm active at lock
+drake_maye_stack1_bringback,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,Confirm active at lock
+drake_maye_stack1_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,Confirm active at lock
+drake_maye_stack2_bringback,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,Confirm active at lock
+drake_maye_stack2_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_stack2_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+drake_maye_stack2_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+drake_maye_stack2_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+drake_maye_stack2_bringback,WR,Romeo Doubs,WR,NE,LV,5000,2026-10-11T17:00:00Z,10.2920,10.2920,Confirm active at lock
+drake_maye_stack2_bringback,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,Confirm active at lock
+drake_maye_stack2_bringback,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,Confirm active at lock
+drake_maye_stack2_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,Confirm active at lock
+jared_goff_stack1_bringback,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,Confirm active at lock
+jared_goff_stack1_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_stack1_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+jared_goff_stack1_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+jared_goff_stack1_bringback,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,Confirm active at lock
+jared_goff_stack1_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+jared_goff_stack1_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,Confirm active at lock
+jared_goff_stack1_bringback,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,Confirm active at lock
+jared_goff_stack1_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,Confirm active at lock
+jared_goff_stack2_bringback,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,Confirm active at lock
+jared_goff_stack2_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_stack2_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,Confirm active at lock
+jared_goff_stack2_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,Confirm active at lock
+jared_goff_stack2_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,Confirm active at lock
+jared_goff_stack2_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,Confirm active at lock
+jared_goff_stack2_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,Confirm active at lock
+jared_goff_stack2_bringback,FLEX,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,Confirm active at lock
+jared_goff_stack2_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,Confirm active at lock

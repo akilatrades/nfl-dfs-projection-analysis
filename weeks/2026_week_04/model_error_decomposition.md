@@ -1,5 +1,7 @@
 # 2026 Week 4 — Model Error Decomposition
 
+> **October 8 audit correction:** The sample below combines different projection snapshots and covers only selected players. A small net stack error does not establish calibration, and injury exclusion cannot identify injury-free performance. See the [reproducibility audit](audit_2026-10-08/README.md) for reconciled outputs, missing inputs and corrections to these interpretations. The original narrative remains below as research history.
+
 **Slate date:** October 4, 2026  
 **Purpose:** Extend the post-slate review from narrative results into a quantitative diagnosis of what the model got right, what it got wrong, and what should change in the projection/simulation architecture.
 
@@ -350,3 +352,4 @@ rather than only:
 ```text
 Will this game hit?
 ```
+

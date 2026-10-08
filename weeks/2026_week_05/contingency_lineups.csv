@@ -1,0 +1,55 @@
+contingency,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,gibbs_volume_down,dowdle_returns,cin_receivers_return,bagent_volume_down,wilson_committee,diggs_limited,joint_downside,condition
+no_bagent,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_bagent,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_bagent,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+no_bagent,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+no_bagent,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_bagent,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_bagent,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_bagent,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+no_bagent,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+no_cin_backup_receivers,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_cin_backup_receivers,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_cin_backup_receivers,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+no_cin_backup_receivers,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+no_cin_backup_receivers,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_cin_backup_receivers,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_cin_backup_receivers,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_cin_backup_receivers,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+no_cin_backup_receivers,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+no_warren,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_warren,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_warren,RB,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+no_warren,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+no_warren,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_warren,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_warren,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_warren,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+no_warren,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+no_gibbs,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_gibbs,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_gibbs,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+no_gibbs,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+no_gibbs,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_gibbs,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_gibbs,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_gibbs,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+no_gibbs,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+no_emanuel_wilson,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_emanuel_wilson,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_emanuel_wilson,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,Confirm active at lock
+no_emanuel_wilson,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,Confirm active at lock
+no_emanuel_wilson,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_emanuel_wilson,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_emanuel_wilson,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_emanuel_wilson,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+no_emanuel_wilson,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+no_diggs,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+no_diggs,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+no_diggs,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+no_diggs,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+no_diggs,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+no_diggs,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+no_diggs,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+no_diggs,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+no_diggs,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock

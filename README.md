@@ -114,6 +114,8 @@ See [docs/methodology.md](docs/methodology.md) for the analytical framework and 
 
 ## Current contest focus
 
+Tonight’s separate [TB–DAL Showdown research](weeks/2026_week_05/showdown_tb_dal/README.md) targets the user’s **$5 single-entry contest with approximately 19,000 entries**. It includes a $49,900 Lamb Captain recommendation and a Dak Captain alternative, using an explicitly external projection snapshot.
+
 Active Week 5 research targets **$12 single entry with 4,000–6,000 entries**. The [current $49,900 recommendation](weeks/2026_week_05/single_entry/recommendation.md) pairs Brissett with Michael Wilson and McBride, with St. Brown on the other side. It is provisional pending official salaries and final availability. The field size is a user-supplied target; exact contest identity and payouts are unverified. Historical Week 4 records are retained.
 
 ## Latest reproducible research

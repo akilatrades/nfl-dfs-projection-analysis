@@ -1,0 +1,177 @@
+{
+  "as_of_local_date": "2026-10-08",
+  "timezone": "America/Chicago",
+  "slate": "TB at DAL, 19:15 CDT",
+  "platform_assumption": "DraftKings Showdown Captain Mode",
+  "entry_fee_usd": 5,
+  "entry_limit": 1,
+  "field_size_user_reported": 19000,
+  "contest_id": null,
+  "payouts": null,
+  "official_salary_export_verified": false,
+  "submitted": false,
+  "selected_candidate": "lamb_captain",
+  "selection": "Analyst preference for Lamb scoring concentration; not numerical mean leader or verified payout optimum",
+  "projection_source": "https://www.footballguys.com/dfs/showdown/optimizer/week-5-buccaneers-at-cowboys-draftkings",
+  "projection_method": "External published mean snapshot; these are not repository model forecasts",
+  "pool": {
+    "Lamb": {
+      "player": "CeeDee Lamb",
+      "team": "DAL",
+      "flex_salary": 11800,
+      "external_mean": 23.85
+    },
+    "Dak": {
+      "player": "Dak Prescott",
+      "team": "DAL",
+      "flex_salary": 10400,
+      "external_mean": 21.15
+    },
+    "Daniels": {
+      "player": "Jalon Daniels",
+      "team": "TB",
+      "flex_salary": 8600,
+      "external_mean": 16.18
+    },
+    "Otton": {
+      "player": "Cade Otton",
+      "team": "TB",
+      "flex_salary": 4400,
+      "external_mean": 9.24
+    },
+    "Flournoy": {
+      "player": "Ryan Flournoy",
+      "team": "DAL",
+      "flex_salary": 3800,
+      "external_mean": 9.47
+    },
+    "Aubrey": {
+      "player": "Brandon Aubrey",
+      "team": "DAL",
+      "flex_salary": 5400,
+      "external_mean": 8.58
+    },
+    "McLaughlin": {
+      "player": "Chase McLaughlin",
+      "team": "TB",
+      "flex_salary": 5000,
+      "external_mean": 6.26
+    },
+    "Gainwell": {
+      "player": "Kenny Gainwell",
+      "team": "TB",
+      "flex_salary": 4000,
+      "external_mean": 6.87
+    },
+    "Ferguson": {
+      "player": "Jake Ferguson",
+      "team": "DAL",
+      "flex_salary": 6400,
+      "external_mean": 7.26
+    },
+    "Pickens": {
+      "player": "George Pickens",
+      "team": "DAL",
+      "flex_salary": 9400,
+      "external_mean": 14.73
+    },
+    "Javonte": {
+      "player": "Javonte Williams",
+      "team": "DAL",
+      "flex_salary": 10800,
+      "external_mean": 19.16
+    },
+    "Tez": {
+      "player": "Tez Johnson",
+      "team": "TB",
+      "flex_salary": 2200,
+      "external_mean": 3.34
+    }
+  },
+  "candidates": [
+    {
+      "candidate": "lamb_captain",
+      "players_captain_first": [
+        "Lamb",
+        "Dak",
+        "Daniels",
+        "Otton",
+        "Flournoy",
+        "McLaughlin"
+      ],
+      "salary": 49900,
+      "external_mean_sum": 98.075,
+      "flournoy_half_mean": 93.34
+    },
+    {
+      "candidate": "dak_captain",
+      "players_captain_first": [
+        "Dak",
+        "Lamb",
+        "Daniels",
+        "Otton",
+        "Flournoy",
+        "Aubrey"
+      ],
+      "salary": 49600,
+      "external_mean_sum": 99.045,
+      "flournoy_half_mean": 94.31
+    },
+    {
+      "candidate": "daniels_captain",
+      "players_captain_first": [
+        "Daniels",
+        "Dak",
+        "Lamb",
+        "Otton",
+        "Aubrey",
+        "Gainwell"
+      ],
+      "salary": 48900,
+      "external_mean_sum": 93.96,
+      "flournoy_half_mean": 93.96
+    },
+    {
+      "candidate": "ferguson_captain",
+      "players_captain_first": [
+        "Ferguson",
+        "Dak",
+        "Lamb",
+        "Daniels",
+        "Otton",
+        "Flournoy"
+      ],
+      "salary": 48600,
+      "external_mean_sum": 90.78,
+      "flournoy_half_mean": 86.045
+    },
+    {
+      "candidate": "pickens_captain",
+      "players_captain_first": [
+        "Pickens",
+        "Dak",
+        "Lamb",
+        "Otton",
+        "Flournoy",
+        "McLaughlin"
+      ],
+      "salary": 49500,
+      "external_mean_sum": 92.065,
+      "flournoy_half_mean": 87.33
+    },
+    {
+      "candidate": "javonte_captain",
+      "players_captain_first": [
+        "Javonte",
+        "Dak",
+        "Lamb",
+        "Otton",
+        "Flournoy",
+        "Tez"
+      ],
+      "salary": 48800,
+      "external_mean_sum": 95.79,
+      "flournoy_half_mean": 91.055
+    }
+  ]
+}

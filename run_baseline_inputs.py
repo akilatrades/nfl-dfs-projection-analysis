@@ -32,10 +32,7 @@ def main() -> None:
     snapshot = pd.read_csv(args.snapshot_file)
     projection_inputs = build_projection_inputs(snapshot)
 
-    output_path = (
-        args.snapshot_file.parent
-        / "projection_inputs.csv"
-    )
+    output_path = args.snapshot_file.parent / "projection_inputs.csv"
 
     projection_inputs.to_csv(
         output_path,

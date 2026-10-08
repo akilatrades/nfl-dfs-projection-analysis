@@ -20,9 +20,7 @@ from src.game_environment import score_game_environments
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Rank DFS game environments."
-    )
+    parser = argparse.ArgumentParser(description="Rank DFS game environments.")
     parser.add_argument(
         "game_file",
         type=Path,

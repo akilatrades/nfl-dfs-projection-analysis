@@ -35,9 +35,7 @@ def lineup_summary(lineup: pd.DataFrame) -> pd.Series:
 
     ownership_decimal = ownership.clip(lower=0.1) / 100.0
 
-    geometric_mean_ownership = float(
-        np.exp(np.mean(np.log(ownership_decimal))) * 100.0
-    )
+    geometric_mean_ownership = float(np.exp(np.mean(np.log(ownership_decimal))) * 100.0)
 
     return pd.Series(
         {

@@ -53,15 +53,11 @@ def score_game_environments(games: pd.DataFrame) -> pd.DataFrame:
     missing = required.difference(games.columns)
 
     if missing:
-        raise ValueError(
-            f"Missing required columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     out = games.copy()
 
-    out["higher_team_total"] = out[
-        ["team_a_total", "team_b_total"]
-    ].max(axis=1)
+    out["higher_team_total"] = out[["team_a_total", "team_b_total"]].max(axis=1)
 
     total_score = _minmax(out["game_total"])
     team_score = _minmax(out["higher_team_total"])
@@ -70,15 +66,11 @@ def score_game_environments(games: pd.DataFrame) -> pd.DataFrame:
     spread_score = 100.0 - _minmax(out["spread_abs"])
 
     out["environment_score"] = (
-        0.50 * total_score
-        + 0.25 * team_score
-        + 0.25 * spread_score
+        0.50 * total_score + 0.25 * team_score + 0.25 * spread_score
     )
 
     out["rank"] = (
-        out["environment_score"]
-        .rank(method="min", ascending=False)
-        .astype(int)
+        out["environment_score"].rank(method="min", ascending=False).astype(int)
     )
 
     return out.sort_values(

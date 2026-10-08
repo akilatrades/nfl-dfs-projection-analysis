@@ -112,11 +112,16 @@ This design keeps the projection explainable: a forecast miss can be traced back
 
 See [docs/methodology.md](docs/methodology.md) for the analytical framework and [docs/limitations.md](docs/limitations.md) for the current model-use boundary.
 
+## Current contest focus
+
+Active Week 5 research targets **$12 single-entry only**. The [single-entry comparison](weeks/2026_week_05/single_entry/README.md) tests three QB families with temporary holds for unresolved roles; the field size and payout structure remain unverified. Historical Week 4 contest records are retained.
+
 ## Latest reproducible research
 
 ```bash
 python run_week4_audit.py
 python run_week5_research.py
+python run_single_entry.py
 ```
 
 Week 5 uses manual analyst priors, published salary references and a 35-player pool. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.

@@ -1,0 +1,10 @@
+candidate_id,quarterback,objective,salary,projection,worst_individual_stress,joint_stress,players
+jacoby_brissett_mean,Jacoby Brissett,mean,50000,137.0833,132.3416,127.1445,Jacoby Brissett | Chase Brown | Jaylen Warren | Amon-Ra St. Brown | Michael Wilson | Rome Odunze | Dalton Schultz | Emanuel Wilson | Browns DST
+jacoby_brissett_individual_stress,Jacoby Brissett,individual_stress,50000,137.0833,132.3416,127.1445,Jacoby Brissett | Chase Brown | Jaylen Warren | Amon-Ra St. Brown | Michael Wilson | Rome Odunze | Dalton Schultz | Emanuel Wilson | Browns DST
+jacoby_brissett_joint_stress,Jacoby Brissett,joint_stress,50000,133.4487,131.9348,131.9348,Jacoby Brissett | Chase Brown | Jonathan Taylor | DK Metcalf | Michael Wilson | Rome Odunze | Dalton Schultz | Trey McBride | Browns DST
+drake_maye_mean,Drake Maye,mean,50000,135.4430,130.7013,125.5042,Drake Maye | Chase Brown | Jaylen Warren | Amon-Ra St. Brown | Michael Wilson | Rome Odunze | Hunter Henry | Emanuel Wilson | Chargers DST
+drake_maye_individual_stress,Drake Maye,individual_stress,49800,132.2644,130.7505,130.7505,Drake Maye | Chase Brown | Jonathan Taylor | Amon-Ra St. Brown | Michael Wilson | Rome Odunze | Dalton Schultz | Hunter Henry | Chargers DST
+drake_maye_joint_stress,Drake Maye,joint_stress,49800,132.2644,130.7505,130.7505,Drake Maye | Chase Brown | Jonathan Taylor | Amon-Ra St. Brown | Michael Wilson | Rome Odunze | Dalton Schultz | Hunter Henry | Chargers DST
+jared_goff_mean,Jared Goff,mean,49800,134.9054,130.1637,124.9666,Jared Goff | Chase Brown | Jaylen Warren | Amon-Ra St. Brown | DK Metcalf | Rome Odunze | Dalton Schultz | Emanuel Wilson | Chargers DST
+jared_goff_individual_stress,Jared Goff,individual_stress,49900,132.2813,130.7674,130.7674,Jared Goff | Chase Brown | Quinshon Judkins | Amon-Ra St. Brown | Malik Washington | Rome Odunze | Dalton Schultz | Trey McBride | Browns DST
+jared_goff_joint_stress,Jared Goff,joint_stress,49900,132.2813,130.7674,130.7674,Jared Goff | Chase Brown | Quinshon Judkins | Amon-Ra St. Brown | Malik Washington | Rome Odunze | Dalton Schultz | Trey McBride | Browns DST

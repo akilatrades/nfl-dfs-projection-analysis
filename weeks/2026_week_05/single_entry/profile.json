@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-10-08",
+  "format": "DraftKings NFL Classic single entry",
+  "entry_fee_usd": 12,
+  "entry_limit": 1,
+  "contest_name": null,
+  "contest_id": null,
+  "field_size": null,
+  "payout_structure": null,
+  "slate": "2026-10-11 Sunday afternoon; awaiting contest verification",
+  "quarterbacks": ["Jacoby Brissett", "Drake Maye", "Jared Goff"],
+  "held_players": ["Mitch Tinsley", "Dohnte Meyers", "Stefon Diggs", "Tyson Bagent"],
+  "policy": "Compare coherent lineups and workload uncertainty; no ownership bonus or forced contrarian pick; no automatic final selection",
+  "held_reason": "Unconfirmed CIN replacement receiving roles; Diggs DNP; Bagent starting status not final. These are research holds, not out designations."
+}

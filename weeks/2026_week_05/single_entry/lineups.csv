@@ -1,0 +1,82 @@
+candidate_id,slot,player,salary,model_projection,gibbs_volume_down,dowdle_returns,cin_receivers_return,bagent_volume_down,wilson_committee,diggs_limited,joint_downside,condition
+jacoby_brissett_mean,QB,Jacoby Brissett,5500,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_mean,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_mean,RB,Jaylen Warren,6700,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_mean,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_mean,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_mean,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_mean,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_mean,FLEX,Emanuel Wilson,5300,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_mean,DST,Browns DST,2800,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_individual_stress,QB,Jacoby Brissett,5500,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_individual_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_individual_stress,RB,Jaylen Warren,6700,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_individual_stress,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_individual_stress,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_individual_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_individual_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_individual_stress,FLEX,Emanuel Wilson,5300,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_individual_stress,DST,Browns DST,2800,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_joint_stress,QB,Jacoby Brissett,5500,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_joint_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_joint_stress,RB,Jonathan Taylor,7800,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,Confirm active at lock
+jacoby_brissett_joint_stress,WR,DK Metcalf,5400,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,Confirm active at lock
+jacoby_brissett_joint_stress,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_joint_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_joint_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_joint_stress,FLEX,Trey McBride,6700,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jacoby_brissett_joint_stress,DST,Browns DST,2800,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_mean,QB,Drake Maye,6300,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_mean,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_mean,RB,Jaylen Warren,6700,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+drake_maye_mean,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_mean,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_mean,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_mean,TE,Hunter Henry,3700,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_mean,FLEX,Emanuel Wilson,5300,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+drake_maye_mean,DST,Chargers DST,2300,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_individual_stress,QB,Drake Maye,6300,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_individual_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_individual_stress,RB,Jonathan Taylor,7800,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,Confirm active at lock
+drake_maye_individual_stress,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_individual_stress,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_individual_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_individual_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+drake_maye_individual_stress,FLEX,Hunter Henry,3700,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_individual_stress,DST,Chargers DST,2300,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_joint_stress,QB,Drake Maye,6300,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_joint_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_joint_stress,RB,Jonathan Taylor,7800,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,Confirm active at lock
+drake_maye_joint_stress,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_joint_stress,WR,Michael Wilson,6200,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_joint_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_joint_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+drake_maye_joint_stress,FLEX,Hunter Henry,3700,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_joint_stress,DST,Chargers DST,2300,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_mean,QB,Jared Goff,6600,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_mean,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_mean,RB,Jaylen Warren,6700,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jared_goff_mean,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_mean,WR,DK Metcalf,5400,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,Confirm active at lock
+jared_goff_mean,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_mean,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_mean,FLEX,Emanuel Wilson,5300,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jared_goff_mean,DST,Chargers DST,2300,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_individual_stress,QB,Jared Goff,6600,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_individual_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_individual_stress,RB,Quinshon Judkins,5700,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,Confirm active at lock
+jared_goff_individual_stress,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_individual_stress,WR,Malik Washington,4600,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_individual_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_individual_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_individual_stress,FLEX,Trey McBride,6700,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_individual_stress,DST,Browns DST,2800,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_joint_stress,QB,Jared Goff,6600,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_joint_stress,RB,Chase Brown,6900,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_joint_stress,RB,Quinshon Judkins,5700,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,Confirm active at lock
+jared_goff_joint_stress,WR,Amon-Ra St. Brown,7900,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_joint_stress,WR,Malik Washington,4600,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_joint_stress,WR,Rome Odunze,4700,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_joint_stress,TE,Dalton Schultz,4000,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_joint_stress,FLEX,Trey McBride,6700,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_joint_stress,DST,Browns DST,2800,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock

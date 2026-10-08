@@ -1,10 +1,12 @@
-# 2026 Week 5 — provisional lineup research
+# 2026 Week 5 — single-entry research
 
-**Snapshot: October 8. Target: DraftKings Sunday afternoon, October 11. Status: research shortlist, not a final entry.**
+**Active target: $12 single-entry only, Sunday October 11.** See the [current single-entry comparison](single_entry/README.md) for the narrowed pool and workload-risk review. Field size, payouts and official salaries remain unverified.
+
+The analysis below is the earlier general baseline, retained for comparison. Its provisional leader has not been selected as the final single-entry lineup.
 
 The model compares 35 researched players across six quarterback families. Salaries come from published articles, not a contest export. Every football input is an explicit analyst assumption converted by the existing projection engine. These are initial decision scenarios; they are not fitted Week 1–4 forecasts or an established predictive edge.
 
-## Current provisional build
+## Earlier baseline build
 
 | Slot | Player | Salary |
 |---|---|---:|
@@ -57,7 +59,7 @@ Full re-optimizations excluding Bagent, Cincinnati backup receivers, Warren, Gib
 1. Import the actual contest salary CSV, player IDs and game set; expand beyond this curated pool.
 2. Verify final injuries and roles, especially PIT/SEA backfields, Cincinnati receivers and Chicago QB. Remove inactive players and rebuild all affected inputs.
 3. Check relevant weather and line movement near lock; no weather adjustment is included today.
-4. Specify contest size and payouts. A single-entry build and Millionaire entry need separate field/duplication analysis; this mean/stress optimizer cannot estimate either contest's expected payout.
+4. Verify the $12 single-entry contest size and payout structure. The current mean/stress optimizer does not estimate expected payout.
 5. Freeze inputs, source timestamps and intended entries before kickoff. Save actual ownership, ranks and payouts afterward.
 
 Research evidence and conflicting-source decisions are in [sources.md](sources.md). The NFL schedule has eleven Sunday afternoon games, with initial kickoff at **noon Central / 1 p.m. Eastern**. Thursday, London, Sunday night and Monday are outside this research slate.

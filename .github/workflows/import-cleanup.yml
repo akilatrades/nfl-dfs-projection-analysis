@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -u -- '*.py' '*.ipynb'
+          git ls-files -z -- '*.py' '*.ipynb' | xargs -0 -r git add -u --
           git diff --cached --quiet || git commit -m "Remove unused imports and put imports in consistent order"
           git push

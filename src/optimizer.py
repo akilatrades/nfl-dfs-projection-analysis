@@ -26,13 +26,20 @@ def optimize_lineup(
     four from a team and one speculative-role player. Bring-back is optional.
     """
     required = {
-        "player", "position", "team", "opponent", "salary", "role_risk",
+        "player",
+        "position",
+        "team",
+        "opponent",
+        "salary",
+        "role_risk",
         *objective_columns,
     }
     if not objective_columns or not required.issubset(pool.columns):
         raise ValueError("Missing optimizer inputs or objective columns.")
     if pool.player.isna().any() or pool.player.duplicated().any():
-        raise ValueError("Player names must be present and unique in this research pool.")
+        raise ValueError(
+            "Player names must be present and unique in this research pool."
+        )
     if pool[["team", "opponent"]].isna().any().any():
         raise ValueError("Every player needs a team and opponent.")
     if not pool.position.isin(["QB", "RB", "WR", "TE", "DST"]).all():
@@ -49,9 +56,10 @@ def optimize_lineup(
     if set(locks) - set(pool.player) or set(locks) & set(exclude):
         raise ValueError("Unknown or excluded locked player.")
     p = pool.loc[~pool.player.isin(exclude)].reset_index(drop=True)
-    if quarterback is not None and not (
-        (p.player == quarterback) & (p.position == "QB")
-    ).any():
+    if (
+        quarterback is not None
+        and not ((p.player == quarterback) & (p.position == "QB")).any()
+    ):
         raise ValueError("Requested quarterback is not available.")
     n = len(p)
     rows, lower, upper = [], [], []
@@ -63,7 +71,13 @@ def optimize_lineup(
 
     constraint(np.ones(n), 9, 9)
     constraint(p.salary, hi=salary_cap)
-    for pos, lo, hi in [("QB", 1, 1), ("RB", 2, 3), ("WR", 3, 4), ("TE", 1, 2), ("DST", 1, 1)]:
+    for pos, lo, hi in [
+        ("QB", 1, 1),
+        ("RB", 2, 3),
+        ("WR", 3, 4),
+        ("TE", 1, 2),
+        ("DST", 1, 1),
+    ]:
         constraint(p.position == pos, lo, hi)
     constraint(p.role_risk, hi=1)
     for team in sorted(p.team.unique()):
@@ -76,7 +90,9 @@ def optimize_lineup(
         v[i] = -min_stack
         constraint(v, lo=0)
         if bring_back:
-            v = ((p.team == q.opponent) & p.position.isin(["RB", "WR", "TE"])).astype(float)
+            v = ((p.team == q.opponent) & p.position.isin(["RB", "WR", "TE"])).astype(
+                float
+            )
             v[i] = -1
             constraint(v, lo=0)
     for i, d in p[p.position == "DST"].iterrows():
@@ -118,4 +134,8 @@ def assign_slots(lineup: pd.DataFrame) -> pd.DataFrame:
     latest = out.loc[eligible].sort_values(["kickoff_utc", "player"]).index[-1]
     out.loc[latest, "slot"] = "FLEX"
     order = {"QB": 0, "RB": 1, "WR": 2, "TE": 3, "FLEX": 4, "DST": 5}
-    return out.assign(_order=out.slot.map(order)).sort_values(["_order", "player"]).drop(columns="_order")
+    return (
+        out.assign(_order=out.slot.map(order))
+        .sort_values(["_order", "player"])
+        .drop(columns="_order")
+    )

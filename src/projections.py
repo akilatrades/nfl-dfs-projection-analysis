@@ -96,26 +96,13 @@ def project_offensive_player(row: pd.Series) -> dict[str, float]:
     prob_100_rush = _number(row, "prob_100_rush")
     prob_100_rec = _number(row, "prob_100_rec")
 
-    pass_yards = (
-        pass_attempts
-        * completion_rate
-        * yards_per_completion
-    )
+    pass_yards = pass_attempts * completion_rate * yards_per_completion
 
-    rush_yards = (
-        rush_attempts
-        * yards_per_carry
-    )
+    rush_yards = rush_attempts * yards_per_carry
 
-    receptions = (
-        targets
-        * catch_rate
-    )
+    receptions = targets * catch_rate
 
-    rec_yards = (
-        receptions
-        * yards_per_reception
-    )
+    rec_yards = receptions * yards_per_reception
 
     points = (
         pass_yards * PASS_YARD_POINT
@@ -233,13 +220,9 @@ def add_model_projections(
         errors="coerce",
     )
 
-    out["model_floor"] = (
-        out["model_projection"] - range_z * std
-    ).clip(lower=0)
+    out["model_floor"] = (out["model_projection"] - range_z * std).clip(lower=0)
 
-    out["model_ceiling"] = (
-        out["model_projection"] + range_z * std
-    )
+    out["model_ceiling"] = out["model_projection"] + range_z * std
 
     salary = pd.to_numeric(
         out.get(
@@ -269,9 +252,7 @@ def validate_projection_inputs(players: pd.DataFrame) -> None:
     missing = required.difference(players.columns)
 
     if missing:
-        raise ValueError(
-            f"Missing required columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     if players["player"].isna().any():
         raise ValueError("Every row needs a player name.")

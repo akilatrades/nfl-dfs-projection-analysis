@@ -30,18 +30,12 @@ def add_projection_errors(
     missing = required.difference(players.columns)
 
     if missing:
-        raise ValueError(
-            f"Missing required columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     out = players.copy()
 
-    out["projection_error"] = (
-        out[actual_col] - out[projection_col]
-    )
-    out["absolute_projection_error"] = (
-        out["projection_error"].abs()
-    )
+    out["projection_error"] = out[actual_col] - out[projection_col]
+    out["absolute_projection_error"] = out["projection_error"].abs()
 
     return out
 
@@ -74,7 +68,7 @@ def projection_accuracy_summary(
         raise ValueError("No complete projection/actual rows to evaluate.")
 
     mae = errors.abs().mean()
-    rmse = np.sqrt(np.mean(errors ** 2))
+    rmse = np.sqrt(np.mean(errors**2))
     mean_error = errors.mean()
 
     return pd.Series(
@@ -101,18 +95,12 @@ def add_ownership_errors(
     missing = required.difference(players.columns)
 
     if missing:
-        raise ValueError(
-            f"Missing required columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     out = players.copy()
 
-    out["ownership_error"] = (
-        out[actual_col] - out[projected_col]
-    )
-    out["absolute_ownership_error"] = (
-        out["ownership_error"].abs()
-    )
+    out["ownership_error"] = out[actual_col] - out[projected_col]
+    out["absolute_ownership_error"] = out["ownership_error"].abs()
 
     return out
 
@@ -132,17 +120,13 @@ def ownership_accuracy_summary(
     errors = evaluated["ownership_error"].dropna()
 
     if errors.empty:
-        raise ValueError(
-            "No complete projected/actual ownership rows to evaluate."
-        )
+        raise ValueError("No complete projected/actual ownership rows to evaluate.")
 
     return pd.Series(
         {
             "players_evaluated": len(errors),
             "ownership_mae": errors.abs().mean(),
-            "ownership_rmse": np.sqrt(
-                np.mean(errors ** 2)
-            ),
+            "ownership_rmse": np.sqrt(np.mean(errors**2)),
             "mean_ownership_error": errors.mean(),
         }
     )

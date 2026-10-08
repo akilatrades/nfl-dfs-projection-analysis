@@ -50,9 +50,7 @@ def add_position_percentiles(players: pd.DataFrame) -> pd.DataFrame:
         ("value_per_1000", "value_percentile"),
     ]:
         out[target] = (
-            out.groupby("position")[source]
-            .rank(pct=True, method="average")
-            * 100.0
+            out.groupby("position")[source].rank(pct=True, method="average") * 100.0
         )
 
     return out
@@ -122,10 +120,7 @@ def add_candidate_ownership_estimate(
         if target is None:
             continue
 
-        centered = (
-            group["popularity_score"]
-            - group["popularity_score"].mean()
-        )
+        centered = group["popularity_score"] - group["popularity_score"].mean()
 
         weights = np.exp(centered / temperature)
         ownership = weights / weights.sum() * target
@@ -183,12 +178,10 @@ def add_salary_hit_probabilities(
         return 1.0 - _normal_cdf(z)
 
     out["prob_3x"] = [
-        hit_probability(m, s, t)
-        for m, s, t in zip(projection, std, out["target_3x"])
+        hit_probability(m, s, t) for m, s, t in zip(projection, std, out["target_3x"])
     ]
     out["prob_4x"] = [
-        hit_probability(m, s, t)
-        for m, s, t in zip(projection, std, out["target_4x"])
+        hit_probability(m, s, t) for m, s, t in zip(projection, std, out["target_4x"])
     ]
 
     return out
@@ -221,9 +214,7 @@ def add_tournament_leverage_index(
         errors="coerce",
     ).clip(lower=ownership_floor_pct)
 
-    out["tournament_leverage_index"] = (
-        out["prob_4x"] / (ownership_pct / 100.0)
-    )
+    out["tournament_leverage_index"] = out["prob_4x"] / (ownership_pct / 100.0)
 
     return out
 

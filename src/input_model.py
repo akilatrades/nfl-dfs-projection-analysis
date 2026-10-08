@@ -80,10 +80,7 @@ def shrink_rate(
     prior_games: float,
 ) -> float:
     """Blend a small player sample with a position baseline."""
-    return (
-        games * player_rate
-        + prior_games * prior_rate
-    ) / (games + prior_games)
+    return (games * player_rate + prior_games * prior_rate) / (games + prior_games)
 
 
 def _tail_probability(
@@ -123,9 +120,7 @@ def build_projection_inputs(snapshot: pd.DataFrame) -> pd.DataFrame:
     }
     missing = required.difference(snapshot.columns)
     if missing:
-        raise ValueError(
-            f"Missing required columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
     output = []
 
@@ -170,9 +165,7 @@ def build_projection_inputs(snapshot: pd.DataFrame) -> pd.DataFrame:
             "team_total": float(row["team_total"]),
             "game_total": float(row["game_total"]),
             "our_ownership_estimate": np.nan,
-            "role_note": (
-                "Week 1-3 public usage blended with position baselines"
-            ),
+            "role_note": ("Week 1-3 public usage blended with position baselines"),
             "correlation_note": "",
             "leverage_note": "",
             "decision": "research",
@@ -266,10 +259,7 @@ def build_projection_inputs(snapshot: pd.DataFrame) -> pd.DataFrame:
                 * result["completion_rate"]
                 * result["yards_per_completion"]
             )
-            expected_rush_yards = (
-                result["rush_attempts"]
-                * result["yards_per_carry"]
-            )
+            expected_rush_yards = result["rush_attempts"] * result["yards_per_carry"]
 
             result["prob_300_pass"] = _tail_probability(
                 300.0,
@@ -352,14 +342,9 @@ def build_projection_inputs(snapshot: pd.DataFrame) -> pd.DataFrame:
                 * td_environment
             )
 
-            expected_rush_yards = (
-                result["rush_attempts"]
-                * result["yards_per_carry"]
-            )
+            expected_rush_yards = result["rush_attempts"] * result["yards_per_carry"]
             expected_rec_yards = (
-                result["targets"]
-                * result["catch_rate"]
-                * result["yards_per_reception"]
+                result["targets"] * result["catch_rate"] * result["yards_per_reception"]
             )
 
             result["prob_100_rush"] = _tail_probability(
@@ -416,9 +401,7 @@ def build_projection_inputs(snapshot: pd.DataFrame) -> pd.DataFrame:
             )
 
             expected_rec_yards = (
-                result["targets"]
-                * result["catch_rate"]
-                * result["yards_per_reception"]
+                result["targets"] * result["catch_rate"] * result["yards_per_reception"]
             )
 
             rec_std = 30.0 if position == "TE" else 35.0

@@ -1,0 +1,6 @@
+player,position,source_projection,actual_dk_points,error,absolute_error,error_classification,notes
+Joe Burrow,QB,19.8067,28.72,8.9133,8.9133,football_variance,"Game environment hit; Burrow materially exceeded pre-slate mean"
+Ja'Marr Chase,WR,15.4086,5.70,-9.7086,9.7086,injury_variance,"Concussion; do not treat full miss as ordinary projection error"
+Tee Higgins,WR,14.3490,29.70,15.3510,15.3510,football_variance,"Large positive allocation/efficiency outcome inside correct game environment"
+Parker Washington,WR,15.4167,2.00,-13.4167,13.4167,process_review,"Primary repeatable miss; investigate targets/routes/TD allocation assumptions"
+James Cook,RB,16.7167,16.30,-0.4167,0.4167,well_calibrated,"Stable-role one-off finished close to pre-slate mean"

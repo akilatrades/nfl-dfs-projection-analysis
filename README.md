@@ -2,9 +2,9 @@
 
 [![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)
 
-Python research framework for NFL DraftKings single-entry tournament analysis. The project converts explicit football assumptions into player projections, quantifies uncertainty and ownership-related trade-offs, evaluates correlated lineup construction, and preserves pre-event decisions for post-event error analysis.
+Can explicit assumptions about opportunity, scoring and lineup correlation improve an NFL projection process?
 
-The objective is not to present individual lineups as predictive certainty. It is to build an auditable forecasting and decision process in which assumptions, model outputs, lineup choices, and realized errors can be reviewed independently.
+The lesson from the saved Week 3–4 reviews is to check a player's individual role before using them for lineup correlation or lower ownership. There are too few completed weeks to establish a forecasting edge. I keep the pre-event assumptions and post-event review together so errors are visible.
 
 ## Current results
 
@@ -178,3 +178,7 @@ The current framework remains a research model. Important limitations include ma
 No model output should be interpreted as a guaranteed contest outcome.
 
 Educational and analytical use only.
+
+## What I learned / what I would do differently
+
+A high simulated ceiling is not validation. I would build a longer record with contest rank, cash line, actual ownership and forecast error against a simple baseline before describing any advantage. The existing weekly files preserve the assumptions and reviews needed for that comparison.

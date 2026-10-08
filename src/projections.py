@@ -16,11 +16,8 @@ is near the threshold.
 
 from __future__ import annotations
 
-import math
-
 import numpy as np
 import pandas as pd
-
 
 PASS_YARD_POINT = 0.04
 PASS_TD_POINT = 4.0

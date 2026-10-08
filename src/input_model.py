@@ -33,7 +33,6 @@ from math import erfc, sqrt
 import numpy as np
 import pandas as pd
 
-
 POSITION_PRIORS = {
     "QB": {
         "pass_attempts": 32.0,

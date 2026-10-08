@@ -1,0 +1,28 @@
+{
+  "scope": "Selected five-player sample; mixed projection snapshots; not slate-wide validation",
+  "all_sample": {
+    "players_evaluated": 5.0,
+    "mae": 9.561259999999999,
+    "rmse": 10.858531296911199,
+    "mean_signed_error": 0.14445999999999976
+  },
+  "sample_without_chase": {
+    "players_evaluated": 4.0,
+    "mae": 9.524424999999999,
+    "rmse": 11.12746147679245,
+    "mean_signed_error": 2.607725
+  },
+  "stack": {
+    "projection": 64.98100000000001,
+    "actual": 66.12,
+    "net_error": 1.1389999999999976,
+    "sum_absolute_error": 47.389599999999994
+  },
+  "coverage": {
+    "unique_entered_players": 11,
+    "with_input_projection": 3,
+    "with_saved_pool_projection": 3,
+    "with_sample_projection": 5
+  },
+  "raw_minus_ownership_actual": 16.100000000000023
+}

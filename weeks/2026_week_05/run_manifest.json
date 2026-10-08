@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-10-08",
+  "slate": "2026-10-11 DraftKings Sunday afternoon research pool",
+  "status": "PROVISIONAL_NOT_CONTEST_VERIFIED",
+  "pool_size": 35,
+  "candidates": 24,
+  "projection_type": "manual analyst assumptions converted by existing scoring model",
+  "source_projection_imported": false,
+  "ownership_model_used": false,
+  "simulation_used": false,
+  "solver": "SciPy HiGHS MILP; zero relative gap; only status=0 accepted",
+  "selection": "maximum worst separately tested scenario among QB families; optional bring-back",
+  "scenarios": [
+    "model_projection",
+    "gibbs_volume_down",
+    "dowdle_returns",
+    "cin_receivers_return",
+    "bagent_volume_down",
+    "wilson_committee",
+    "diggs_limited"
+  ],
+  "selected_candidate": "jacoby_brissett_mean_optional",
+  "missing": [
+    "official contest salary export and player IDs",
+    "complete slate player pool",
+    "verified final roles and inactives",
+    "actual contest size and payouts",
+    "calibrated joint outcome and ownership model"
+  ],
+  "sha256": {
+    "weeks/2026_week_05/projection_inputs.csv": "8d3db7a28bd4ee139fda79852d213dd1b742d2081fb2436cfb34289c7f94db11",
+    "run_week5_research.py": "d7ac6f735c3b8928b047fb9dc742413e74ce02c57e0c531e1c3590ed383c05d1",
+    "src/optimizer.py": "a2ad0b47bc647ee69bd75f6b282378877420f6eb32747ed5dcbe816619d11f39",
+    "src/projections.py": "967089d27555add35c711488da3b4a413961eb7197ebc1e63d59e3df8ed070ea"
+  }
+}

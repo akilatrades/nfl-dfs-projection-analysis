@@ -1,0 +1,10 @@
+candidate_id,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,gibbs_volume_down,dowdle_returns,cin_receivers_return,bagent_volume_down,wilson_committee,diggs_limited,joint_downside,condition
+jacoby_brissett_mean_optional,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_mean_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_mean_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock

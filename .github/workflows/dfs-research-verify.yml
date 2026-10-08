@@ -1,0 +1,30 @@
+name: Verify DFS research snapshot
+on:
+  push:
+    branches: [dfs-week4-audit-week5-20261008]
+    paths: ['.github/workflows/dfs-research-verify.yml']
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt pytest ruff==0.11.13
+      - run: ruff check --select F401,I --fix run_week4_audit.py run_week5_research.py src/optimizer.py tests/test_optimizer.py
+      - run: ruff format run_week4_audit.py run_week5_research.py src/optimizer.py tests/test_optimizer.py
+      - run: pytest
+      - run: python run_week4_audit.py
+      - run: python run_week5_research.py
+      - run: ruff format --check .
+      - name: Save verified formatting and regenerated manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add run_week4_audit.py run_week5_research.py src/optimizer.py tests/test_optimizer.py weeks/
+          git diff --cached --quiet || git commit -m "Format and verify DFS research outputs"
+          git push

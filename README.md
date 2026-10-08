@@ -8,7 +8,9 @@ The lesson from the saved Week 3–4 reviews is to check a player's individual r
 
 ## Current results
 
-The project currently includes completed research through **2026 Week 4**.
+The project includes completed records through **2026 Week 4** and a [provisional Week 5 research build](weeks/2026_week_05/README.md).
+
+The [October 8 audit](weeks/2026_week_04/audit_2026-10-08/README.md) reconciles the Week 4 entries but finds incomplete and mixed projection snapshots: only 3 of 11 entered players have reproducible football-input forecasts. The historical results and simulation discussion below are exploratory, not evidence of calibration. Week 5 now saves inputs for every candidate and compares salary-constrained lineups under explicit workload scenarios.
 
 Week 3 showed that the original process relied too much on finding individually cheap or efficient players. After that review, the process was changed to put more weight on strong games, players who can score well together, overall upside, and only a small amount of lower-owned differentiation.
 
@@ -110,10 +112,21 @@ This design keeps the projection explainable: a forecast miss can be traced back
 
 See [docs/methodology.md](docs/methodology.md) for the analytical framework and [docs/limitations.md](docs/limitations.md) for the current model-use boundary.
 
+## Latest reproducible research
+
+```bash
+python run_week4_audit.py
+python run_week5_research.py
+```
+
+Week 5 uses manual analyst priors, published salary references and a 35-player pool. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
+
 ## Case studies
 
 The repository keeps weekly research records so the process can be evaluated without hindsight.
 
+- [Week 4 reproducibility audit](weeks/2026_week_04/audit_2026-10-08/README.md) — source coverage, arithmetic and limits on the original conclusions.
+- [Week 5 research and provisional lineup](weeks/2026_week_05/README.md) — current shortlist, assumptions, scenarios and contingencies.
 - [2026 Week 3 review](weeks/2026_week_03/README.md) — initial single-entry process review and identified construction errors.
 - [2026 Week 4 pre-slate analysis](weeks/2026_week_04/pre_slate_analysis.md) — assumptions and lineup thesis recorded before lock.
 - [2026 Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md) — percentile, hit-probability, simulation, and sensitivity outputs.
@@ -182,3 +195,4 @@ Educational and analytical use only.
 ## What I learned / what I would do differently
 
 A high simulated ceiling is not validation. I would build a longer record with contest rank, cash line, actual ownership and forecast error against a simple baseline before describing any advantage. The existing weekly files preserve the assumptions and reviews needed for that comparison.
+

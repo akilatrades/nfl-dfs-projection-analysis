@@ -1,0 +1,12 @@
+player,dk_points,recomputed_input_projection,saved_pool_projection,source_projection,error_classification,recomputed_input_projection_error,saved_pool_projection_error,source_projection_error
+Joe Burrow,28.7200,19.8067,18.4317,19.8067,football_variance,8.9133,10.2883,8.9133
+Kyren Williams,36.7000,,,,,,,
+Braelon Allen,8.7000,,,,,,,
+Ja'Marr Chase,5.7000,15.4086,,15.4086,injury_variance,-9.7086,,-9.7086
+Tee Higgins,29.7000,14.3490,,14.3490,football_variance,15.3510,,15.3510
+Jordan Addison,9.2000,,,,,,,
+T.J. Hockenson,27.9000,,,,,,,
+Parker Washington,2.0000,,15.4167,15.4167,process_review,,-13.4167,-13.4167
+Rams DST,5.0000,,,,,,,
+James Cook,16.3000,,16.7167,16.7167,well_calibrated,,-0.4167,-0.4167
+Jakobi Meyers,6.3000,,,,,,,

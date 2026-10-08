@@ -1,0 +1,217 @@
+candidate_id,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,gibbs_volume_down,dowdle_returns,cin_receivers_return,bagent_volume_down,wilson_committee,diggs_limited,joint_downside,condition
+jacoby_brissett_mean_optional,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_mean_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_mean_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_mean_bringback,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_mean_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_mean_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_mean_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_mean_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_mean_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_mean_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_mean_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_stress_optional,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_stress_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_stress_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_stress_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_stress_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_stress_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_stress_bringback,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,18.3352,Confirm active at lock
+jacoby_brissett_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_stress_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jacoby_brissett_stress_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_stress_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jacoby_brissett_stress_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_stress_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jacoby_brissett_stress_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jacoby_brissett_stress_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_mean_optional,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jared_goff_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_mean_optional,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+jared_goff_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jared_goff_mean_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_mean_bringback,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_mean_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jared_goff_mean_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_mean_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_mean_bringback,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+jared_goff_mean_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_mean_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jared_goff_mean_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_stress_optional,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_stress_optional,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,Confirm active at lock
+jared_goff_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_stress_optional,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_stress_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_stress_optional,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_stress_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_stress_bringback,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,20.5493,Confirm active at lock
+jared_goff_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_stress_bringback,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,13.9000,Confirm active at lock
+jared_goff_stress_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jared_goff_stress_bringback,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_stress_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_stress_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jared_goff_stress_bringback,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_stress_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jayden_daniels_mean_optional,QB,Jayden Daniels,QB,WAS,NYG,6000,2026-10-11T17:00:00Z,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,Confirm active at lock
+jayden_daniels_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jayden_daniels_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jayden_daniels_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jayden_daniels_mean_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jayden_daniels_mean_optional,WR,Stefon Diggs,WR,WAS,NYG,5500,2026-10-11T17:00:00Z,13.3100,13.3100,13.3100,13.3100,13.3100,13.3100,9.3050,9.3050,DNP Wednesday and Thursday; use only if active with normal role
+jayden_daniels_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jayden_daniels_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jayden_daniels_mean_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jayden_daniels_mean_bringback,QB,Jayden Daniels,QB,WAS,NYG,6000,2026-10-11T17:00:00Z,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,Confirm active at lock
+jayden_daniels_mean_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jayden_daniels_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jayden_daniels_mean_bringback,WR,Malik Nabers,WR,NYG,WAS,6300,2026-10-11T17:00:00Z,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,Knee LP Thursday; confirm active and workload
+jayden_daniels_mean_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jayden_daniels_mean_bringback,WR,Stefon Diggs,WR,WAS,NYG,5500,2026-10-11T17:00:00Z,13.3100,13.3100,13.3100,13.3100,13.3100,13.3100,9.3050,9.3050,DNP Wednesday and Thursday; use only if active with normal role
+jayden_daniels_mean_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jayden_daniels_mean_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jayden_daniels_mean_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jayden_daniels_stress_optional,QB,Jayden Daniels,QB,WAS,NYG,6000,2026-10-11T17:00:00Z,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,Confirm active at lock
+jayden_daniels_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jayden_daniels_stress_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jayden_daniels_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jayden_daniels_stress_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jayden_daniels_stress_optional,WR,Stefon Diggs,WR,WAS,NYG,5500,2026-10-11T17:00:00Z,13.3100,13.3100,13.3100,13.3100,13.3100,13.3100,9.3050,9.3050,DNP Wednesday and Thursday; use only if active with normal role
+jayden_daniels_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jayden_daniels_stress_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jayden_daniels_stress_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jayden_daniels_stress_bringback,QB,Jayden Daniels,QB,WAS,NYG,6000,2026-10-11T17:00:00Z,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,20.0720,Confirm active at lock
+jayden_daniels_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+jayden_daniels_stress_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+jayden_daniels_stress_bringback,WR,Malik Nabers,WR,NYG,WAS,6300,2026-10-11T17:00:00Z,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,11.9120,Knee LP Thursday; confirm active and workload
+jayden_daniels_stress_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jayden_daniels_stress_bringback,WR,Stefon Diggs,WR,WAS,NYG,5500,2026-10-11T17:00:00Z,13.3100,13.3100,13.3100,13.3100,13.3100,13.3100,9.3050,9.3050,DNP Wednesday and Thursday; use only if active with normal role
+jayden_daniels_stress_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+jayden_daniels_stress_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+jayden_daniels_stress_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_mean_optional,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,15.5208,15.5208,15.5208,12.2486,15.5208,15.5208,12.2486,Only if confirmed starter; Caleb Williams unresolved
+tyson_bagent_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+tyson_bagent_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_mean_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+tyson_bagent_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+tyson_bagent_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+tyson_bagent_mean_optional,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+tyson_bagent_mean_bringback,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,15.5208,15.5208,15.5208,12.2486,15.5208,15.5208,12.2486,Only if confirmed starter; Caleb Williams unresolved
+tyson_bagent_mean_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+tyson_bagent_mean_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_mean_bringback,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_mean_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+tyson_bagent_mean_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+tyson_bagent_mean_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+tyson_bagent_mean_bringback,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+tyson_bagent_stress_optional,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,15.5208,15.5208,15.5208,12.2486,15.5208,15.5208,12.2486,Only if confirmed starter; Caleb Williams unresolved
+tyson_bagent_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_stress_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+tyson_bagent_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_stress_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_stress_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+tyson_bagent_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+tyson_bagent_stress_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+tyson_bagent_stress_optional,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+tyson_bagent_stress_bringback,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,15.5208,15.5208,15.5208,12.2486,15.5208,15.5208,12.2486,Only if confirmed starter; Caleb Williams unresolved
+tyson_bagent_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_stress_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+tyson_bagent_stress_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_stress_bringback,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_stress_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+tyson_bagent_stress_bringback,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+tyson_bagent_stress_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+tyson_bagent_stress_bringback,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+joe_burrow_mean_optional,QB,Joe Burrow,QB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,Reproject with final Chase and Higgins availability
+joe_burrow_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+joe_burrow_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+joe_burrow_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+joe_burrow_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+joe_burrow_mean_optional,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+joe_burrow_mean_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+joe_burrow_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+joe_burrow_mean_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+joe_burrow_mean_bringback,QB,Joe Burrow,QB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,Reproject with final Chase and Higgins availability
+joe_burrow_mean_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+joe_burrow_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+joe_burrow_mean_bringback,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+joe_burrow_mean_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+joe_burrow_mean_bringback,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+joe_burrow_mean_bringback,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+joe_burrow_mean_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+joe_burrow_mean_bringback,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+joe_burrow_stress_optional,QB,Joe Burrow,QB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,Reproject with final Chase and Higgins availability
+joe_burrow_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+joe_burrow_stress_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+joe_burrow_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+joe_burrow_stress_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+joe_burrow_stress_optional,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+joe_burrow_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+joe_burrow_stress_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+joe_burrow_stress_optional,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+joe_burrow_stress_bringback,QB,Joe Burrow,QB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,18.4741,Reproject with final Chase and Higgins availability
+joe_burrow_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+joe_burrow_stress_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+joe_burrow_stress_bringback,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+joe_burrow_stress_bringback,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+joe_burrow_stress_bringback,WR,Mitch Tinsley,WR,CIN,MIA,3300,2026-10-11T17:00:00Z,7.8800,7.8800,7.8800,4.7120,7.8800,7.8800,7.8800,4.7120,Speculative until starter absences and routes confirmed
+joe_burrow_stress_bringback,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+joe_burrow_stress_bringback,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+joe_burrow_stress_bringback,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+drake_maye_mean_optional,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_mean_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_mean_optional,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+drake_maye_mean_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_mean_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_mean_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_mean_optional,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_mean_optional,FLEX,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+drake_maye_mean_optional,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_mean_bringback,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_mean_bringback,RB,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+drake_maye_mean_bringback,RB,Jaylen Warren,RB,PIT,IND,6700,2026-10-11T17:00:00Z,18.9266,18.9266,14.1850,18.9266,18.9266,18.9266,18.9266,14.1850,Workload depends on Rico Dowdle; limited Thursday
+drake_maye_mean_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_mean_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_mean_bringback,WR,Stefon Diggs,WR,WAS,NYG,5500,2026-10-11T17:00:00Z,13.3100,13.3100,13.3100,13.3100,13.3100,13.3100,9.3050,9.3050,DNP Wednesday and Thursday; use only if active with normal role
+drake_maye_mean_bringback,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,Confirm active at lock
+drake_maye_mean_bringback,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_mean_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_stress_optional,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_stress_optional,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_stress_optional,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,19.6150,Confirm active at lock
+drake_maye_stress_optional,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_stress_optional,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_stress_optional,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_stress_optional,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,10.8260,Confirm active at lock
+drake_maye_stress_optional,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_stress_optional,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_stress_bringback,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,20.4509,Confirm active at lock
+drake_maye_stress_bringback,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,18.9295,18.9295,17.4156,18.9295,18.9295,18.9295,17.4156,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_stress_bringback,RB,Emanuel Wilson,RB,SEA,SF,5300,2026-10-11T20:25:00Z,14.6930,14.6930,14.6930,14.6930,14.6930,11.0098,14.6930,11.0098,Monitor Charbonnet activation; Price on IR; 21 carries last week is not a guaranteed role
+drake_maye_stress_bringback,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_stress_bringback,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,13.1000,Confirm active at lock
+drake_maye_stress_bringback,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_stress_bringback,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,14.3300,Confirm active at lock
+drake_maye_stress_bringback,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+drake_maye_stress_bringback,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,7.1200,Confirm active at lock

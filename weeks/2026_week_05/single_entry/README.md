@@ -1,5 +1,7 @@
 # Week 5 — $12 single entry, 4,000–6,000 entries
 
+**October 8 snapshot. Superseded for current Sunday planning by the [October 9 field-size comparison](../single_entry_2026-10-09/README.md).**
+
 **Active scope: one lineup for a target field of 4,000–6,000 entries, interpreted from the user’s “4-6k contest” request.** Entry fee: $12. Exact contest identity, payout structure and official salary export remain unverified. The field range informs analyst construction preferences; it is not an input to a calibrated tournament model.
 
 ## Current recommendation — $49,900

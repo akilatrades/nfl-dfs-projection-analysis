@@ -1,0 +1,541 @@
+candidate_id,slot,player,position,team,opponent,salary,kickoff_utc,model_projection,joint_downside,rb_workload_down20,qb_passing_down20,condition
+jacoby_brissett_compact_mean_te1,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_compact_mean_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jacoby_brissett_compact_mean_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_compact_mean_te1,TE,T.J. Hockenson,TE,MIN,NO,4800,2026-10-11T17:00:00Z,11.7690,11.7690,11.7690,11.7690,Verify Jefferson status before increasing target assumption
+jacoby_brissett_compact_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_compact_mean_te2,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_compact_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+jacoby_brissett_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_compact_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_compact_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,9.1220,Reduced target assumption with Collins back; monitor Dell activation
+jacoby_brissett_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_compact_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_compact_balanced_te1,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_compact_balanced_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jacoby_brissett_compact_balanced_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_compact_balanced_te1,TE,T.J. Hockenson,TE,MIN,NO,4800,2026-10-11T17:00:00Z,11.7690,11.7690,11.7690,11.7690,Verify Jefferson status before increasing target assumption
+jacoby_brissett_compact_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_compact_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_compact_balanced_te2,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jacoby_brissett_compact_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_compact_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_compact_balanced_te2,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+jacoby_brissett_game_mean_te1,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_game_mean_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+jacoby_brissett_game_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jacoby_brissett_game_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_game_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jacoby_brissett_game_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_game_mean_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_game_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_game_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jacoby_brissett_game_mean_te2,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_game_mean_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jacoby_brissett_game_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_game_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_game_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jacoby_brissett_game_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_game_balanced_te1,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_game_balanced_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+jacoby_brissett_game_balanced_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jacoby_brissett_game_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_game_balanced_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jacoby_brissett_game_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_game_balanced_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_game_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_game_balanced_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jacoby_brissett_game_balanced_te2,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_game_balanced_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jacoby_brissett_game_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+jacoby_brissett_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_game_balanced_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_game_balanced_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jacoby_brissett_game_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,14.2400,Confirm active at lock
+jacoby_brissett_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_gibbs_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jacoby_brissett_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_gibbs_mean_te1,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,FLEX,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+jacoby_brissett_gibbs_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,QB,Jacoby Brissett,QB,ARI,DET,5500,2026-10-11T20:25:00Z,18.3352,18.3352,18.3352,14.7562,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jacoby_brissett_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jacoby_brissett_gibbs_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,12.5136,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jacoby_brissett_gibbs_mean_te2,FLEX,T.J. Hockenson,TE,MIN,NO,4800,2026-10-11T17:00:00Z,11.7690,11.7690,11.7690,11.7690,Verify Jefferson status before increasing target assumption
+jacoby_brissett_gibbs_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_compact_mean_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_compact_mean_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jared_goff_compact_mean_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_compact_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_compact_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_compact_mean_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_compact_mean_te2,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jared_goff_compact_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_compact_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_compact_mean_te2,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_compact_balanced_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_compact_balanced_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jared_goff_compact_balanced_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_compact_balanced_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_compact_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_compact_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_compact_balanced_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_compact_balanced_te2,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+jared_goff_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_compact_balanced_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_compact_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_compact_balanced_te2,TE,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_compact_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_game_mean_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_game_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_game_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jared_goff_game_mean_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_game_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_game_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_game_mean_te1,TE,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_game_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_game_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_game_mean_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_game_mean_te2,RB,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+jared_goff_game_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_game_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_game_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_game_mean_te2,FLEX,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_game_balanced_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_game_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_game_balanced_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jared_goff_game_balanced_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_game_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_game_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_game_balanced_te1,TE,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_game_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_game_balanced_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_game_balanced_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_game_balanced_te2,RB,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+jared_goff_game_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_game_balanced_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_game_balanced_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_game_balanced_te2,FLEX,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+jared_goff_gibbs_mean_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_gibbs_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jared_goff_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_gibbs_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_gibbs_mean_te1,TE,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_gibbs_mean_te1,FLEX,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,23.7964,Confirm active at lock
+jared_goff_gibbs_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_gibbs_mean_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,23.7964,Confirm active at lock
+jared_goff_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_gibbs_mean_te2,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+jared_goff_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_gibbs_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_gibbs_mean_te2,FLEX,Sam LaPorta,TE,DET,ARI,4900,2026-10-11T20:25:00Z,11.2400,11.2400,11.2400,8.9840,Confirm active at lock
+jared_goff_gibbs_mean_te2,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+jared_goff_two_wr_mean_te1,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_two_wr_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_two_wr_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jared_goff_two_wr_mean_te1,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_two_wr_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+jared_goff_two_wr_mean_te1,WR,Jameson Williams,WR,DET,ARI,5900,2026-10-11T20:25:00Z,12.3680,12.3680,12.3680,9.8864,Confirm active at lock
+jared_goff_two_wr_mean_te1,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,9.1220,Reduced target assumption with Collins back; monitor Dell activation
+jared_goff_two_wr_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+jared_goff_two_wr_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+jared_goff_two_wr_mean_te2,QB,Jared Goff,QB,DET,ARI,6600,2026-10-11T20:25:00Z,20.5493,20.5493,20.5493,16.3734,Confirm active at lock
+jared_goff_two_wr_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+jared_goff_two_wr_mean_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+jared_goff_two_wr_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,16.4240,Confirm active at lock
+jared_goff_two_wr_mean_te2,WR,Jameson Williams,WR,DET,ARI,5900,2026-10-11T20:25:00Z,12.3680,12.3680,12.3680,9.8864,Confirm active at lock
+jared_goff_two_wr_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+jared_goff_two_wr_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+jared_goff_two_wr_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+jared_goff_two_wr_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_compact_mean_te1,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_compact_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+drake_maye_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_compact_mean_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,18.7820,Confirm active and normal role at lock
+drake_maye_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_compact_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_compact_mean_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_compact_mean_te2,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_compact_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+drake_maye_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_compact_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_compact_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+drake_maye_compact_mean_te2,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_compact_balanced_te1,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_compact_balanced_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+drake_maye_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_compact_balanced_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,18.7820,Confirm active and normal role at lock
+drake_maye_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_compact_balanced_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_compact_balanced_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_compact_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_compact_balanced_te2,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_compact_balanced_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+drake_maye_compact_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_compact_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_compact_balanced_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+drake_maye_compact_balanced_te2,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+drake_maye_game_mean_te2,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_game_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+drake_maye_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_game_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_game_mean_te2,WR,Romeo Doubs,WR,NE,LV,5000,2026-10-11T17:00:00Z,10.2920,10.2920,10.2920,8.2256,Confirm active at lock
+drake_maye_game_mean_te2,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,14.3300,14.3300,Confirm active at lock
+drake_maye_game_mean_te2,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_game_balanced_te2,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_game_balanced_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+drake_maye_game_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+drake_maye_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_game_balanced_te2,WR,Romeo Doubs,WR,NE,LV,5000,2026-10-11T17:00:00Z,10.2920,10.2920,10.2920,8.2256,Confirm active at lock
+drake_maye_game_balanced_te2,TE,Brock Bowers,TE,LV,NE,7000,2026-10-11T17:00:00Z,14.3300,14.3300,14.3300,14.3300,Confirm active at lock
+drake_maye_game_balanced_te2,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+drake_maye_gibbs_mean_te1,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_gibbs_mean_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+drake_maye_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_gibbs_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+drake_maye_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_gibbs_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_gibbs_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_gibbs_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+drake_maye_gibbs_mean_te2,QB,Drake Maye,QB,NE,LV,6300,2026-10-11T17:00:00Z,20.4509,20.4509,20.4509,16.9527,Confirm active at lock
+drake_maye_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+drake_maye_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+drake_maye_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+drake_maye_gibbs_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+drake_maye_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+drake_maye_gibbs_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,9.1220,Reduced target assumption with Collins back; monitor Dell activation
+drake_maye_gibbs_mean_te2,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,7.1200,Confirm active at lock
+drake_maye_gibbs_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_compact_mean_te1,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_compact_mean_te1,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+tyson_bagent_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_compact_mean_te1,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_compact_mean_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_compact_mean_te1,FLEX,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+tyson_bagent_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_compact_mean_te2,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_compact_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+tyson_bagent_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_compact_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_compact_mean_te2,TE,T.J. Hockenson,TE,MIN,NO,4800,2026-10-11T17:00:00Z,11.7690,11.7690,11.7690,11.7690,Verify Jefferson status before increasing target assumption
+tyson_bagent_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_compact_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_compact_balanced_te1,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_compact_balanced_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+tyson_bagent_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_compact_balanced_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,18.7820,Confirm active and normal role at lock
+tyson_bagent_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_compact_balanced_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_compact_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_compact_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_compact_balanced_te2,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_compact_balanced_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+tyson_bagent_compact_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_compact_balanced_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+tyson_bagent_compact_balanced_te2,TE,Colston Loveland,TE,CHI,GB,4600,2026-10-11T17:00:00Z,10.3100,10.3100,10.3100,8.2400,Confirm active and normal role at lock
+tyson_bagent_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_compact_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_game_mean_te1,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_game_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_game_mean_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+tyson_bagent_game_mean_te1,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_game_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_game_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+tyson_bagent_game_mean_te1,TE,Colston Loveland,TE,CHI,GB,4600,2026-10-11T17:00:00Z,10.3100,10.3100,10.3100,8.2400,Confirm active and normal role at lock
+tyson_bagent_game_mean_te1,FLEX,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_game_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_game_mean_te2,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_game_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+tyson_bagent_game_mean_te2,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_game_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_game_mean_te2,TE,Colston Loveland,TE,CHI,GB,4600,2026-10-11T17:00:00Z,10.3100,10.3100,10.3100,8.2400,Confirm active and normal role at lock
+tyson_bagent_game_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_game_balanced_te1,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_game_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_game_balanced_te1,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+tyson_bagent_game_balanced_te1,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_game_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_game_balanced_te1,WR,Luther Burden III,WR,CHI,GB,4900,2026-10-11T17:00:00Z,10.5920,10.5920,10.5920,8.4656,Confirm active at lock
+tyson_bagent_game_balanced_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_game_balanced_te1,FLEX,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_game_balanced_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+tyson_bagent_game_balanced_te2,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_game_balanced_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+tyson_bagent_game_balanced_te2,WR,Christian Watson,WR,GB,CHI,6400,2026-10-11T17:00:00Z,15.4850,15.4850,15.4850,15.4850,Confirm active at lock
+tyson_bagent_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_game_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_game_balanced_te2,TE,Colston Loveland,TE,CHI,GB,4600,2026-10-11T17:00:00Z,10.3100,10.3100,10.3100,8.2400,Confirm active and normal role at lock
+tyson_bagent_game_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+tyson_bagent_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_gibbs_mean_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_gibbs_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_gibbs_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+tyson_bagent_gibbs_mean_te2,QB,Tyson Bagent,QB,CHI,GB,4700,2026-10-11T17:00:00Z,15.5208,12.2486,15.5208,12.7126,Bears confirmed starter; volume and efficiency remain uncertain
+tyson_bagent_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+tyson_bagent_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+tyson_bagent_gibbs_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+tyson_bagent_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+tyson_bagent_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,9.6408,Confirm active at lock
+tyson_bagent_gibbs_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,9.1220,Reduced target assumption with Collins back; monitor Dell activation
+tyson_bagent_gibbs_mean_te2,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+tyson_bagent_gibbs_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_compact_mean_te1,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_compact_mean_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+aaron_rodgers_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_compact_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+aaron_rodgers_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_compact_mean_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_compact_mean_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+aaron_rodgers_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_compact_mean_te2,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_compact_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+aaron_rodgers_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_compact_mean_te2,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+aaron_rodgers_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_compact_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+aaron_rodgers_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_compact_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_compact_balanced_te1,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_compact_balanced_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+aaron_rodgers_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_compact_balanced_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+aaron_rodgers_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_compact_balanced_te1,TE,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_compact_balanced_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+aaron_rodgers_compact_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_compact_balanced_te2,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_compact_balanced_te2,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.9280,Committee with Montgomery; do not infer lead role from recent touchdowns
+aaron_rodgers_compact_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+aaron_rodgers_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_compact_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_compact_balanced_te2,TE,T.J. Hockenson,TE,MIN,NO,4800,2026-10-11T17:00:00Z,11.7690,11.7690,11.7690,11.7690,Verify Jefferson status before increasing target assumption
+aaron_rodgers_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_compact_balanced_te2,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+aaron_rodgers_game_mean_te1,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_game_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_game_mean_te1,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+aaron_rodgers_game_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_game_mean_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,18.7820,Confirm active and normal role at lock
+aaron_rodgers_game_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_game_mean_te1,TE,Pat Freiermuth,TE,PIT,IND,3900,2026-10-11T17:00:00Z,8.4050,8.4050,8.4050,6.7160,Confirm active and normal role at lock
+aaron_rodgers_game_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+aaron_rodgers_game_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+aaron_rodgers_game_mean_te2,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_game_mean_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+aaron_rodgers_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_game_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+aaron_rodgers_game_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_game_mean_te2,TE,Pat Freiermuth,TE,PIT,IND,3900,2026-10-11T17:00:00Z,8.4050,8.4050,8.4050,6.7160,Confirm active and normal role at lock
+aaron_rodgers_game_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_game_balanced_te1,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_game_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_game_balanced_te1,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+aaron_rodgers_game_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_game_balanced_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,18.7820,Confirm active and normal role at lock
+aaron_rodgers_game_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_game_balanced_te1,TE,Pat Freiermuth,TE,PIT,IND,3900,2026-10-11T17:00:00Z,8.4050,8.4050,8.4050,6.7160,Confirm active and normal role at lock
+aaron_rodgers_game_balanced_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+aaron_rodgers_game_balanced_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+aaron_rodgers_game_balanced_te2,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_game_balanced_te2,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+aaron_rodgers_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_game_balanced_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+aaron_rodgers_game_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_game_balanced_te2,TE,Pat Freiermuth,TE,PIT,IND,3900,2026-10-11T17:00:00Z,8.4050,8.4050,8.4050,6.7160,Confirm active and normal role at lock
+aaron_rodgers_game_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_gibbs_mean_te1,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_gibbs_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,FLEX,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+aaron_rodgers_gibbs_mean_te1,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,QB,Aaron Rodgers,QB,PIT,IND,5300,2026-10-11T17:00:00Z,16.4872,16.4872,16.4872,13.1208,Confirm active and normal role at lock
+aaron_rodgers_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+aaron_rodgers_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,11.8640,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+aaron_rodgers_gibbs_mean_te2,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+aaron_rodgers_gibbs_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_compact_mean_te1,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_compact_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_compact_mean_te1,RB,Jonathan Taylor,RB,IND,PIT,7800,2026-10-11T17:00:00Z,19.6150,19.6150,15.6840,19.6150,Confirm active at lock
+cj_stroud_compact_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_compact_mean_te1,WR,Malik Washington,WR,MIA,CIN,4600,2026-10-11T17:00:00Z,10.5455,10.5455,10.5455,10.5455,Confirm active at lock
+cj_stroud_compact_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_compact_mean_te1,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_compact_mean_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+cj_stroud_compact_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_compact_mean_te2,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_compact_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_compact_mean_te2,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+cj_stroud_compact_mean_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+cj_stroud_compact_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_compact_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_compact_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_compact_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+cj_stroud_compact_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_compact_balanced_te1,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_compact_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_compact_balanced_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+cj_stroud_compact_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_compact_balanced_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,15.0176,Confirm active and normal role at lock
+cj_stroud_compact_balanced_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_compact_balanced_te1,TE,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+cj_stroud_compact_balanced_te1,FLEX,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+cj_stroud_compact_balanced_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+cj_stroud_compact_balanced_te2,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_compact_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_compact_balanced_te2,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+cj_stroud_compact_balanced_te2,WR,Amon-Ra St. Brown,WR,DET,ARI,7900,2026-10-11T20:25:00Z,20.5400,20.5400,20.5400,20.5400,Confirm active at lock
+cj_stroud_compact_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_compact_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_compact_balanced_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_compact_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+cj_stroud_compact_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_game_mean_te1,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_game_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_game_mean_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+cj_stroud_game_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_game_mean_te1,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+cj_stroud_game_mean_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,15.0176,Confirm active and normal role at lock
+cj_stroud_game_mean_te1,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_game_mean_te1,FLEX,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+cj_stroud_game_mean_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_game_mean_te2,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_game_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_game_mean_te2,RB,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+cj_stroud_game_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_game_mean_te2,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,15.0176,Confirm active and normal role at lock
+cj_stroud_game_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_game_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_game_mean_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+cj_stroud_game_mean_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_game_balanced_te1,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_game_balanced_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_game_balanced_te1,RB,Quinshon Judkins,RB,CLE,NYJ,5700,2026-10-11T17:00:00Z,13.3850,13.3850,10.7000,13.3850,"Revised rushing and receiving assumptions; analyst estimate, not fitted forecast"
+cj_stroud_game_balanced_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_game_balanced_te1,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+cj_stroud_game_balanced_te1,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,15.0176,Confirm active and normal role at lock
+cj_stroud_game_balanced_te1,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_game_balanced_te1,FLEX,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+cj_stroud_game_balanced_te1,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_game_balanced_te2,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_game_balanced_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_game_balanced_te2,RB,Tony Pollard,RB,TEN,HOU,5600,2026-10-11T17:00:00Z,12.3420,12.3420,9.8656,12.3420,Foot FP Thursday; verify final status; committee and difficult matchup
+cj_stroud_game_balanced_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_game_balanced_te2,WR,Nico Collins,WR,HOU,TEN,7500,2026-10-11T17:00:00Z,18.7820,18.7820,18.7820,15.0176,Confirm active and normal role at lock
+cj_stroud_game_balanced_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_game_balanced_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_game_balanced_te2,FLEX,Trey McBride,TE,ARI,DET,6700,2026-10-11T20:25:00Z,17.8100,17.8100,17.8100,17.8100,Confirm active at lock
+cj_stroud_game_balanced_te2,DST,Browns DST,DST,CLE,NYJ,2800,2026-10-11T17:00:00Z,7.1200,7.1200,7.1200,7.1200,Confirm active at lock
+cj_stroud_gibbs_mean_te1,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_gibbs_mean_te1,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_gibbs_mean_te1,RB,Woody Marks,RB,HOU,TEN,4800,2026-10-11T17:00:00Z,10.9280,10.9280,8.7344,10.0574,Committee with Montgomery; do not infer lead role from recent touchdowns
+cj_stroud_gibbs_mean_te1,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_gibbs_mean_te1,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+cj_stroud_gibbs_mean_te1,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_gibbs_mean_te1,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_gibbs_mean_te1,FLEX,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+cj_stroud_gibbs_mean_te1,DST,Chargers DST,DST,LAC,DEN,2300,2026-10-11T20:05:00Z,5.2800,5.2800,5.2800,5.2800,Confirm active at lock
+cj_stroud_gibbs_mean_te2,QB,C.J. Stroud,QB,HOU,TEN,5900,2026-10-11T17:00:00Z,19.1567,19.1567,19.1567,15.4143,Confirm active and normal role at lock
+cj_stroud_gibbs_mean_te2,RB,Chase Brown,RB,CIN,MIA,6900,2026-10-11T17:00:00Z,18.9295,17.4156,15.1356,18.9295,Receiving workload sensitive to Chase and Higgins availability
+cj_stroud_gibbs_mean_te2,RB,Jahmyr Gibbs,RB,DET,ARI,9800,2026-10-11T20:25:00Z,25.6330,20.4984,20.4984,25.6330,Confirm active at lock
+cj_stroud_gibbs_mean_te2,WR,DK Metcalf,WR,PIT,IND,5400,2026-10-11T17:00:00Z,14.8400,14.8400,14.8400,14.8400,Eight-target analyst scenario with reported Pittman absence; test seven targets too
+cj_stroud_gibbs_mean_te2,WR,Michael Wilson,WR,ARI,DET,6200,2026-10-11T20:25:00Z,15.6520,15.6520,15.6520,15.6520,Confirm active at lock
+cj_stroud_gibbs_mean_te2,WR,Rome Odunze,WR,CHI,GB,4700,2026-10-11T17:00:00Z,12.0610,12.0610,12.0610,12.0610,Confirm active at lock
+cj_stroud_gibbs_mean_te2,TE,Dalton Schultz,TE,HOU,TEN,4000,2026-10-11T17:00:00Z,9.1220,9.1220,9.1220,7.2896,Reduced target assumption with Collins back; monitor Dell activation
+cj_stroud_gibbs_mean_te2,FLEX,Hunter Henry,TE,NE,LV,3700,2026-10-11T17:00:00Z,8.9100,8.9100,8.9100,8.9100,Confirm active at lock
+cj_stroud_gibbs_mean_te2,DST,Texans DST,DST,HOU,TEN,3400,2026-10-11T17:00:00Z,8.2800,8.2800,8.2800,8.2800,Confirm active at lock

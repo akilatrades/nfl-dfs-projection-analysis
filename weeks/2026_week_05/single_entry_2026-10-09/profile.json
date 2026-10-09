@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-10-09 before final Friday reports",
+  "platform": "DraftKings NFL Classic assumed",
+  "slate": "Sunday October 11 afternoon, eleven games; exclude London, TNF, SNF, MNF",
+  "entry_limit": 1,
+  "entry_fee_usd": null,
+  "contest_id": null,
+  "official_salary_export_verified": false,
+  "quarterbacks": [
+    "Jacoby Brissett",
+    "Jared Goff",
+    "Drake Maye",
+    "Tyson Bagent",
+    "Aaron Rodgers",
+    "C.J. Stroud"
+  ],
+  "holds": [
+    "Mitch Tinsley",
+    "Dohnte Meyers",
+    "Stefon Diggs",
+    "Jaylen Warren",
+    "Emanuel Wilson",
+    "Braelon Allen"
+  ],
+  "field_bands": [
+    {
+      "label": "1000-3000",
+      "minimum": 1000,
+      "maximum": 3000,
+      "selected_candidate": "drake_maye_compact_mean_te2"
+    },
+    {
+      "label": "4000-6000",
+      "minimum": 4000,
+      "maximum": 6000,
+      "selected_candidate": "jacoby_brissett_gibbs_mean_te2"
+    },
+    {
+      "label": "15000-25000",
+      "minimum": 15000,
+      "maximum": 25000,
+      "selected_candidate": "tyson_bagent_game_mean_te1"
+    }
+  ],
+  "policy": "Compare expected points, symmetric workload stresses, and concentrated game stacks; no ownership bonus; no claim of optimal contest EV; all fields at least 1000"
+}

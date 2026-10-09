@@ -114,9 +114,9 @@ See [docs/methodology.md](docs/methodology.md) for the analytical framework and 
 
 ## Current contest focus
 
-Tonight’s separate [TB–DAL Showdown research](weeks/2026_week_05/showdown_tb_dal/README.md) targets the user’s **$5 single-entry contest with approximately 19,000 entries**. It includes a $49,900 Lamb Captain recommendation and a Dak Captain alternative, using an explicitly external projection snapshot.
+Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) includes examples for 1,000–3,000, 4,000–6,000 and 15,000–25,000 entries. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
 
-Active Week 5 research targets **$12 single entry with 4,000–6,000 entries**. The [current $49,900 recommendation](weeks/2026_week_05/single_entry/recommendation.md) pairs Brissett with Michael Wilson and McBride, with St. Brown on the other side. It is provisional pending official salaries and final availability. The field size is a user-supplied target; exact contest identity and payouts are unverified. Historical Week 4 records are retained.
+The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/README.md) and earlier Sunday recommendations are preserved as dated research history.
 
 ## Latest reproducible research
 
@@ -125,9 +125,10 @@ python run_week4_audit.py
 python run_week5_research.py
 python run_single_entry.py
 python run_single_entry_field.py
+python run_week5_field_sizes.py
 ```
 
-Week 5 uses manual analyst priors, published salary references and a 35-player pool. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
+Current Week 5 research uses manual analyst priors, published salary references and a 43-player pool; the earlier snapshot contains 35 players. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
 
 ## Case studies
 

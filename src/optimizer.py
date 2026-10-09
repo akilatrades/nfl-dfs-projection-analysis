@@ -17,6 +17,7 @@ def optimize_lineup(
     exclude: tuple[str, ...] = (),
     locks: tuple[str, ...] = (),
     salary_cap: int = 50_000,
+    max_tight_ends: int = 2,
 ) -> pd.DataFrame:
     """Maximize the minimum total across supplied projection scenarios.
 
@@ -24,6 +25,7 @@ def optimize_lineup(
     stress screen. Neither objective estimates tournament EV or a percentile.
     Strategy constraints: QB with WR/TE, no offense against own DST, at most
     four from a team and one speculative-role player. Bring-back is optional.
+    max_tight_ends=1 separately tests constructions without a tight-end FLEX.
     """
     required = {
         "player",
@@ -51,6 +53,8 @@ def optimize_lineup(
         raise ValueError("role_risk must be 0 or 1.")
     if not isinstance(min_stack, int) or min_stack < 0 or salary_cap <= 0:
         raise ValueError("Invalid stack minimum or salary cap.")
+    if max_tight_ends not in (1, 2):
+        raise ValueError("max_tight_ends must be 1 or 2.")
     if set(exclude) - set(pool.player):
         raise ValueError("Unknown excluded player.")
     if set(locks) - set(pool.player) or set(locks) & set(exclude):
@@ -75,7 +79,7 @@ def optimize_lineup(
         ("QB", 1, 1),
         ("RB", 2, 3),
         ("WR", 3, 4),
-        ("TE", 1, 2),
+        ("TE", 1, max_tight_ends),
         ("DST", 1, 1),
     ]:
         constraint(p.position == pos, lo, hi)

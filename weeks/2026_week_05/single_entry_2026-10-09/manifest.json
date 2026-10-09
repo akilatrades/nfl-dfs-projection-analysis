@@ -1,0 +1,31 @@
+{
+  "status": "provisional_pre_final_injury_reports",
+  "candidate_specifications": 62,
+  "feasible_specifications": 60,
+  "infeasible_specifications": [
+    {
+      "candidate_id": "drake_maye_game_mean_te1",
+      "reason": "No certified optimum: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "candidate_id": "drake_maye_game_balanced_te1",
+      "reason": "No certified optimum: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  ],
+  "unique_rosters": 45,
+  "field_size_model": "None; field bands express analyst preferences",
+  "scenarios": "Deterministic sensitivities; no assigned probabilities",
+  "ownership_and_payout_model": "None",
+  "sha256": {
+    "weeks/2026_week_05/single_entry_2026-10-09/projection_inputs.csv": "6b61e30683862b60faf2b5abb77ad2056bb34906b5f760f7d6242ad79776ec54",
+    "weeks/2026_week_05/single_entry_2026-10-09/input_changes.json": "c38d207076cfa85ed5def0d0e2737cf168de12fa9ae5aa066705edc3c15e71a1",
+    "weeks/2026_week_05/single_entry_2026-10-09/profile.json": "2319b6ba1747ac1c2f5d891e598b20da2c701ab3527e83a0b74eeda7298aea1e",
+    "run_week5_field_sizes.py": "4cfccbfac45ebb69dd445430e1c7985c01ae4bda562962649289205a0cdf0f0a",
+    "run_week5_research.py": "19c1ed71317a5d50428e897433a0281f42b4e5ba9397e26c1e73da9cae8424b2",
+    "src/optimizer.py": "389f81982321cbfb76781ab13cf74eedacbe6843e560d9266e3d7435a47bb564",
+    "src/projections.py": "967089d27555add35c711488da3b4a413961eb7197ebc1e63d59e3df8ed070ea",
+    "weeks/2026_week_05/single_entry_2026-10-09/comparison.csv": "0d5de79a36b8b3985b91921d18b104c434c6cc65055f6eb205ae9b695cd98be4",
+    "weeks/2026_week_05/single_entry_2026-10-09/lineups.csv": "50a042f41897e0385b01b6ad17db40f4125fc1c00028a5a534ff228a21f0bd40",
+    "weeks/2026_week_05/single_entry_2026-10-09/recommended_lineups.csv": "1d3bdcc50f55d881b90460ae8208c4992de2a52840f4fa23eff40a9fcb5c4e66"
+  }
+}

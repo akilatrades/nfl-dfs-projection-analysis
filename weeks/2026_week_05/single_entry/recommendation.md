@@ -1,5 +1,7 @@
 # One lineup for 4,000–6,000 entries
 
+**October 8 snapshot. Superseded for current Sunday planning by the [October 9 field-size comparison](../single_entry_2026-10-09/README.md).**
+
 **October 8 research decision: use this $49,900 build as the current single-entry recommendation for Sunday, October 11.** The requested 4–6k is interpreted as entries. Exact contest and payouts are still unknown. Published salaries need matching to the actual contest, and final availability is pending. No entry has been submitted.
 
 | Slot | Player | Salary |

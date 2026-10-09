@@ -1,0 +1,82 @@
+{
+  "baseline": "../projection_inputs.csv",
+  "updated_numeric_assumptions": [
+    {
+      "player": "Quinshon Judkins",
+      "field": "rush_attempts",
+      "old": 18.0,
+      "new": 16
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "yards_per_carry",
+      "old": 4.1,
+      "new": 3.6
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "rush_td",
+      "old": 0.55,
+      "new": 0.45
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "targets",
+      "old": 2.0,
+      "new": 3.5
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "catch_rate",
+      "old": 0.7,
+      "new": 0.75
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "yards_per_reception",
+      "old": 6.0,
+      "new": 6.4
+    },
+    {
+      "player": "Quinshon Judkins",
+      "field": "prob_100_rush",
+      "old": 0.22,
+      "new": 0.1
+    },
+    {
+      "player": "DK Metcalf",
+      "field": "targets",
+      "old": 7.0,
+      "new": 8
+    },
+    {
+      "player": "DK Metcalf",
+      "field": "rec_td",
+      "old": 0.4,
+      "new": 0.45
+    },
+    {
+      "player": "Dalton Schultz",
+      "field": "targets",
+      "old": 6.5,
+      "new": 5.5
+    },
+    {
+      "player": "Dalton Schultz",
+      "field": "rec_td",
+      "old": 0.25,
+      "new": 0.2
+    }
+  ],
+  "new_players": [
+    "Aaron Rodgers",
+    "C.J. Stroud",
+    "Nico Collins",
+    "Colston Loveland",
+    "Pat Freiermuth",
+    "Tony Pollard",
+    "Woody Marks",
+    "Braelon Allen"
+  ],
+  "boundary": "All numerical football inputs remain analyst assumptions; new salary references and role evidence in README"
+}

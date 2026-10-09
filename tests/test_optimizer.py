@@ -90,6 +90,17 @@ class OptimizerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             optimize_lineup(self.pool, ["model_projection"], salary_cap=100)
 
+    def test_single_tight_end_constraint(self):
+        pool = self.pool.copy()
+        pool.loc[pool.position.eq("TE"), "model_projection"] = 100
+        unrestricted = optimize_lineup(pool, ["model_projection"])
+        restricted = optimize_lineup(pool, ["model_projection"], max_tight_ends=1)
+        self.assertEqual(sum(unrestricted.position.eq("TE")), 2)
+        self.assertEqual(sum(restricted.position.eq("TE")), 1)
+        self.assertLess(restricted.attrs["objective"], unrestricted.attrs["objective"])
+        with self.assertRaises(ValueError):
+            optimize_lineup(pool, ["model_projection"], max_tight_ends=0)
+
     def test_flex_is_latest_eligible_player(self):
         result = optimize_lineup(self.pool, ["model_projection", "stress"])
         extra_pos = next(

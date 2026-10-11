@@ -659,4 +659,4 @@ const summary=scenarios.map(sc=>{
      z.name.startsWith("7k ") ||
      ["Brissett/Wilson/McBride","Goff/Amon-Ra/LaPorta","Love/Watson/Wilson/Jameson/McBride/Henry"].includes(z.name))};
 });
-process.stdout.write(JSON.stringify({checks:checks.filter(z=>z.name.startsWith("7k ")),summary},null,2)+"\\n");
+process.stdout.write(JSON.stringify({checks:checks.filter(z=>z.name.startsWith("7k ")),summary},null,2)+String.fromCharCode(10));

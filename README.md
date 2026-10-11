@@ -126,9 +126,10 @@ python run_week5_research.py
 python run_single_entry.py
 python run_single_entry_field.py
 python run_week5_field_sizes.py
+python run_week5_saturday.py
 ```
 
-Current Week 5 research uses manual analyst priors, published salary references and a 43-player pool; the earlier snapshot contains 35 players. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
+Current Week 5 research uses manual analyst priors and published salary references: the October 9 field-size snapshot has 43 players, the Saturday October 10 injury refresh 44, and the earlier baseline 35. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
 
 ## Case studies
 

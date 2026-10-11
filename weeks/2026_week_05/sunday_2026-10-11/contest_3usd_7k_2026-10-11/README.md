@@ -1,6 +1,6 @@
 # Week 5 2026 — $3 / ~7,000-entry single-entry main-slate decision
 
-**Decision state:** provisional Sunday October 11, before the noon Central Week 5 Classic lock. User's $5 / ~23,000-entry lineup has already been **entered according to the user** and is held unchanged. The $3 lineup in this document is a separate selection, **not confirmed entered**. Exact contest ID and prize payout structure not provided, so the 7,000-entry field size affects our qualitative construction, not a calibrated payout optimization.
+**Entry update:** I entered this $3 / ~7,000-field Goff stack and the separate $5 / ~23,000-field Love–Watson stack. This analysis was originally written before I submitted the $3 entry, and I have kept those pre-lock assumptions unchanged. Both rosters are saved in my [entry log](../entered_lineups_2026-10-11.md). Exact contest ID and prize payout structure not provided, so the 7,000-entry field size affects our qualitative construction, not a calibrated payout optimization.
 
 ## Selection
 
@@ -19,7 +19,7 @@
 
 [Selected roster CSV](selected_prelock.csv). The lineup is **name/salary checked only** against published main-slate prices; final contest-specific DraftKings player IDs, actual DK contest salary export and player statuses are still unverified. Roster validation: exactly 1 QB / 2 RB / 3 WR / 1 TE / 1 WR-RB-TE FLEX / 1 DST; nine different players; no offensive players against the selected DST; Goff has two Lions pass-catching stack partners. Kittle (late kickoff) is at FLEX.
 
-**Only two shared names** with the user's already entered $5 lineup (Love / Chase Brown / Swift / Michael Wilson / Christian Watson / Jameson Williams / Hunter Henry / Trey McBride / Chargers DST): Chase Brown and Chargers DST. Do **not** infer lineup-score independence just because player overlap is low: both entries depend on Lions–Cardinals production in different ways.
+**Only two shared names** with my $5 lineup (Love / Chase Brown / Swift / Michael Wilson / Christian Watson / Jameson Williams / Hunter Henry / Trey McBride / Chargers DST): Chase Brown and Chargers DST. Do **not** infer lineup-score independence just because player overlap is low: both entries depend on Lions–Cardinals production in different ways.
 
 ## Why this beats simply reusing the $5 game script
 
@@ -60,7 +60,7 @@ The alternative **Judkins/Jones + Browns DST** lineup (Goff, Judkins, Jones, ARS
 1. At approximately **10:30 a.m. Central**, check final 1 p.m. ET NFL inactives for Chase Brown, Aaron Jones, Luther Burden, Tre Tucker, relevant defense and any replacement depth changes; avoid submitting blindly before confirmation.
 2. Check the exact **DraftKings Classic Sunday MAIN contest salary export** and 7k single-entry rule; site-specific contest may differ from third-party referenced prices.
 3. Detroit/Arizona and SF/SEA late participants must be confirmed for later kickoff. LaPorta/Kittle late starts are legitimate FLEX considerations.
-4. Record user's confirmed submitted $3 lineup and contest ID only if supplied. User did confirm *only the first $5 lineup* was entered.
+4. The $3 lineup was subsequently entered along with the $5 lineup. I still need to save the exact contest IDs and entry receipts for the post-slate audit.
 5. Post-slate: compare realized scores and ownership to the saved projections; track each contest rank and payout, and note any injury exits; do not turn one good result into a claim of predictive edge.
 
 ## Sources and evidence timestamps

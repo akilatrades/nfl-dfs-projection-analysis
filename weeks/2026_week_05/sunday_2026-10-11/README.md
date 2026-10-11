@@ -1,5 +1,7 @@
 # 2026 Week 5 — Sunday single-entry research (October 11)
 
+> **Entry status — user-confirmed:** Both the $5 / ~23,000-entry and $3 / ~7,000-entry lineups have now been submitted according to the user. The [entered-roster ledger](user_confirmed_entries_2026-10-11.md) fixes the two exact selections and post-slate audit fields. Previous pre-lock source notes remain dated and unmodified; contest submission has **not** been independently verified on DraftKings.
+
 > **Newest separately targeted contest:** [$3 / ~7,000 entrants Goff–Amon-Ra–LaPorta with Aaron Jones, Luther Burden and Tre Tucker](contest_3usd_7k_2026-10-11/README.md); [salary-checked roster](contest_3usd_7k_2026-10-11/selected_prelock.csv). Existing $5 lineup is user-confirmed as entered and is left intact. The $3 research was screened on 400K simulated score draws with alternative projection and workload assumptions. Actual field finishes and official DK ID export remain unknown.
 
 > **Additional pre-lock decision check:** [Review of four-offensive-player CHI–GB concentration and revised lineup](selected_prelock_revision_chicago.md). The original Love–Watson pick is preserved, with a Malik Washington alternative that sacrifices 1.52 subjective mean points for less CHI–GB dependence. No tournament-EV advantage is claimed.

@@ -118,6 +118,8 @@ Active Sunday Week 5 research now covers **single-entry contests with at least 1
 
 The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/README.md) and earlier Sunday recommendations are preserved as dated research history.
 
+The [October 11 process correction](weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11/README.md) revisits the $5 / ~23K single-entry choices using Week 3–4 lessons: the Doubs and Allen workload assumptions are stress-tested, the forced weak run-back is removed, and Goff/Brissett/Maye/Love roles are compared with frozen pre-lock lineups. The correction is a separate dated snapshot, not a backfilled performance claim.
+
 ## Latest reproducible research
 
 ```bash
@@ -128,6 +130,7 @@ python run_single_entry_field.py
 python run_week5_field_sizes.py
 python run_week5_saturday.py
 python run_week5_sunday.py
+python run_week5_process_review.py
 ```
 
 Current Week 5 research uses manual analyst priors and published salary references: October 9 field-size snapshot 43 players, Saturday October 10 snapshot 44, and Sunday October 11 candidate pool 48; the earlier baseline had 35. The Sunday Python rerun has not yet been executed in this chat. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.

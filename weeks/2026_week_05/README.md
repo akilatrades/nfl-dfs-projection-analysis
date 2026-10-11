@@ -1,5 +1,6 @@
 # 2026 Week 5 — single-entry research
 
+> **Newest work: Sunday, October 11 pre-lock update.** The [Sunday alternative-game and ownership research](sunday_2026-10-11/README.md) carries forward the October 9 43-player snapshot and the October 10 injury update into a 48-player pool. It compares four provisional single-entry lineups (Maye/Doubs, Purdy/Kittle, Love/Watson, and a Gibbs/McBride variant), records [salary-validated preview slots](sunday_2026-10-11/preview_lineups.csv), and adds a joint Detroit–Arizona downside sensitivity. These are manual-input means, not a simulated field-edge or guaranteed entry. Sunday official salaries, final inactives and contest payout structures remain outstanding. Reproduce with `python run_week5_sunday.py` and check the new unit tests. The runner has been pushed, but its generated files are not yet run-produced or verified.\n\n
 **Current October 9 scope: single-entry contests with at least 1,000 entries, Sunday October 11.** See the [new field-size constructions](single_entry_2026-10-09/README.md) for three starting lineups, updated assumptions and 43-player research. Entry fee, exact contest and official salary export remain undecided.
 
 The analysis below is the earlier general baseline, retained for comparison. Its provisional leader has not been selected as the final single-entry lineup.

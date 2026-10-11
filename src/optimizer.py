@@ -18,6 +18,8 @@ def optimize_lineup(
     locks: tuple[str, ...] = (),
     salary_cap: int = 50_000,
     max_tight_ends: int = 2,
+    team_group_bounds: tuple[tuple[str, ...], int, int] | None = None,
+    player_group_bounds: tuple[tuple[str, ...], int, int] | None = None,
 ) -> pd.DataFrame:
     """Maximize the minimum total across supplied projection scenarios.
 
@@ -84,6 +86,16 @@ def optimize_lineup(
     ]:
         constraint(p.position == pos, lo, hi)
     constraint(p.role_risk, hi=1)
+    # Optional grouping limits allow a slate screen to cap correlated game
+    # exposure and the number of popular players without changing the scoring
+    # objective. These are analyst search constraints, not official DK rules.
+    for column, bounds in (("team", team_group_bounds), ("player", player_group_bounds)):
+        if bounds is None:
+            continue
+        values, lo, hi = bounds
+        if not values or not (0 <= lo <= hi <= 9):
+            raise ValueError("Invalid optional group bounds.")
+        constraint(p[column].isin(values), lo, hi)
     for team in sorted(p.team.unique()):
         constraint(p.team == team, hi=4)
     games = p.apply(lambda r: "-".join(sorted([r.team, r.opponent])), axis=1)

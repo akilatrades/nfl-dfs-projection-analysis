@@ -1,5 +1,7 @@
 # 2026 Week 5 — Sunday single-entry research (October 11)
 
+**Final early-inactives review:** I ran the [Sunday 11 a.m. scoring-event audit](final_audit_2026-10-11/README.md) for both entries. Early official inactives did not require a change; the 180K-draw model identifies Goff passing-TD concentration in the $3 entry and Love/Arizona passing upside in the $5 entry. Late inactives remain outstanding. I kept both lineups as entered.
+
 ## Entries
 
 I entered both of my Week 5 Classic lineups: the **$5 / ~23K-field Love–Watson build** and the **$3 / ~7K-field Goff–St. Brown–LaPorta build**. I've saved the rosters and entry fees in my [Week 5 entry log](entered_lineups_2026-10-11.md). The submitted selections are separate from the early-morning candidate pool and simulations.

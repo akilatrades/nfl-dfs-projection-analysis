@@ -432,6 +432,48 @@ const lineups=[
       "Juwan",
       "Browns"
     ]
+  },
+  {
+    "name": "Love/Watson/Wilson/Jameson/McBride/Henry",
+    "ids": [
+      "Love",
+      "Brown",
+      "Swift",
+      "Wilson",
+      "Watson",
+      "Jameson",
+      "McBride",
+      "Henry",
+      "Chargers"
+    ]
+  },
+  {
+    "name": "Brissett/Wilson/McBride/Jameson/Tucker",
+    "ids": [
+      "Brissett",
+      "Brown",
+      "Swift",
+      "Wilson",
+      "Jameson",
+      "Tucker",
+      "McBride",
+      "Kittle",
+      "Chargers"
+    ]
+  },
+  {
+    "name": "Purdy/Wilson/Metcalf/McBride",
+    "ids": [
+      "Purdy",
+      "Brown",
+      "Swift",
+      "Wilson",
+      "Metcalf",
+      "Malik",
+      "Kittle",
+      "McBride",
+      "Chargers"
+    ]
   }
 ];
 function validate(players,lineups){let P=new Map(players.map(p=>[p.id,p]));const outcomes=[];for(let l of lineups){let ps=l.ids.map(id=>P.get(id));if(ps.includes(undefined))throw Error("Unknown player in "+l.name);let salary=ps.reduce((s,p)=>s+p.salary,0),counts={};for(let p of ps)counts[p.pos]=(counts[p.pos]||0)+1;

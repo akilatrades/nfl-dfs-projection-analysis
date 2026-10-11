@@ -120,6 +120,8 @@ The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/RE
 
 The [October 11 process correction](weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11/README.md) revisits the $5 / ~23K single-entry choices using Week 3–4 lessons: the Doubs and Allen workload assumptions are stress-tested, the forced weak run-back is removed, and Goff/Brissett/Maye/Love roles are compared with frozen pre-lock lineups. The correction is a separate dated snapshot, not a backfilled performance claim.
 
+The [October 11 correlated Monte Carlo decision](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) stress-tests 13 Week 5 large-field candidate lineups over two competing projection baselines and alternative player/game scenarios (945,000 seeded slate draws across the original and extended screens). Its [new $5/23k provisional roster](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/recommendation_prelock_v2.csv) is a **pre-lock decision, not a submitted entry**. The Monte Carlo is an **uncalibrated correlated score surrogate**, not a modeled opponent field, rank, payout or proof of edge.
+
 ## Latest reproducible research
 
 ```bash

@@ -62,7 +62,7 @@ Football priors are **not fitted**; all other untouched players retain the older
 
 ## Four candidate lineups from independent exhaustive constrained screen
 
-The dated [preview_lineups.csv](preview_lineups.csv) records all nine player slots and published salaries. These were checked against $50,000, one QB, two RB, three WR, one TE, FLEX, one DST, one QB pass-catcher, no offense opposing its own DST, and a maximum of three names in the five-player chalk core. **Scores are model means only.** The Python optimizer runner should be executed to re-derive candidates and save calibrated-to-code manifests. It has been pushed but not executed within this chat.
+The dated [preview_lineups.csv](preview_lineups.csv) records all nine player slots and published salaries. These were checked against $50,000, one QB, two RB, three WR, one TE, FLEX, one DST, one QB pass-catcher, no offense opposing its own DST, and a maximum of three names in the five-player chalk core. **Scores are model means only.** The Python optimizer runner should be executed to re-derive candidates and save calibrated-to-code manifests. I committed the runner source without producing verified runner outputs in that snapshot.
 
 | Label | QB plan | DET–ARI pieces | Salary | Model mean |
 |---|---|---|---:|---:|

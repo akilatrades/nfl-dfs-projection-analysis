@@ -101,6 +101,24 @@ class OptimizerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             optimize_lineup(pool, ["model_projection"], max_tight_ends=0)
 
+    def test_optional_team_and_player_group_caps(self):
+        result = optimize_lineup(
+            self.pool,
+            ["model_projection"],
+            team_group_bounds=(("A", "B"), 2, 2),
+            player_group_bounds=(("8", "9"), 1, 1),
+        )
+        self.assertEqual(result.team.isin(["A", "B"]).sum(), 2)
+        self.assertEqual(result.player.isin(["8", "9"]).sum(), 1)
+        for bad in [
+            (("A",), 3, 1),
+            ((), 0, 3),
+        ]:
+            with self.assertRaises(ValueError):
+                optimize_lineup(
+                    self.pool, ["model_projection"], team_group_bounds=bad
+                )
+
     def test_flex_is_latest_eligible_player(self):
         result = optimize_lineup(self.pool, ["model_projection", "stress"])
         extra_pos = next(

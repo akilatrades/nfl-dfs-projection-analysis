@@ -41,9 +41,9 @@ Source links:
 
 ## Remaining pre-lock risk gates
 
-1. Verify the user's actual 11-game DK Classic slate, contest salary IDs and eligibility; external salaries may differ.
+1. Verify my actual 11-game DK Classic slate, contest salary IDs and eligibility; external salaries may differ.
 2. Check official inactives, including Cincinnati Chase/Higgins for Chase Brown workload and Chicago Swift status. Main-slate lock noon CT, and standard inactives approximately 10:30 a.m. CT.
 3. Confirm Miami offensive role for Malik Washington, and Pittsburgh weather for DK Metcalf. If either condition undermines the case, re-optimize the entire nine-player build, not a salary-invalid ad hoc swap.
 4. If the contest still rewards a deliberately concentrated game-stack thesis, the **original Odunze version remains a valid candidate**: diversification at the cost of projection isn't automatically the right choice.
 
-This file preserves the chronological evidence trail. No DraftKings submission or user confirmation of entry is asserted.
+I kept this as a dated decision snapshot. The lineup was revised again before I entered the final $5 build; see the [entry log](entered_lineups_2026-10-11.md).

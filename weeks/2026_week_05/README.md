@@ -1,5 +1,7 @@
 # 2026 Week 5 — single-entry research
 
+**Final Sunday audit (11 a.m. Central):** I checked the [official early inactives and ran one last scoring-model sensitivity analysis](sunday_2026-10-11/final_audit_2026-10-11/README.md). The new run adds Poisson TD-count allocation, game-level correlation, a small logistic-regression diagnostic, published Elo and EPA cross-checks, and a Bayesian-style availability adjustment. Both entered lineups remain unchanged; late game inactives are not yet official. The [model implementation](sunday_2026-10-11/final_audit_2026-10-11/score_model.py), [results](sunday_2026-10-11/final_audit_2026-10-11/summary.json) and [scenario comparison](sunday_2026-10-11/final_audit_2026-10-11/scenario_comparison.csv) are saved separately from the original contest decisions.
+
 ## Entered lineups — October 11
 
 I entered two DraftKings Classic single-entry contests on Sunday: a **$5 contest (~23,000 entries)** and a **$3 contest (~7,000 entries)**. The exact rosters are in my [Week 5 entry log](sunday_2026-10-11/entered_lineups_2026-10-11.md). I'm keeping them fixed for the post-slate review.

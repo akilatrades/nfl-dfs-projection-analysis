@@ -114,7 +114,7 @@ See [docs/methodology.md](docs/methodology.md) for the analytical framework and 
 
 ## Current contest focus
 
-Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) includes examples for 1,000–3,000, 4,000–6,000 and 15,000–25,000 entries. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
+Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) includes examples for 1,000–3,000, 4,000–6,000 and 15,000–25,000 entries. A [Saturday October 10 injury-scenario refresh](weeks/2026_week_05/saturday_2026-10-10/README.md) adds D'Andre Swift, reopens Emanuel Wilson conditionally, and updates Arizona target-share assumptions; its revised lineups remain provisional. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
 
 The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/README.md) and earlier Sunday recommendations are preserved as dated research history.
 

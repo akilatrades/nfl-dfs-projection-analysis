@@ -1,0 +1,37 @@
+candidate,slot,player,salary,slate,prelock_status
+A_maye_gibbs,QB,Drake Maye,6300,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,RB,Jahmyr Gibbs,9800,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,RB,Braelon Allen,5400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,WR,Rome Odunze,4700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,WR,Malik Washington,4600,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,WR,Romeo Doubs,5000,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,TE,Trey McBride,6700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,FLEX,George Kittle,5200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+A_maye_gibbs,DST,Chargers DST,2300,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,QB,Jared Goff,6600,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,RB,Braelon Allen,5400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,RB,D'Andre Swift,6200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,WR,Amon-Ra St. Brown,7900,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,WR,Isaac TeSlaa,3400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,WR,Rome Odunze,4700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,TE,Trey McBride,6700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,FLEX,Michael Wilson,6200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+B_goff_full_game,DST,Browns DST,2800,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,QB,Jordan Love,5700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,RB,Jahmyr Gibbs,9800,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,RB,D'Andre Swift,6200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,WR,Christian Watson,6400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,WR,Rome Odunze,4700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,WR,DK Metcalf,5400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,TE,Hunter Henry,3700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,FLEX,George Kittle,5200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+C_love_gibbs,DST,Browns DST,2800,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,QB,Brock Purdy,6500,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,RB,Braelon Allen,5400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,RB,D'Andre Swift,6200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,WR,Michael Wilson,6200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,WR,DK Metcalf,5400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,WR,Romeo Doubs,5000,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,TE,George Kittle,5200,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,FLEX,Trey McBride,6700,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives
+D_purdy_arizona,DST,Texans DST,3400,2026-10-11_sunday_main,PROVISIONAL_verify_DK_salary_and_inactives

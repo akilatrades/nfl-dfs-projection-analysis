@@ -23,6 +23,7 @@ HELD = ("Mitch Tinsley", "Dohnte Meyers", "Stefon Diggs",
 # references are published articles, not a verified DraftKings salary CSV.
 def refresh(df):
     df = df.copy()
+    numeric_cols = df.select_dtypes(include="number").columns.tolist()
     wilson = df.player.eq("Michael Wilson")
     mcbride = df.player.eq("Trey McBride")
     df.loc[wilson, "targets"] += 0.50
@@ -46,6 +47,8 @@ def refresh(df):
         "input_type": "analyst_assumption_not_fitted_forecast"
     })
     df = pd.concat([df, swift.to_frame().T], ignore_index=True)
+    for col in numeric_cols:
+        df[col] = pd.to_numeric(df[col], errors="raise")
     df.loc[df.player.eq("Emanuel Wilson"), "condition"] = (
         "Charbonnet OUT, Holani questionable, Mixon added; verify committee at lock"
     )

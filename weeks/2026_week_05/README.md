@@ -1,12 +1,22 @@
 # 2026 Week 5 — single-entry research
 
-> **Newest pre-lock research:** [October 11 $3 / ~7,000-entry Goff–St. Brown–LaPorta lineup](sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md), [roster CSV](sunday_2026-10-11/contest_3usd_7k_2026-10-11/selected_prelock.csv) and [400K seeded Monte Carlo sensitivity results](sunday_2026-10-11/contest_3usd_7k_2026-10-11/simulation_comparison.csv). User separately **confirms the previous $5 / ~23K entry has been submitted** and is not being modified; the new $3 entry has not been confirmed submitted. These are conditional score draws, not contest-specific expected value.
+## Entered lineups — October 11
 
-> **Latest October 11 update:** [Correlated Monte Carlo, disagreement sensitivity and revised $5/~23K selected lineup](sunday_2026-10-11/monte_carlo_2026-10-11/README.md) with [salary-validated selected roster CSV](sunday_2026-10-11/monte_carlo_2026-10-11/recommendation_prelock_v2.csv). The initial Sunday Love/Malik/Metcalf/McBride selection has been superseded after simulation. Total archived research spans 13 candidate lineups and about 945K seeded simulated slate draws; numbers are **scenario outputs, not calibrated probabilities or contest-EV estimates**. The [zero-dependency runnable JS](../../monte_carlo_week5_2026.js) reproduces the expanded analysis, while previous Sunday snapshots remain intact.
+I entered two DraftKings Classic single-entry contests on Sunday: a **$5 contest (~23,000 entries)** and a **$3 contest (~7,000 entries)**. The exact rosters are in my [Week 5 entry log](sunday_2026-10-11/entered_lineups_2026-10-11.md). I'm keeping them fixed for the post-slate review.
 
-> **Oct 11 process correction (newest):** For the [$5 / approximately 23,000-entry single-entry contest](sunday_2026-10-11/process_review_2026-10-11/README.md), I reran a conservative role-assumption screen after reviewing the Weeks 3–4 postmortems. It de-rates Doubs and Allen assumptions, avoids the forced cheap TeSlaa game punt, and compares Brissett/Wilson/McBride, Goff/St. Brown/LaPorta, Maye/Gibbs without Doubs, and Love/Watson. The [new reproducible Python review runner](../../run_week5_process_review.py) and tests are pushed; the runner has not been executed in this chat, and all candidates remain pre-lock provisional.\n\n
-> **Newest work: Sunday, October 11 pre-lock update.** The [Sunday alternative-game and ownership research](sunday_2026-10-11/README.md) carries forward the October 9 43-player snapshot and the October 10 injury update into a 48-player pool. It compares four provisional single-entry lineups (Maye/Doubs, Purdy/Kittle, Love/Watson, and a Gibbs/McBride variant), records [salary-validated preview slots](sunday_2026-10-11/preview_lineups.csv), and adds a joint Detroit–Arizona downside sensitivity. These are manual-input means, not a simulated field-edge or guaranteed entry. Sunday official salaries, final inactives and contest payout structures remain outstanding. Reproduce with `python run_week5_sunday.py` and check the new unit tests. The runner has been pushed, but its generated files are not yet run-produced or verified.\n\n
-**Current October 9 scope: single-entry contests with at least 1,000 entries, Sunday October 11.** See the [new field-size constructions](single_entry_2026-10-09/README.md) for three starting lineups, updated assumptions and 43-player research. Entry fee, exact contest and official salary export remain undecided.
+## Research trail
+
+I kept each revision dated rather than rewriting the original assumptions after making my selections.
+
+- **October 9:** [Initial field-size comparison](single_entry_2026-10-09/README.md) using published salaries and manual projection inputs.
+- **October 10:** [Saturday injury scenarios](saturday_2026-10-10/README.md), including changed receiver opportunities and running back workloads.
+- **October 11, early:** [Alternative game stacks](sunday_2026-10-11/README.md) and the [Week 3–4 process audit](sunday_2026-10-11/process_review_2026-10-11/README.md).
+- **October 11, $5 build:** [Correlated Monte Carlo review](sunday_2026-10-11/monte_carlo_2026-10-11/README.md) across 13 candidate lineups. I entered the Love–Watson construction.
+- **October 11, $3 build:** [Separate 7K-field analysis](sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md) using the Goff–St. Brown–LaPorta stack.
+
+The simulations are experimental and use analyst assumptions, not a calibrated model of contest rank, duplication or payout. The original early-week baseline remains below for comparison.
+
+**October 9 research scope (archived): single-entry contests with at least 1,000 entries, Sunday October 11.** See the [new field-size constructions](single_entry_2026-10-09/README.md) for three starting lineups, updated assumptions and 43-player research. Entry fee, exact contest and official salary export remain undecided.
 
 The analysis below is the earlier general baseline, retained for comparison. Its provisional leader has not been selected as the final single-entry lineup.
 

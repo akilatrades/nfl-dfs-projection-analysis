@@ -1,0 +1,9 @@
+scenario,estimated_fraction_of_slate_paths,5usd_lineup_mean,3usd_lineup_mean,interpretation
+baseline,1.0000,123.20,126.44,All generated paths
+det_pass_3plus,0.4108,127.86,139.89,At least three Goff passing TDs
+det_pass_0or1,0.3518,118.53,112.78,Detroit has zero or one passing TD
+ari_pass_3plus,0.3396,131.41,130.13,At least three Arizona passing TDs
+ari_pass_0or1,0.4179,116.68,123.60,Arizona has zero or one passing TD
+gb_pass_3plus,0.2522,137.24,127.49,At least three Green Bay passing TDs
+gb_pass_0or1,0.5089,115.34,125.84,Green Bay has zero or one passing TD
+det_and_ari_pass_3plus,0.1623,135.17,142.22,Both game teams have at least three passing TDs

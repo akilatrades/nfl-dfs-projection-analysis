@@ -1,5 +1,7 @@
 # October 11 Week 5 — Correlated Monte Carlo and large-field $5 entry decision
 
+> **Later user confirmation:** The user says this exact $5 / ~23,000-entry Love–Watson + Wilson–Jameson–McBride / Hunter Henry lineup **has been entered** on DraftKings and should stay unchanged absent material new information. This statement is based on the user's confirmation, not a verification of the platform's submitted entry. The earlier pre-lock status below records the time of the initial research decision, before that confirmation. A **separate** [$3 / ~7,000-entry lineup](../contest_3usd_7k_2026-10-11/README.md) is being prepared without editing the $5 roster.
+
 **Status: Sunday pre-lock research, not a submitted DraftKings entry.** Source notes assembled around 9:20 a.m. Central. The user’s target contest is **$5, about 23,000 entrants, single-entry, 11-game DK Classic main slate**. Official contest ID, exact DK salary CSV and upload IDs, payout table, and final Sunday inactives were unavailable when recorded. Our prior [one-Bears-player Love–Watson lineup](../selected_prelock_revision_chicago.md) remains an immutable earlier decision; this document is a subsequent, evidence-driven selection.
 
 ## Executive conclusion: a better robust contender

@@ -520,6 +520,100 @@ if(L[2].sorted[k]>L[0].sorted[k])pairWin++;
 return {settings,conditionalRates: {AZ_high:"DET-ARI shared Gaussian game factor > +0.8",AZ_low:"< -0.8",GB_high:"CHI-GB factor > +0.8",GB_low:"< -0.8"},probPivot1OverCurrent:pairWin/N,lineups:L.map(l=>{const sorted=Array.from(l.sorted).sort((a,b)=>a-b),base=lineups.find(x=>x.name===l.name),ps=base.ids.map(id=>P.get(id));return {name:l.name,salary:ps.reduce((s,p)=>s+p.salary,0),inputMean:+ps.reduce((s,p)=>s+(mode==="ours"?p.ours:mode==="external"?p.external:(p.ours+p.external)/2),0).toFixed(2),sampleMean:+(l.sum/N).toFixed(2),p50:+quant(sorted,.5).toFixed(2),p90:+quant(sorted,.9).toFixed(2),p95:+quant(sorted,.95).toFixed(2),p99:+quant(sorted,.99).toFixed(2),p170:+(l.v170/N).toFixed(4),p190:+(l.v190/N).toFixed(4),p210:+(l.v210/N).toFixed(4),headToHead:+(l.wins/N).toFixed(4),ifAZHighMean:+(l.azHighSum/l.azHighN).toFixed(1),ifAZLowMean:+(l.azLowSum/l.azLowN).toFixed(1),ifGBHighMean:+(l.gbHighSum/l.gbHighN).toFixed(1),ifGBLowMean:+(l.gbLowSum/l.gbLowN).toFixed(1)}})}
 }
 const checks=validate(players,lineups);
-const settings=[{"n":90000,"mode":"blended","spread":1,"seed":20261011},{"n":90000,"mode":"ours","spread":1,"seed":20261011},{"n":90000,"mode":"external","spread":1,"seed":20261011},{"n":90000,"mode":"blended","spread":0.85,"seed":20261011},{"n":90000,"mode":"blended","spread":1.15,"seed":20261011}];
-const runs=settings.map(s=>simulate(players,lineups,s));
-process.stdout.write(JSON.stringify({checks,runs},null,2)+"\n");
+const scenarios=[
+  {
+    "label": "blended",
+    "settings": {
+      "n": 90000,
+      "mode": "blended",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {}
+  },
+  {
+    "label": "external",
+    "settings": {
+      "n": 90000,
+      "mode": "external",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {}
+  },
+  {
+    "label": "ours",
+    "settings": {
+      "n": 90000,
+      "mode": "ours",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {}
+  },
+  {
+    "label": "Spags updated Sunday",
+    "settings": {
+      "n": 75000,
+      "mode": "blended",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {
+      "McBride": 20.5,
+      "Juwan": 11,
+      "Kittle": 13.4,
+      "Wilson": 18.4,
+      "Watson": 14,
+      "Jameson": 12.3,
+      "Malik": 11.6,
+      "Odunze": 9.5,
+      "Metcalf": 12.5,
+      "Henry": 10.8
+    }
+  },
+  {
+    "label": "conservative Juwan Jameson",
+    "settings": {
+      "n": 75000,
+      "mode": "blended",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {
+      "McBride": 20.5,
+      "Juwan": 8.5,
+      "Jameson": 10.5,
+      "Henry": 9.5
+    }
+  },
+  {
+    "label": "Detroit rushing control",
+    "settings": {
+      "n": 75000,
+      "mode": "blended",
+      "seed": 20261011,
+      "spread": 1
+    },
+    "edits": {
+      "McBride": 18,
+      "Wilson": 16,
+      "Jameson": 9,
+      "Gibbs": 29
+    }
+  }
+];
+const runs=scenarios.map(sc=>({
+  label: sc.label,
+  edits: sc.edits,
+  run: simulate(
+    players.map(p => ({
+      ...p,
+      ours: sc.edits[p.id] ?? p.ours,
+      external: sc.edits[p.id] ?? p.external
+    })),
+    lineups,
+    sc.settings
+  )
+}));
+process.stdout.write(JSON.stringify({ checks, runs }, null, 2) + "\n");

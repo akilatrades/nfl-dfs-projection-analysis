@@ -1,5 +1,6 @@
 # Week 5 — $5 / ~23,000 entrants (single-entry candidate builds)
 
+> **Subsequent revision, same Sunday morning:** The [Week 3–4 lessons → revised 23k-field process review](process_review_2026-10-11/README.md) re-tests this shortlist with less optimistic Doubs and Allen roles and alternative stacks. This page and its original CSV are preserved as the earlier pre-lock version; they should not be mistaken for the current preference.\n\n
 **Sunday October 11, 2026 morning; pre-lock shortlist, NOT entered or finalized.** Classic 11-game NFL main slate only (exclude London/Thursday/SNF/MNF). Exact contest ID, its payout table, DK-exported salary/player ID file, and final 11:30 a.m. ET inactives remain unverified. An entry fee of $5 affects bankroll allocation, not the $50,000 salary cap. Target is a field of roughly 23,000 entries.
 
 These builds deliberately represent **four different scoring narratives**. A 23k-entry tournament is top-heavy enough to reward correlated upside and uncommon construction. They are **not** four optimizer-certified top-EV lineups and no payout model exists. The [frozen roster CSV](contest_5usd_23k_prelock.csv) records all positions and salary checks for copy/reference, not a DK-uploadable file.

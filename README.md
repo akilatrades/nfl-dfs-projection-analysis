@@ -114,7 +114,7 @@ See [docs/methodology.md](docs/methodology.md) for the analytical framework and 
 
 ## Current contest focus
 
-Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) includes examples for 1,000–3,000, 4,000–6,000 and 15,000–25,000 entries. A [Saturday October 10 injury-scenario refresh](weeks/2026_week_05/saturday_2026-10-10/README.md) adds D'Andre Swift, reopens Emanuel Wilson conditionally, and updates Arizona target-share assumptions; its revised lineups remain provisional. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
+Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) covers fields from 1,000 to 25,000 entries. The [Saturday October 10 injury refresh](weeks/2026_week_05/saturday_2026-10-10/README.md) is retained as a dated snapshot; the [Sunday October 11 single-entry research](weeks/2026_week_05/sunday_2026-10-11/README.md) expands the pool to 48 candidates, compares Maye/Purdy/Love alternatives around one or two Detroit–Arizona game pieces, and adds a deterministic correlated-game downside check. All lineups remain pre-lock research, not finalized entries. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
 
 The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/README.md) and earlier Sunday recommendations are preserved as dated research history.
 
@@ -127,9 +127,10 @@ python run_single_entry.py
 python run_single_entry_field.py
 python run_week5_field_sizes.py
 python run_week5_saturday.py
+python run_week5_sunday.py
 ```
 
-Current Week 5 research uses manual analyst priors and published salary references: the October 9 field-size snapshot has 43 players, the Saturday October 10 injury refresh 44, and the earlier baseline 35. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
+Current Week 5 research uses manual analyst priors and published salary references: October 9 field-size snapshot 43 players, Saturday October 10 snapshot 44, and Sunday October 11 candidate pool 48; the earlier baseline had 35. The Sunday Python rerun has not yet been executed in this chat. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
 
 ## Case studies
 

@@ -1,0 +1,257 @@
+{
+  "n_per_scenario": 55000,
+  "mode": "blended",
+  "source": "manually sourced Oct 11 SplashPlay site values; Juwan and Jameson downside stress entirely hypothetical",
+  "scenarios": [
+    {
+      "scenario": "SplashPlay_TE_highMcBride",
+      "edits": {
+        "McBride": 20.5,
+        "Juwan": 11,
+        "Kittle": 13.4,
+        "Wilson": 18.4,
+        "Watson": 14,
+        "Jameson": 12.3,
+        "Malik": 11.6,
+        "Odunze": 9.5,
+        "Metcalf": 12.5
+      },
+      "top": [
+        {
+          "name": "Purdy/Kittle/Wilson/McBride",
+          "mean": 132.98,
+          "p190": 0.0447,
+          "p95": 187.45,
+          "head": 0.1618
+        },
+        {
+          "name": "Brissett/Wilson/McBride",
+          "mean": 130.93,
+          "p190": 0.0446,
+          "p95": 187,
+          "head": 0.1179
+        },
+        {
+          "name": "Current revised (Love/Malik/Metcalf/McBride)",
+          "mean": 129.61,
+          "p190": 0.0316,
+          "p95": 180.55,
+          "head": 0.0937
+        },
+        {
+          "name": "Pivot 2 (Love/Wilson/Jameson/Juwan)",
+          "mean": 126.71,
+          "p190": 0.0295,
+          "p95": 178.55,
+          "head": 0.0805
+        },
+        {
+          "name": "Maye/Gibbs/Henry",
+          "mean": 126.53,
+          "p190": 0.0288,
+          "p95": 178.1,
+          "head": 0.1525
+        },
+        {
+          "name": "Original (Love/Odunze/McBride)",
+          "mean": 127.51,
+          "p190": 0.0284,
+          "p95": 178.44,
+          "head": 0.0493
+        },
+        {
+          "name": "Pivot 1 (Love/Wilson/Juwan/Metcalf)",
+          "mean": 126.91,
+          "p190": 0.0284,
+          "p95": 177.56,
+          "head": 0.0434
+        },
+        {
+          "name": "Goff/Amon-Ra/LaPorta",
+          "mean": 124.03,
+          "p190": 0.0274,
+          "p95": 176.43,
+          "head": 0.1578
+        },
+        {
+          "name": "Love/Wilson/Tucker/Juwan",
+          "mean": 125.51,
+          "p190": 0.0253,
+          "p95": 175.73,
+          "head": 0.0695
+        },
+        {
+          "name": "Love/Gibbs/Watson",
+          "mean": 121.87,
+          "p190": 0.0198,
+          "p95": 171.41,
+          "head": 0.0736
+        }
+      ],
+      "pivotOverCurrent": 0.43376363636363635
+    },
+    {
+      "scenario": "Juwan_missed_TD_share",
+      "edits": {
+        "McBride": 20.5,
+        "Juwan": 8.5,
+        "Jameson": 10.5
+      },
+      "top": [
+        {
+          "name": "Brissett/Wilson/McBride",
+          "mean": 130.47,
+          "p190": 0.04,
+          "p95": 185.3,
+          "head": 0.1213
+        },
+        {
+          "name": "Purdy/Kittle/Wilson/McBride",
+          "mean": 131.44,
+          "p190": 0.0387,
+          "p95": 184.35,
+          "head": 0.15
+        },
+        {
+          "name": "Original (Love/Odunze/McBride)",
+          "mean": 130.8,
+          "p190": 0.0361,
+          "p95": 183.33,
+          "head": 0.0853
+        },
+        {
+          "name": "Current revised (Love/Malik/Metcalf/McBride)",
+          "mean": 129.64,
+          "p190": 0.0318,
+          "p95": 180.79,
+          "head": 0.0888
+        },
+        {
+          "name": "Goff/Amon-Ra/LaPorta",
+          "mean": 125.19,
+          "p190": 0.0294,
+          "p95": 177.99,
+          "head": 0.1743
+        },
+        {
+          "name": "Maye/Gibbs/Henry",
+          "mean": 126.06,
+          "p190": 0.0261,
+          "p95": 176.63,
+          "head": 0.1524
+        },
+        {
+          "name": "Love/Gibbs/Watson",
+          "mean": 125.15,
+          "p190": 0.0255,
+          "p95": 176.13,
+          "head": 0.1003
+        },
+        {
+          "name": "Pivot 1 (Love/Wilson/Juwan/Metcalf)",
+          "mean": 123.11,
+          "p190": 0.0209,
+          "p95": 171.95,
+          "head": 0.0264
+        },
+        {
+          "name": "Pivot 2 (Love/Wilson/Jameson/Juwan)",
+          "mean": 121.41,
+          "p190": 0.0195,
+          "p95": 170.67,
+          "head": 0.0443
+        },
+        {
+          "name": "Love/Wilson/Tucker/Juwan",
+          "mean": 122.01,
+          "p190": 0.0193,
+          "p95": 170.68,
+          "head": 0.057
+        }
+      ],
+      "pivotOverCurrent": 0.34545454545454546
+    },
+    {
+      "scenario": "Lions_rushing_control",
+      "edits": {
+        "Jameson": 9,
+        "Wilson": 16,
+        "McBride": 18,
+        "Gibbs": 29
+      },
+      "top": [
+        {
+          "name": "Maye/Gibbs/Henry",
+          "mean": 132.5,
+          "p190": 0.0443,
+          "p95": 187.24,
+          "head": 0.2021
+        },
+        {
+          "name": "Love/Gibbs/Watson",
+          "mean": 131.29,
+          "p190": 0.0413,
+          "p95": 186.05,
+          "head": 0.1388
+        },
+        {
+          "name": "Brissett/Wilson/McBride",
+          "mean": 128.27,
+          "p190": 0.034,
+          "p95": 181.64,
+          "head": 0.0898
+        },
+        {
+          "name": "Purdy/Kittle/Wilson/McBride",
+          "mean": 129.25,
+          "p190": 0.0325,
+          "p95": 180.87,
+          "head": 0.1134
+        },
+        {
+          "name": "Pivot 1 (Love/Wilson/Juwan/Metcalf)",
+          "mean": 128.31,
+          "p190": 0.03,
+          "p95": 178.81,
+          "head": 0.0534
+        },
+        {
+          "name": "Original (Love/Odunze/McBride)",
+          "mean": 128.3,
+          "p190": 0.0297,
+          "p95": 179.52,
+          "head": 0.0532
+        },
+        {
+          "name": "Goff/Amon-Ra/LaPorta",
+          "mean": 125.19,
+          "p190": 0.0294,
+          "p95": 177.99,
+          "head": 0.1594
+        },
+        {
+          "name": "Love/Wilson/Tucker/Juwan",
+          "mean": 127.21,
+          "p190": 0.027,
+          "p95": 177.29,
+          "head": 0.0822
+        },
+        {
+          "name": "Current revised (Love/Malik/Metcalf/McBride)",
+          "mean": 127.14,
+          "p190": 0.0262,
+          "p95": 177.05,
+          "head": 0.06
+        },
+        {
+          "name": "Pivot 2 (Love/Wilson/Jameson/Juwan)",
+          "mean": 125.11,
+          "p190": 0.0249,
+          "p95": 175.13,
+          "head": 0.0477
+        }
+      ],
+      "pivotOverCurrent": 0.5209636363636364
+    }
+  ]
+}

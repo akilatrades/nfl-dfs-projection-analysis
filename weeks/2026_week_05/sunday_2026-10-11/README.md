@@ -1,5 +1,7 @@
 # 2026 Week 5 — Sunday single-entry research (October 11)
 
+> **Latest decision record:** [Single selected $5 / ~23,000-field Love–Watson lineup](selected_prelock_2026-10-11.md) with [salary-checked roster CSV](selected_prelock_2026-10-11.csv), chosen Sunday morning after the [process correction](process_review_2026-10-11/README.md). This is the assistant's pre-lock selection only; **not confirmed entered**, not official DK player-ID verified, and subject to final 1 p.m. ET inactives.
+
 > **Latest Week 5 analysis:** [October 11 process correction for the $5/23k single-entry field](process_review_2026-10-11/README.md), with [five revised salary-checked previews](process_review_2026-10-11/independent_preview.csv). The older opening-Sunday assumptions and four original $5-contest entries remain archived as initial hypotheses. Conservative Doubs/Allen inputs are not claimed as measured target forecasts; see new review.\n\n
 > **New: $5 / approximately 23,000-entry contest.** [Four specialized large-field pre-lock builds](contest_5usd_23k_README.md) and [salary-checked roster CSV](contest_5usd_23k_prelock.csv) compare Gibbs/Maye, a Goff 5-man DET–ARI overstack (Isaac TeSlaa is an external role/salary add-on not modeled in the 48-player pool), Love/Watson and Purdy/Kittle. These are separate entry candidates, not all recommended for one single-entry contest. Final official inactives and the exact DraftKings export remain unverified.
 

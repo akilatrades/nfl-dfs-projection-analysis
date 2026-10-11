@@ -1,5 +1,7 @@
 # 2026 Week 5 — Sunday single-entry research (October 11)
 
+> **Newest separately targeted contest:** [$3 / ~7,000 entrants Goff–Amon-Ra–LaPorta with Aaron Jones, Luther Burden and Tre Tucker](contest_3usd_7k_2026-10-11/README.md); [salary-checked roster](contest_3usd_7k_2026-10-11/selected_prelock.csv). Existing $5 lineup is user-confirmed as entered and is left intact. The $3 research was screened on 400K simulated score draws with alternative projection and workload assumptions. Actual field finishes and official DK ID export remain unknown.
+
 > **Additional pre-lock decision check:** [Review of four-offensive-player CHI–GB concentration and revised lineup](selected_prelock_revision_chicago.md). The original Love–Watson pick is preserved, with a Malik Washington alternative that sacrifices 1.52 subjective mean points for less CHI–GB dependence. No tournament-EV advantage is claimed.
 
 > **Latest decision record:** [Single selected $5 / ~23,000-field Love–Watson lineup](selected_prelock_2026-10-11.md) with [salary-checked roster CSV](selected_prelock_2026-10-11.csv), chosen Sunday morning after the [process correction](process_review_2026-10-11/README.md). This is the assistant's pre-lock selection only; **not confirmed entered**, not official DK player-ID verified, and subject to final 1 p.m. ET inactives.

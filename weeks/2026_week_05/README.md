@@ -45,7 +45,7 @@ Warren's workload depends on Dowdle's availability. Emanuel's workload depends o
 
 ## Why this version does not force Gibbs
 
-Gibbs remains a priority player to evaluate, but salary allocation matters. Locking him into the search produces a **$49,900** alternative: Brissett / Brown / Warren / Michael Wilson / Tinsley / Odunze / Schultz / Gibbs / Browns. Its base expectation is **135.36** under our assumptions and it relies on a speculative Cincinnati receiver. It is saved in `gibbs_alternative.csv`.
+Gibbs remains a priority player to evaluate, but salary allocation matters. Locking him into the search produces a **$49,900** alternative: Brissett / Brown / Warren / Michael Wilson / Tinsley / Odunze / Schultz / Gibbs / Browns. Its base expectation is **135.36** under the recorded assumptions and it relies on a speculative Cincinnati receiver. It is saved in `gibbs_alternative.csv`.
 
 This is not evidence that fading Gibbs is profitable. His 21.5-carry, 5.5-target input is an uncalibrated assumption; a stronger workload forecast or a confirmed cheap receiver could change the result. Do not turn a modest modeled point difference into a conviction claim.
 

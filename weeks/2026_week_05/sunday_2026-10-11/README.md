@@ -1,5 +1,7 @@
 # 2026 Week 5 — Sunday single-entry research (October 11)
 
+> **New: $5 / approximately 23,000-entry contest.** [Four specialized large-field pre-lock builds](contest_5usd_23k_README.md) and [salary-checked roster CSV](contest_5usd_23k_prelock.csv) compare Gibbs/Maye, a Goff 5-man DET–ARI overstack (Isaac TeSlaa is an external role/salary add-on not modeled in the 48-player pool), Love/Watson and Purdy/Kittle. These are separate entry candidates, not all recommended for one single-entry contest. Final official inactives and the exact DraftKings export remain unverified.
+
 **State: PRE-LOCK / PROVISIONAL.** Research was assembled on Sunday morning, before official noon-Central inactives. This is the current weekly decision snapshot, not a retroactive result and not an entry-ready DraftKings export.
 
 **Scope:** DraftKings NFL Classic **11-game Sunday afternoon** main slate, 1 p.m.–4:25 p.m. ET; exclude the London, Thursday, Sunday night and Monday games. Primary planning field: **4,000–6,000 single-entry opponents**; compare smaller **1,000–3,000** and larger **15,000–25,000** entry contests using the same candidates until exact payout structures are known. Contest ID, official salary CSV, player IDs, ownership by contest and payout schedule are **not available**.

@@ -1,5 +1,7 @@
 # NFL DFS Projection & Decision Analysis
 
+> **Sunday October 11 Week 5 latest:** user confirms a [$5 / ~23K lineup was entered](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md). Separately selected a [new $3 / ~7K single-entry Goff stack](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md) from 400K simulated score draws with a [reproducible runner](monte_carlo_week5_7k_2026.js). The $3 roster is **not yet confirmed entered**, and scores are uncalibrated sensitivity models, not winning probabilities.
+
 [![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)
 
 Can explicit assumptions about opportunity, scoring and lineup correlation improve an NFL projection process?

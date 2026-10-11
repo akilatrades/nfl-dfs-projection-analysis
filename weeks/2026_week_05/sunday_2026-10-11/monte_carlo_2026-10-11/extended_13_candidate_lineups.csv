@@ -1,0 +1,118 @@
+lineup,slot,player,team,opponent,salary,manual_prior,public_prior
+Current revised (Love/Malik/Metcalf/McBride),QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Current revised (Love/Malik/Metcalf/McBride),RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Current revised (Love/Malik/Metcalf/McBride),RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Current revised (Love/Malik/Metcalf/McBride),WR,Malik Washington,MIA,CIN,4600,10.546,9.9
+Current revised (Love/Malik/Metcalf/McBride),WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Current revised (Love/Malik/Metcalf/McBride),WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Current revised (Love/Malik/Metcalf/McBride),TE,George Kittle,SF,SEA,5200,14.618,13.5
+Current revised (Love/Malik/Metcalf/McBride),TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Current revised (Love/Malik/Metcalf/McBride),DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Original (Love/Odunze/McBride),QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Original (Love/Odunze/McBride),RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Original (Love/Odunze/McBride),RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Original (Love/Odunze/McBride),WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Original (Love/Odunze/McBride),WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Original (Love/Odunze/McBride),WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Original (Love/Odunze/McBride),TE,George Kittle,SF,SEA,5200,14.618,13.5
+Original (Love/Odunze/McBride),TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Original (Love/Odunze/McBride),DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Pivot 1 (Love/Wilson/Juwan/Metcalf),QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Pivot 1 (Love/Wilson/Juwan/Metcalf),RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Pivot 1 (Love/Wilson/Juwan/Metcalf),RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Pivot 1 (Love/Wilson/Juwan/Metcalf),WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Pivot 1 (Love/Wilson/Juwan/Metcalf),WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Pivot 1 (Love/Wilson/Juwan/Metcalf),WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Pivot 1 (Love/Wilson/Juwan/Metcalf),TE,George Kittle,SF,SEA,5200,14.618,13.5
+Pivot 1 (Love/Wilson/Juwan/Metcalf),TE,Juwan Johnson,NO,MIN,4500,13.4,13.4
+Pivot 1 (Love/Wilson/Juwan/Metcalf),DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Pivot 2 (Love/Wilson/Jameson/Juwan),QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Pivot 2 (Love/Wilson/Jameson/Juwan),RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Pivot 2 (Love/Wilson/Jameson/Juwan),RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Pivot 2 (Love/Wilson/Jameson/Juwan),WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Pivot 2 (Love/Wilson/Jameson/Juwan),WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Pivot 2 (Love/Wilson/Jameson/Juwan),WR,Jameson Williams,DET,ARI,5900,12.37,11.9
+Pivot 2 (Love/Wilson/Jameson/Juwan),TE,George Kittle,SF,SEA,5200,14.618,13.5
+Pivot 2 (Love/Wilson/Jameson/Juwan),TE,Juwan Johnson,NO,MIN,4500,13.4,13.4
+Pivot 2 (Love/Wilson/Jameson/Juwan),DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Brissett/Wilson/McBride,QB,Jacoby Brissett,ARI,DET,5500,18.335,15.8
+Brissett/Wilson/McBride,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Brissett/Wilson/McBride,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Brissett/Wilson/McBride,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Brissett/Wilson/McBride,WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Brissett/Wilson/McBride,WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Brissett/Wilson/McBride,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Brissett/Wilson/McBride,TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Brissett/Wilson/McBride,DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Goff/Amon-Ra/LaPorta,QB,Jared Goff,DET,ARI,6600,20.549,18.5
+Goff/Amon-Ra/LaPorta,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Goff/Amon-Ra/LaPorta,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Goff/Amon-Ra/LaPorta,WR,Amon-Ra St. Brown,DET,ARI,7900,20.54,15.8
+Goff/Amon-Ra/LaPorta,WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Goff/Amon-Ra/LaPorta,WR,Malik Washington,MIA,CIN,4600,10.546,9.9
+Goff/Amon-Ra/LaPorta,TE,Sam LaPorta,DET,ARI,4900,11.24,13.3
+Goff/Amon-Ra/LaPorta,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Goff/Amon-Ra/LaPorta,DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Maye/Gibbs/Henry,QB,Drake Maye,NE,LV,6300,20.451,18.5
+Maye/Gibbs/Henry,RB,Jahmyr Gibbs,DET,ARI,9800,25.633,20.1
+Maye/Gibbs/Henry,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Maye/Gibbs/Henry,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Maye/Gibbs/Henry,WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Maye/Gibbs/Henry,WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Maye/Gibbs/Henry,TE,Hunter Henry,NE,LV,3700,8.91,8.6
+Maye/Gibbs/Henry,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Maye/Gibbs/Henry,DST,Chargers DST,LAC,DEN,2300,5.28,5.6
+Purdy/Kittle/Wilson/McBride,QB,Brock Purdy,SF,SEA,6500,21.233,18.8
+Purdy/Kittle/Wilson/McBride,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Purdy/Kittle/Wilson/McBride,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Purdy/Kittle/Wilson/McBride,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Purdy/Kittle/Wilson/McBride,WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Purdy/Kittle/Wilson/McBride,WR,Malik Washington,MIA,CIN,4600,10.546,9.9
+Purdy/Kittle/Wilson/McBride,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Purdy/Kittle/Wilson/McBride,TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Purdy/Kittle/Wilson/McBride,DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Love/Gibbs/Watson,QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Love/Gibbs/Watson,RB,Jahmyr Gibbs,DET,ARI,9800,25.633,20.1
+Love/Gibbs/Watson,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Love/Gibbs/Watson,WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Love/Gibbs/Watson,WR,Rome Odunze,CHI,GB,4700,12.061,10.7
+Love/Gibbs/Watson,WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Love/Gibbs/Watson,TE,Hunter Henry,NE,LV,3700,8.91,8.6
+Love/Gibbs/Watson,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Love/Gibbs/Watson,DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Love/Wilson/Tucker/Juwan,QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Love/Wilson/Tucker/Juwan,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Love/Wilson/Tucker/Juwan,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Love/Wilson/Tucker/Juwan,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Love/Wilson/Tucker/Juwan,WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Love/Wilson/Tucker/Juwan,WR,Tre Tucker,LV,NE,4800,11.1,11.1
+Love/Wilson/Tucker/Juwan,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Love/Wilson/Tucker/Juwan,TE,Juwan Johnson,NO,MIN,4500,13.4,13.4
+Love/Wilson/Tucker/Juwan,DST,Browns DST,CLE,NYJ,2800,7.12,6.1
+Love/Watson/Wilson/Jameson/McBride/Henry,QB,Jordan Love,GB,CHI,5700,19.494,16.6
+Love/Watson/Wilson/Jameson/McBride/Henry,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Love/Watson/Wilson/Jameson/McBride/Henry,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Love/Watson/Wilson/Jameson/McBride/Henry,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Love/Watson/Wilson/Jameson/McBride/Henry,WR,Christian Watson,GB,CHI,6400,15.485,14.6
+Love/Watson/Wilson/Jameson/McBride/Henry,WR,Jameson Williams,DET,ARI,5900,12.37,11.9
+Love/Watson/Wilson/Jameson/McBride/Henry,TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Love/Watson/Wilson/Jameson/McBride/Henry,TE,Hunter Henry,NE,LV,3700,8.91,8.6
+Love/Watson/Wilson/Jameson/McBride/Henry,DST,Chargers DST,LAC,DEN,2300,5.28,5.6
+Brissett/Wilson/McBride/Jameson/Tucker,QB,Jacoby Brissett,ARI,DET,5500,18.335,15.8
+Brissett/Wilson/McBride/Jameson/Tucker,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Brissett/Wilson/McBride/Jameson/Tucker,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Brissett/Wilson/McBride/Jameson/Tucker,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Brissett/Wilson/McBride/Jameson/Tucker,WR,Jameson Williams,DET,ARI,5900,12.37,11.9
+Brissett/Wilson/McBride/Jameson/Tucker,WR,Tre Tucker,LV,NE,4800,11.1,11.1
+Brissett/Wilson/McBride/Jameson/Tucker,TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Brissett/Wilson/McBride/Jameson/Tucker,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Brissett/Wilson/McBride/Jameson/Tucker,DST,Chargers DST,LAC,DEN,2300,5.28,5.6
+Purdy/Wilson/Metcalf/McBride,QB,Brock Purdy,SF,SEA,6500,21.233,18.8
+Purdy/Wilson/Metcalf/McBride,RB,Chase Brown,CIN,MIA,6900,18.929,14.6
+Purdy/Wilson/Metcalf/McBride,RB,D'Andre Swift,CHI,GB,6200,18.283,14.1
+Purdy/Wilson/Metcalf/McBride,WR,Michael Wilson,ARI,DET,6200,16.688,14.7
+Purdy/Wilson/Metcalf/McBride,WR,DK Metcalf,PIT,IND,5400,13.1,11.3
+Purdy/Wilson/Metcalf/McBride,WR,Malik Washington,MIA,CIN,4600,10.546,9.9
+Purdy/Wilson/Metcalf/McBride,TE,George Kittle,SF,SEA,5200,14.618,13.5
+Purdy/Wilson/Metcalf/McBride,TE,Trey McBride,ARI,DET,6700,19.192,13.1
+Purdy/Wilson/Metcalf/McBride,DST,Chargers DST,LAC,DEN,2300,5.28,5.6

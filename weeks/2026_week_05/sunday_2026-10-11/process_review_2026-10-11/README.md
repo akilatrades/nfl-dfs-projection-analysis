@@ -54,6 +54,19 @@ An independent exhaustive comparison over the documented 48-player curated pool,
 
 Note: projected totals are model means, and **0.05 points is not meaningful precision**. Our position-level standard deviations are generic priors and *cannot* establish which has the best P99. Opposing DST conflicts, exactly nine different players, position structure, $50k cap and QB pass-catcher pairing were independently checked on the preview records; official game-slate ID/salary matching is still pending.
 
+### Modeled dependence on the chalk game
+
+A more honest differentiation measure than counting Arizona players is **how much of each lineup's modeled mean depends on Detroit–Arizona**. Using the source player's own DK means (not independent probabilities):
+
+| Preview | DET–ARI modeled DK points | Total lineup modeled mean | Share |
+|---|---:|---:|---:|
+| Brissett / Wilson / McBride | 54.22 | 138.33 | **39.2%** |
+| Goff / St. Brown / LaPorta | 52.33 | 133.89 | **39.1%** |
+| Maye / Gibbs / Wilson | 42.32 | 135.02 | **31.3%** |
+| Love / Watson + McBride | 19.19 | 138.28 | **13.9%** |
+
+This is a **concentration accounting identity**, not estimated correlation, payout odds or game-failure probability. The Goff build is just as dependent on DET–ARI production as Brissett's despite having less popular individual roster components. The Love version diversifies away from that game, but loads more outcomes onto CHI–GB. This addresses the JAX–CIN lesson: choose a *different scoring story*, not just a different set of names inside the same game.
+
 ### Roster thesis, weak links and selection
 
 **Brissett + Wilson + McBride (highest conditional manual mean):** The real thesis is *Arizona throws heavily and these two established pass catchers capture the scoring*. It is not a requirement that Detroit–Arizona hits 54.5. Wilson and McBride still contend with each other for team targets; their expected targets total **19.75** against Brissett's assumed **35 pass attempts**. Both can hit, but the game/team/player share dependence is unresolved. This build has substantial game and ownership concentration; use only after those roles and the overall field strategy are accepted.

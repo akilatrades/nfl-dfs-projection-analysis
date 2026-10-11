@@ -1,0 +1,10 @@
+slot,player,team,opponent,salary,selection_state
+QB,Jordan Love,GB,CHI,5700,selected_prelock_await_final_inactives_and_DK_player_ids
+RB,Chase Brown,CIN,MIA,6900,selected_prelock_await_final_inactives_and_DK_player_ids
+RB,D'Andre Swift,CHI,GB,6200,selected_prelock_await_final_inactives_and_DK_player_ids
+WR,Rome Odunze,CHI,GB,4700,selected_prelock_await_final_inactives_and_DK_player_ids
+WR,Christian Watson,GB,CHI,6400,selected_prelock_await_final_inactives_and_DK_player_ids
+WR,DK Metcalf,PIT,IND,5400,selected_prelock_await_final_inactives_and_DK_player_ids
+TE,George Kittle,SF,SEA,5200,selected_prelock_await_final_inactives_and_DK_player_ids
+FLEX,Trey McBride,ARI,DET,6700,selected_prelock_await_final_inactives_and_DK_player_ids
+DST,Browns DST,CLE,NYJ,2800,selected_prelock_await_final_inactives_and_DK_player_ids

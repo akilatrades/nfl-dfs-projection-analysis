@@ -1,6 +1,6 @@
 # Week 5 2026 — $3 / ~7,000-entry single-entry main-slate decision
 
-**Entry update:** I entered this $3 / ~7,000-field Goff stack and the separate $5 / ~23,000-field Love–Watson stack. This analysis was originally written before I submitted the $3 entry, and I have kept those pre-lock assumptions unchanged. Both rosters are saved in my [entry log](../entered_lineups_2026-10-11.md). Exact contest ID and prize payout structure not provided, so the 7,000-entry field size affects our qualitative construction, not a calibrated payout optimization.
+**Entry update:** I entered this $3 / ~7,000-field Goff stack and the separate $5 / ~23,000-field Love–Watson stack. This analysis was originally written before I submitted the $3 entry, and I have kept those pre-lock assumptions unchanged. Both rosters are saved in my [entry log](../entered_lineups_2026-10-11.md). I haven't saved the exact contest ID or payout structure, so I used the 7,000-entry field size to guide the construction rather than claim a calibrated payout optimization.
 
 ## Selection
 
@@ -33,7 +33,7 @@ Complementary player roles are independently grounded:
 - **George Kittle $5,200**: stable TE premium independent of Goff; with LaPorta, a second tight end at FLEX adds correlation-independent points but also the usual TE volatility. Two tight ends are allowed and were compared historically in the repo.
 - **Chargers DST $2,300**: legal against Denver, no competing DEN offense included. Sharing this defense with the entered lineup is acceptable only as a deliberate strong-cost roster-choice assumption; it creates shared outcome risk.
 
-We **rejected** the mechanically higher initial Goff lineup that had Swift + Odunze + Burden (three Chicago offensive pieces). That repeated the Week 4 problem of stacking unsupported teammate production from the same team. Replacing Swift with Aaron Jones and one Chicago WR with Tre Tucker gives this final lineup just **one** Chicago player.
+I **rejected** the mechanically higher initial Goff lineup that had Swift + Odunze + Burden (three Chicago offensive pieces). That repeated the Week 4 problem of stacking unsupported teammate production from the same team. Replacing Swift with Aaron Jones and one Chicago WR with Tre Tucker gives this final lineup just **one** Chicago player.
 
 ## Quantitative slate-path screen
 

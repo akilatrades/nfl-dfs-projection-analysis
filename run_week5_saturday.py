@@ -49,8 +49,8 @@ def refresh(df):
     df.loc[df.player.eq("Emanuel Wilson"), "condition"] = (
         "Charbonnet OUT, Holani questionable, Mixon added; verify committee at lock"
     )
-    df.loc[wilson, "condition"] = "Harrison Jr out; +0.5 targets and +0.05 rec TD scenario"
-    df.loc[mcbride, "condition"] = "Harrison Jr out; +0.75 targets and +0.05 rec TD scenario"
+    df.loc[df.player.eq("Michael Wilson"), "condition"] = "Harrison Jr out; +0.5 targets and +0.05 rec TD scenario"
+    df.loc[df.player.eq("Trey McBride"), "condition"] = "Harrison Jr out; +0.75 targets and +0.05 rec TD scenario"
     return df
 
 

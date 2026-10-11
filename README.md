@@ -137,7 +137,7 @@ python run_week5_sunday.py
 python run_week5_process_review.py
 ```
 
-Current Week 5 research uses manual analyst priors and published salary references: October 9 field-size snapshot 43 players, Saturday October 10 snapshot 44, and Sunday October 11 candidate pool 48; the earlier baseline had 35. The Sunday Python rerun has not yet been executed in this chat. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
+Current Week 5 research uses manual analyst priors and published salary references: October 9 field-size snapshot 43 players, Saturday October 10 snapshot 44, and Sunday October 11 candidate pool 48; the earlier baseline had 35. At the time of the Sunday snapshot, I hadn't run the Python rerun script yet. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
 
 ## Case studies
 

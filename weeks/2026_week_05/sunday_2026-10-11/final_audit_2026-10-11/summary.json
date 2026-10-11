@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-11 11:00 Central; early 1pm ET inactive report published; late inactives pending",
+  "seed": 20261011,
+  "model_version": "Poisson team TDs + shared gamma pace + multinomial pass TD allocation + subjective player roles",
+  "total_simulated_slates": 180000,
+  "status": "illustrative; not calibrated to DFS opponent field, payout or realized outcomes",
+  "entered_5usd_23k": {"mean":123.20,"median":121.36,"p90":154.19,"p95":164.67,"p99":186.24,"model_fraction_150_plus":0.1292,"model_fraction_170_plus":0.0340,"model_fraction_190_plus":0.0073},
+  "entered_3usd_7k": {"mean":126.44,"median":124.54,"p90":158.10,"p95":168.71,"p99":190.75,"model_fraction_150_plus":0.1597,"model_fraction_170_plus":0.0457,"model_fraction_190_plus":0.0107},
+  "portfolio":{"simulated_correlation":0.3229,"model_fraction_at_least_one_170":0.0743,"model_fraction_both_170":0.0054},
+  "elo_external_favorites":{"DET":0.64,"CHI":0.54,"CIN":0.59,"MIN":0.73,"NE":0.76,"DEN":0.63,"SEA":0.64},
+  "logistic_regression_audit":{"sample_games":29,"LOO_brier":0.2507,"constant_prior_brier":0.2426,"held_out_performance":"worse than constant baseline","status":"not accepted as a usable independent forecast"},
+  "source_notes":"Published pregame market totals, October 6 Elo table, October 8 public team EPA/play, October 11 NFL inactive list",
+  "remaining_verification":"Late game inactives: DEN-LAC, DET-ARI, SF-SEA; no late player inactive officially ruled out at time of report"
+}

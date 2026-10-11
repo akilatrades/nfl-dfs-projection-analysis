@@ -1,3 +1,5 @@
+
+> **Later update:** [Large-field correlated Monte Carlo](monte_carlo_2026-10-11/README.md) compared this revision with 12 other constructions and changed the preferred pre-lock selection. This record is retained as an earlier version, **not today's final recommended entry**.
 # Sunday Week 5 — Chicago correlation challenge and revised $5 / ~23K single-entry candidate
 
 **Recorded October 11, 2026, morning, before the noon CT main-slate kickoff and final official inactives.** This is a **new decision record**, not an overwrite of the earlier [Love–Watson selection](selected_prelock_2026-10-11.md), and **not a confirmed entry**.

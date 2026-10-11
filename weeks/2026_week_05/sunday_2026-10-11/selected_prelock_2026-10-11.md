@@ -2,7 +2,7 @@
 
 > **Later same-morning review:** The concern about rostering both Swift and Odunze alongside Love–Watson led to an [alternative one-Chicago-player construction](selected_prelock_revision_chicago.md) with [revised salary-checked CSV](selected_prelock_revision_chicago.csv). This preserves the original pick as a dated snapshot; neither was confirmed entered.
 
-**Decision recorded:** Sunday morning, before official Sunday inactives and before noon CT main-slate lock. **User has not confirmed a DraftKings submission.** This is the assistant's single preferred roster if forced to choose from the screened candidate pool. It is *not* an assertion that an actual entry was submitted.
+**Original decision snapshot:** I drafted this candidate Sunday morning before final inactives and noon CT lock. I subsequently revised it through the [Monte Carlo research](monte_carlo_2026-10-11/README.md) and entered a different final [$5 lineup](entered_lineups_2026-10-11.md). This file is preserved to show how the selection evolved.
 
 | Slot | Player | Salary |
 |---|---|---:|

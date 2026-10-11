@@ -1,5 +1,7 @@
 # Week 5 — Entered lineups
 
+**Final pre-lock diagnostic:** I left both submitted rosters intact after checking the [October 11 official early-game inactive report and six-method scoring analysis](final_audit_2026-10-11/README.md). Late-game inactives still require a separate check. No implied odds of finishing in the money or profit forecast can be derived from the experimental score thresholds.
+
 **October 11, 2026 | DraftKings NFL Classic | Sunday main slate**
 
 I entered two single-entry tournaments for Week 5: a **$5 contest with approximately 23,000 entries** and a **$3 contest with approximately 7,000 entries**. Both lineups use the full $50,000 salary cap.

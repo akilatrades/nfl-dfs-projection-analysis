@@ -1,6 +1,6 @@
 # NFL DFS Projection & Decision Analysis
 
-> **Sunday October 11 Week 5 latest:** user confirms a [$5 / ~23K lineup was entered](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md). Separately selected a [new $3 / ~7K single-entry Goff stack](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md) from 400K simulated score draws with a [reproducible runner](monte_carlo_week5_7k_2026.js). The $3 roster is **not yet confirmed entered**, and scores are uncalibrated sensitivity models, not winning probabilities.
+> **Week 5 entries — October 11:** I entered two DraftKings single-entry contests: [$5 / ~23K](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) and [$3 / ~7K](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md). The [entered lineup log](weeks/2026_week_05/sunday_2026-10-11/entered_lineups_2026-10-11.md) keeps both selections separate from the pre-lock simulations and post-slate results. The model outputs are scenario estimates, not contest win probabilities.
 
 [![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)
 
@@ -122,7 +122,7 @@ The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/RE
 
 The [October 11 process correction](weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11/README.md) revisits the $5 / ~23K single-entry choices using Week 3–4 lessons: the Doubs and Allen workload assumptions are stress-tested, the forced weak run-back is removed, and Goff/Brissett/Maye/Love roles are compared with frozen pre-lock lineups. The correction is a separate dated snapshot, not a backfilled performance claim.
 
-The [October 11 correlated Monte Carlo decision](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) stress-tests 13 Week 5 large-field candidate lineups over two competing projection baselines and alternative player/game scenarios (945,000 seeded slate draws across the original and extended screens). Its [new $5/23k provisional roster](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/recommendation_prelock_v2.csv) is a **pre-lock decision, not a submitted entry**. The Monte Carlo is an **uncalibrated correlated score surrogate**, not a modeled opponent field, rank, payout or proof of edge.
+The [October 11 correlated Monte Carlo decision](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) stress-tests 13 Week 5 large-field candidate lineups over two competing projection baselines and alternative player/game scenarios (945,000 seeded slate draws across the original and extended screens). I ultimately entered the [$5 / 23K roster](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/recommendation_prelock_v2.csv) after reviewing the simulations; the file itself preserves its pre-lock version. The Monte Carlo is an **uncalibrated correlated score surrogate**, not a modeled opponent field, rank, payout or proof of edge.
 
 ## Latest reproducible research
 

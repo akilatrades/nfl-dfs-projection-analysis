@@ -1,5 +1,7 @@
 # Week 5 — Entered lineups
 
+**Post-slate follow-up:** I calculated **153.86 DK** for the $5 entry and **120.14 DK** for the $3 entry using final box scores. My [Week 5 scoring and decision postmortem](../postslate_2026-10-11/README.md) documents every player's actual points, my prior projection and remaining questions. DraftKings standings and payouts have not been recorded yet.
+
 **Final pre-lock diagnostic:** I left both submitted rosters intact after checking the [October 11 official early-game inactive report and six-method scoring analysis](final_audit_2026-10-11/README.md). Late-game inactives still require a separate check. No implied odds of finishing in the money or profit forecast can be derived from the experimental score thresholds.
 
 **October 11, 2026 | DraftKings NFL Classic | Sunday main slate**

@@ -1,5 +1,7 @@
 # NFL DFS Projection & Decision Analysis
 
+**Week 5 post-slate:** I entered two Sunday Classic single-entry contests and [reconciled 153.86 and 120.14 calculated DK points](weeks/2026_week_05/postslate_2026-10-11/README.md) with the frozen research inputs. Contest ranks, ownership and payouts are not yet recorded, so I have not classified either entry as a cash or loss. The [reproducible score audit](weeks/2026_week_05/postslate_2026-10-11/score_week5.py) separates successful game scripts from inaccurate player TD allocations.
+
 > **Week 5 entries — October 11:** I entered two DraftKings single-entry contests: [$5 / ~23K](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) and [$3 / ~7K](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md). The [entered lineup log](weeks/2026_week_05/sunday_2026-10-11/entered_lineups_2026-10-11.md) keeps both selections separate from the pre-lock simulations and post-slate results. The model outputs are scenario estimates, not contest win probabilities.
 
 [![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)

@@ -1,5 +1,7 @@
 # 2026 Week 5 — single-entry research
 
+**Post-slate results (October 11):** I've completed the [player-level Week 5 performance audit](postslate_2026-10-11/README.md), comparing calculated DK scores with my original modeled means. The $5 entry scored **153.86**, and the $3 entry scored **120.14** on published box-score reconstruction. I haven't recorded final contest rank, ownership or payouts yet. The pregame decisions below remain unchanged.
+
 **Final Sunday audit (11 a.m. Central):** I checked the [official early inactives and ran one last scoring-model sensitivity analysis](sunday_2026-10-11/final_audit_2026-10-11/README.md). The new run adds Poisson TD-count allocation, game-level correlation, a small logistic-regression diagnostic, published Elo and EPA cross-checks, and a Bayesian-style availability adjustment. Both entered lineups remain unchanged; late game inactives are not yet official. The [model implementation](sunday_2026-10-11/final_audit_2026-10-11/score_model.py), [results](sunday_2026-10-11/final_audit_2026-10-11/summary.json) and [scenario comparison](sunday_2026-10-11/final_audit_2026-10-11/scenario_comparison.csv) are saved separately from the original contest decisions.
 
 ## Entered lineups — October 11

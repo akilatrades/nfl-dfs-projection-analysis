@@ -6,6 +6,7 @@ Requires the existing Sunday 48-player scenario and scipy optimizer.
 A pre-lock decision comparison, NOT an inferred top-23k winning lineup,
 calibrated joint ceiling distribution, contest EV, or DK upload file.
 """
+
 from __future__ import annotations
 
 import hashlib
@@ -24,31 +25,61 @@ OUT = ROOT / "weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11"
 # scenario priors, not statistical injury or weather adjustments.
 CONSERVATIVE_CHANGES = {
     "Romeo Doubs": {
-        "targets": 5.5, "rec_td": 0.27,
+        "targets": 5.5,
+        "rec_td": 0.27,
         "condition": "5.5 target baseline; Week 4 nine targets and 2 TD not guaranteed; upside scenario retains 7.5",
     },
     "Braelon Allen": {
-        "rush_attempts": 16.0, "targets": 3.2, "rush_td": 0.38,
-        "rec_td": 0.065, "prob_100_rush": 0.10,
+        "rush_attempts": 16.0,
+        "targets": 3.2,
+        "rush_td": 0.38,
+        "rec_td": 0.065,
+        "prob_100_rush": 0.10,
         "condition": "Hall out, but Jets low-total rainy game: conservative workload sensitivity",
     },
 }
-PRIMARY_EXCLUSIONS = tuple(dict.fromkeys(
-    [*HELD, "Romeo Doubs", "Braelon Allen", "Woody Marks"]
-))
+PRIMARY_EXCLUSIONS = tuple(
+    dict.fromkeys([*HELD, "Romeo Doubs", "Braelon Allen", "Woody Marks"])
+)
 # The named cases prevent a choice driven by a single generic max-mean run.
 # max_te=2 is examined against max_te=1 for a direct construction comparison.
 SPECS = [
-    dict(id="brissett_two_supported_receivers", qb="Jacoby Brissett",
-         locks=("Michael Wilson", "Trey McBride"), azmin=2, azmax=3),
-    dict(id="goff_amonra_laporta", qb="Jared Goff",
-         locks=("Amon-Ra St. Brown", "Sam LaPorta"), azmin=2, azmax=3),
-    dict(id="maye_gibbs_with_henry", qb="Drake Maye",
-         locks=("Jahmyr Gibbs", "Hunter Henry"), azmin=1, azmax=2),
-    dict(id="love_watson", qb="Jordan Love",
-         locks=("Christian Watson",), azmin=1, azmax=2),
-    dict(id="maye_doubs_control", qb="Drake Maye",
-         locks=("Romeo Doubs",), azmin=1, azmax=2, allow_doubs=True),
+    dict(
+        id="brissett_two_supported_receivers",
+        qb="Jacoby Brissett",
+        locks=("Michael Wilson", "Trey McBride"),
+        azmin=2,
+        azmax=3,
+    ),
+    dict(
+        id="goff_amonra_laporta",
+        qb="Jared Goff",
+        locks=("Amon-Ra St. Brown", "Sam LaPorta"),
+        azmin=2,
+        azmax=3,
+    ),
+    dict(
+        id="maye_gibbs_with_henry",
+        qb="Drake Maye",
+        locks=("Jahmyr Gibbs", "Hunter Henry"),
+        azmin=1,
+        azmax=2,
+    ),
+    dict(
+        id="love_watson",
+        qb="Jordan Love",
+        locks=("Christian Watson",),
+        azmin=1,
+        azmax=2,
+    ),
+    dict(
+        id="maye_doubs_control",
+        qb="Drake Maye",
+        locks=("Romeo Doubs",),
+        azmin=1,
+        azmax=2,
+        allow_doubs=True,
+    ),
 ]
 PUBLISHED_OWNERSHIP_SNAPSHOT = {
     # Oct 10 Fantasy Alarm, competing vendors differ substantially.
@@ -80,30 +111,33 @@ def evaluate():
     lineups = []
     for spec in SPECS:
         excluded = tuple(
-            n for n in PRIMARY_EXCLUSIONS
+            n
+            for n in PRIMARY_EXCLUSIONS
             if not (n == "Romeo Doubs" and spec.get("allow_doubs", False))
         )
         for max_te in (1, 2):
             label = spec["id"] + "_te" + str(max_te)
             try:
                 optimum = optimize_lineup(
-                    pool, ["model_projection"],
+                    pool,
+                    ["model_projection"],
                     quarterback=spec["qb"],
                     locks=spec["locks"],
                     min_stack=1,
                     bring_back=False,
                     exclude=excluded,
                     max_tight_ends=max_te,
-                    team_group_bounds=(
-                        ("ARI", "DET"), spec["azmin"], spec["azmax"]
-                    ),
+                    team_group_bounds=(("ARI", "DET"), spec["azmin"], spec["azmax"]),
                 )
             except ValueError as e:
                 if "infeasible" in str(e).lower():
-                    summary.append({
-                        "candidate": label, "status": "infeasible",
-                        "reason": str(e),
-                    })
+                    summary.append(
+                        {
+                            "candidate": label,
+                            "status": "infeasible",
+                            "reason": str(e),
+                        }
+                    )
                     continue
                 raise
             lineup = assign_slots(optimum)
@@ -119,23 +153,30 @@ def evaluate():
                 if player == "Romeo Doubs":
                     role_down.loc[mask, ["targets", "rec_td", "prob_100_rec"]] *= 0.75
                 else:
-                    role_down.loc[mask, ["rush_attempts", "rush_td",
-                                         "targets", "rec_td", "prob_100_rush"]] *= 0.75
+                    role_down.loc[
+                        mask,
+                        [
+                            "rush_attempts",
+                            "rush_td",
+                            "targets",
+                            "rec_td",
+                            "prob_100_rush",
+                        ],
+                    ] *= 0.75
             score_scenarios["uncertain_role_down25"] = (
-                add_model_projections(role_down)
-                .set_index("player").model_projection
+                add_model_projections(role_down).set_index("player").model_projection
             )
             row = dict(
-                candidate=label, status="provisional",
+                candidate=label,
+                status="provisional",
                 salary=int(lineup.salary.sum()),
                 wr_below_6_targets=int(
-                    (lineup.position.eq("WR") &
-                     (lineup.targets < 6)).sum()
+                    (lineup.position.eq("WR") & (lineup.targets < 6)).sum()
                 ),
-                chalk_count=int(lineup.player.isin(
-                    PUBLISHED_OWNERSHIP_SNAPSHOT.keys()).sum()),
-                arizona_detroit_count=int(
-                    lineup.team.isin(["ARI", "DET"]).sum()),
+                chalk_count=int(
+                    lineup.player.isin(PUBLISHED_OWNERSHIP_SNAPSHOT.keys()).sum()
+                ),
+                arizona_detroit_count=int(lineup.team.isin(["ARI", "DET"]).sum()),
                 speculative_count=int(lineup.role_risk.sum()),
                 source_ownership_snapshot="Fantasy Alarm Oct 10; not contest specific",
             )
@@ -146,14 +187,19 @@ def evaluate():
             )
             summary.append(row)
             for _, p in lineup.iterrows():
-                lineups.append(dict(
-                    candidate=label, slot=p.slot, player=p.player,
-                    team=p.team, salary=int(p.salary),
-                    individual_manual_mean=round(float(p.model_projection), 4),
-                    expected_targets=float(p.targets),
-                    expected_carries=float(p.rush_attempts),
-                    condition=p.condition,
-                ))
+                lineups.append(
+                    dict(
+                        candidate=label,
+                        slot=p.slot,
+                        player=p.player,
+                        team=p.team,
+                        salary=int(p.salary),
+                        individual_manual_mean=round(float(p.model_projection), 4),
+                        expected_targets=float(p.targets),
+                        expected_carries=float(p.rush_attempts),
+                        condition=p.condition,
+                    )
+                )
     return inp, pool, pd.DataFrame(summary), pd.DataFrame(lineups)
 
 
@@ -176,15 +222,16 @@ def main():
         "final_inactives_verified": False,
         "run_provenance": "Local script outputs generated when run, never assumed",
     }
-    for path in [ROOT / "run_week5_process_review.py",
-                 OUT / "review_inputs.csv", OUT / "comparison.csv",
-                 OUT / "candidate_lineups.csv"]:
-        manifest.setdefault("sha256", {})[str(path.relative_to(ROOT))] = (
-            hashlib.sha256(path.read_bytes()).hexdigest()
-        )
-    (OUT / "manifest.json").write_text(
-        json.dumps(manifest, indent=2) + "\n"
-    )
+    for path in [
+        ROOT / "run_week5_process_review.py",
+        OUT / "review_inputs.csv",
+        OUT / "comparison.csv",
+        OUT / "candidate_lineups.csv",
+    ]:
+        manifest.setdefault("sha256", {})[str(path.relative_to(ROOT))] = hashlib.sha256(
+            path.read_bytes()
+        ).hexdigest()
+    (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     print(scores.to_string(index=False))
 
 

@@ -115,9 +115,7 @@ class OptimizerTests(unittest.TestCase):
             ((), 0, 3),
         ]:
             with self.assertRaises(ValueError):
-                optimize_lineup(
-                    self.pool, ["model_projection"], team_group_bounds=bad
-                )
+                optimize_lineup(self.pool, ["model_projection"], team_group_bounds=bad)
 
     def test_flex_is_latest_eligible_player(self):
         result = optimize_lineup(self.pool, ["model_projection", "stress"])

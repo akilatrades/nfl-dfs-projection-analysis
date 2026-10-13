@@ -1,4 +1,5 @@
 """Sunday snapshot guards: frozen source assumptions and coupled game risks."""
+
 import unittest
 
 from run_week5_sunday import sunday_inputs, football_scenarios

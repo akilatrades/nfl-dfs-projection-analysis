@@ -89,7 +89,10 @@ def optimize_lineup(
     # Optional grouping limits allow a slate screen to cap correlated game
     # exposure and the number of popular players without changing the scoring
     # objective. These are analyst search constraints, not official DK rules.
-    for column, bounds in (("team", team_group_bounds), ("player", player_group_bounds)):
+    for column, bounds in (
+        ("team", team_group_bounds),
+        ("player", player_group_bounds),
+    ):
         if bounds is None:
             continue
         values, lo, hi = bounds

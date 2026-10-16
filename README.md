@@ -1,218 +1,70 @@
-# NFL DFS Projection & Decision Analysis
-
-**Week 5 post-slate:** I entered two Sunday Classic single-entry contests and [reconciled 153.86 and 120.14 calculated DK points](weeks/2026_week_05/postslate_2026-10-11/README.md) with the frozen research inputs. Contest ranks, ownership and payouts are not yet recorded, so I have not classified either entry as a cash or loss. The [reproducible score audit](weeks/2026_week_05/postslate_2026-10-11/score_week5.py) separates successful game scripts from inaccurate player TD allocations.
-
-> **Week 5 entries — October 11:** I entered two DraftKings single-entry contests: [$5 / ~23K](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) and [$3 / ~7K](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md). The [entered lineup log](weeks/2026_week_05/sunday_2026-10-11/entered_lineups_2026-10-11.md) keeps both selections separate from the pre-lock simulations and post-slate results. The model outputs are scenario estimates, not contest win probabilities.
+# NFL DFS projection analysis
 
 [![tests](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/akilatrades/nfl-dfs-projection-analysis/actions/workflows/tests.yml)
 
-Can explicit assumptions about opportunity, scoring and lineup correlation improve an NFL projection process?
+Can writing down my assumptions about volume, scoring and lineup correlation, before kickoff, make my DraftKings lineups better over time?
 
-The lesson from the saved Week 3–4 reviews is to check a player's individual role before using them for lineup correlation or lower ownership. There are too few completed weeks to establish a forecasting edge. I keep the pre-event assumptions and post-event review together so errors are visible.
+**Honest status: three weeks in, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The projections start from football inputs (pass attempts, targets, carries, efficiency, touchdown chances) rather than someone else's fantasy-point forecast, so a miss can be traced to a specific assumption.
 
-## Current results
+## Week by week
 
-The project includes completed records through **2026 Week 4** and a [provisional Week 5 research build](weeks/2026_week_05/README.md).
+| Week | What I did | What happened | What I changed |
+|---|---|---|---|
+| 3 | First single-entry lineups | [Review](weeks/2026_week_03/README.md): too much weight on individually cheap or efficient players | Shifted to strong game environments, players who score together, overall upside, and only a little contrarianism |
+| 4 | First full test of the revised process: $50 and $27 single entry, $20 Millionaire | $50 lineup **153.62** DK points (simulation average 130.6, 95th percentile 178.7); the ownership-adjusted $27 lineup **137.52** | Lesson: don't give up expected points to be less popular. [Audit](weeks/2026_week_04/audit_2026-10-08/README.md): only 3 of 11 entered players had reproducible input forecasts, so inputs are now saved for every candidate |
+| 5 | Two single-entry contests, [$5 / ~23K](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) and [$3 / ~7K](weeks/2026_week_05/sunday_2026-10-11/contest_3usd_7k_2026-10-11/README.md), with a correlated Monte Carlo over 13 candidate lineups | [Reconciled scores](weeks/2026_week_05/postslate_2026-10-11/README.md) of **153.86** and **120.14**; rank, ownership and payout not yet recorded | [Process correction](weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11/README.md) stress-tests the workload assumptions and removes a forced weak run-back |
 
-The [October 8 audit](weeks/2026_week_04/audit_2026-10-08/README.md) reconciles the Week 4 entries but finds incomplete and mixed projection snapshots: only 3 of 11 entered players have reproducible football-input forecasts. The historical results and simulation discussion below are exploratory, not evidence of calibration. Week 5 now saves inputs for every candidate and compares salary-constrained lineups under explicit workload scenarios.
+Week 4 in a little more detail, because it was the first real test: Burrow (28.7), Higgins (29.7), Kyren Williams (36.7) and Hockenson (27.9) did what the game-environment thesis said. Chase scored 5.7 after a concussion, which I count as noise. Parker Washington scored 2.0, and he is the real lesson: he was chosen as the Jacksonville piece to pair with the Cincinnati stack, and his own role was too thin for the correlation to matter.
 
-Week 3 showed that the original process relied too much on finding individually cheap or efficient players. After that review, the process was changed to put more weight on strong games, players who can score well together, overall upside, and only a small amount of lower-owned differentiation.
+The simulations are scenario estimates of my own lineups' scores. They are not contest win probabilities, because I do not model the rest of the field. Until contest rank, the cash line and actual ownership are in the records, I cannot say whether any of this beats a simple projection.
 
-Week 4 was the first full test of that revised process.
-
-| Week 4 contest | Number of entries | Lineup score |
-|---|---:|---:|
-| $50 Single Entry | 4,545 | **153.62 DK points** |
-| $27 Single Entry | 3,239 | **137.52 DK points** |
-| $20 Millionaire | 161,764 | **153.62 DK points** |
-
-### What the simulation expected
-
-Before the games, the strongest high-upside lineup had:
-
-- an average simulated score of **130.6 points**
-- a 95th-percentile score of **178.7 points**
-- a 99th-percentile score of **208.5 points**
-
-A 95th-percentile result means only about **5% of simulated outcomes scored higher**. A 99th-percentile result means only about **1% scored higher**.
-
-The actual $50 single-entry lineup scored **153.62 points**. That was better than the simulated average, but it did not reach the extreme high-end outcomes the model showed were possible.
-
-### What worked
-
-Several important players produced strong scores:
-
-- Joe Burrow: **28.72**
-- Tee Higgins: **29.70**
-- Kyren Williams: **36.70**
-- T.J. Hockenson: **27.90**
-
-That suggests the overall idea of targeting a strong game environment and combining it with high-upside individual plays was reasonable.
-
-### What did not work
-
-Ja'Marr Chase scored only **5.70 points** after leaving with a concussion. The project treats that mainly as injury-related randomness rather than evidence that the pre-game decision was bad.
-
-Parker Washington scored **2.00 points** and is a more important process-review case because he was intentionally chosen as the Jacksonville player paired with the Cincinnati stack. That result raises the question of whether his individual role and scoring upside were strong enough, even if the lineup correlation made sense.
-
-The ownership-adjusted $27 lineup scored **137.52 points**, lower than the raw-ceiling version. The current lesson is simple: **do not give up too much expected scoring upside just to make a lineup less popular.**
-
-### Current takeaway
-
-The revised process produced a better-structured lineup and the model identified a lineup with real upside. However, there are still too few completed weeks to say that the model has a proven long-term advantage.
-
-The Week 4 records also do not yet include final contest rank, the cash line, or actual player ownership. Those fields will be important in future weeks because they show not only how many points the lineup scored, but how well it performed against the actual field.
-
-## Analytical workflow
+## How the process works
 
 ```text
-Public football / market inputs
-        |
-        v
-Expected opportunity and efficiency assumptions
-        |
-        v
-Player projections
-        |
-        +--> Floor / ceiling estimates
-        +--> Position percentiles
-        +--> Salary-based hit probabilities
-        +--> Ownership estimate
-        +--> Sensitivity analysis
-        |
-        v
-Game-environment and correlation analysis
-        |
-        v
-Candidate lineup comparison
-        |
-        v
-Pre-lock decision record
-        |
-        v
-Actual results and post-slate error analysis
+public football and market inputs
+  -> expected volume and efficiency per player
+  -> projections, floor and ceiling, position percentiles, salary-based hit rates, ownership estimate
+  -> game-environment ranking and correlation
+  -> candidate lineups compared under explicit scenarios
+  -> pre-lock decision record (frozen)
+  -> post-slate scoring and error review
 ```
 
-## Model components
-
-| Area | Implementation |
+| Area | What the code does |
 |---|---|
-| Projection engine | Converts expected passing, rushing, receiving, and DST inputs into DraftKings points |
-| Uncertainty | Projection ranges plus simulation-based upper-tail summaries |
-| Ownership | Transparent candidate-pool popularity estimate derived from project metrics |
-| Relative strength | Position-specific projection, ceiling, and value percentiles |
-| Tournament metrics | 3x / 4x hit probabilities and a project-specific leverage index |
-| Sensitivity | Recalculates projections after controlled changes to key assumptions |
-| Game environment | Ranks games using totals, team totals, spread, role concentration, and context |
-| Lineup analysis | Evaluates salary, projection, ceiling, correlation, ownership, and lineup thesis |
-| Validation | Compares pre-lock projections and ownership estimates with realized results |
-| Audit trail | Stores pre-slate assumptions separately from post-slate review |
+| Projection engine | Turns expected passing, rushing, receiving and DST inputs into DraftKings points |
+| Uncertainty | Ranges plus a simulation of the upper tail |
+| Ownership | A simple popularity estimate from the project's own metrics |
+| Relative strength | Position-specific percentiles for projection, ceiling and value |
+| Tournament metrics | 3x and 4x hit probabilities and a leverage index |
+| Sensitivity | Re-runs projections after controlled changes to key assumptions |
+| Game environment | Ranks games on totals, team totals, spread and role concentration |
+| Lineup analysis | Salary, projection, ceiling, correlation, ownership and the lineup's thesis |
+| Audit trail | Pre-slate assumptions stored apart from the post-slate review |
 
-## Research design
+[Methodology](docs/methodology.md) · [Limitations](docs/limitations.md)
 
-The model starts from expected football statistics rather than importing a finished fantasy-point projection. Inputs can include pass attempts, completion rate, carries, targets, catch rate, yards per carry, yards per reception, touchdown expectations, recent volatility, and bonus probabilities.
-
-This design keeps the projection explainable: a forecast miss can be traced back to volume, efficiency, scoring conversion, or uncertainty assumptions rather than treated as an opaque model error.
-
-See [docs/methodology.md](docs/methodology.md) for the analytical framework and [docs/limitations.md](docs/limitations.md) for the current model-use boundary.
-
-## Current contest focus
-
-Active Sunday Week 5 research now covers **single-entry contests with at least 1,000 entries**. The [October 9 construction comparison](weeks/2026_week_05/single_entry_2026-10-09/README.md) covers fields from 1,000 to 25,000 entries. The [Saturday October 10 injury refresh](weeks/2026_week_05/saturday_2026-10-10/README.md) is retained as a dated snapshot; the [Sunday October 11 single-entry research](weeks/2026_week_05/sunday_2026-10-11/README.md) expands the pool to 48 candidates, compares Maye/Purdy/Love alternatives around one or two Detroit–Arizona game pieces, and adds a deterministic correlated-game downside check. All lineups remain pre-lock research, not finalized entries. It compares 43 players across six QB families, with 62 specifications producing 45 unique rosters. Field labels represent analyst preferences; no contest-payout model is claimed. Entry fee, exact contest and official salary export remain undecided.
-
-The [October 8 TB–DAL Showdown snapshot](weeks/2026_week_05/showdown_tb_dal/README.md) and earlier Sunday recommendations are preserved as dated research history.
-
-The [October 11 process correction](weeks/2026_week_05/sunday_2026-10-11/process_review_2026-10-11/README.md) revisits the $5 / ~23K single-entry choices using Week 3–4 lessons: the Doubs and Allen workload assumptions are stress-tested, the forced weak run-back is removed, and Goff/Brissett/Maye/Love roles are compared with frozen pre-lock lineups. The correction is a separate dated snapshot, not a backfilled performance claim.
-
-The [October 11 correlated Monte Carlo decision](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/README.md) stress-tests 13 Week 5 large-field candidate lineups over two competing projection baselines and alternative player/game scenarios (945,000 seeded slate draws across the original and extended screens). I ultimately entered the [$5 / 23K roster](weeks/2026_week_05/sunday_2026-10-11/monte_carlo_2026-10-11/recommendation_prelock_v2.csv) after reviewing the simulations; the file itself preserves its pre-lock version. The Monte Carlo is an **uncalibrated correlated score surrogate**, not a modeled opponent field, rank, payout or proof of edge.
-
-## Latest reproducible research
+## Reproduce
 
 ```bash
-python run_week4_audit.py
-python run_week5_research.py
-python run_single_entry.py
-python run_single_entry_field.py
-python run_week5_field_sizes.py
-python run_week5_saturday.py
-python run_week5_sunday.py
-python run_week5_process_review.py
-```
-
-Current Week 5 research uses manual analyst priors and published salary references: October 9 field-size snapshot 43 players, Saturday October 10 snapshot 44, and Sunday October 11 candidate pool 48; the earlier baseline had 35. At the time of the Sunday snapshot, I hadn't run the Python rerun script yet. Its mean/stress search does not estimate tournament payout or win probability. See the weekly source register and run manifest for scope and missing inputs.
-
-## Case studies
-
-The repository keeps weekly research records so the process can be evaluated without hindsight.
-
-- [Week 4 reproducibility audit](weeks/2026_week_04/audit_2026-10-08/README.md) — source coverage, arithmetic and limits on the original conclusions.
-- [Week 5 research and provisional lineup](weeks/2026_week_05/README.md) — current shortlist, assumptions, scenarios and contingencies.
-- [2026 Week 3 review](weeks/2026_week_03/README.md) — initial single-entry process review and identified construction errors.
-- [2026 Week 4 pre-slate analysis](weeks/2026_week_04/pre_slate_analysis.md) — assumptions and lineup thesis recorded before lock.
-- [2026 Week 4 statistical analysis](weeks/2026_week_04/statistical_analysis.md) — percentile, hit-probability, simulation, and sensitivity outputs.
-- [2026 Week 4 post-slate review](weeks/2026_week_04/post_slate_review_2026-10-04.md) — realized results and process evaluation.
-
-The Week 4 correlated upper-tail work is explicitly classified as exploratory because the saved analysis is not yet fully reproduced by the repository's core Python pipeline. It is retained as research history rather than represented as a production-ready model component.
-
-## Repository structure
-
-```text
-.
-├── .github/workflows/
-├── data/
-├── docs/
-├── src/
-│   ├── evaluation.py
-│   ├── game_environment.py
-│   ├── input_model.py
-│   ├── lineup_analysis.py
-│   ├── projections.py
-│   └── statistical_analysis.py
-├── tests/
-├── weeks/
-│   ├── 2026_week_03/
-│   └── 2026_week_04/
-├── run_baseline_inputs.py
-├── run_game_environments.py
-├── run_projections.py
-├── run_statistical_analysis.py
-├── pyproject.toml
-└── requirements.txt
-```
-
-## Reproduce the core analysis
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
-pip install pytest
 pytest
 python run_projections.py weeks/2026_week_04/projection_inputs.csv
 python run_statistical_analysis.py weeks/2026_week_04/player_pool.csv
+python run_week4_audit.py
+python run_week5_research.py          # and run_single_entry*.py, run_week5_*.py for the dated snapshots
 ```
 
-Windows activation:
+Tests cover projection arithmetic, value calculations, percentiles, hit probabilities, the deterministic simulation, sensitivity analysis and input validation.
 
-```text
-.venv\Scripts\activate
-```
+## Limitations
 
-## Validation and controls
-
-The project includes automated unit tests for projection arithmetic, value calculations, percentile logic, hit probabilities, deterministic simulation behavior, sensitivity analysis, and input validation.
-
-Pre-slate and post-slate records are kept separate to reduce hindsight bias. Model assumptions are stored alongside outputs whenever practical, and exploratory analysis is labeled separately from reproducible production code.
-
-## Current limitations
-
-The current framework remains a research model. Important limitations include manually estimated football inputs, a simplified ownership model, normal / truncated-normal approximations in parts of the uncertainty layer, incomplete field-level ownership calibration, and a correlated lineup simulation layer that is not yet integrated into the core reproducible engine.
-
-No model output should be interpreted as a guaranteed contest outcome.
-
-Educational and analytical use only.
+- The football inputs are my own estimates, saved before lock but not sourced from a feed.
+- The ownership model is simple and uncalibrated against real ownership.
+- Parts of the uncertainty layer use normal and truncated-normal approximations.
+- The correlated lineup simulation is not yet part of the core reproducible pipeline; it is kept as dated research.
+- Three weeks is not a record. Nothing here is a claim of a long-term advantage, and nothing is a guarantee of a contest result.
 
 ## What I learned / what I would do differently
 
-A high simulated ceiling is not validation. I would build a longer record with contest rank, cash line, actual ownership and forecast error against a simple baseline before describing any advantage. The existing weekly files preserve the assumptions and reviews needed for that comparison.
-
+A high simulated ceiling is not validation. I would build a longer record with contest rank, cash line, actual ownership and forecast error against a simple baseline before describing any advantage. The weekly files keep the assumptions and reviews that comparison will need.

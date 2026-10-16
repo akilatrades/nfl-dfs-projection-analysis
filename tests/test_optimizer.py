@@ -17,11 +17,11 @@ class OptimizerTests(unittest.TestCase):
         ):
             team = ["A", "C", "D", "E", "A", "C", "D", "B", "B", "E", "F", "G"][i]
             rows.append(
-                dict(
-                    player=str(i),
-                    position=pos,
-                    team=team,
-                    opponent={
+                {
+                    "player": str(i),
+                    "position": pos,
+                    "team": team,
+                    "opponent": {
                         "A": "B",
                         "B": "A",
                         "C": "D",
@@ -30,12 +30,12 @@ class OptimizerTests(unittest.TestCase):
                         "F": "E",
                         "G": "H",
                     }[team],
-                    salary=4000 + 100 * i,
-                    role_risk=0,
-                    model_projection=10 + i,
-                    stress=10 + i,
-                    kickoff_utc="2026-10-11T17:00:00Z",
-                )
+                    "salary": 4000 + 100 * i,
+                    "role_risk": 0,
+                    "model_projection": 10 + i,
+                    "stress": 10 + i,
+                    "kickoff_utc": "2026-10-11T17:00:00Z",
+                }
             )
         self.pool = pd.DataFrame(rows)
         self.pool.loc[7, "stress"] = 2

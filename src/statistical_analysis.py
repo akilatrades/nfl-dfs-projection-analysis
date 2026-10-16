@@ -17,8 +17,8 @@ project has enough historical data to estimate richer distributions.
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 from math import erf, sqrt
-from typing import Iterable
 
 import numpy as np
 import pandas as pd

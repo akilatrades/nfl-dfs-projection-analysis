@@ -15,8 +15,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from run_week5_sunday import sunday_inputs, football_scenarios, HELD
-from src.optimizer import optimize_lineup, assign_slots
+from run_week5_sunday import HELD, football_scenarios, sunday_inputs
+from src.optimizer import assign_slots, optimize_lineup
 from src.projections import add_model_projections
 
 ROOT = Path(__file__).resolve().parent
@@ -44,42 +44,42 @@ PRIMARY_EXCLUSIONS = tuple(
 # The named cases prevent a choice driven by a single generic max-mean run.
 # max_te=2 is examined against max_te=1 for a direct construction comparison.
 SPECS = [
-    dict(
-        id="brissett_two_supported_receivers",
-        qb="Jacoby Brissett",
-        locks=("Michael Wilson", "Trey McBride"),
-        azmin=2,
-        azmax=3,
-    ),
-    dict(
-        id="goff_amonra_laporta",
-        qb="Jared Goff",
-        locks=("Amon-Ra St. Brown", "Sam LaPorta"),
-        azmin=2,
-        azmax=3,
-    ),
-    dict(
-        id="maye_gibbs_with_henry",
-        qb="Drake Maye",
-        locks=("Jahmyr Gibbs", "Hunter Henry"),
-        azmin=1,
-        azmax=2,
-    ),
-    dict(
-        id="love_watson",
-        qb="Jordan Love",
-        locks=("Christian Watson",),
-        azmin=1,
-        azmax=2,
-    ),
-    dict(
-        id="maye_doubs_control",
-        qb="Drake Maye",
-        locks=("Romeo Doubs",),
-        azmin=1,
-        azmax=2,
-        allow_doubs=True,
-    ),
+    {
+        "id": "brissett_two_supported_receivers",
+        "qb": "Jacoby Brissett",
+        "locks": ("Michael Wilson", "Trey McBride"),
+        "azmin": 2,
+        "azmax": 3,
+    },
+    {
+        "id": "goff_amonra_laporta",
+        "qb": "Jared Goff",
+        "locks": ("Amon-Ra St. Brown", "Sam LaPorta"),
+        "azmin": 2,
+        "azmax": 3,
+    },
+    {
+        "id": "maye_gibbs_with_henry",
+        "qb": "Drake Maye",
+        "locks": ("Jahmyr Gibbs", "Hunter Henry"),
+        "azmin": 1,
+        "azmax": 2,
+    },
+    {
+        "id": "love_watson",
+        "qb": "Jordan Love",
+        "locks": ("Christian Watson",),
+        "azmin": 1,
+        "azmax": 2,
+    },
+    {
+        "id": "maye_doubs_control",
+        "qb": "Drake Maye",
+        "locks": ("Romeo Doubs",),
+        "azmin": 1,
+        "azmax": 2,
+        "allow_doubs": True,
+    },
 ]
 PUBLISHED_OWNERSHIP_SNAPSHOT = {
     # Oct 10 Fantasy Alarm, competing vendors differ substantially.
@@ -166,20 +166,20 @@ def evaluate():
             score_scenarios["uncertain_role_down25"] = (
                 add_model_projections(role_down).set_index("player").model_projection
             )
-            row = dict(
-                candidate=label,
-                status="provisional",
-                salary=int(lineup.salary.sum()),
-                wr_below_6_targets=int(
+            row = {
+                "candidate": label,
+                "status": "provisional",
+                "salary": int(lineup.salary.sum()),
+                "wr_below_6_targets": int(
                     (lineup.position.eq("WR") & (lineup.targets < 6)).sum()
                 ),
-                chalk_count=int(
+                "chalk_count": int(
                     lineup.player.isin(PUBLISHED_OWNERSHIP_SNAPSHOT.keys()).sum()
                 ),
-                arizona_detroit_count=int(lineup.team.isin(["ARI", "DET"]).sum()),
-                speculative_count=int(lineup.role_risk.sum()),
-                source_ownership_snapshot="Fantasy Alarm Oct 10; not contest specific",
-            )
+                "arizona_detroit_count": int(lineup.team.isin(["ARI", "DET"]).sum()),
+                "speculative_count": int(lineup.role_risk.sum()),
+                "source_ownership_snapshot": "Fantasy Alarm Oct 10; not contest specific",
+            }
             for key, series in score_scenarios.items():
                 row[key] = round(float(series.loc[lineup.player].sum()), 4)
             row["worst_separate_stress"] = round(
@@ -188,24 +188,24 @@ def evaluate():
             summary.append(row)
             for _, p in lineup.iterrows():
                 lineups.append(
-                    dict(
-                        candidate=label,
-                        slot=p.slot,
-                        player=p.player,
-                        team=p.team,
-                        salary=int(p.salary),
-                        individual_manual_mean=round(float(p.model_projection), 4),
-                        expected_targets=float(p.targets),
-                        expected_carries=float(p.rush_attempts),
-                        condition=p.condition,
-                    )
+                    {
+                        "candidate": label,
+                        "slot": p.slot,
+                        "player": p.player,
+                        "team": p.team,
+                        "salary": int(p.salary),
+                        "individual_manual_mean": round(float(p.model_projection), 4),
+                        "expected_targets": float(p.targets),
+                        "expected_carries": float(p.rush_attempts),
+                        "condition": p.condition,
+                    }
                 )
     return inp, pool, pd.DataFrame(summary), pd.DataFrame(lineups)
 
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    inp, pool, scores, lineups = evaluate()
+    inp, _pool, scores, lineups = evaluate()
     inp.to_csv(OUT / "review_inputs.csv", index=False)
     scores.to_csv(OUT / "comparison.csv", index=False, float_format="%.4f")
     lineups.to_csv(OUT / "candidate_lineups.csv", index=False, float_format="%.4f")

@@ -5,8 +5,10 @@ Run: python score_model.py
 Model is illustrative, not calibrated to DFS payouts, ownership or opponents.
 """
 
-import json, csv
+import csv
+import json
 from pathlib import Path
+
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import LeaveOneOut
@@ -161,7 +163,7 @@ RB_CATCH = {"Chase Brown": 0.08, "D'Andre Swift": 0.06, "Aaron Jones Sr.": 0.07}
 QB_RUSH = {"Jordan Love": 0.06, "Jared Goff": 0.025}
 MARKET = {}
 TEAM = {}
-for game, (fav, dog, total, spread) in GAMES.items():
+for fav, dog, total, spread in GAMES.values():
     MARKET[fav] = (total + spread) / 2
     MARKET[dog] = (total - spread) / 2
     shared_pace = rng.gamma(12, 1 / 12, size=N)

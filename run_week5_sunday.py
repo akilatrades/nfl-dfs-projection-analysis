@@ -15,7 +15,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from run_week5_saturday import OLD as FRIDAY_INPUTS, refresh as saturday_refresh
+from run_week5_saturday import OLD as FRIDAY_INPUTS
+from run_week5_saturday import refresh as saturday_refresh
 from src.optimizer import assign_slots, optimize_lineup
 from src.projections import add_model_projections
 

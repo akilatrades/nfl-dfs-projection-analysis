@@ -3,7 +3,6 @@
 import unittest
 
 from run_week5_process_review import (
-    CONSERVATIVE_CHANGES,
     PRIMARY_EXCLUSIONS,
     SPECS,
     revised_inputs,

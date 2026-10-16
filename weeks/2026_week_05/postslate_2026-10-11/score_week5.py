@@ -18,77 +18,137 @@ OUT = Path(__file__).resolve().parent
 # Frozen analyst/public midpoint used in the October 11 lineup-selection research.
 # This is NOT the later event-constrained 180K Monte Carlo's simulated mean.
 PLAYERS = {
-    "Jordan Love": dict(
-        pos="QB",
-        pass_yd=367,
-        pass_td=2,
-        rush_yd=6,
-        pass_2pt=1,
-        prior="18.047",
-        source="GB_CHI",
-    ),
-    "Chase Brown": dict(
-        pos="RB", rush_yd=39, rec=3, rec_yd=21, prior="16.7645", source="CIN_MIA"
-    ),
-    "D'Andre Swift": dict(
-        pos="RB",
-        rush_yd=43,
-        rush_td=1,
-        rec=4,
-        rec_yd=30,
-        prior="16.1915",
-        source="GB_CHI",
-    ),
-    "Michael Wilson": dict(
-        pos="WR", pass_yd=7, rec=4, rec_yd=30, prior="15.694", source="DET_ARI"
-    ),
-    "Christian Watson": dict(
-        pos="WR", rec=6, rec_yd=143, rec_td=2, prior="15.0425", source="GB_CHI"
-    ),
-    "Jameson Williams": dict(
-        pos="WR", rec=2, rec_yd=47, rec_td=2, prior="12.135", source="DET_ARI"
-    ),
-    "Hunter Henry": dict(
-        pos="TE", rec=3, rec_yd=44, rec_td=1, prior="8.755", source="LV_NE"
-    ),
-    "Trey McBride": dict(
-        pos="TE", rec=9, rec_yd=66, rec_td=1, prior="16.146", source="DET_ARI"
-    ),
-    "Chargers DST": dict(
-        pos="DST", pa=23, sacks=1, frecoveries=1, prior="5.44", source="DEN_LAC"
-    ),
-    "Jared Goff": dict(
-        pos="QB",
-        pass_yd=271,
-        pass_td=3,
-        rush_yd=1,
-        rush_td=1,
-        prior="19.5245",
-        source="DET_ARI",
-    ),
-    "Aaron Jones Sr.": dict(
-        pos="RB",
-        rush_yd=113,
-        rush_td=1,
-        rec=3,
-        rec_yd=4,
-        fumbles_lost=1,
-        prior="15.6",
-        source="MIN_NO",
-    ),
-    "Amon-Ra St. Brown": dict(
-        pos="WR", rec=6, rec_yd=69, prior="18.17", source="DET_ARI"
-    ),
-    "Luther Burden III": dict(
-        pos="WR", rush_yd=2, rec=4, rec_yd=47, prior="14.7", source="GB_CHI"
-    ),
-    "Tre Tucker": dict(
-        pos="WR", rush_yd=-6, rec=4, rec_yd=41, prior="11.1", source="LV_NE"
-    ),
-    "Sam LaPorta": dict(
-        pos="TE", rec=5, rec_yd=88, rec_td=1, prior="12.27", source="DET_ARI"
-    ),
-    "George Kittle": dict(pos="TE", rec=5, rec_yd=24, prior="14.059", source="SF_SEA"),
+    "Jordan Love": {
+        "pos": "QB",
+        "pass_yd": 367,
+        "pass_td": 2,
+        "rush_yd": 6,
+        "pass_2pt": 1,
+        "prior": "18.047",
+        "source": "GB_CHI",
+    },
+    "Chase Brown": {
+        "pos": "RB",
+        "rush_yd": 39,
+        "rec": 3,
+        "rec_yd": 21,
+        "prior": "16.7645",
+        "source": "CIN_MIA",
+    },
+    "D'Andre Swift": {
+        "pos": "RB",
+        "rush_yd": 43,
+        "rush_td": 1,
+        "rec": 4,
+        "rec_yd": 30,
+        "prior": "16.1915",
+        "source": "GB_CHI",
+    },
+    "Michael Wilson": {
+        "pos": "WR",
+        "pass_yd": 7,
+        "rec": 4,
+        "rec_yd": 30,
+        "prior": "15.694",
+        "source": "DET_ARI",
+    },
+    "Christian Watson": {
+        "pos": "WR",
+        "rec": 6,
+        "rec_yd": 143,
+        "rec_td": 2,
+        "prior": "15.0425",
+        "source": "GB_CHI",
+    },
+    "Jameson Williams": {
+        "pos": "WR",
+        "rec": 2,
+        "rec_yd": 47,
+        "rec_td": 2,
+        "prior": "12.135",
+        "source": "DET_ARI",
+    },
+    "Hunter Henry": {
+        "pos": "TE",
+        "rec": 3,
+        "rec_yd": 44,
+        "rec_td": 1,
+        "prior": "8.755",
+        "source": "LV_NE",
+    },
+    "Trey McBride": {
+        "pos": "TE",
+        "rec": 9,
+        "rec_yd": 66,
+        "rec_td": 1,
+        "prior": "16.146",
+        "source": "DET_ARI",
+    },
+    "Chargers DST": {
+        "pos": "DST",
+        "pa": 23,
+        "sacks": 1,
+        "frecoveries": 1,
+        "prior": "5.44",
+        "source": "DEN_LAC",
+    },
+    "Jared Goff": {
+        "pos": "QB",
+        "pass_yd": 271,
+        "pass_td": 3,
+        "rush_yd": 1,
+        "rush_td": 1,
+        "prior": "19.5245",
+        "source": "DET_ARI",
+    },
+    "Aaron Jones Sr.": {
+        "pos": "RB",
+        "rush_yd": 113,
+        "rush_td": 1,
+        "rec": 3,
+        "rec_yd": 4,
+        "fumbles_lost": 1,
+        "prior": "15.6",
+        "source": "MIN_NO",
+    },
+    "Amon-Ra St. Brown": {
+        "pos": "WR",
+        "rec": 6,
+        "rec_yd": 69,
+        "prior": "18.17",
+        "source": "DET_ARI",
+    },
+    "Luther Burden III": {
+        "pos": "WR",
+        "rush_yd": 2,
+        "rec": 4,
+        "rec_yd": 47,
+        "prior": "14.7",
+        "source": "GB_CHI",
+    },
+    "Tre Tucker": {
+        "pos": "WR",
+        "rush_yd": -6,
+        "rec": 4,
+        "rec_yd": 41,
+        "prior": "11.1",
+        "source": "LV_NE",
+    },
+    "Sam LaPorta": {
+        "pos": "TE",
+        "rec": 5,
+        "rec_yd": 88,
+        "rec_td": 1,
+        "prior": "12.27",
+        "source": "DET_ARI",
+    },
+    "George Kittle": {
+        "pos": "TE",
+        "rec": 5,
+        "rec_yd": 24,
+        "prior": "14.059",
+        "source": "SF_SEA",
+    },
 }
 LINEUPS = {
     "5usd_23k": [
@@ -184,23 +244,23 @@ def main():
             total += actual
             prior += previous
             rows.append(
-                dict(
-                    contest=lineup,
-                    position=stats["pos"],
-                    player=name,
-                    prior_mean=f"{previous:.2f}",
-                    actual_dk=f"{actual:.2f}",
-                    forecast_error=f"{actual - previous:.2f}",
-                    source=SOURCES[stats["source"]],
-                )
+                {
+                    "contest": lineup,
+                    "position": stats["pos"],
+                    "player": name,
+                    "prior_mean": f"{previous:.2f}",
+                    "actual_dk": f"{actual:.2f}",
+                    "forecast_error": f"{actual - previous:.2f}",
+                    "source": SOURCES[stats["source"]],
+                }
             )
-        lineup_sums[lineup] = dict(
-            observed=f"{total:.2f}",
-            old_mean=f"{prior:.2f}",
-            new_monte_carlo_mean=f"{FINAL_MODEL_MEANS[lineup]:.2f}",
-            residual_v_final=f"{total - FINAL_MODEL_MEANS[lineup]:.2f}",
-            residual_v_old=f"{total - prior:.2f}",
-        )
+        lineup_sums[lineup] = {
+            "observed": f"{total:.2f}",
+            "old_mean": f"{prior:.2f}",
+            "new_monte_carlo_mean": f"{FINAL_MODEL_MEANS[lineup]:.2f}",
+            "residual_v_final": f"{total - FINAL_MODEL_MEANS[lineup]:.2f}",
+            "residual_v_old": f"{total - prior:.2f}",
+        }
     assert lineup_sums["5usd_23k"]["observed"] == "153.86"
     assert lineup_sums["3usd_7k"]["observed"] == "120.14"
     with (OUT / "entered_player_results.csv").open(

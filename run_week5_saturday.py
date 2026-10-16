@@ -6,13 +6,14 @@ Run from repository root:
 Saves fresh artifacts without modifying October 9 assumptions/results.
 """
 
-from pathlib import Path
 import hashlib
 import json
+from pathlib import Path
+
 import pandas as pd
 
+from src.optimizer import assign_slots, optimize_lineup
 from src.projections import add_model_projections
-from src.optimizer import optimize_lineup, assign_slots
 
 ROOT = Path(__file__).resolve().parent
 OLD = ROOT / "weeks/2026_week_05/single_entry_2026-10-09/projection_inputs.csv"
@@ -111,12 +112,12 @@ def projection_scenarios(inp, qb):
     az_revert.loc[az_revert.player.eq("Trey McBride"), "targets"] -= 0.75
     az_revert.loc[az_revert.player.eq("Trey McBride"), "rec_td"] -= 0.05
     az_score = add_model_projections(az_revert).set_index("player").model_projection
-    return dict(
-        mean=base,
-        rb_workload_down20=rb_score,
-        qb_passing_down20=qb_score,
-        arizona_uplift_reverts=az_score,
-    )
+    return {
+        "mean": base,
+        "rb_workload_down20": rb_score,
+        "qb_passing_down20": qb_score,
+        "arizona_uplift_reverts": az_score,
+    }
 
 
 def main():

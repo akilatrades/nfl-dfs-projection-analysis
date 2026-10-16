@@ -2,7 +2,7 @@
 
 import unittest
 
-from run_week5_sunday import sunday_inputs, football_scenarios
+from run_week5_sunday import football_scenarios, sunday_inputs
 from src.projections import add_model_projections
 
 

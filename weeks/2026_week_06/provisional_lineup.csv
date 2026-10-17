@@ -1,0 +1,10 @@
+slot,player,position,team,opponent,salary,model_projection,joint_downside,status_note,decision
+QB,Bryce Young,QB,CAR,PHI,5700.0,20.83,20.83,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+RB,Kenneth Walker,RB,KC,LAC,8500.0,22.5,22.5,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+RB,Kyren Williams,RB,LA,ARI,6800.0,20.47,17.39,corum_share,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+WR,Jalen Coker,WR,CAR,PHI,5900.0,14.35,14.35,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+WR,Kendrick Bourne,WR,ARI,LA,4000.0,10.44,10.44,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+WR,Puka Nacua,WR,LA,ARI,8100.0,20.66,20.66,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+TE,Isaiah Likely,TE,NYG,NO,4800.0,14.42,14.42,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+FLEX,Tyler Higbee,TE,LA,ARI,3400.0,11.61,11.61,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"
+DST,Panthers DST,DST,CAR,PHI,2500.0,8.95,8.95,active,"provisional single entry, 2026-10-17; final choice recorded Sunday"

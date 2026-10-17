@@ -1,0 +1,23 @@
+{
+  "inputs_sha256_16": "fc5ec5a7cee62144",
+  "scenarios": [
+    "williams_sits",
+    "jackson_plays",
+    "dowdle_back",
+    "corum_share",
+    "olave_returns",
+    "barkley_back",
+    "worthy_no_bump",
+    "stevenson_no_bump"
+  ],
+  "quarterbacks": [
+    "Josh Allen",
+    "Matthew Stafford",
+    "Caleb Williams",
+    "Drake Maye",
+    "Tyler Shough",
+    "Bryce Young",
+    "Kirk Cousins"
+  ],
+  "generated": "2026-10-17"
+}

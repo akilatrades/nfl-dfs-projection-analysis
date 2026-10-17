@@ -1,0 +1,55 @@
+player,position,team,opponent,salary,model_projection,model_floor,model_ceiling,value_per_1000,our_ownership_estimate,team_total,game_total,role_note,correlation_note,leverage_note,decision,reason,status_note
+Caleb Williams,QB,CHI,ATL,6200.0,20.59135747899844,12.27135747899844,28.91135747899844,3.3211866901610385,,26.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,questionable_full_practice_thu
+Josh Allen,QB,BUF,LV,7500.0,26.09162093050966,17.77162093050966,34.411620930509656,3.4788827907346214,,29.0,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Matthew Stafford,QB,LA,ARI,6400.0,22.385613919700912,14.065613919700912,30.705613919700912,3.497752174953267,,32.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Daniel Jones,QB,IND,TEN,5200.0,16.203929662355424,7.883929662355424,24.523929662355425,3.116140319683735,,25.75,44.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Tyler Shough,QB,NO,NYG,5600.0,20.26993520149574,11.949935201495741,28.58993520149574,3.6196312859813826,,23.5,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Michael Penix,QB,ATL,CHI,5000.0,16.777086140516133,8.457086140516132,25.097086140516133,3.3554172281032266,,25.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,expected_starter
+Kirk Cousins,QB,LV,BUF,5400.0,19.360579986869315,11.040579986869314,27.680579986869315,3.585292590160984,,24.5,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Tyler Huntley,QB,BAL,CLE,4700.0,15.8117395958129,7.4917395958129,24.131739595812903,3.3641999140027448,,22.0,40.5,Week 1-3 public usage blended with position baselines,,,research,,starts_only_if_jackson_out
+Bryce Young,QB,CAR,PHI,5700.0,20.82712537029774,12.50712537029774,29.14712537029774,3.653881643911884,,21.0,38.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Jameis Winston,QB,NYG,NO,5100.0,16.414820360161766,8.094820360161766,24.734820360161766,3.2185922274826995,,22.0,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Drake Maye,QB,NE,NYJ,6600.0,20.54352081676774,12.223520816767738,28.86352081676774,3.112654669207233,,25.5,43.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Kenneth Walker,RB,KC,LAC,8500.0,22.497855345224828,12.897855345224828,32.09785534522483,2.646806511202921,,24.5,41.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Bijan Robinson,RB,ATL,CHI,8700.0,21.721395207379405,12.121395207379406,31.321395207379403,2.496712092802231,,25.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Jonathan Taylor,RB,IND,TEN,8000.0,18.624797364162703,9.024797364162703,28.224797364162704,2.328099670520338,,25.75,44.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Kyren Williams,RB,LA,ARI,6800.0,20.469487233279565,10.869487233279566,30.069487233279567,3.0102187107764067,,32.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,corum_share
+James Cook,RB,BUF,LV,7400.0,18.20070598537254,8.60070598537254,27.800705985372538,2.459554862888181,,29.0,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Cam Skattebo,RB,NYG,NO,5800.0,12.923582274302687,3.3235822743026873,22.523582274302687,2.2282038403970152,,22.0,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Braelon Allen,RB,NYJ,NE,5700.0,10.432167018902424,0.8321670189024246,20.032167018902424,1.83020474015832,,18.0,43.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Quinshon Judkins,RB,CLE,BAL,5500.0,12.956503058493933,3.3565030584939333,22.55650305849393,2.355727828817079,,18.5,40.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Dameon Pierce,RB,PHI,CAR,5100.0,11.918466223771054,2.318466223771054,21.518466223771053,2.336954161523736,,17.5,38.5,Week 1-3 public usage blended with position baselines,,,research,,barkley_expected_back
+Chuba Hubbard,RB,CAR,PHI,6300.0,16.52535481489977,6.925354814899771,26.125354814899772,2.6230721928412337,,21.0,38.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Rhamondre Stevenson,RB,NE,NYJ,6000.0,13.760218053387444,4.160218053387444,23.36021805338744,2.293369675564574,,25.5,43.5,Week 1-3 public usage blended with position baselines,,,research,,henderson_out
+Jaylen Warren,RB,PIT,TB,7000.0,17.84964078256451,8.24964078256451,27.449640782564508,2.5499486832235014,,21.0,39.5,Week 1-3 public usage blended with position baselines,,,research,,dowdle_returns
+Keaton Mitchell,RB,LAC,KC,4300.0,9.620280772748902,0.02028077274890272,19.2202807727489,2.2372745983136983,,17.0,41.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Luther Burden,WR,CHI,ATL,5400.0,12.26682530764581,2.02682530764581,22.506825307645812,2.2716343162307053,,26.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Rome Odunze,WR,CHI,ATL,4900.0,10.919100495786862,0.6791004957868623,21.159100495786863,2.228387856283033,,26.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Drake London,WR,ATL,CHI,7000.0,14.963821955837542,4.723821955837542,25.20382195583754,2.1376888508339347,,25.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Khalil Shakir,WR,BUF,LV,5300.0,10.75886127736539,0.5188612773653904,20.998861277365393,2.0299738259179985,,29.0,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Puka Nacua,WR,LA,ARI,8100.0,20.659107055112422,10.419107055112422,30.899107055112424,2.5505070438410398,,32.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Davante Adams,WR,LA,ARI,6600.0,17.410873061824976,7.170873061824976,27.650873061824974,2.6380110699734813,,32.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Tetairoa McMillan,WR,CAR,PHI,7300.0,16.602946890327097,6.3629468903270965,26.8429468903271,2.2743762863461776,,21.0,38.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Malik Nabers,WR,NYG,NO,6500.0,14.42933319893913,4.18933319893913,24.66933319893913,2.2198974152214044,,22.0,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Xavier Worthy,WR,KC,LAC,4600.0,10.178333189745347,0.0,20.418333189745347,2.2126811282055106,,24.5,41.5,Week 1-3 public usage blended with position baselines,,,research,,rice_out
+Carnell Tate,WR,TEN,IND,5000.0,11.48169317569615,1.2416931756961507,21.721693175696153,2.29633863513923,,18.75,44.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Denzel Boston,WR,CLE,BAL,5500.0,12.365414544191616,2.1254145441916155,22.605414544191618,2.248257189853021,,18.5,40.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Jalen Coker,WR,CAR,PHI,5900.0,14.353843179377872,4.113843179377872,24.59384317937787,2.432854776165741,,21.0,38.5,Week 1-3 public usage blended with position baselines,,,research,,active
+DeVaughn Vele,WR,NO,NYG,5100.0,12.672602384177106,2.4326023841771054,22.912602384177106,2.4848239968974717,,23.5,45.5,Week 1-3 public usage blended with position baselines,,,research,,olave_dnp_thu
+Garrett Wilson,WR,NYJ,NE,6800.0,14.948164317976893,4.708164317976893,25.18816431797689,2.198259458526014,,18.0,43.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Germie Bernard,WR,PIT,TB,4000.0,9.288992629008506,0.0,19.528992629008506,2.3222481572521265,,21.0,39.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Kendrick Bourne,WR,ARI,LA,4000.0,10.442457003964613,0.20245700396461253,20.682457003964615,2.610614250991153,,19.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Dalton Kincaid,TE,BUF,LV,5100.0,10.220256438624109,1.9002564386241083,18.54025643862411,2.0039718507106095,,29.0,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Brock Bowers,TE,LV,BUF,7500.0,17.38392531320527,9.06392531320527,25.70392531320527,2.3178567084273696,,24.5,53.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Trey McBride,TE,ARI,LA,7200.0,15.451998587601786,7.131998587601785,23.771998587601786,2.146110914944692,,19.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Harold Fannin,TE,CLE,BAL,4100.0,9.283334479745093,0.9633344797450931,17.603334479745094,2.2642279218890473,,18.5,40.5,Week 1-3 public usage blended with position baselines,,,research,,concepcion_concussion
+Colston Loveland,TE,CHI,ATL,4300.0,7.185322753586621,0.0,15.505322753586622,1.6710052915317724,,26.5,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Tyler Higbee,TE,LA,ARI,3400.0,11.606168052026987,3.286168052026987,19.926168052026988,3.413578838831467,,32.0,51.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Dallas Goedert,TE,PHI,CAR,3900.0,9.651345111550784,1.3313451115507835,17.971345111550782,2.4747038747566115,,17.5,38.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Juwan Johnson,TE,NO,NYG,4500.0,11.914946634209842,3.594946634209842,20.23494663420984,2.6477659187132985,,23.5,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Isaiah Likely,TE,NYG,NO,4800.0,14.417877700675149,6.097877700675149,22.73787770067515,3.0037245209739893,,22.0,45.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Pat Freiermuth,TE,PIT,TB,4400.0,10.205389788739149,1.8853897887391486,18.525389788739147,2.3194067701679884,,21.0,39.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Charlie Kolar,TE,LAC,KC,2500.0,6.540011197850265,0.0,14.860011197850266,2.616004479140106,,17.0,41.5,Week 1-3 public usage blended with position baselines,,,research,,active
+Buccaneers DST,DST,TB,PIT,2600.0,6.699999999999999,1.5799999999999992,11.82,2.5769230769230766,0.0,18.5,39.5,,,,,,active
+Panthers DST,DST,CAR,PHI,2500.0,8.950000000000001,3.830000000000001,14.07,3.5800000000000005,0.0,21.0,38.5,,,,,,active
+Ravens DST,DST,BAL,CLE,3200.0,8.290000000000001,3.170000000000001,13.41,2.590625,0.0,22.0,40.5,,,,,,active

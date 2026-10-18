@@ -1,6 +1,6 @@
 # 2026 Week 6 — single-entry research
 
-**Status: pre-slate, October 17.** Nothing entered yet. This week's inputs come from the data rather than my own assumptions: every player's volume and efficiency is their Week 1–5 rate shrunk toward a position baseline (`src/input_model.py`), lines come from the schedule file, and salaries from three published articles (`sources.md`). That is the change from Week 5, where every input was something I typed in. If the fitted inputs do worse than the hand-set ones did, that is worth knowing too.
+> **Sunday, October 18 update:** The Friday provisional Bryce Young decision below has been superseded for the **$5 single-entry / ~23,000 entrants** contest after reviewing newer projections, ownership and official Friday injury designations. See [Sunday contest lineup and pre-lock checks](sunday_2026-10-18/single_entry_5usd_23k.md). The new entry is **provisional, not confirmed entered or locked**.\n\n**Status: pre-slate, October 17.** Nothing entered yet. This week's inputs come from the data rather than my own assumptions: every player's volume and efficiency is their Week 1–5 rate shrunk toward a position baseline (`src/input_model.py`), lines come from the schedule file, and salaries from three published articles (`sources.md`). That is the change from Week 5, where every input was something I typed in. If the fitted inputs do worse than the hand-set ones did, that is worth knowing too.
 
 ## What the pool says
 

@@ -29,12 +29,12 @@ A local, single-slot binary integer program screened a **114-player curated sala
 | RB | James Cook III | BUF | $7,400 |
 | WR | Puka Nacua | LAR | $8,100 |
 | WR | Keenan Allen | IND | $4,300 |
-| WR | Tyler Higbee | LAR | $3,400 | 
+| WR | Xavier Worthy | KC | $4,600 |
 | TE | Tyler Higbee | LAR | $3,400 |
 | FLEX | Chuba Hubbard | CAR | $6,300 |
 | DST | Panthers | CAR | $2,500 |
 
-**Correction: duplicate WR entry above is a documentation mistake; the salary-valid actual nine players are Stafford QB, Kyren RB, Cook RB, Puka WR, Worthy WR, Keenan WR, Higbee TE, Chuba FLEX RB, Panthers DST**. Salary $49,800 (not counting the accidental repeated Higbee row). Prefer late-eligible FLEX where feasible; because Chuba plays early he can be placed RB and the later-starting Xavier Worthy in FLEX.
+Salary $49,800. For late swap flexibility, list Chuba in an RB slot, Kyren at FLEX only if the platform permits the resulting slot assignment and it preserves all position rules. Since Kyren starts later than Chuba, this keeps a late FLEX decision available.
 
 ## Why Kyren survives a Stafford build
 

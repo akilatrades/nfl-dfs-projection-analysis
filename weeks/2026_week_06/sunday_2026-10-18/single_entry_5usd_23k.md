@@ -1,5 +1,7 @@
 # Week 6 Sunday single-entry decision record — 2026-10-18
 
+> **SUPERSEDED research snapshot:** The roster below was the earlier 10:35 CT candidate, *not entered*. After applying Weeks 4–5 postmortems and comparing refreshed October 18 projections, see the [revised $5 single-entry audit and recommended lineup](postmortem_recheck_5usd_23k.md). The later audit removes the Panthers DST vs Dameon Pierce conflict, replaces speculative middle spots and does not claim a proven tournament win probability.
+
 **Contest:** DraftKings NFL Sunday main slate, $5 single-entry, approximately 23,000 entries.  
 **Status:** PROVISIONAL pre-lock recommendation as of ~10:35 a.m. Central; **not entered or locked**. Final inactives and actual DK lobby eligibility still require confirmation.
 

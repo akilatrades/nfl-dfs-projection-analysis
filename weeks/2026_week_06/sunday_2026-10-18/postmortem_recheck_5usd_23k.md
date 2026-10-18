@@ -53,3 +53,20 @@ Stafford's passing TD and Kyren's rushing TD outcomes are partially competing, b
 - Independent open slate projections: https://dfsroto.win/projections
 - Ownership (Friday historical, no current actual ownership): https://covertheslate.com/nfl-week-6-draftkings-ownership-2026/
 - DraftKings injury report (Oct 18): https://dknetwork.draftkings.com/2026/10/13/nfl-injury-report-week-6/
+
+
+## 10:56 AM ET projection follow-up — why no Arizona bring-back
+
+**The zero-run-back result was not intentionally constrained:** the original projection optimizer required a QB/WR-TE teammate but **did not mandate** a player from the opposing team. We should have audited the implication of carrying four Rams (Stafford, Puka, Kyren, Higbee) in a 23K GPP. A bring-back may help when Cardinals scoring keeps Stafford throwing, but the Rams are -12.5 and a Rams-dominant scoring script is plausible without Arizona ceiling production. Making an unproductive bring-back **mandatory** would repeat Weeks 3–5's error.
+
+Using the same publicly posted Sunday 10:56 a.m. ET SPAGS projections from https://splashplaypodcast.com/dfs/nfl/players/:
+
+| Valid construction | DK Salary | Published *additive* projected DK points | LAR / ARI pieces | Notes |
+|---|---:|---:|---|---|
+| **Current (retain)**: Stafford / Cook / Chuba / Puka / Keenan / Worthy / Higbee / Kyren / CAR DST | **$49,800** | **142.8** | 4 / 0 | Best of these three on additive projection; script is Rams onslaught, not necessarily close game |
+| **Cheap run-back**: Replace Keenan Allen ($4,300, 11.0) with Kendrick Bourne ($4,000, 8.0) | $49,500 | 139.8 | 4 / 1 | -3.0 model points; Bourne ~4.7 estimated targets, low ceiling relative to reliable role |
+| **Strong run-back**: Replace Kyren ($6,800, 21.5) with Trey McBride FLEX ($7,200, 17.9) AND Keenan ($4,300, 11.0) with Germie Bernard ($4,000, 9.8) | $49,900 | 138.0 | 3 / 1 | Credible McBride volume (~11.3 targets), avoids four Rams, but -4.8 additive points and loses Kyren value; now double TE with Higbee |
+
+**Decision:** retain original $49,800 construction rather than force a low-opportunity Arizona bring-back. This is a conscious game-script *choice made after review*, not proof it optimizes win probability. A large-field payoff/ownership simulator with realistic game correlations could select McBride instead, and this comparison cannot adjudicate that. Label all projection precision as uncalibrated and all ownership estimates as historical Friday estimates. Inactives/contest salary IDs remain a prelock requirement.
+
+Sources: https://splashplaypodcast.com/dfs/nfl/players/ (updated October 18 10:56 AM ET), https://covertheslate.com/nfl-week-6-draftkings-ownership-2026/ (Friday ownership snapshot retained Oct 18).

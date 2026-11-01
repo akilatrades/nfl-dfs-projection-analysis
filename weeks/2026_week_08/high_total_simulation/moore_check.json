@@ -1,0 +1,90 @@
+{
+  "draws": 300000,
+  "assumptions": "Moore 30% of BUF receiving TDs, analyst assumption, others retain prior shares. Moore 15% role stress explicitly added, matching Shakir stress but not an empirical injury probability. Latest projection board 12:03 ET. This is exploratory score-proxy comparison, not calibrated winning odds. Prior comparisons held Shakir fixed and did not evaluate Moore.",
+  "results": {
+    "shakir_browns": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Drake London",
+        "Brenton Strange",
+        "Wan'Dale Robinson",
+        "Browns"
+      ],
+      "salary": 50000,
+      "projection": 137.1,
+      "base": {
+        "mean": 137.07,
+        "median": 134.9,
+        "p10": 102.25,
+        "p90": 174.72,
+        "p95": 187.47,
+        "p180": 0.0758,
+        "p200": 0.02402
+      },
+      "low_correlation": {
+        "mean": 137.18,
+        "median": 135.83,
+        "p10": 106.15,
+        "p90": 170.13,
+        "p95": 181.04,
+        "p180": 0.05364,
+        "p200": 0.0113
+      },
+      "role_downside": {
+        "mean": 127.5,
+        "median": 125.38,
+        "p10": 94.78,
+        "p90": 162.99,
+        "p95": 175.0,
+        "p180": 0.0371,
+        "p200": 0.01005
+      }
+    },
+    "moore_broncos": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "DJ Moore",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Drake London",
+        "Brenton Strange",
+        "Wan'Dale Robinson",
+        "Broncos"
+      ],
+      "salary": 49800,
+      "projection": 137.9,
+      "base": {
+        "mean": 137.85,
+        "median": 135.65,
+        "p10": 102.51,
+        "p90": 175.89,
+        "p95": 188.92,
+        "p180": 0.08148,
+        "p200": 0.02624
+      },
+      "low_correlation": {
+        "mean": 138.04,
+        "median": 136.59,
+        "p10": 106.82,
+        "p90": 171.31,
+        "p95": 181.95,
+        "p180": 0.05743,
+        "p200": 0.01299
+      },
+      "role_downside": {
+        "mean": 128.14,
+        "median": 126.05,
+        "p10": 95.08,
+        "p90": 163.76,
+        "p95": 176.11,
+        "p180": 0.03972,
+        "p200": 0.01104
+      }
+    }
+  }
+}

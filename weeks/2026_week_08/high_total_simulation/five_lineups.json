@@ -1,0 +1,317 @@
+[
+  {
+    "number": 1,
+    "label": "Dak / McBride \u2014 first preference",
+    "family": "dak_mcbride",
+    "slots": {
+      "QB": "Dak Prescott",
+      "RB1": "Bucky Irving",
+      "RB2": "Bhayshul Tuten",
+      "WR1": "CeeDee Lamb",
+      "WR2": "Kendrick Bourne",
+      "WR3": "Malik Washington",
+      "TE": "Trey McBride",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Chargers"
+    },
+    "salary": 50000,
+    "baseline": 137.69,
+    "simulation": {
+      "mean": 137.73,
+      "median": 134.82,
+      "p10": 99.95,
+      "p90": 179.19,
+      "p95": 194.09,
+      "p180": 0.09629,
+      "p200": 0.03755
+    },
+    "secondary": {
+      "mean": 137.8,
+      "median": 135.11,
+      "p10": 100.59,
+      "p90": 178.17,
+      "p95": 192.42,
+      "p180": 0.09131,
+      "p200": 0.03415
+    },
+    "role_downside": {
+      "mean": 132.2,
+      "median": 129.44,
+      "p10": 95.57,
+      "p90": 172.22,
+      "p95": 186.42,
+      "p180": 0.06915,
+      "p200": 0.02504
+    },
+    "low_correlation": {
+      "mean": 137.84,
+      "median": 136.05,
+      "p10": 105.33,
+      "p90": 172.55,
+      "p95": 184.1,
+      "p180": 0.06419,
+      "p200": 0.01717
+    },
+    "high_games_cold": {
+      "mean": 128.44,
+      "median": 125.82,
+      "p10": 93.47,
+      "p90": 166.62,
+      "p95": 179.99,
+      "p180": 0.04999,
+      "p200": 0.01597
+    }
+  },
+  {
+    "number": 2,
+    "label": "Brissett / McBride / Wilson \u2014 Arizona passing stack",
+    "family": "brissett_mcbride",
+    "slots": {
+      "QB": "Jacoby Brissett",
+      "RB1": "Chase Brown",
+      "RB2": "Rhamondre Stevenson",
+      "WR1": "CeeDee Lamb",
+      "WR2": "Michael Wilson",
+      "WR3": "Wan'Dale Robinson",
+      "TE": "Trey McBride",
+      "FLEX": "Demario Douglas",
+      "DST": "Chargers"
+    },
+    "salary": 49900,
+    "baseline": 134.41,
+    "simulation": {
+      "mean": 134.41,
+      "median": 131.3,
+      "p10": 95.8,
+      "p90": 176.99,
+      "p95": 192.26,
+      "p180": 0.08795,
+      "p200": 0.0345
+    },
+    "secondary": {
+      "mean": 133.06,
+      "median": 130.12,
+      "p10": 95.16,
+      "p90": 174.59,
+      "p95": 189.69,
+      "p180": 0.07818,
+      "p200": 0.03006
+    },
+    "role_downside": {
+      "mean": 129.15,
+      "median": 125.99,
+      "p10": 91.56,
+      "p90": 170.72,
+      "p95": 185.77,
+      "p180": 0.06544,
+      "p200": 0.02505
+    },
+    "low_correlation": {
+      "mean": 134.52,
+      "median": 132.65,
+      "p10": 101.71,
+      "p90": 169.85,
+      "p95": 181.5,
+      "p180": 0.05511,
+      "p200": 0.01455
+    },
+    "high_games_cold": {
+      "mean": 125.16,
+      "median": 122.42,
+      "p10": 89.46,
+      "p90": 164.24,
+      "p95": 178.22,
+      "p180": 0.04527,
+      "p200": 0.01544
+    }
+  },
+  {
+    "number": 3,
+    "label": "Dak / Lamb / Javonte \u2014 Dallas offense",
+    "family": "dak_javonte",
+    "slots": {
+      "QB": "Dak Prescott",
+      "RB1": "Javonte Williams",
+      "RB2": "Jonah Coleman",
+      "WR1": "CeeDee Lamb",
+      "WR2": "Ja'Marr Chase",
+      "WR3": "Malik Washington",
+      "TE": "Hunter Henry",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Chargers"
+    },
+    "salary": 50000,
+    "baseline": 138.24,
+    "simulation": {
+      "mean": 138.3,
+      "median": 135.71,
+      "p10": 100.56,
+      "p90": 179.31,
+      "p95": 193.47,
+      "p180": 0.09685,
+      "p200": 0.03602
+    },
+    "secondary": {
+      "mean": 133.97,
+      "median": 131.52,
+      "p10": 97.57,
+      "p90": 173.49,
+      "p95": 187.48,
+      "p180": 0.07364,
+      "p200": 0.02492
+    },
+    "role_downside": {
+      "mean": 129.17,
+      "median": 126.54,
+      "p10": 93.27,
+      "p90": 168.44,
+      "p95": 182.37,
+      "p180": 0.05624,
+      "p200": 0.01965
+    },
+    "low_correlation": {
+      "mean": 138.36,
+      "median": 136.77,
+      "p10": 105.81,
+      "p90": 173.03,
+      "p95": 184.33,
+      "p180": 0.06587,
+      "p200": 0.01692
+    },
+    "high_games_cold": {
+      "mean": 130.02,
+      "median": 127.57,
+      "p10": 94.66,
+      "p90": 168.48,
+      "p95": 181.89,
+      "p180": 0.05523,
+      "p200": 0.01728
+    }
+  },
+  {
+    "number": 4,
+    "label": "Allen / Shakir / Flowers \u2014 Buffalo lead",
+    "family": "allen_single",
+    "slots": {
+      "QB": "Josh Allen",
+      "RB1": "Jonah Coleman",
+      "RB2": "Rhamondre Stevenson",
+      "WR1": "Zay Flowers",
+      "WR2": "Khalil Shakir",
+      "WR3": "Puka Nacua",
+      "TE": "Hunter Henry",
+      "FLEX": "Malik Washington",
+      "DST": "Broncos"
+    },
+    "salary": 50000,
+    "baseline": 132.12,
+    "simulation": {
+      "mean": 132.12,
+      "median": 129.69,
+      "p10": 96.74,
+      "p90": 170.57,
+      "p95": 183.61,
+      "p180": 0.06138,
+      "p200": 0.01975
+    },
+    "secondary": {
+      "mean": 130.79,
+      "median": 128.41,
+      "p10": 95.67,
+      "p90": 168.73,
+      "p95": 181.89,
+      "p180": 0.05541,
+      "p200": 0.01747
+    },
+    "role_downside": {
+      "mean": 121.46,
+      "median": 119.11,
+      "p10": 88.39,
+      "p90": 157.48,
+      "p95": 170.12,
+      "p180": 0.02787,
+      "p200": 0.00779
+    },
+    "low_correlation": {
+      "mean": 132.18,
+      "median": 130.69,
+      "p10": 101.1,
+      "p90": 165.13,
+      "p95": 175.79,
+      "p180": 0.03731,
+      "p200": 0.00799
+    },
+    "high_games_cold": {
+      "mean": 125.08,
+      "median": 122.77,
+      "p10": 91.42,
+      "p90": 161.78,
+      "p95": 174.5,
+      "p180": 0.03633,
+      "p200": 0.01031
+    }
+  },
+  {
+    "number": 5,
+    "label": "Lamar / Flowers / Shakir \u2014 Baltimore lead",
+    "family": "lamar_single",
+    "slots": {
+      "QB": "Lamar Jackson",
+      "RB1": "Chase Brown",
+      "RB2": "Rhamondre Stevenson",
+      "WR1": "Zay Flowers",
+      "WR2": "Ja'Marr Chase",
+      "WR3": "Khalil Shakir",
+      "TE": "Brenton Strange",
+      "FLEX": "Wan'Dale Robinson",
+      "DST": "Raiders"
+    },
+    "salary": 49900,
+    "baseline": 131.45,
+    "simulation": {
+      "mean": 131.45,
+      "median": 128.97,
+      "p10": 96.07,
+      "p90": 169.91,
+      "p95": 183.16,
+      "p180": 0.05941,
+      "p200": 0.01945
+    },
+    "secondary": {
+      "mean": 130.09,
+      "median": 127.65,
+      "p10": 95.12,
+      "p90": 168.19,
+      "p95": 181.43,
+      "p180": 0.05397,
+      "p200": 0.017
+    },
+    "role_downside": {
+      "mean": 124.43,
+      "median": 122.08,
+      "p10": 90.68,
+      "p90": 161.07,
+      "p95": 173.89,
+      "p180": 0.03525,
+      "p200": 0.01003
+    },
+    "low_correlation": {
+      "mean": 131.47,
+      "median": 130.0,
+      "p10": 100.6,
+      "p90": 164.17,
+      "p95": 174.73,
+      "p180": 0.03465,
+      "p200": 0.00735
+    },
+    "high_games_cold": {
+      "mean": 125.12,
+      "median": 122.72,
+      "p10": 91.21,
+      "p90": 162.09,
+      "p95": 174.88,
+      "p180": 0.03724,
+      "p200": 0.01085
+    }
+  }
+]

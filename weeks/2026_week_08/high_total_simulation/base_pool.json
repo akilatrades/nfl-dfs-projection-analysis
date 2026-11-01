@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "team": "DAL",
+    "opp": "ARI",
+    "salary": 6300,
+    "forecast": 22.31
+  },
+  {
+    "name": "Joe Burrow",
+    "pos": "QB",
+    "team": "CIN",
+    "opp": "TEN",
+    "salary": 7000,
+    "forecast": 22.53
+  },
+  {
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "team": "BAL",
+    "opp": "BUF",
+    "salary": 6800,
+    "forecast": 20.38
+  },
+  {
+    "name": "Drake Maye",
+    "pos": "QB",
+    "team": "NE",
+    "opp": "MIA",
+    "salary": 6500,
+    "forecast": 21.15
+  },
+  {
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
+    "opp": "BAL",
+    "salary": 7700,
+    "forecast": 24.63
+  },
+  {
+    "name": "Trevor Lawrence",
+    "pos": "QB",
+    "team": "JAX",
+    "opp": "IND",
+    "salary": 6200,
+    "forecast": 20.41
+  },
+  {
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "team": "NE",
+    "opp": "MIA",
+    "salary": 5600,
+    "forecast": 17.0
+  },
+  {
+    "name": "Chase Brown",
+    "pos": "RB",
+    "team": "CIN",
+    "opp": "TEN",
+    "salary": 6300,
+    "forecast": 17.38
+  },
+  {
+    "name": "Tony Pollard",
+    "pos": "RB",
+    "team": "TEN",
+    "opp": "CIN",
+    "salary": 5800,
+    "forecast": 14.5
+  },
+  {
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "team": "TB",
+    "opp": "ATL",
+    "salary": 6400,
+    "forecast": 16.96
+  },
+  {
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "team": "DAL",
+    "opp": "ARI",
+    "salary": 7300,
+    "forecast": 18.72
+  },
+  {
+    "name": "Bijan Robinson",
+    "pos": "RB",
+    "team": "ATL",
+    "opp": "TB",
+    "salary": 8500,
+    "forecast": 22.23
+  },
+  {
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "team": "DET",
+    "opp": "MIN",
+    "salary": 9500,
+    "forecast": 24.0
+  },
+  {
+    "name": "Jonah Coleman",
+    "pos": "RB",
+    "team": "DEN",
+    "opp": "KC",
+    "salary": 4300,
+    "forecast": 11.63
+  },
+  {
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "team": "DAL",
+    "opp": "ARI",
+    "salary": 8100,
+    "forecast": 21.38
+  },
+  {
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "team": "CIN",
+    "opp": "TEN",
+    "salary": 7700,
+    "forecast": 20.42
+  },
+  {
+    "name": "Zay Flowers",
+    "pos": "WR",
+    "team": "BAL",
+    "opp": "BUF",
+    "salary": 7200,
+    "forecast": 18.49
+  },
+  {
+    "name": "Tee Higgins",
+    "pos": "WR",
+    "team": "CIN",
+    "opp": "TEN",
+    "salary": 6700,
+    "forecast": 16.67
+  },
+  {
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "team": "LAR",
+    "opp": "LAC",
+    "salary": 8600,
+    "forecast": 22.94
+  },
+  {
+    "name": "Wan'Dale Robinson",
+    "pos": "WR",
+    "team": "TEN",
+    "opp": "CIN",
+    "salary": 4200,
+    "forecast": 10.64
+  },
+  {
+    "name": "Malik Washington",
+    "pos": "WR",
+    "team": "MIA",
+    "opp": "NE",
+    "salary": 4400,
+    "forecast": 10.46
+  },
+  {
+    "name": "Michael Wilson",
+    "pos": "WR",
+    "team": "ARI",
+    "opp": "DAL",
+    "salary": 6200,
+    "forecast": 14.72
+  },
+  {
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "team": "NYJ",
+    "opp": "LV",
+    "salary": 6300,
+    "forecast": 15.35
+  },
+  {
+    "name": "Parker Washington",
+    "pos": "WR",
+    "team": "JAX",
+    "opp": "IND",
+    "salary": 6500,
+    "forecast": 16.1
+  },
+  {
+    "name": "Hunter Henry",
+    "pos": "TE",
+    "team": "NE",
+    "opp": "MIA",
+    "salary": 4300,
+    "forecast": 11.84
+  },
+  {
+    "name": "Brenton Strange",
+    "pos": "TE",
+    "team": "JAX",
+    "opp": "IND",
+    "salary": 4000,
+    "forecast": 11.21
+  },
+  {
+    "name": "Trey McBride",
+    "pos": "TE",
+    "team": "ARI",
+    "opp": "DAL",
+    "salary": 7400,
+    "forecast": 19.7
+  },
+  {
+    "name": "Mark Andrews",
+    "pos": "TE",
+    "team": "BAL",
+    "opp": "BUF",
+    "salary": 3400,
+    "forecast": 8.52
+  },
+  {
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "team": "BUF",
+    "opp": "BAL",
+    "salary": 5600,
+    "forecast": 9.83
+  },
+  {
+    "name": "Steelers",
+    "pos": "DST",
+    "team": "PIT",
+    "opp": "CLE",
+    "salary": 3300,
+    "forecast": 9.08
+  },
+  {
+    "name": "Browns",
+    "pos": "DST",
+    "team": "CLE",
+    "opp": "PIT",
+    "salary": 2600,
+    "forecast": 6.24
+  },
+  {
+    "name": "Broncos",
+    "pos": "DST",
+    "team": "DEN",
+    "opp": "KC",
+    "salary": 2300,
+    "forecast": 6.81
+  },
+  {
+    "name": "Lions",
+    "pos": "DST",
+    "team": "DET",
+    "opp": "MIN",
+    "salary": 2700,
+    "forecast": 7.06
+  }
+]

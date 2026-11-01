@@ -1,3 +1,15 @@
+# Current preference after direct Moore comparison
+
+**DJ Moore ($5,700) replaces Khalil Shakir; Broncos DST ($2,300) replaces Browns DST. Total $49,800; public-board projection 137.9.** Full roster: Josh Allen, Braelon Allen, Rhamondre Stevenson, Zay Flowers, Drake London, DJ Moore, Brenton Strange, Wan'Dale Robinson (FLEX), Broncos DST.
+
+The earlier six-way final comparison held Shakir fixed and therefore did not establish him as the best Bills stack partner. That constraint was too restrictive after Moore was confirmed active. Moore has a stronger recent healthy-game target concentration, based on only two full games, and still carries shoulder/workload uncertainty. Shakir retains a credible slot role. The change is a modest preference, not a proven contest edge.
+
+A new direct comparison used 100,000 draws in three scenarios (300,000 slate draws). Baseline P90: Moore/Denver 175.9 versus Shakir/Cleveland 174.7. Role-downside means: 128.1 versus 127.5; both Bills receivers receive a 15% stress multiplier. Moore's receiving-TD share of .30 is an analyst assumption; other Bills modeled shares were retained, with residual allocation for unlisted teammates. No actual field, duplicate probability or calibrated win odds. See [moore_check.py](moore_check.py) and [moore_check.json](moore_check.json). The original recommendation and comparison below are preserved for audit.
+
+Sources: [confirmed Bills actives](https://www.buffalobills.com/news/buffalo-bills-inactives-vs-ravens-week-8), [role comparison](https://www.fantasypros.com/2026/10/the-primer-week-8-edition-2026-fantasy-football/), [12:03 ET projections](https://splashplaypodcast.com/dfs/nfl/players/).
+
+---
+
 # Final Allen construction — November 1, 2026
 
 Final review requested at 11:30 AM Central for the $27 NFL $60K Blind Side single-entry contest (maximum 2,591). This is one alternative entry; it supersedes my earlier preference among the five options. The original Allen/Puka roster remains recorded and is playable. No entry was submitted by this workflow.

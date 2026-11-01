@@ -62,7 +62,7 @@ No field simulation, calibrated joint scoring distribution, duplication model or
 
 ## Conditional changes
 
-If I decide Andrews' declining role is unacceptable before lock: switch Andrews ($3,400) to Hunter Henry ($4,300), and Garrett Wilson ($6,300) to Khalil Shakir ($5,600). Total $50,200 is NOT legal; this pair must NOT be entered. A legal alternative is Garrett to Malik Washington ($4,400), Andrews to Henry ($4,300), Broncos to Steelers ($3,300): total $50,000. This changes the thesis and projected distribution and requires rechecking Miami weather. It is a contingency, not a second recommendation.
+If I decide Andrews' declining role is unacceptable before lock, a salary-valid alternative is Garrett Wilson to Malik Washington ($4,400), Andrews to Hunter Henry ($4,300), and Broncos to Steelers ($3,300): total $50,000. This changes the thesis and projected distribution and requires rechecking Miami weather. It is a contingency, not a second recommendation.
 
 If any selected early-game player is inactive, rework the roster before that game's lock; do not substitute by name alone. Place the latest-starting eligible player at FLEX when reassigning positions. Current FLEX Andrews and other early players all lock early; Stevenson is the only late offensive player in the primary roster.
 

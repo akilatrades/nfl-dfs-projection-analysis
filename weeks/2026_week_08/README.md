@@ -1,6 +1,6 @@
 # Week 8 — November 1, 2026 single-entry decision
 
-> Superseded recommendations below: see [current tournament selection](tournament_selection.md), Burrow–Chase–Higgins with Pollard, $49,900. Earlier screens remain preserved for audit.
+> Current research: [five high-total lineup options and executed simulations](high_total_simulation/README.md). First preference is option 1, Dak–Lamb with McBride. All earlier recommendations below are superseded and preserved for audit.
 
 ## Contest and status
 

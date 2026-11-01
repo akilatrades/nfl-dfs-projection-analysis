@@ -1,3 +1,5 @@
+> **Final prelock review:** The [final Allen construction](final_prelock.md) is the latest recommendation following the 11:30 AM Central review request and confirmed early inactives. The five-option comparison below remains the earlier research record.
+
 # Week 8 high-total lineup comparison — November 1, 2026
 
 This is the current five-option shortlist for my **$27 NFL $60K Blind Side single-entry contest, maximum 2,591 entrants**. It supersedes the earlier Dak and Burrow recommendations; those remain preserved as dated process records. These are five alternatives for **one entry**, not five entries in the same single-entry contest. No lineup was submitted by this research workflow.

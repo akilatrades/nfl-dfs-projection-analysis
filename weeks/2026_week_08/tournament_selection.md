@@ -1,4 +1,6 @@
-# Week 8 tournament selection — supersedes earlier Dak recommendations
+# Earlier Week 8 tournament selection — superseded
+
+> See the [current five high-total lineup options](high_total_simulation/README.md). This earlier Burrow/Pollard recommendation is preserved as a pregame process record and is no longer the preferred entry.
 
 Contest: NFL $60K Blind Side single entry, $27, maximum 2,591 entrants. November 1 prelock decision. Not entered by this workflow. Published salaries require confirmation in the exact contest. Prior snapshots remain preserved.
 

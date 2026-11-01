@@ -6,6 +6,11 @@ Can writing down my assumptions about volume, scoring and lineup correlation, be
 
 **Honest status: four weeks in, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The projections start from football inputs (pass attempts, targets, carries, efficiency, touchdown chances) rather than someone else's fantasy-point forecast, so a miss can be traced to a specific assumption.
 
+## Latest research
+
+- [Week 8: $27 / 2,591-entry maximum single-entry research](weeks/2026_week_08/README.md), reproducible candidate screen and saved forecasts.
+- [Week 7: verified 130.86 DK points, 67/431, $45 payout on $27 entry](weeks/2026_week_07/README.md), with corrected DST arithmetic and process lessons.
+
 ## Week by week
 
 | Week | What I did | What happened | What I changed |

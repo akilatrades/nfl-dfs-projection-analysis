@@ -1,3 +1,5 @@
+> **Latest rebuilt shortlist:** See [news_shortlist.md](news_shortlist.md) for five choices after confirmed actives, including Moore/Kincaid/Pickens as eligible candidates and the prior Allen/Moore roster as a benchmark. The latest tournament preference is Allen–Moore–Kincaid / Flowers; the prior balanced Allen/Moore roster remains option 2. Earlier research below is preserved.
+
 # Current preference after direct Moore comparison
 
 **DJ Moore ($5,700) replaces Khalil Shakir; Broncos DST ($2,300) replaces Browns DST. Total $49,800; public-board projection 137.9.** Full roster: Josh Allen, Braelon Allen, Rhamondre Stevenson, Zay Flowers, Drake London, DJ Moore, Brenton Strange, Wan'Dale Robinson (FLEX), Broncos DST.

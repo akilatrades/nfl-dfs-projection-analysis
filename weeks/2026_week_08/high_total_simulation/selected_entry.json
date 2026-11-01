@@ -1,0 +1,25 @@
+{
+  "slate_date": "2026-11-01",
+  "contest": "NFL $60K Blind Side [Single Entry]",
+  "entry_fee": 27,
+  "maximum_entrants": 2591,
+  "selection": "Lamar / Bijan, option 4 of updated shortlist",
+  "lineup": {
+    "QB": "Lamar Jackson",
+    "RB1": "Bijan Robinson",
+    "RB2": "Braelon Allen",
+    "WR1": "Zay Flowers",
+    "WR2": "Wan'Dale Robinson",
+    "WR3": "DJ Moore",
+    "TE": "Mark Andrews",
+    "FLEX": "Rhamondre Stevenson",
+    "DST": "Broncos"
+  },
+  "salary": 49800,
+  "salary_remaining": 200,
+  "pregame_projection": 140.4,
+  "model_p90": 179.98,
+  "status": "selected",
+  "result": null,
+  "notes": "My selected lineup for the post-slate review. Selection recorded from the conversation; a DraftKings entry export or final roster screenshot was not available. The research workflow did not submit the entry. Projection and model percentile are pregame estimates, not calibrated contest win probabilities."
+}

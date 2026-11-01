@@ -1,0 +1,341 @@
+{
+  "projection_source": "https://splashplaypodcast.com/dfs/nfl/players/ (Nov 1 12:03 PM ET)",
+  "draws_per_scenario": 100000,
+  "scenarios": 4,
+  "total_slate_draws": 400000,
+  "new_analyst_assumptions": {
+    "Braelon Allen receiving TD share": 0.12,
+    "Braelon Allen rushing TD share": 0.8,
+    "Braelon role downside multiplier": 0.9
+  },
+  "limitations": "Score proxy only; frozen earlier team totals and other variance/TD shares. Not actual opponent field, duplication or contest win probability. Salary uses public boards, not official contest export. Candidate comparison is exploratory.",
+  "latest_means": {
+    "Josh Allen": 23.0,
+    "Braelon Allen": 19.4,
+    "Rhamondre Stevenson": 18.9,
+    "Zay Flowers": 18.8,
+    "Khalil Shakir": 10.8,
+    "Puka Nacua": 22.0,
+    "Jonah Coleman": 11.9,
+    "Malik Washington": 9.9,
+    "Hunter Henry": 12.2,
+    "Browns": 6.1,
+    "Broncos": 6.0,
+    "Drake London": 16.8,
+    "Brenton Strange": 11.5,
+    "Wan'Dale Robinson": 11.8,
+    "Demario Douglas": 10.4,
+    "Parker Washington": 14.8,
+    "Chase Brown": 18.1,
+    "Bucky Irving": 18.3,
+    "Chris Godwin": 10.4
+  },
+  "results": {
+    "original_puka": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Jonah Coleman",
+        "Puka Nacua",
+        "Hunter Henry",
+        "Malik Washington",
+        "Broncos"
+      ],
+      "salary": 50000,
+      "projection": 133.5,
+      "base": {
+        "mean": 133.43,
+        "median": 131.02,
+        "p10": 97.77,
+        "p90": 172.21,
+        "p95": 185.54,
+        "p180": 0.06718,
+        "p200": 0.02196
+      },
+      "low_correlation": {
+        "mean": 133.5,
+        "median": 132.04,
+        "p10": 102.31,
+        "p90": 166.65,
+        "p95": 177.46,
+        "p180": 0.04181,
+        "p200": 0.00934
+      },
+      "role_downside": {
+        "mean": 122.46,
+        "median": 120.04,
+        "p10": 89.22,
+        "p90": 158.72,
+        "p95": 171.25,
+        "p180": 0.02976,
+        "p200": 0.00819
+      },
+      "high_games_cold": {
+        "mean": 126.45,
+        "median": 124.06,
+        "p10": 92.54,
+        "p90": 163.29,
+        "p95": 175.77,
+        "p180": 0.03941,
+        "p200": 0.01159
+      }
+    },
+    "balanced_london": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Drake London",
+        "Brenton Strange",
+        "Wan'Dale Robinson",
+        "Browns"
+      ],
+      "salary": 50000,
+      "projection": 137.1,
+      "base": {
+        "mean": 137.1,
+        "median": 134.85,
+        "p10": 102.4,
+        "p90": 174.59,
+        "p95": 187.62,
+        "p180": 0.07513,
+        "p200": 0.02442
+      },
+      "low_correlation": {
+        "mean": 137.14,
+        "median": 135.74,
+        "p10": 106.16,
+        "p90": 169.96,
+        "p95": 180.57,
+        "p180": 0.05191,
+        "p200": 0.01084
+      },
+      "role_downside": {
+        "mean": 127.64,
+        "median": 125.66,
+        "p10": 94.98,
+        "p90": 162.77,
+        "p95": 174.8,
+        "p180": 0.03694,
+        "p200": 0.00978
+      },
+      "high_games_cold": {
+        "mean": 130.05,
+        "median": 128.12,
+        "p10": 96.98,
+        "p90": 165.54,
+        "p95": 177.72,
+        "p180": 0.04356,
+        "p200": 0.01217
+      }
+    },
+    "balanced_parker": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Parker Washington",
+        "Hunter Henry",
+        "Wan'Dale Robinson",
+        "Browns"
+      ],
+      "salary": 49800,
+      "projection": 135.8,
+      "base": {
+        "mean": 135.74,
+        "median": 133.46,
+        "p10": 100.94,
+        "p90": 173.29,
+        "p95": 185.88,
+        "p180": 0.07026,
+        "p200": 0.02172
+      },
+      "low_correlation": {
+        "mean": 135.84,
+        "median": 134.44,
+        "p10": 104.93,
+        "p90": 168.34,
+        "p95": 178.96,
+        "p180": 0.04653,
+        "p200": 0.00956
+      },
+      "role_downside": {
+        "mean": 126.14,
+        "median": 124.07,
+        "p10": 93.69,
+        "p90": 161.21,
+        "p95": 173.37,
+        "p180": 0.0328,
+        "p200": 0.00839
+      },
+      "high_games_cold": {
+        "mean": 128.75,
+        "median": 126.74,
+        "p10": 95.65,
+        "p90": 164.43,
+        "p95": 176.61,
+        "p180": 0.0406,
+        "p200": 0.01128
+      }
+    },
+    "balanced_douglas": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Drake London",
+        "Brenton Strange",
+        "Demario Douglas",
+        "Broncos"
+      ],
+      "salary": 49900,
+      "projection": 135.6,
+      "base": {
+        "mean": 135.58,
+        "median": 133.4,
+        "p10": 100.87,
+        "p90": 173.23,
+        "p95": 186.22,
+        "p180": 0.07027,
+        "p200": 0.02244
+      },
+      "low_correlation": {
+        "mean": 135.57,
+        "median": 134.21,
+        "p10": 104.76,
+        "p90": 168.15,
+        "p95": 178.68,
+        "p180": 0.04564,
+        "p200": 0.00938
+      },
+      "role_downside": {
+        "mean": 126.94,
+        "median": 124.86,
+        "p10": 94.11,
+        "p90": 162.45,
+        "p95": 174.67,
+        "p180": 0.03627,
+        "p200": 0.00979
+      },
+      "high_games_cold": {
+        "mean": 128.56,
+        "median": 126.55,
+        "p10": 95.41,
+        "p90": 164.38,
+        "p95": 176.3,
+        "p180": 0.04015,
+        "p200": 0.01104
+      }
+    },
+    "bucky_three_rb": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Bucky Irving",
+        "Chris Godwin",
+        "Brenton Strange",
+        "Browns"
+      ],
+      "salary": 50000,
+      "projection": 137.2,
+      "base": {
+        "mean": 137.18,
+        "median": 134.95,
+        "p10": 102.89,
+        "p90": 174.25,
+        "p95": 186.77,
+        "p180": 0.07332,
+        "p200": 0.02216
+      },
+      "low_correlation": {
+        "mean": 137.21,
+        "median": 135.82,
+        "p10": 106.94,
+        "p90": 169.29,
+        "p95": 179.69,
+        "p180": 0.04894,
+        "p200": 0.00987
+      },
+      "role_downside": {
+        "mean": 130.08,
+        "median": 127.96,
+        "p10": 97.41,
+        "p90": 165.6,
+        "p95": 177.35,
+        "p180": 0.0427,
+        "p200": 0.0119
+      },
+      "high_games_cold": {
+        "mean": 130.07,
+        "median": 128.26,
+        "p10": 97.38,
+        "p90": 165.2,
+        "p95": 176.98,
+        "p180": 0.04197,
+        "p200": 0.01091
+      }
+    },
+    "chase_three_rb": {
+      "players": [
+        "Josh Allen",
+        "Zay Flowers",
+        "Khalil Shakir",
+        "Rhamondre Stevenson",
+        "Braelon Allen",
+        "Chase Brown",
+        "Chris Godwin",
+        "Brenton Strange",
+        "Browns"
+      ],
+      "salary": 49900,
+      "projection": 137.0,
+      "base": {
+        "mean": 136.96,
+        "median": 134.96,
+        "p10": 103.08,
+        "p90": 173.46,
+        "p95": 186.15,
+        "p180": 0.07018,
+        "p200": 0.02152
+      },
+      "low_correlation": {
+        "mean": 137.0,
+        "median": 135.7,
+        "p10": 106.83,
+        "p90": 168.7,
+        "p95": 179.14,
+        "p180": 0.0468,
+        "p200": 0.00945
+      },
+      "role_downside": {
+        "mean": 129.9,
+        "median": 127.83,
+        "p10": 97.61,
+        "p90": 164.84,
+        "p95": 176.72,
+        "p180": 0.04121,
+        "p200": 0.01051
+      },
+      "high_games_cold": {
+        "mean": 129.94,
+        "median": 128.03,
+        "p10": 97.49,
+        "p90": 164.78,
+        "p95": 176.27,
+        "p180": 0.03981,
+        "p200": 0.01011
+      }
+    }
+  }
+}

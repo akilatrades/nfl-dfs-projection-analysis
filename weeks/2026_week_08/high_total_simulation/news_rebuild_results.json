@@ -1,0 +1,1025 @@
+{
+  "projection_board": "SPAGS November 1 12:03 PM ET; Chargers previous mean 4.48",
+  "players": 66,
+  "candidate_count": 471,
+  "draws": 620000,
+  "training_draws": 20000,
+  "holdout_per_scenario": 150000,
+  "new_assumptions": {
+    "BUF_implied": 28.5,
+    "BAL_implied": 25,
+    "Moore_receiving_TD_share": 0.3,
+    "Kincaid_receiving_TD_share": 0.22,
+    "Pickens_receiving_TD_share": 0.25,
+    "Braelon_receiving_TD_share": 0.12,
+    "Braelon_rushing_TD_share": 0.8,
+    "new_role_stress": {
+      "Moore": 0.85,
+      "Kincaid": 0.85,
+      "Pickens": 0.85,
+      "Braelon": 0.9
+    }
+  },
+  "quality_controls": "Exclude Lane/Bourne thin-role discounts; at most one WR under 5000; remaining original constraints retained. These are judgment choices, not statistical discoveries.",
+  "limits": "Exploratory score proxy, not field simulation. Analyst shares/variance not calibrated. Other game totals frozen; ownership and duplication not modeled. Public salaries, not official contest export. Every family fixes a declared core, not every player. Six families plus preceding recommendation benchmark.",
+  "results": [
+    {
+      "family": "allen_moore",
+      "ids": [
+        4,
+        6,
+        16,
+        19,
+        31,
+        36,
+        62,
+        63,
+        64
+      ],
+      "base_mean": 139.1,
+      "family_best_mean": 140.7,
+      "train": {
+        "mean": 139.05,
+        "median": 136.54,
+        "p10": 102.68,
+        "p90": 178.25,
+        "p95": 192.32,
+        "p180": 0.09095,
+        "p200": 0.03185
+      },
+      "base": {
+        "mean": 139.17,
+        "median": 136.71,
+        "p10": 102.79,
+        "p90": 178.57,
+        "p95": 192.16,
+        "p180": 0.09325,
+        "p200": 0.03333
+      },
+      "low_correlation": {
+        "mean": 139.03,
+        "median": 137.5,
+        "p10": 107.47,
+        "p90": 172.65,
+        "p95": 183.71,
+        "p180": 0.06345,
+        "p200": 0.01547
+      },
+      "role_downside": {
+        "mean": 129.38,
+        "median": 126.92,
+        "p10": 95.57,
+        "p90": 166.38,
+        "p95": 179.04,
+        "p180": 0.04735,
+        "p200": 0.01391
+      },
+      "high_games_cold": {
+        "mean": 130.49,
+        "median": 128.21,
+        "p10": 96.46,
+        "p90": 167.25,
+        "p95": 179.89,
+        "p180": 0.04968,
+        "p200": 0.0146
+      },
+      "players": [
+        {
+          "name": "Josh Allen",
+          "pos": "QB",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 7700,
+          "forecast": 23,
+          "original_forecast": 24.63
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 7200,
+          "forecast": 18.8,
+          "original_forecast": 18.49
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "team": "TEN",
+          "opp": "CIN",
+          "salary": 4200,
+          "forecast": 11.8,
+          "original_forecast": 10.64
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        },
+        {
+          "name": "Bhayshul Tuten",
+          "pos": "RB",
+          "team": "JAX",
+          "opp": "IND",
+          "salary": 5900,
+          "forecast": 17.5,
+          "original_forecast": 15.81
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        },
+        {
+          "name": "DJ Moore",
+          "pos": "WR",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5700,
+          "forecast": 11.7
+        },
+        {
+          "name": "Dalton Kincaid",
+          "pos": "TE",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5300,
+          "forecast": 12
+        }
+      ],
+      "salary": 50000,
+      "projection": 139.1
+    },
+    {
+      "family": "allen_kincaid",
+      "ids": [
+        4,
+        6,
+        16,
+        19,
+        31,
+        36,
+        62,
+        63,
+        64
+      ],
+      "base_mean": 139.1,
+      "family_best_mean": 139.9,
+      "train": {
+        "mean": 139.05,
+        "median": 136.54,
+        "p10": 102.68,
+        "p90": 178.25,
+        "p95": 192.32,
+        "p180": 0.09095,
+        "p200": 0.03185
+      },
+      "base": {
+        "mean": 139.17,
+        "median": 136.71,
+        "p10": 102.79,
+        "p90": 178.57,
+        "p95": 192.16,
+        "p180": 0.09325,
+        "p200": 0.03333
+      },
+      "low_correlation": {
+        "mean": 139.03,
+        "median": 137.5,
+        "p10": 107.47,
+        "p90": 172.65,
+        "p95": 183.71,
+        "p180": 0.06345,
+        "p200": 0.01547
+      },
+      "role_downside": {
+        "mean": 129.38,
+        "median": 126.92,
+        "p10": 95.57,
+        "p90": 166.38,
+        "p95": 179.04,
+        "p180": 0.04735,
+        "p200": 0.01391
+      },
+      "high_games_cold": {
+        "mean": 130.49,
+        "median": 128.21,
+        "p10": 96.46,
+        "p90": 167.25,
+        "p95": 179.89,
+        "p180": 0.04968,
+        "p200": 0.0146
+      },
+      "players": [
+        {
+          "name": "Josh Allen",
+          "pos": "QB",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 7700,
+          "forecast": 23,
+          "original_forecast": 24.63
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 7200,
+          "forecast": 18.8,
+          "original_forecast": 18.49
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "team": "TEN",
+          "opp": "CIN",
+          "salary": 4200,
+          "forecast": 11.8,
+          "original_forecast": 10.64
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        },
+        {
+          "name": "Bhayshul Tuten",
+          "pos": "RB",
+          "team": "JAX",
+          "opp": "IND",
+          "salary": 5900,
+          "forecast": 17.5,
+          "original_forecast": 15.81
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        },
+        {
+          "name": "DJ Moore",
+          "pos": "WR",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5700,
+          "forecast": 11.7
+        },
+        {
+          "name": "Dalton Kincaid",
+          "pos": "TE",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5300,
+          "forecast": 12
+        }
+      ],
+      "salary": 50000,
+      "projection": 139.1
+    },
+    {
+      "family": "allen_shakir",
+      "ids": [
+        4,
+        6,
+        16,
+        19,
+        27,
+        28,
+        31,
+        34,
+        62
+      ],
+      "base_mean": 137.1,
+      "family_best_mean": 139.8,
+      "train": {
+        "mean": 137.2,
+        "median": 134.51,
+        "p10": 100.53,
+        "p90": 177.88,
+        "p95": 192.8,
+        "p180": 0.09025,
+        "p200": 0.0345
+      },
+      "base": {
+        "mean": 137.19,
+        "median": 134.47,
+        "p10": 100.17,
+        "p90": 177.59,
+        "p95": 191.63,
+        "p180": 0.08918,
+        "p200": 0.03245
+      },
+      "low_correlation": {
+        "mean": 137.01,
+        "median": 135.54,
+        "p10": 106.01,
+        "p90": 169.99,
+        "p95": 180.58,
+        "p180": 0.05202,
+        "p200": 0.01152
+      },
+      "role_downside": {
+        "mean": 127.07,
+        "median": 124.44,
+        "p10": 92.44,
+        "p90": 164.99,
+        "p95": 178.39,
+        "p180": 0.04534,
+        "p200": 0.01477
+      },
+      "high_games_cold": {
+        "mean": 126.59,
+        "median": 124.21,
+        "p10": 92.44,
+        "p90": 163.72,
+        "p95": 176.63,
+        "p180": 0.04152,
+        "p200": 0.01225
+      },
+      "players": [
+        {
+          "name": "Josh Allen",
+          "pos": "QB",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 7700,
+          "forecast": 23,
+          "original_forecast": 24.63
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 7200,
+          "forecast": 18.8,
+          "original_forecast": 18.49
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "team": "TEN",
+          "opp": "CIN",
+          "salary": 4200,
+          "forecast": 11.8,
+          "original_forecast": 10.64
+        },
+        {
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 3400,
+          "forecast": 8.8,
+          "original_forecast": 8.52
+        },
+        {
+          "name": "Khalil Shakir",
+          "pos": "WR",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5600,
+          "forecast": 10.8,
+          "original_forecast": 9.83
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        },
+        {
+          "name": "James Cook III",
+          "pos": "RB",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 7900,
+          "forecast": 19.6,
+          "original_forecast": 17.63
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        }
+      ],
+      "salary": 50000,
+      "projection": 137.1
+    },
+    {
+      "family": "dak_mcbride",
+      "ids": [
+        0,
+        6,
+        13,
+        14,
+        26,
+        31,
+        43,
+        49,
+        62
+      ],
+      "base_mean": 139.1,
+      "family_best_mean": 139.1,
+      "train": {
+        "mean": 139.38,
+        "median": 136.73,
+        "p10": 102.88,
+        "p90": 179.4,
+        "p95": 193.21,
+        "p180": 0.09755,
+        "p200": 0.0347
+      },
+      "base": {
+        "mean": 139.2,
+        "median": 136.7,
+        "p10": 102.63,
+        "p90": 178.86,
+        "p95": 192.29,
+        "p180": 0.09488,
+        "p200": 0.03319
+      },
+      "low_correlation": {
+        "mean": 139.15,
+        "median": 137.57,
+        "p10": 107.2,
+        "p90": 173.12,
+        "p95": 184.3,
+        "p180": 0.06565,
+        "p200": 0.01695
+      },
+      "role_downside": {
+        "mean": 129.41,
+        "median": 126.79,
+        "p10": 94.88,
+        "p90": 167.08,
+        "p95": 180.28,
+        "p180": 0.05093,
+        "p200": 0.01608
+      },
+      "high_games_cold": {
+        "mean": 131.15,
+        "median": 128.76,
+        "p10": 97.12,
+        "p90": 168.17,
+        "p95": 181.04,
+        "p180": 0.05299,
+        "p200": 0.01609
+      },
+      "players": [
+        {
+          "name": "Dak Prescott",
+          "pos": "QB",
+          "team": "DAL",
+          "opp": "ARI",
+          "salary": 6300,
+          "forecast": 21.6,
+          "original_forecast": 22.31
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Jonah Coleman",
+          "pos": "RB",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 4300,
+          "forecast": 11.9,
+          "original_forecast": 11.63
+        },
+        {
+          "name": "CeeDee Lamb",
+          "pos": "WR",
+          "team": "DAL",
+          "opp": "ARI",
+          "salary": 8100,
+          "forecast": 19.7,
+          "original_forecast": 21.38
+        },
+        {
+          "name": "Trey McBride",
+          "pos": "TE",
+          "team": "ARI",
+          "opp": "DAL",
+          "salary": 7400,
+          "forecast": 18.7,
+          "original_forecast": 19.7
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        },
+        {
+          "name": "DK Metcalf",
+          "pos": "WR",
+          "team": "PIT",
+          "opp": "CLE",
+          "salary": 5400,
+          "forecast": 12.5,
+          "original_forecast": 12.19
+        },
+        {
+          "name": "Demario Douglas",
+          "pos": "WR",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 4400,
+          "forecast": 10.4,
+          "original_forecast": 10.22
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        }
+      ],
+      "salary": 49900,
+      "projection": 139.1
+    },
+    {
+      "family": "brissett_mcbride",
+      "ids": [
+        6,
+        13,
+        14,
+        21,
+        26,
+        33,
+        49,
+        61,
+        62
+      ],
+      "base_mean": 136.28,
+      "family_best_mean": 136.3,
+      "train": {
+        "mean": 136.54,
+        "median": 133.68,
+        "p10": 98.62,
+        "p90": 178.43,
+        "p95": 193.43,
+        "p180": 0.09235,
+        "p200": 0.035
+      },
+      "base": {
+        "mean": 136.42,
+        "median": 133.56,
+        "p10": 98.44,
+        "p90": 177.88,
+        "p95": 192.52,
+        "p180": 0.091,
+        "p200": 0.03443
+      },
+      "low_correlation": {
+        "mean": 136.43,
+        "median": 134.74,
+        "p10": 104.0,
+        "p90": 171.08,
+        "p95": 182.5,
+        "p180": 0.0586,
+        "p200": 0.01468
+      },
+      "role_downside": {
+        "mean": 126.59,
+        "median": 123.7,
+        "p10": 90.36,
+        "p90": 166.32,
+        "p95": 180.78,
+        "p180": 0.05201,
+        "p200": 0.0184
+      },
+      "high_games_cold": {
+        "mean": 127.26,
+        "median": 124.64,
+        "p10": 92.22,
+        "p90": 165.53,
+        "p95": 179.05,
+        "p180": 0.04775,
+        "p200": 0.01527
+      },
+      "players": [
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Jonah Coleman",
+          "pos": "RB",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 4300,
+          "forecast": 11.9,
+          "original_forecast": 11.63
+        },
+        {
+          "name": "CeeDee Lamb",
+          "pos": "WR",
+          "team": "DAL",
+          "opp": "ARI",
+          "salary": 8100,
+          "forecast": 19.7,
+          "original_forecast": 21.38
+        },
+        {
+          "name": "Michael Wilson",
+          "pos": "WR",
+          "team": "ARI",
+          "opp": "DAL",
+          "salary": 6200,
+          "forecast": 14.3,
+          "original_forecast": 14.72
+        },
+        {
+          "name": "Trey McBride",
+          "pos": "TE",
+          "team": "ARI",
+          "opp": "DAL",
+          "salary": 7400,
+          "forecast": 18.7,
+          "original_forecast": 19.7
+        },
+        {
+          "name": "Jacoby Brissett",
+          "pos": "QB",
+          "team": "ARI",
+          "opp": "DAL",
+          "salary": 5700,
+          "forecast": 18.5,
+          "original_forecast": 18.89
+        },
+        {
+          "name": "Demario Douglas",
+          "pos": "WR",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 4400,
+          "forecast": 10.4,
+          "original_forecast": 10.22
+        },
+        {
+          "name": "Chargers",
+          "pos": "DST",
+          "team": "LAC",
+          "opp": "LAR",
+          "salary": 2000,
+          "forecast": 4.48,
+          "original_forecast": 4.48
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        }
+      ],
+      "salary": 49800,
+      "projection": 136.28
+    },
+    {
+      "family": "lamar_moore",
+      "ids": [
+        2,
+        6,
+        11,
+        16,
+        19,
+        27,
+        31,
+        62,
+        63
+      ],
+      "base_mean": 140.4,
+      "family_best_mean": 141.2,
+      "train": {
+        "mean": 140.29,
+        "median": 137.84,
+        "p10": 104.39,
+        "p90": 179.6,
+        "p95": 192.48,
+        "p180": 0.0979,
+        "p200": 0.0344
+      },
+      "base": {
+        "mean": 140.51,
+        "median": 138.17,
+        "p10": 104.12,
+        "p90": 179.98,
+        "p95": 193.65,
+        "p180": 0.09994,
+        "p200": 0.03579
+      },
+      "low_correlation": {
+        "mean": 140.31,
+        "median": 138.82,
+        "p10": 108.5,
+        "p90": 173.97,
+        "p95": 184.72,
+        "p180": 0.06877,
+        "p200": 0.01694
+      },
+      "role_downside": {
+        "mean": 130.21,
+        "median": 127.88,
+        "p10": 96.31,
+        "p90": 167.05,
+        "p95": 179.98,
+        "p180": 0.04995,
+        "p200": 0.0148
+      },
+      "high_games_cold": {
+        "mean": 132.69,
+        "median": 130.57,
+        "p10": 98.49,
+        "p90": 169.7,
+        "p95": 182.37,
+        "p180": 0.05707,
+        "p200": 0.01687
+      },
+      "players": [
+        {
+          "name": "Lamar Jackson",
+          "pos": "QB",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 6800,
+          "forecast": 20,
+          "original_forecast": 20.38
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Bijan Robinson",
+          "pos": "RB",
+          "team": "ATL",
+          "opp": "TB",
+          "salary": 8500,
+          "forecast": 25,
+          "original_forecast": 22.23
+        },
+        {
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 7200,
+          "forecast": 18.8,
+          "original_forecast": 18.49
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "team": "TEN",
+          "opp": "CIN",
+          "salary": 4200,
+          "forecast": 11.8,
+          "original_forecast": 10.64
+        },
+        {
+          "name": "Mark Andrews",
+          "pos": "TE",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 3400,
+          "forecast": 8.8,
+          "original_forecast": 8.52
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        },
+        {
+          "name": "DJ Moore",
+          "pos": "WR",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5700,
+          "forecast": 11.7
+        }
+      ],
+      "salary": 49800,
+      "projection": 140.4
+    },
+    {
+      "family": "prior_moore_benchmark",
+      "ids": [
+        4,
+        62,
+        6,
+        16,
+        44,
+        63,
+        25,
+        19,
+        31
+      ],
+      "base": {
+        "mean": 137.89,
+        "median": 135.71,
+        "p10": 102.77,
+        "p90": 175.83,
+        "p95": 188.62,
+        "p180": 0.07993,
+        "p200": 0.02663
+      },
+      "low_correlation": {
+        "mean": 137.79,
+        "median": 136.34,
+        "p10": 106.44,
+        "p90": 171.08,
+        "p95": 181.86,
+        "p180": 0.05685,
+        "p200": 0.0129
+      },
+      "role_downside": {
+        "mean": 128.19,
+        "median": 125.98,
+        "p10": 95.23,
+        "p90": 164.0,
+        "p95": 176.03,
+        "p180": 0.03916,
+        "p200": 0.01105
+      },
+      "high_games_cold": {
+        "mean": 130.69,
+        "median": 128.62,
+        "p10": 97.28,
+        "p90": 166.71,
+        "p95": 178.74,
+        "p180": 0.04621,
+        "p200": 0.01241
+      },
+      "players": [
+        {
+          "name": "Josh Allen",
+          "pos": "QB",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 7700,
+          "forecast": 23,
+          "original_forecast": 24.63
+        },
+        {
+          "name": "Braelon Allen",
+          "pos": "RB",
+          "team": "NYJ",
+          "opp": "LV",
+          "salary": 6100,
+          "forecast": 19.4
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "pos": "RB",
+          "team": "NE",
+          "opp": "MIA",
+          "salary": 5600,
+          "forecast": 18.9,
+          "original_forecast": 17.0
+        },
+        {
+          "name": "Zay Flowers",
+          "pos": "WR",
+          "team": "BAL",
+          "opp": "BUF",
+          "salary": 7200,
+          "forecast": 18.8,
+          "original_forecast": 18.49
+        },
+        {
+          "name": "Drake London",
+          "pos": "WR",
+          "team": "ATL",
+          "opp": "TB",
+          "salary": 7000,
+          "forecast": 16.8,
+          "original_forecast": 17.39
+        },
+        {
+          "name": "DJ Moore",
+          "pos": "WR",
+          "team": "BUF",
+          "opp": "BAL",
+          "salary": 5700,
+          "forecast": 11.7
+        },
+        {
+          "name": "Brenton Strange",
+          "pos": "TE",
+          "team": "JAX",
+          "opp": "IND",
+          "salary": 4000,
+          "forecast": 11.5,
+          "original_forecast": 11.21
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "pos": "WR",
+          "team": "TEN",
+          "opp": "CIN",
+          "salary": 4200,
+          "forecast": 11.8,
+          "original_forecast": 10.64
+        },
+        {
+          "name": "Broncos",
+          "pos": "DST",
+          "team": "DEN",
+          "opp": "KC",
+          "salary": 2300,
+          "forecast": 6,
+          "original_forecast": 6.81
+        }
+      ],
+      "salary": 49800,
+      "projection": 137.9
+    }
+  ]
+}

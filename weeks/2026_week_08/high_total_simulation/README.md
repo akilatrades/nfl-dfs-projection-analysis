@@ -1,3 +1,5 @@
+> **Latest rebuilt shortlist:** See [news_shortlist.md](news_shortlist.md) for five choices after confirmed actives, including Moore/Kincaid/Pickens as eligible candidates and the prior Allen/Moore roster as a benchmark. The latest tournament preference is Allen–Moore–Kincaid / Flowers; the prior balanced Allen/Moore roster remains option 2. Earlier research below is preserved.
+
 > **Final prelock review:** The [final Allen construction](final_prelock.md) is the latest recommendation following the 11:30 AM Central review request and confirmed early inactives. The five-option comparison below remains the earlier research record.
 
 # Week 8 high-total lineup comparison — November 1, 2026

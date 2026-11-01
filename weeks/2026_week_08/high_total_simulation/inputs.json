@@ -1,0 +1,918 @@
+{
+  "pool": [
+    {
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "team": "DAL",
+      "opp": "ARI",
+      "salary": 6300,
+      "forecast": 22.31,
+      "original_forecast": 22.31
+    },
+    {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "team": "CIN",
+      "opp": "TEN",
+      "salary": 7000,
+      "forecast": 22.53,
+      "original_forecast": 22.53
+    },
+    {
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "team": "BAL",
+      "opp": "BUF",
+      "salary": 6800,
+      "forecast": 20.38,
+      "original_forecast": 20.38
+    },
+    {
+      "name": "Drake Maye",
+      "pos": "QB",
+      "team": "NE",
+      "opp": "MIA",
+      "salary": 6500,
+      "forecast": 21.15,
+      "original_forecast": 21.15
+    },
+    {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "team": "BUF",
+      "opp": "BAL",
+      "salary": 7700,
+      "forecast": 24.63,
+      "original_forecast": 24.63
+    },
+    {
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "team": "JAX",
+      "opp": "IND",
+      "salary": 6200,
+      "forecast": 20.41,
+      "original_forecast": 20.41
+    },
+    {
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "team": "NE",
+      "opp": "MIA",
+      "salary": 5600,
+      "forecast": 17.0,
+      "original_forecast": 17.0
+    },
+    {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "team": "CIN",
+      "opp": "TEN",
+      "salary": 6300,
+      "forecast": 17.38,
+      "original_forecast": 17.38
+    },
+    {
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "team": "TEN",
+      "opp": "CIN",
+      "salary": 5800,
+      "forecast": 14.5,
+      "original_forecast": 14.5
+    },
+    {
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "team": "TB",
+      "opp": "ATL",
+      "salary": 6400,
+      "forecast": 16.96,
+      "original_forecast": 16.96
+    },
+    {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "team": "DAL",
+      "opp": "ARI",
+      "salary": 7300,
+      "forecast": 18.72,
+      "original_forecast": 18.72
+    },
+    {
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "team": "ATL",
+      "opp": "TB",
+      "salary": 8500,
+      "forecast": 22.23,
+      "original_forecast": 22.23
+    },
+    {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "team": "DET",
+      "opp": "MIN",
+      "salary": 9500,
+      "forecast": 24.0,
+      "original_forecast": 24.0
+    },
+    {
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "team": "DEN",
+      "opp": "KC",
+      "salary": 4300,
+      "forecast": 11.63,
+      "original_forecast": 11.63
+    },
+    {
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "team": "DAL",
+      "opp": "ARI",
+      "salary": 8100,
+      "forecast": 21.38,
+      "original_forecast": 21.38
+    },
+    {
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "team": "CIN",
+      "opp": "TEN",
+      "salary": 7700,
+      "forecast": 20.42,
+      "original_forecast": 20.42
+    },
+    {
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "team": "BAL",
+      "opp": "BUF",
+      "salary": 7200,
+      "forecast": 18.49,
+      "original_forecast": 18.49
+    },
+    {
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "team": "CIN",
+      "opp": "TEN",
+      "salary": 6700,
+      "forecast": 16.67,
+      "original_forecast": 16.67
+    },
+    {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "team": "LAR",
+      "opp": "LAC",
+      "salary": 8600,
+      "forecast": 22.94,
+      "original_forecast": 22.94
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "pos": "WR",
+      "team": "TEN",
+      "opp": "CIN",
+      "salary": 4200,
+      "forecast": 10.64,
+      "original_forecast": 10.64
+    },
+    {
+      "name": "Malik Washington",
+      "pos": "WR",
+      "team": "MIA",
+      "opp": "NE",
+      "salary": 4400,
+      "forecast": 10.46,
+      "original_forecast": 10.46
+    },
+    {
+      "name": "Michael Wilson",
+      "pos": "WR",
+      "team": "ARI",
+      "opp": "DAL",
+      "salary": 6200,
+      "forecast": 14.72,
+      "original_forecast": 14.72
+    },
+    {
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "team": "NYJ",
+      "opp": "LV",
+      "salary": 6300,
+      "forecast": 15.35,
+      "original_forecast": 15.35
+    },
+    {
+      "name": "Parker Washington",
+      "pos": "WR",
+      "team": "JAX",
+      "opp": "IND",
+      "salary": 6500,
+      "forecast": 16.1,
+      "original_forecast": 16.1
+    },
+    {
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "team": "NE",
+      "opp": "MIA",
+      "salary": 4300,
+      "forecast": 11.84,
+      "original_forecast": 11.84
+    },
+    {
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "team": "JAX",
+      "opp": "IND",
+      "salary": 4000,
+      "forecast": 11.21,
+      "original_forecast": 11.21
+    },
+    {
+      "name": "Trey McBride",
+      "pos": "TE",
+      "team": "ARI",
+      "opp": "DAL",
+      "salary": 7400,
+      "forecast": 19.7,
+      "original_forecast": 19.7
+    },
+    {
+      "name": "Mark Andrews",
+      "pos": "TE",
+      "team": "BAL",
+      "opp": "BUF",
+      "salary": 3400,
+      "forecast": 8.52,
+      "original_forecast": 8.52
+    },
+    {
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "team": "BUF",
+      "opp": "BAL",
+      "salary": 5600,
+      "forecast": 9.83,
+      "original_forecast": 9.83
+    },
+    {
+      "name": "Steelers",
+      "pos": "DST",
+      "team": "PIT",
+      "opp": "CLE",
+      "salary": 3300,
+      "forecast": 8.1,
+      "original_forecast": 9.08
+    },
+    {
+      "name": "Browns",
+      "pos": "DST",
+      "team": "CLE",
+      "opp": "PIT",
+      "salary": 2600,
+      "forecast": 6.24,
+      "original_forecast": 6.24
+    },
+    {
+      "name": "Broncos",
+      "pos": "DST",
+      "team": "DEN",
+      "opp": "KC",
+      "salary": 2300,
+      "forecast": 5.3,
+      "original_forecast": 6.81
+    },
+    {
+      "name": "Lions",
+      "pos": "DST",
+      "team": "DET",
+      "opp": "MIN",
+      "salary": 2700,
+      "forecast": 7.06,
+      "original_forecast": 7.06
+    },
+    {
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "team": "ARI",
+      "opp": "DAL",
+      "salary": 5700,
+      "forecast": 18.89,
+      "original_forecast": 18.89
+    },
+    {
+      "name": "James Cook III",
+      "pos": "RB",
+      "team": "BUF",
+      "opp": "BAL",
+      "salary": 7900,
+      "forecast": 17.63,
+      "original_forecast": 17.63
+    },
+    {
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "team": "BAL",
+      "opp": "BUF",
+      "salary": 7200,
+      "forecast": 17.01,
+      "original_forecast": 17.01
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "team": "JAX",
+      "opp": "IND",
+      "salary": 5900,
+      "forecast": 15.81,
+      "original_forecast": 15.81
+    },
+    {
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "team": "PIT",
+      "opp": "CLE",
+      "salary": 6600,
+      "forecast": 15.78,
+      "original_forecast": 15.78
+    },
+    {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "team": "LV",
+      "opp": "NYJ",
+      "salary": 6700,
+      "forecast": 16.26,
+      "original_forecast": 16.26
+    },
+    {
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "team": "ARI",
+      "opp": "DAL",
+      "salary": 5400,
+      "forecast": 11.25,
+      "original_forecast": 11.25
+    },
+    {
+      "name": "Chris Godwin",
+      "pos": "WR",
+      "team": "TB",
+      "opp": "ATL",
+      "salary": 4800,
+      "forecast": 11.6,
+      "original_forecast": 11.6
+    },
+    {
+      "name": "Germie Bernard",
+      "pos": "WR",
+      "team": "PIT",
+      "opp": "CLE",
+      "salary": 4900,
+      "forecast": 10.82,
+      "original_forecast": 10.82
+    },
+    {
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "team": "CLE",
+      "opp": "PIT",
+      "salary": 4700,
+      "forecast": 10.82,
+      "original_forecast": 10.82
+    },
+    {
+      "name": "DK Metcalf",
+      "pos": "WR",
+      "team": "PIT",
+      "opp": "CLE",
+      "salary": 5400,
+      "forecast": 12.19,
+      "original_forecast": 12.19
+    },
+    {
+      "name": "Drake London",
+      "pos": "WR",
+      "team": "ATL",
+      "opp": "TB",
+      "salary": 7000,
+      "forecast": 17.39,
+      "original_forecast": 17.39
+    },
+    {
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "team": "MIN",
+      "opp": "DET",
+      "salary": 7100,
+      "forecast": 17.03,
+      "original_forecast": 17.03
+    },
+    {
+      "name": "Kendrick Bourne",
+      "pos": "WR",
+      "team": "ARI",
+      "opp": "DAL",
+      "salary": 3900,
+      "forecast": 9.59,
+      "original_forecast": 9.59
+    },
+    {
+      "name": "Ryan Flournoy",
+      "pos": "WR",
+      "team": "DAL",
+      "opp": "ARI",
+      "salary": 4600,
+      "forecast": 9.69,
+      "original_forecast": 9.69
+    },
+    {
+      "name": "Ja'Kobi Lane",
+      "pos": "WR",
+      "team": "BAL",
+      "opp": "BUF",
+      "salary": 3400,
+      "forecast": 6.91,
+      "original_forecast": 6.91
+    },
+    {
+      "name": "Omar Cooper Jr.",
+      "pos": "WR",
+      "team": "NYJ",
+      "opp": "LV",
+      "salary": 4800,
+      "forecast": 10.27,
+      "original_forecast": 10.27
+    },
+    {
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "team": "LV",
+      "opp": "NYJ",
+      "salary": 5500,
+      "forecast": 10.91,
+      "original_forecast": 10.91
+    },
+    {
+      "name": "Demario Douglas",
+      "pos": "WR",
+      "team": "NE",
+      "opp": "MIA",
+      "salary": 4400,
+      "forecast": 10.22,
+      "original_forecast": 10.22
+    },
+    {
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "team": "DAL",
+      "opp": "ARI",
+      "salary": 4100,
+      "forecast": 7.19,
+      "original_forecast": 7.19
+    },
+    {
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "team": "MIN",
+      "opp": "DET",
+      "salary": 4600,
+      "forecast": 10.79,
+      "original_forecast": 10.79
+    },
+    {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "team": "DET",
+      "opp": "MIN",
+      "salary": 5100,
+      "forecast": 10.88,
+      "original_forecast": 10.88
+    },
+    {
+      "name": "Kyle Pitts",
+      "pos": "TE",
+      "team": "ATL",
+      "opp": "TB",
+      "salary": 4500,
+      "forecast": 8.97,
+      "original_forecast": 8.97
+    },
+    {
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "team": "LV",
+      "opp": "NYJ",
+      "salary": 7600,
+      "forecast": 17.39,
+      "original_forecast": 17.39
+    },
+    {
+      "name": "Cade Otton",
+      "pos": "TE",
+      "team": "TB",
+      "opp": "ATL",
+      "salary": 3400,
+      "forecast": 8.45,
+      "original_forecast": 8.45
+    },
+    {
+      "name": "Rams",
+      "pos": "DST",
+      "team": "LAR",
+      "opp": "LAC",
+      "salary": 3500,
+      "forecast": 8.11,
+      "original_forecast": 8.11
+    },
+    {
+      "name": "Jaguars",
+      "pos": "DST",
+      "team": "JAX",
+      "opp": "IND",
+      "salary": 3700,
+      "forecast": 8.54,
+      "original_forecast": 8.54
+    },
+    {
+      "name": "Bengals",
+      "pos": "DST",
+      "team": "CIN",
+      "opp": "TEN",
+      "salary": 3800,
+      "forecast": 8.64,
+      "original_forecast": 8.64
+    },
+    {
+      "name": "Raiders",
+      "pos": "DST",
+      "team": "LV",
+      "opp": "NYJ",
+      "salary": 2500,
+      "forecast": 6.1,
+      "original_forecast": 6.1
+    },
+    {
+      "name": "Falcons",
+      "pos": "DST",
+      "team": "ATL",
+      "opp": "TB",
+      "salary": 2500,
+      "forecast": 6.16,
+      "original_forecast": 6.16
+    },
+    {
+      "name": "Buccaneers",
+      "pos": "DST",
+      "team": "TB",
+      "opp": "ATL",
+      "salary": 2900,
+      "forecast": 6.31,
+      "original_forecast": 6.31
+    },
+    {
+      "name": "Chargers",
+      "pos": "DST",
+      "team": "LAC",
+      "opp": "LAR",
+      "salary": 2000,
+      "forecast": 4.48,
+      "original_forecast": 4.48
+    },
+    {
+      "name": "Jets",
+      "pos": "DST",
+      "team": "NYJ",
+      "opp": "LV",
+      "salary": 2800,
+      "forecast": 5.95,
+      "original_forecast": 5.95
+    }
+  ],
+  "team": {
+    "DAL": [
+      30.75,
+      0.7,
+      0.03
+    ],
+    "ARI": [
+      23.75,
+      0.69,
+      0.03
+    ],
+    "BUF": [
+      28.75,
+      0.56,
+      0.48
+    ],
+    "BAL": [
+      25.75,
+      0.64,
+      0.36
+    ],
+    "CIN": [
+      29.5,
+      0.72,
+      0.04
+    ],
+    "TEN": [
+      17,
+      0.48,
+      0.1
+    ],
+    "NE": [
+      25.25,
+      0.62,
+      0.17
+    ],
+    "MIA": [
+      18.25,
+      0.55,
+      0.2
+    ],
+    "TB": [
+      22.5,
+      0.56,
+      0.03
+    ],
+    "ATL": [
+      21,
+      0.62,
+      0.08
+    ],
+    "JAX": [
+      28.25,
+      0.63,
+      0.12
+    ],
+    "IND": [
+      18.25,
+      0.58,
+      0.12
+    ],
+    "MIN": [
+      21.75,
+      0.63,
+      0.16
+    ],
+    "DET": [
+      24.75,
+      0.64,
+      0.02
+    ],
+    "NYJ": [
+      24,
+      0.67,
+      0.05
+    ],
+    "LV": [
+      22.5,
+      0.68,
+      0.02
+    ],
+    "PIT": [
+      21.5,
+      0.57,
+      0.02
+    ],
+    "CLE": [
+      18,
+      0.53,
+      0.12
+    ],
+    "LAR": [
+      26,
+      0.67,
+      0.02
+    ],
+    "LAC": [
+      19.5,
+      0.62,
+      0.08
+    ],
+    "KC": [
+      21,
+      0.62,
+      0.15
+    ],
+    "DEN": [
+      19.5,
+      0.57,
+      0.13
+    ]
+  },
+  "receiving_td_shares": {
+    "DAL": {
+      "CeeDee Lamb": 0.34,
+      "Javonte Williams": 0.07,
+      "Jake Ferguson": 0.14,
+      "Ryan Flournoy": 0.08
+    },
+    "ARI": {
+      "Trey McBride": 0.33,
+      "Michael Wilson": 0.27,
+      "Kendrick Bourne": 0.13,
+      "Jeremiyah Love": 0.07
+    },
+    "BUF": {
+      "Khalil Shakir": 0.22,
+      "James Cook III": 0.1
+    },
+    "BAL": {
+      "Zay Flowers": 0.35,
+      "Mark Andrews": 0.2,
+      "Ja'Kobi Lane": 0.13,
+      "Derrick Henry": 0.04
+    },
+    "CIN": {
+      "Ja'Marr Chase": 0.33,
+      "Tee Higgins": 0.28,
+      "Chase Brown": 0.1
+    },
+    "TEN": {
+      "Wan'Dale Robinson": 0.23,
+      "Tony Pollard": 0.08
+    },
+    "NE": {
+      "Hunter Henry": 0.26,
+      "Rhamondre Stevenson": 0.16,
+      "Demario Douglas": 0.19
+    },
+    "MIA": {
+      "Malik Washington": 0.3
+    },
+    "TB": {
+      "Bucky Irving": 0.1,
+      "Chris Godwin": 0.32,
+      "Cade Otton": 0.22
+    },
+    "ATL": {
+      "Bijan Robinson": 0.16,
+      "Drake London": 0.4,
+      "Kyle Pitts": 0.23
+    },
+    "JAX": {
+      "Parker Washington": 0.34,
+      "Brenton Strange": 0.18,
+      "Bhayshul Tuten": 0.12
+    },
+    "IND": {},
+    "MIN": {
+      "Justin Jefferson": 0.43,
+      "T.J. Hockenson": 0.22
+    },
+    "DET": {
+      "Jahmyr Gibbs": 0.2,
+      "Sam LaPorta": 0.2
+    },
+    "NYJ": {
+      "Garrett Wilson": 0.37,
+      "Omar Cooper Jr.": 0.24
+    },
+    "LV": {
+      "Ashton Jeanty": 0.13,
+      "Tre Tucker": 0.29,
+      "Brock Bowers": 0.38
+    },
+    "PIT": {
+      "Jaylen Warren": 0.12,
+      "DK Metcalf": 0.38,
+      "Germie Bernard": 0.28
+    },
+    "CLE": {
+      "KC Concepcion": 0.3
+    },
+    "LAR": {
+      "Puka Nacua": 0.45
+    },
+    "LAC": {},
+    "KC": {},
+    "DEN": {
+      "Jonah Coleman": 0.18
+    }
+  },
+  "rushing_td_shares": {
+    "DAL": {
+      "Javonte Williams": 0.78
+    },
+    "ARI": {
+      "Jeremiyah Love": 0.63
+    },
+    "BUF": {
+      "James Cook III": 0.45
+    },
+    "BAL": {
+      "Derrick Henry": 0.55
+    },
+    "CIN": {
+      "Chase Brown": 0.72
+    },
+    "TEN": {
+      "Tony Pollard": 0.79
+    },
+    "NE": {
+      "Rhamondre Stevenson": 0.73
+    },
+    "MIA": {},
+    "TB": {
+      "Bucky Irving": 0.69
+    },
+    "ATL": {
+      "Bijan Robinson": 0.8
+    },
+    "JAX": {
+      "Bhayshul Tuten": 0.62
+    },
+    "IND": {},
+    "MIN": {},
+    "DET": {
+      "Jahmyr Gibbs": 0.88
+    },
+    "NYJ": {},
+    "LV": {
+      "Ashton Jeanty": 0.78
+    },
+    "PIT": {
+      "Jaylen Warren": 0.64
+    },
+    "CLE": {},
+    "LAR": {},
+    "LAC": {},
+    "KC": {
+      "Kenneth Walker III": 0.78
+    },
+    "DEN": {
+      "Jonah Coleman": 0.4
+    }
+  },
+  "secondary": {
+    "Josh Allen": 22.9,
+    "Dak Prescott": 21.6,
+    "Joe Burrow": 20.8,
+    "Drake Maye": 20.2,
+    "Lamar Jackson": 20.0,
+    "Trevor Lawrence": 19.5,
+    "Jacoby Brissett": 18.5,
+    "Jahmyr Gibbs": 27.7,
+    "Bijan Robinson": 24.9,
+    "James Cook III": 19.6,
+    "Javonte Williams": 19.0,
+    "Bucky Irving": 18.3,
+    "Rhamondre Stevenson": 18.2,
+    "Jaylen Warren": 17.8,
+    "Chase Brown": 17.7,
+    "Bhayshul Tuten": 17.6,
+    "Derrick Henry": 15.8,
+    "Ashton Jeanty": 15.6,
+    "Tony Pollard": 14.2,
+    "Jonah Coleman": 11.1,
+    "Jeremiyah Love": 10.3,
+    "Puka Nacua": 21.6,
+    "CeeDee Lamb": 19.5,
+    "Zay Flowers": 18.3,
+    "Ja'Marr Chase": 17.8,
+    "Drake London": 16.6,
+    "Tee Higgins": 15.8,
+    "Justin Jefferson": 15.3,
+    "Parker Washington": 14.9,
+    "Michael Wilson": 13.7,
+    "Garrett Wilson": 13.7,
+    "DK Metcalf": 12.7,
+    "Wan'Dale Robinson": 11.7,
+    "KC Concepcion": 10.7,
+    "Demario Douglas": 10.6,
+    "Tre Tucker": 10.6,
+    "Chris Godwin": 10.5,
+    "Khalil Shakir": 10.4,
+    "Ryan Flournoy": 10.2,
+    "Germie Bernard": 10.0,
+    "Malik Washington": 9.9,
+    "Kendrick Bourne": 9.5,
+    "Omar Cooper Jr.": 9.2,
+    "Ja'Kobi Lane": 8.2,
+    "Trey McBride": 18.7,
+    "Brock Bowers": 16.4,
+    "Hunter Henry": 12.4,
+    "Sam LaPorta": 11.8,
+    "T.J. Hockenson": 11.0,
+    "Brenton Strange": 10.3,
+    "Cade Otton": 9.6,
+    "Kyle Pitts": 9.3,
+    "Mark Andrews": 8.8,
+    "Bengals": 7.7,
+    "Jaguars": 7.3,
+    "Rams": 7.3,
+    "Steelers": 7.3,
+    "Broncos": 6.1,
+    "Browns": 6.0,
+    "Buccaneers": 5.9,
+    "Lions": 5.9,
+    "Raiders": 5.7
+  }
+}

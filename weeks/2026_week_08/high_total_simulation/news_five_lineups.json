@@ -1,0 +1,97 @@
+[
+  {
+    "number": 1,
+    "family": "allen_moore",
+    "slots": {
+      "QB": "Josh Allen",
+      "RB1": "Bhayshul Tuten",
+      "RB2": "Braelon Allen",
+      "WR1": "Zay Flowers",
+      "WR2": "Wan'Dale Robinson",
+      "WR3": "DJ Moore",
+      "TE": "Dalton Kincaid",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Broncos"
+    },
+    "salary": 50000,
+    "projection": 139.1,
+    "p90": 178.57,
+    "role_downside": 129.38
+  },
+  {
+    "number": 2,
+    "family": "prior_moore_benchmark",
+    "slots": {
+      "QB": "Josh Allen",
+      "RB1": "Braelon Allen",
+      "RB2": "Rhamondre Stevenson",
+      "WR1": "Zay Flowers",
+      "WR2": "Drake London",
+      "WR3": "DJ Moore",
+      "TE": "Brenton Strange",
+      "FLEX": "Wan'Dale Robinson",
+      "DST": "Broncos"
+    },
+    "salary": 49800,
+    "projection": 137.9,
+    "p90": 175.83,
+    "role_downside": 128.19
+  },
+  {
+    "number": 3,
+    "family": "dak_mcbride",
+    "slots": {
+      "QB": "Dak Prescott",
+      "RB1": "Jonah Coleman",
+      "RB2": "Braelon Allen",
+      "WR1": "CeeDee Lamb",
+      "WR2": "DK Metcalf",
+      "WR3": "Demario Douglas",
+      "TE": "Trey McBride",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Broncos"
+    },
+    "salary": 49900,
+    "projection": 139.1,
+    "p90": 178.86,
+    "role_downside": 129.41
+  },
+  {
+    "number": 4,
+    "family": "lamar_moore",
+    "slots": {
+      "QB": "Lamar Jackson",
+      "RB1": "Bijan Robinson",
+      "RB2": "Braelon Allen",
+      "WR1": "Zay Flowers",
+      "WR2": "Wan'Dale Robinson",
+      "WR3": "DJ Moore",
+      "TE": "Mark Andrews",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Broncos"
+    },
+    "salary": 49800,
+    "projection": 140.4,
+    "p90": 179.98,
+    "role_downside": 130.21
+  },
+  {
+    "number": 5,
+    "family": "brissett_mcbride",
+    "slots": {
+      "QB": "Jacoby Brissett",
+      "RB1": "Jonah Coleman",
+      "RB2": "Braelon Allen",
+      "WR1": "CeeDee Lamb",
+      "WR2": "Michael Wilson",
+      "WR3": "Demario Douglas",
+      "TE": "Trey McBride",
+      "FLEX": "Rhamondre Stevenson",
+      "DST": "Chargers"
+    },
+    "salary": 49800,
+    "projection": 136.28,
+    "p90": 177.88,
+    "role_downside": 126.59
+  }
+]

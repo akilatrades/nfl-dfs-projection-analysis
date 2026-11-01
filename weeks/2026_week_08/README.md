@@ -1,5 +1,7 @@
 # Week 8 — November 1, 2026 single-entry decision
 
+> Superseded recommendations below: see [current tournament selection](tournament_selection.md), Burrow–Chase–Higgins with Pollard, $49,900. Earlier screens remain preserved for audit.
+
 ## Contest and status
 
 NFL $60K Blind Side [Single Entry], $27 entry, maximum 2,591 entrants. Screenshot showed 1,839 entered; I plan around the capacity rather than assuming overlay. Payout ladder was not supplied. Recommendation only; no entry has been submitted by this workflow. Published salaries are checked arithmetically, not matched to an official contest ID export. Early-game final inactives must be checked before noon Central; Stevenson plays in the late window.

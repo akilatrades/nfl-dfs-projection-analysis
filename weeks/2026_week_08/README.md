@@ -4,7 +4,7 @@
 
 NFL $60K Blind Side [Single Entry], $27 entry, maximum 2,591 entrants. Screenshot showed 1,839 entered; I plan around the capacity rather than assuming overlay. Payout ladder was not supplied. Recommendation only; no entry has been submitted by this workflow. Published salaries are checked arithmetically, not matched to an official contest ID export. Early-game final inactives must be checked before noon Central; Stevenson plays in the late window.
 
-## Recommended roster
+## Original recommended roster — see follow-up revision below
 
 | Slot | Player | Salary |
 |---|---|---:|
@@ -81,3 +81,27 @@ If any selected early-game player is inactive, rework the roster before that gam
 - Weather: https://mysportsweather.com/nfl
 
 Archive the final entered roster, official salaries, actual ownership, cash line, rank and payout after the slate. This pregame record must not be rewritten using outcomes.
+
+## Follow-up prelock comparison — November 1
+
+This is an incremental revision; the original roster and screen above are preserved. My current preference replaces Ja'Marr Chase ($7,700) with Tee Higgins ($6,700), and Mark Andrews ($3,400) with Hunter Henry ($4,300). Salary $49,900; baseline 139.95 versus original 140.38. This is a role-allocation preference, NOT a measured improvement in payout EV.
+
+Higgins has a published 22.8% target share and 8.3 targets/game. Henry has 15.7% target share since Week 4, 2.30 yards/route and four red-zone targets; A.J. Brown is OUT. Henry's opportunity is still variable; he is not guaranteed to inherit the missing targets. Higgins is not listed with an injury designation in the current Bengals Friday report.
+
+| Candidate | Salary | Baseline DK | Joint analyst stress |
+|---|---:|---:|---:|
+| Original |50000|140.38|133.46|
+| Henry / Higgins revision |49900|139.95|133.38|
+| Three RB: Dak / Brown / Stevenson / Lamb / Higgins / Malik Washington / Henry / Pollard / Broncos |49800|138.35|130.28|
+
+This follow-up calculation used the same saved pool. Joint stress multiplies Stevenson/Pollard/Henry/Malik forecasts by .85, Strange by .80 and Andrews by .75, leaving all others unchanged. These discretionary assumptions are not empirical probabilities, and unstressed players remain uncertain. Original versus revised stress totals are essentially tied; they do not establish a safer lineup. The three-RB comparison loses more receiving projection than I want to surrender.
+
+### Current preferred roster
+Dak 6300; Brown 6300; Stevenson 5600; Lamb 8100; Higgins 6700; Garrett Wilson 6300; Strange 4000; Henry FLEX 4300; Broncos 2300. Nine distinct players, legal position structure, salary 49,900, Dak-Lamb teammate pairing, no opposing DST conflict. Henry at FLEX preserves a late WR/RB/TE swap slot. Both Henry and Stevenson are late and depend partly on the same offense.
+
+I retain two TEs deliberately; replacing both requires losses elsewhere. Andrews-to-Henry gains 3.32 baseline points, Chase-to-Higgins costs 3.75. Saving $100 is incidental, not evidence of uniqueness. Denver remains a budget defense; no quantified duplication claim is made. Final availability and actual contest salary eligibility remain pre-entry checks.
+
+Additional sources:
+- https://dknetwork.draftkings.com/2026/10/26/is-tee-higgins-a-wr1-for-fantasy-football-week-8/
+- https://www.fantasypros.com/nfl/notes/481513/hunter-henry-2026-week-8-outlook.php
+- https://www.bengals.com/news/bengals-titans-week-8-2026-injury-report

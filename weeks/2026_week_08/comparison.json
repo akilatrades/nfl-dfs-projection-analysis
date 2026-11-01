@@ -1,0 +1,382 @@
+[
+  {
+    "qb": "Dak Prescott",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 141.93,
+    "objective": 141.93,
+    "players": [
+      "Dak Prescott",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Jonah Coleman",
+      "CeeDee Lamb",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Dak Prescott",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 140.38,
+    "objective": 137.83,
+    "players": [
+      "Dak Prescott",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "CeeDee Lamb",
+      "Ja'Marr Chase",
+      "Garrett Wilson",
+      "Brenton Strange",
+      "Mark Andrews",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Joe Burrow",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 140.77,
+    "objective": 140.77,
+    "players": [
+      "Joe Burrow",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Joe Burrow",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 138.64,
+    "objective": 136.09,
+    "players": [
+      "Joe Burrow",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Garrett Wilson",
+      "Parker Washington",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Lamar Jackson",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 49900,
+    "forecast": 137.57,
+    "objective": 137.57,
+    "players": [
+      "Lamar Jackson",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Brenton Strange",
+      "Mark Andrews",
+      "Steelers"
+    ]
+  },
+  {
+    "qb": "Lamar Jackson",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 136.88,
+    "objective": 134.33,
+    "players": [
+      "Lamar Jackson",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Zay Flowers",
+      "Tee Higgins",
+      "Brenton Strange",
+      "Mark Andrews",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Drake Maye",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 49900,
+    "forecast": 140.35,
+    "objective": 140.35,
+    "players": [
+      "Drake Maye",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "CeeDee Lamb",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Drake Maye",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 137.61,
+    "objective": 136.04,
+    "players": [
+      "Drake Maye",
+      "Chase Brown",
+      "Bucky Irving",
+      "CeeDee Lamb",
+      "Ja'Marr Chase",
+      "Malik Washington",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Josh Allen",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 135.22,
+    "objective": 135.22,
+    "players": [
+      "Josh Allen",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Parker Washington",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Khalil Shakir",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Josh Allen",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 135.22,
+    "objective": 132.67,
+    "players": [
+      "Josh Allen",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Ja'Marr Chase",
+      "Parker Washington",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Khalil Shakir",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Trevor Lawrence",
+    "stress": false,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 139.86,
+    "objective": 139.86,
+    "players": [
+      "Trevor Lawrence",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "CeeDee Lamb",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Lions"
+    ]
+  },
+  {
+    "qb": "Trevor Lawrence",
+    "stress": true,
+    "gibbs": false,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 136.48,
+    "objective": 136.48,
+    "players": [
+      "Trevor Lawrence",
+      "Chase Brown",
+      "Bucky Irving",
+      "Ja'Marr Chase",
+      "Garrett Wilson",
+      "Parker Washington",
+      "Hunter Henry",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Dak Prescott",
+    "stress": false,
+    "gibbs": true,
+    "one_te": false,
+    "salary": 50000,
+    "forecast": 138.34,
+    "objective": 138.34,
+    "players": [
+      "Dak Prescott",
+      "Rhamondre Stevenson",
+      "Jahmyr Gibbs",
+      "Jonah Coleman",
+      "CeeDee Lamb",
+      "Wan'Dale Robinson",
+      "Malik Washington",
+      "Hunter Henry",
+      "Steelers"
+    ]
+  },
+  {
+    "qb": "Dak Prescott",
+    "stress": false,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 50000,
+    "forecast": 141.93,
+    "objective": 141.93,
+    "players": [
+      "Dak Prescott",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Jonah Coleman",
+      "CeeDee Lamb",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Dak Prescott",
+    "stress": true,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 49900,
+    "forecast": 139.61,
+    "objective": 135.49,
+    "players": [
+      "Dak Prescott",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Bucky Irving",
+      "CeeDee Lamb",
+      "Malik Washington",
+      "Parker Washington",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Joe Burrow",
+    "stress": false,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 50000,
+    "forecast": 140.56,
+    "objective": 140.56,
+    "players": [
+      "Joe Burrow",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Jonah Coleman",
+      "Ja'Marr Chase",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Joe Burrow",
+    "stress": true,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 50000,
+    "forecast": 138.12,
+    "objective": 134.0,
+    "players": [
+      "Joe Burrow",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Bucky Irving",
+      "Ja'Marr Chase",
+      "Malik Washington",
+      "Garrett Wilson",
+      "Brenton Strange",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Drake Maye",
+    "stress": false,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 49800,
+    "forecast": 139.81,
+    "objective": 139.81,
+    "players": [
+      "Drake Maye",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Jonah Coleman",
+      "Ja'Marr Chase",
+      "Puka Nacua",
+      "Wan'Dale Robinson",
+      "Hunter Henry",
+      "Broncos"
+    ]
+  },
+  {
+    "qb": "Drake Maye",
+    "stress": true,
+    "gibbs": false,
+    "one_te": true,
+    "salary": 50000,
+    "forecast": 138.12,
+    "objective": 134.0,
+    "players": [
+      "Drake Maye",
+      "Rhamondre Stevenson",
+      "Chase Brown",
+      "Bucky Irving",
+      "Ja'Marr Chase",
+      "Malik Washington",
+      "Parker Washington",
+      "Hunter Henry",
+      "Broncos"
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "slate_date": "2026-11-01",
+  "review_date": "2026-11-02",
+  "status": "provisional_box_score_reconstruction",
+  "entry_verified": false,
+  "assumption": "Saved Lamar/Bijan roster retained DJ Moore; no final export or screenshot supplied and no replacement reported.",
+  "projection": 140.4,
+  "reconstructed_dk": 86.6,
+  "error": -53.8,
+  "baltimore_projection": 47.6,
+  "baltimore_actual": 4.4,
+  "baltimore_deficit": 43.2,
+  "rank": null,
+  "payout": null,
+  "net_profit": null,
+  "players": [
+    {
+      "player": "Lamar Jackson",
+      "projection": 20.0,
+      "stats": {
+        "pass_yd": 0,
+        "pass_td": 0
+      },
+      "reconstructed_dk": 0.0,
+      "error": -20.0
+    },
+    {
+      "player": "Bijan Robinson",
+      "projection": 25.0,
+      "stats": {
+        "rush_yd": 76
+      },
+      "reconstructed_dk": 7.6,
+      "error": -17.4
+    },
+    {
+      "player": "Braelon Allen",
+      "projection": 19.4,
+      "stats": {
+        "rush_yd": 147,
+        "rush_td": 1,
+        "rec": 2,
+        "rec_yd": 6
+      },
+      "reconstructed_dk": 26.3,
+      "error": 6.9
+    },
+    {
+      "player": "Zay Flowers",
+      "projection": 18.8,
+      "stats": {
+        "rec": 0,
+        "rec_yd": 0
+      },
+      "reconstructed_dk": 0.0,
+      "error": -18.8
+    },
+    {
+      "player": "Wan'Dale Robinson",
+      "projection": 11.8,
+      "stats": {
+        "rec": 6,
+        "rec_yd": 57,
+        "rec_td": 1,
+        "lost_fumbles": 1
+      },
+      "reconstructed_dk": 16.7,
+      "error": 4.9
+    },
+    {
+      "player": "DJ Moore",
+      "projection": 11.7,
+      "stats": {
+        "rec": 4,
+        "rec_yd": 82,
+        "rec_td": 1,
+        "rush_yd": 4,
+        "lost_fumbles": 1
+      },
+      "reconstructed_dk": 17.6,
+      "error": 5.9
+    },
+    {
+      "player": "Mark Andrews",
+      "projection": 8.8,
+      "stats": {
+        "rec": 3,
+        "rec_yd": 14
+      },
+      "reconstructed_dk": 4.4,
+      "error": -4.4
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "projection": 18.9,
+      "stats": {
+        "rush_yd": 82,
+        "rec": 3,
+        "rec_yd": 8
+      },
+      "reconstructed_dk": 12.0,
+      "error": -6.9
+    },
+    {
+      "player": "Broncos",
+      "projection": 6.0,
+      "stats": {
+        "sacks": 2,
+        "interceptions": 0,
+        "recoveries": 0,
+        "points_allowed": 24,
+        "def_td": 0,
+        "blocks": 0,
+        "safeties": 0
+      },
+      "reconstructed_dk": 2,
+      "error": -4.0
+    }
+  ]
+}

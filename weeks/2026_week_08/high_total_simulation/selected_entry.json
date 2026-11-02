@@ -21,5 +21,12 @@
   "model_p90": 179.98,
   "status": "selected",
   "result": null,
-  "notes": "My selected lineup for the post-slate review. Selection recorded from the conversation; a DraftKings entry export or final roster screenshot was not available. The research workflow did not submit the entry. Projection and model percentile are pregame estimates, not calibrated contest win probabilities."
+  "notes": "My selected lineup for the post-slate review. Selection recorded from the conversation; a DraftKings entry export or final roster screenshot was not available. The research workflow did not submit the entry. Projection and model percentile are pregame estimates, not calibrated contest win probabilities.",
+  "review": {
+    "date": "2026-11-02",
+    "path": "weeks/2026_week_08/postmortem/README.md",
+    "reconstructed_dk": 86.6,
+    "status": "provisional; final entered roster, rank and payout unverified",
+    "assumption": "DJ Moore retained; no replacement reported"
+  }
 }

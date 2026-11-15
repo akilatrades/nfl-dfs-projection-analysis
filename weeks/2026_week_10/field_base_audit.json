@@ -1,0 +1,642 @@
+{
+  "attempts": 161296,
+  "temperature": 1.0,
+  "marginals": [
+    {
+      "name": "Bijan Robinson",
+      "input_weight": 29.9,
+      "realized_pct": 25.94
+    },
+    {
+      "name": "Christian McCaffrey",
+      "input_weight": 23.9,
+      "realized_pct": 19.86
+    },
+    {
+      "name": "Chuba Hubbard",
+      "input_weight": 17,
+      "realized_pct": 12.74
+    },
+    {
+      "name": "Emmett Johnson",
+      "input_weight": 67.9,
+      "realized_pct": 70.42
+    },
+    {
+      "name": "James Cook III",
+      "input_weight": 20,
+      "realized_pct": 14.19
+    },
+    {
+      "name": "Kyren Williams",
+      "input_weight": 12,
+      "realized_pct": 9.16
+    },
+    {
+      "name": "Jonathan Taylor",
+      "input_weight": 7,
+      "realized_pct": 5.27
+    },
+    {
+      "name": "Javonte Williams",
+      "input_weight": 7,
+      "realized_pct": 5.41
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "input_weight": 12,
+      "realized_pct": 10.57
+    },
+    {
+      "name": "Woody Marks",
+      "input_weight": 7,
+      "realized_pct": 6.26
+    },
+    {
+      "name": "Ashton Jeanty",
+      "input_weight": 7,
+      "realized_pct": 6.97
+    },
+    {
+      "name": "Tony Pollard",
+      "input_weight": 7,
+      "realized_pct": 5.34
+    },
+    {
+      "name": "Ollie Gordon II",
+      "input_weight": 7,
+      "realized_pct": 6.13
+    },
+    {
+      "name": "Breece Hall",
+      "input_weight": 7,
+      "realized_pct": 6.62
+    },
+    {
+      "name": "Zach Charbonnet",
+      "input_weight": 7,
+      "realized_pct": 5.63
+    },
+    {
+      "name": "Blake Corum",
+      "input_weight": 7,
+      "realized_pct": 6.19
+    },
+    {
+      "name": "Tyler Allgeier",
+      "input_weight": 7,
+      "realized_pct": 6.23
+    },
+    {
+      "name": "Quinshon Judkins",
+      "input_weight": 7,
+      "realized_pct": 6.24
+    },
+    {
+      "name": "Aaron Jones Sr.",
+      "input_weight": 7,
+      "realized_pct": 5.35
+    },
+    {
+      "name": "CeeDee Lamb",
+      "input_weight": 21.8,
+      "realized_pct": 18.93
+    },
+    {
+      "name": "Jaxon Smith-Njigba",
+      "input_weight": 7,
+      "realized_pct": 7.33
+    },
+    {
+      "name": "Justin Jefferson",
+      "input_weight": 30.9,
+      "realized_pct": 28.79
+    },
+    {
+      "name": "Chris Olave",
+      "input_weight": 21.6,
+      "realized_pct": 22.21
+    },
+    {
+      "name": "Drake London",
+      "input_weight": 11,
+      "realized_pct": 12.79
+    },
+    {
+      "name": "Christian Watson",
+      "input_weight": 7,
+      "realized_pct": 7.35
+    },
+    {
+      "name": "Matthew Golden",
+      "input_weight": 7,
+      "realized_pct": 7.4
+    },
+    {
+      "name": "Tetairoa McMillan",
+      "input_weight": 7,
+      "realized_pct": 8.35
+    },
+    {
+      "name": "George Pickens",
+      "input_weight": 11,
+      "realized_pct": 12.06
+    },
+    {
+      "name": "Parker Washington",
+      "input_weight": 15,
+      "realized_pct": 17.78
+    },
+    {
+      "name": "Nico Collins",
+      "input_weight": 7,
+      "realized_pct": 7.48
+    },
+    {
+      "name": "Garrett Wilson",
+      "input_weight": 7,
+      "realized_pct": 8.77
+    },
+    {
+      "name": "Rashee Rice",
+      "input_weight": 9,
+      "realized_pct": 11.16
+    },
+    {
+      "name": "Jalen Coker",
+      "input_weight": 8,
+      "realized_pct": 9.58
+    },
+    {
+      "name": "DJ Moore",
+      "input_weight": 6,
+      "realized_pct": 7.83
+    },
+    {
+      "name": "Khalil Shakir",
+      "input_weight": 7,
+      "realized_pct": 9.6
+    },
+    {
+      "name": "Jakobi Meyers",
+      "input_weight": 16,
+      "realized_pct": 21.29
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "input_weight": 7,
+      "realized_pct": 8.41
+    },
+    {
+      "name": "Deebo Samuel Sr.",
+      "input_weight": 6,
+      "realized_pct": 7.42
+    },
+    {
+      "name": "Ryan Flournoy",
+      "input_weight": 7,
+      "realized_pct": 8.97
+    },
+    {
+      "name": "Tank Dell",
+      "input_weight": 6,
+      "realized_pct": 7.4
+    },
+    {
+      "name": "Demarcus Robinson",
+      "input_weight": 7,
+      "realized_pct": 8.65
+    },
+    {
+      "name": "Xavier Worthy",
+      "input_weight": 4,
+      "realized_pct": 5.39
+    },
+    {
+      "name": "Keon Coleman",
+      "input_weight": 7,
+      "realized_pct": 8.98
+    },
+    {
+      "name": "Laquon Treadwell",
+      "input_weight": 8,
+      "realized_pct": 10.93
+    },
+    {
+      "name": "Trey McBride",
+      "input_weight": 6,
+      "realized_pct": 5.06
+    },
+    {
+      "name": "George Kittle",
+      "input_weight": 13.3,
+      "realized_pct": 13.47
+    },
+    {
+      "name": "Brock Bowers",
+      "input_weight": 6,
+      "realized_pct": 3.92
+    },
+    {
+      "name": "Tyler Warren",
+      "input_weight": 20.2,
+      "realized_pct": 21.9
+    },
+    {
+      "name": "Travis Kelce",
+      "input_weight": 6,
+      "realized_pct": 6.44
+    },
+    {
+      "name": "Dalton Kincaid",
+      "input_weight": 8,
+      "realized_pct": 7.53
+    },
+    {
+      "name": "Tucker Kraft",
+      "input_weight": 6,
+      "realized_pct": 5.65
+    },
+    {
+      "name": "Brenton Strange",
+      "input_weight": 6,
+      "realized_pct": 5.5
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "input_weight": 6,
+      "realized_pct": 6.19
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "input_weight": 6,
+      "realized_pct": 6.15
+    },
+    {
+      "name": "Tyler Higbee",
+      "input_weight": 6,
+      "realized_pct": 5.47
+    },
+    {
+      "name": "Colby Parkinson",
+      "input_weight": 14.2,
+      "realized_pct": 17.57
+    },
+    {
+      "name": "Dalton Schultz",
+      "input_weight": 6,
+      "realized_pct": 6.08
+    },
+    {
+      "name": "Greg Dulcich",
+      "input_weight": 6,
+      "realized_pct": 5.98
+    },
+    {
+      "name": "Darren Waller",
+      "input_weight": 6,
+      "realized_pct": 6.28
+    },
+    {
+      "name": "Juwan Johnson",
+      "input_weight": 6,
+      "realized_pct": 7.73
+    },
+    {
+      "name": "Rams",
+      "input_weight": 8,
+      "realized_pct": 7.69
+    },
+    {
+      "name": "Jaguars",
+      "input_weight": 5,
+      "realized_pct": 4.54
+    },
+    {
+      "name": "Seahawks",
+      "input_weight": 8,
+      "realized_pct": 7.43
+    },
+    {
+      "name": "Texans",
+      "input_weight": 9.8,
+      "realized_pct": 9.67
+    },
+    {
+      "name": "Bills",
+      "input_weight": 6,
+      "realized_pct": 6.24
+    },
+    {
+      "name": "Colts",
+      "input_weight": 13.6,
+      "realized_pct": 13.3
+    },
+    {
+      "name": "Packers",
+      "input_weight": 6,
+      "realized_pct": 5.98
+    },
+    {
+      "name": "Dolphins",
+      "input_weight": 8.7,
+      "realized_pct": 7.75
+    },
+    {
+      "name": "Vikings",
+      "input_weight": 6,
+      "realized_pct": 6.1
+    },
+    {
+      "name": "Saints",
+      "input_weight": 6,
+      "realized_pct": 5.12
+    },
+    {
+      "name": "Browns",
+      "input_weight": 6,
+      "realized_pct": 5.5
+    },
+    {
+      "name": "Panthers",
+      "input_weight": 6,
+      "realized_pct": 6.01
+    },
+    {
+      "name": "Josh Allen",
+      "input_weight": 13,
+      "realized_pct": 12.29
+    },
+    {
+      "name": "Brock Purdy",
+      "input_weight": 10.9,
+      "realized_pct": 9.47
+    },
+    {
+      "name": "Tyler Shough",
+      "input_weight": 18.3,
+      "realized_pct": 17.55
+    },
+    {
+      "name": "Dak Prescott",
+      "input_weight": 4,
+      "realized_pct": 3.62
+    },
+    {
+      "name": "Patrick Mahomes",
+      "input_weight": 4,
+      "realized_pct": 4.57
+    },
+    {
+      "name": "Trevor Lawrence",
+      "input_weight": 4,
+      "realized_pct": 3.93
+    },
+    {
+      "name": "C.J. Stroud",
+      "input_weight": 4,
+      "realized_pct": 3.79
+    },
+    {
+      "name": "Bryce Young",
+      "input_weight": 4,
+      "realized_pct": 4.28
+    },
+    {
+      "name": "Drew Lock",
+      "input_weight": 4,
+      "realized_pct": 4.11
+    },
+    {
+      "name": "Jordan Love",
+      "input_weight": 4,
+      "realized_pct": 3.08
+    },
+    {
+      "name": "Matthew Stafford",
+      "input_weight": 4,
+      "realized_pct": 5.29
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "input_weight": 4,
+      "realized_pct": 4.85
+    },
+    {
+      "name": "Geno Smith",
+      "input_weight": 4,
+      "realized_pct": 4.19
+    },
+    {
+      "name": "Daniel Jones",
+      "input_weight": 4,
+      "realized_pct": 4.96
+    },
+    {
+      "name": "Fernando Mendoza",
+      "input_weight": 4,
+      "realized_pct": 2.89
+    },
+    {
+      "name": "Tutu Atwell",
+      "input_weight": 5,
+      "realized_pct": 7.03
+    },
+    {
+      "name": "Keenan Allen",
+      "input_weight": 5,
+      "realized_pct": 5.84
+    },
+    {
+      "name": "Konata Mumpfield",
+      "input_weight": 5,
+      "realized_pct": 7.18
+    },
+    {
+      "name": "Jahan Dotson",
+      "input_weight": 7,
+      "realized_pct": 10.19
+    },
+    {
+      "name": "Cardinals",
+      "input_weight": 5,
+      "realized_pct": 5.03
+    },
+    {
+      "name": "Raiders",
+      "input_weight": 5,
+      "realized_pct": 5.03
+    },
+    {
+      "name": "Falcons",
+      "input_weight": 5,
+      "realized_pct": 4.62
+    },
+    {
+      "name": "Deshaun Watson",
+      "input_weight": 2,
+      "realized_pct": 2.81
+    },
+    {
+      "name": "Carson Beck",
+      "input_weight": 2,
+      "realized_pct": 1.92
+    },
+    {
+      "name": "Kyle McCord",
+      "input_weight": 2,
+      "realized_pct": 2.11
+    },
+    {
+      "name": "Cam Ward",
+      "input_weight": 2,
+      "realized_pct": 2.22
+    },
+    {
+      "name": "Kirk Cousins",
+      "input_weight": 2,
+      "realized_pct": 2.07
+    },
+    {
+      "name": "KC Concepcion Jr.",
+      "input_weight": 5,
+      "realized_pct": 6.29
+    },
+    {
+      "name": "Denzel Boston",
+      "input_weight": 5,
+      "realized_pct": 6.56
+    },
+    {
+      "name": "Caleb Douglas",
+      "input_weight": 5,
+      "realized_pct": 6.64
+    }
+  ],
+  "fit_history": [
+    {
+      "iteration": 0,
+      "max_target_error_pp": 10.379999999999999
+    },
+    {
+      "iteration": 1,
+      "max_target_error_pp": 7.460000000000001
+    },
+    {
+      "iteration": 2,
+      "max_target_error_pp": 4.899999999999999
+    },
+    {
+      "iteration": 3,
+      "max_target_error_pp": 5.299999999999997
+    },
+    {
+      "iteration": 4,
+      "max_target_error_pp": 4.600000000000001
+    }
+  ],
+  "targets": [
+    29.9,
+    23.9,
+    14.455862068965518,
+    67.9,
+    17.00689655172414,
+    10.204137931034483,
+    5.952413793103448,
+    5.952413793103448,
+    10.204137931034483,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    5.952413793103448,
+    21.8,
+    8.527570093457943,
+    30.9,
+    21.6,
+    13.400467289719625,
+    8.527570093457943,
+    8.527570093457943,
+    8.527570093457943,
+    13.400467289719625,
+    18.273364485981308,
+    8.527570093457943,
+    8.527570093457943,
+    10.964018691588784,
+    9.745794392523363,
+    7.309345794392522,
+    8.527570093457943,
+    19.491588785046726,
+    8.527570093457943,
+    7.309345794392522,
+    8.527570093457943,
+    7.309345794392522,
+    8.527570093457943,
+    4.872897196261682,
+    8.527570093457943,
+    9.745794392523363,
+    5.422499999999999,
+    13.3,
+    5.422499999999999,
+    20.2,
+    5.422499999999999,
+    7.2299999999999995,
+    5.422499999999999,
+    5.422499999999999,
+    5.422499999999999,
+    5.422499999999999,
+    5.422499999999999,
+    14.2,
+    5.422499999999999,
+    5.422499999999999,
+    5.422499999999999,
+    5.422499999999999,
+    7.544444444444445,
+    4.715277777777779,
+    7.544444444444445,
+    9.8,
+    5.658333333333334,
+    13.6,
+    5.658333333333334,
+    8.7,
+    5.658333333333334,
+    5.658333333333334,
+    5.658333333333334,
+    5.658333333333334,
+    13.0,
+    10.9,
+    18.3,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    3.986206896551724,
+    6.091121495327102,
+    6.091121495327102,
+    6.091121495327102,
+    8.527570093457943,
+    4.715277777777779,
+    4.715277777777779,
+    4.715277777777779,
+    1.993103448275862,
+    1.993103448275862,
+    1.993103448275862,
+    1.993103448275862,
+    1.993103448275862,
+    6.091121495327102,
+    6.091121495327102,
+    6.091121495327102
+  ]
+}

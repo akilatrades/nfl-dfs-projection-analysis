@@ -1,0 +1,8473 @@
+[
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      33,
+      43,
+      47,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan"
+    ],
+    "candidate_id": 0
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      30,
+      34,
+      43,
+      47,
+      66,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 1
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      36,
+      42,
+      47,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 2
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      34,
+      35,
+      43,
+      47,
+      66,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 3
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      33,
+      36,
+      43,
+      47,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 4
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      33,
+      35,
+      36,
+      47,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 5
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      43,
+      47,
+      49,
+      62,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 6
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      35,
+      47,
+      49,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 7
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      30,
+      43,
+      47,
+      49,
+      60,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 8
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      31,
+      39,
+      48,
+      49,
+      65,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 9
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      36,
+      43,
+      47,
+      49,
+      62,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 10
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      43,
+      47,
+      49,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 11
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      36,
+      47,
+      49,
+      72,
+      91
+    ],
+    "family": "Josh Allen",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 12
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      33,
+      34,
+      43,
+      47,
+      60,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 13
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      34,
+      43,
+      49,
+      72,
+      91
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 14
+  },
+  {
+    "ids": [
+      0,
+      3,
+      13,
+      21,
+      34,
+      43,
+      49,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 15
+  },
+  {
+    "ids": [
+      2,
+      3,
+      10,
+      21,
+      33,
+      49,
+      60,
+      72,
+      90
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 16
+  },
+  {
+    "ids": [
+      0,
+      2,
+      33,
+      34,
+      35,
+      36,
+      47,
+      66,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 17
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      33,
+      35,
+      43,
+      49,
+      66,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 18
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      33,
+      34,
+      36,
+      47,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 19
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      34,
+      36,
+      47,
+      49,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 20
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      34,
+      35,
+      47,
+      49,
+      60,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 21
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      23,
+      34,
+      47,
+      49,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 22
+  },
+  {
+    "ids": [
+      3,
+      13,
+      21,
+      22,
+      34,
+      47,
+      49,
+      62,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 23
+  },
+  {
+    "ids": [
+      3,
+      5,
+      21,
+      26,
+      34,
+      49,
+      52,
+      65,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 24
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      34,
+      43,
+      47,
+      49,
+      72,
+      92
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 25
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      34,
+      35,
+      47,
+      49,
+      63,
+      72
+    ],
+    "family": "Josh Allen",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 26
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      35,
+      43,
+      45,
+      73,
+      92
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan"
+    ],
+    "candidate_id": 27
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      27,
+      35,
+      43,
+      45,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 28
+  },
+  {
+    "ids": [
+      0,
+      3,
+      8,
+      22,
+      35,
+      37,
+      51,
+      69,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 29
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      35,
+      36,
+      40,
+      47,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 30
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      35,
+      36,
+      43,
+      45,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 31
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      35,
+      36,
+      45,
+      66,
+      73,
+      99
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 32
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      43,
+      45,
+      47,
+      73,
+      92
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "spags",
+      "bijan"
+    ],
+    "candidate_id": 33
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      23,
+      35,
+      45,
+      47,
+      73,
+      92
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 34
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      27,
+      43,
+      45,
+      47,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 35
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      40,
+      47,
+      52,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 36
+  },
+  {
+    "ids": [
+      0,
+      2,
+      23,
+      35,
+      43,
+      45,
+      47,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 37
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      35,
+      36,
+      45,
+      47,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 38
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      35,
+      36,
+      45,
+      47,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 39
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      35,
+      36,
+      40,
+      45,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 40
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      37,
+      40,
+      55,
+      65,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 41
+  },
+  {
+    "ids": [
+      2,
+      3,
+      4,
+      21,
+      37,
+      40,
+      47,
+      73,
+      92
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 42
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      27,
+      37,
+      40,
+      47,
+      73,
+      91
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 43
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      35,
+      40,
+      45,
+      66,
+      73,
+      99
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 44
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      35,
+      37,
+      40,
+      47,
+      73,
+      91
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 45
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      35,
+      36,
+      37,
+      45,
+      73,
+      91
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 46
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      36,
+      40,
+      45,
+      47,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 47
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      35,
+      37,
+      45,
+      47,
+      73,
+      92
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 48
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      23,
+      40,
+      45,
+      47,
+      73,
+      91
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 49
+  },
+  {
+    "ids": [
+      0,
+      3,
+      27,
+      36,
+      37,
+      45,
+      47,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 50
+  },
+  {
+    "ids": [
+      0,
+      3,
+      23,
+      35,
+      37,
+      45,
+      47,
+      66,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb",
+      "no_thin"
+    ],
+    "candidate_id": 51
+  },
+  {
+    "ids": [
+      0,
+      2,
+      35,
+      36,
+      40,
+      45,
+      47,
+      63,
+      73
+    ],
+    "family": "Brock Purdy",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 52
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      43,
+      47,
+      65,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "upside",
+      "bijan"
+    ],
+    "candidate_id": 53
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      21,
+      22,
+      43,
+      47,
+      69,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 54
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      22,
+      35,
+      43,
+      47,
+      66,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 55
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      22,
+      35,
+      36,
+      47,
+      66,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc",
+      "no_thin"
+    ],
+    "candidate_id": 56
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      57,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 57
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      55,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 58
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      65,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 59
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      28,
+      47,
+      48,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 60
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      24,
+      47,
+      57,
+      62,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 61
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      36,
+      47,
+      55,
+      62,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 62
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      55,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 63
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      43,
+      59,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan"
+    ],
+    "candidate_id": 64
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      35,
+      59,
+      74,
+      91
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 65
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      23,
+      43,
+      59,
+      66,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 66
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      22,
+      35,
+      43,
+      59,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 67
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      22,
+      43,
+      59,
+      74,
+      91
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 68
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      28,
+      35,
+      59,
+      66,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 69
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      28,
+      47,
+      59,
+      65,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 70
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      59,
+      74,
+      92
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 71
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      23,
+      47,
+      59,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 72
+  },
+  {
+    "ids": [
+      3,
+      5,
+      21,
+      22,
+      26,
+      47,
+      59,
+      63,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 73
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      43,
+      47,
+      59,
+      60,
+      74
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 74
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      59,
+      74,
+      92
+    ],
+    "family": "Tyler Shough",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 75
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      19,
+      35,
+      43,
+      47,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 76
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      27,
+      43,
+      47,
+      65,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 77
+  },
+  {
+    "ids": [
+      1,
+      2,
+      3,
+      23,
+      27,
+      43,
+      47,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside",
+      "cmc"
+    ],
+    "candidate_id": 78
+  },
+  {
+    "ids": [
+      2,
+      3,
+      5,
+      27,
+      28,
+      39,
+      47,
+      60,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 79
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      27,
+      35,
+      43,
+      47,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 80
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      27,
+      28,
+      35,
+      47,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 81
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      55,
+      63,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 82
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      55,
+      62,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 83
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      43,
+      47,
+      48,
+      65,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 84
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      27,
+      43,
+      45,
+      47,
+      63,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 85
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      26,
+      28,
+      47,
+      56,
+      75,
+      91
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 86
+  },
+  {
+    "ids": [
+      0,
+      2,
+      19,
+      35,
+      43,
+      47,
+      48,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 87
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      23,
+      43,
+      47,
+      48,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 88
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      27,
+      43,
+      47,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "lower_source"
+    ],
+    "candidate_id": 89
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      19,
+      27,
+      43,
+      55,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "bijan"
+    ],
+    "candidate_id": 90
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      27,
+      36,
+      43,
+      47,
+      63,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside",
+      "cmc"
+    ],
+    "candidate_id": 91
+  },
+  {
+    "ids": [
+      3,
+      5,
+      9,
+      19,
+      27,
+      47,
+      66,
+      75,
+      87
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 92
+  },
+  {
+    "ids": [
+      0,
+      2,
+      19,
+      27,
+      35,
+      43,
+      55,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 93
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      27,
+      35,
+      36,
+      47,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 94
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      27,
+      36,
+      47,
+      52,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 95
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      27,
+      35,
+      47,
+      55,
+      60,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 96
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      27,
+      47,
+      55,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 97
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      27,
+      35,
+      47,
+      52,
+      66,
+      75
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside",
+      "cmc"
+    ],
+    "candidate_id": 98
+  },
+  {
+    "ids": [
+      3,
+      10,
+      19,
+      27,
+      36,
+      44,
+      47,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 99
+  },
+  {
+    "ids": [
+      0,
+      2,
+      19,
+      27,
+      43,
+      47,
+      57,
+      75,
+      92
+    ],
+    "family": "Dak Prescott",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 100
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      31,
+      43,
+      47,
+      63,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan"
+    ],
+    "candidate_id": 101
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      31,
+      35,
+      47,
+      76,
+      92
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "no_thin"
+    ],
+    "candidate_id": 102
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      43,
+      48,
+      76,
+      92
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 103
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      28,
+      41,
+      47,
+      76,
+      91
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 104
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      31,
+      35,
+      43,
+      47,
+      63,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 105
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      28,
+      31,
+      43,
+      47,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 106
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      36,
+      47,
+      48,
+      63,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 107
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      48,
+      76,
+      91
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 108
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      76,
+      92
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 109
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      28,
+      47,
+      48,
+      76,
+      91,
+      99
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 110
+  },
+  {
+    "ids": [
+      0,
+      2,
+      22,
+      23,
+      43,
+      47,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 111
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      36,
+      47,
+      48,
+      63,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 112
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      31,
+      36,
+      43,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "no_emmett",
+      "bijan"
+    ],
+    "candidate_id": 113
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      31,
+      35,
+      41,
+      47,
+      76,
+      91
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 114
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      31,
+      35,
+      43,
+      48,
+      60,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 115
+  },
+  {
+    "ids": [
+      4,
+      10,
+      22,
+      23,
+      31,
+      39,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 116
+  },
+  {
+    "ids": [
+      1,
+      2,
+      4,
+      31,
+      35,
+      43,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 117
+  },
+  {
+    "ids": [
+      0,
+      2,
+      28,
+      31,
+      35,
+      36,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 118
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      31,
+      43,
+      47,
+      48,
+      63,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "no_emmett",
+      "bijan"
+    ],
+    "candidate_id": 119
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      31,
+      35,
+      47,
+      48,
+      76,
+      92
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source",
+      "no_thin"
+    ],
+    "candidate_id": 120
+  },
+  {
+    "ids": [
+      2,
+      4,
+      21,
+      28,
+      41,
+      48,
+      51,
+      62,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 121
+  },
+  {
+    "ids": [
+      0,
+      1,
+      28,
+      31,
+      43,
+      47,
+      48,
+      66,
+      76
+    ],
+    "family": "Patrick Mahomes",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 122
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      35,
+      36,
+      47,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 123
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      35,
+      36,
+      47,
+      62,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 124
+  },
+  {
+    "ids": [
+      2,
+      3,
+      5,
+      21,
+      23,
+      35,
+      47,
+      77,
+      92
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 125
+  },
+  {
+    "ids": [
+      2,
+      3,
+      8,
+      22,
+      27,
+      35,
+      47,
+      66,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 126
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      35,
+      43,
+      47,
+      77,
+      91
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 127
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      43,
+      47,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 128
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      35,
+      47,
+      48,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 129
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      55,
+      62,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 130
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      35,
+      47,
+      48,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 131
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      28,
+      36,
+      47,
+      48,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 132
+  },
+  {
+    "ids": [
+      0,
+      3,
+      23,
+      35,
+      44,
+      47,
+      62,
+      77,
+      99
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 133
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      35,
+      36,
+      47,
+      48,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 134
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      35,
+      47,
+      48,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 135
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      28,
+      35,
+      36,
+      47,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 136
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      28,
+      35,
+      55,
+      65,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 137
+  },
+  {
+    "ids": [
+      2,
+      3,
+      4,
+      21,
+      28,
+      35,
+      47,
+      77,
+      92
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 138
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      21,
+      28,
+      43,
+      51,
+      69,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 139
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      28,
+      35,
+      43,
+      47,
+      66,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 140
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      28,
+      35,
+      39,
+      47,
+      62,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 141
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      35,
+      47,
+      51,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 142
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      51,
+      77,
+      91
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 143
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      28,
+      36,
+      47,
+      51,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 144
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      22,
+      35,
+      47,
+      51,
+      68,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 145
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      28,
+      35,
+      47,
+      55,
+      63,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 146
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      28,
+      35,
+      47,
+      48,
+      60,
+      77
+    ],
+    "family": "Trevor Lawrence",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 147
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      23,
+      28,
+      39,
+      47,
+      66,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 148
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      39,
+      47,
+      78,
+      91
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 149
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      39,
+      47,
+      60,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 150
+  },
+  {
+    "ids": [
+      1,
+      3,
+      4,
+      29,
+      35,
+      47,
+      71,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 151
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      28,
+      35,
+      39,
+      47,
+      66,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 152
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      39,
+      47,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 153
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      28,
+      35,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 154
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      28,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 155
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      56,
+      65,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 156
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      23,
+      47,
+      56,
+      78,
+      91
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 157
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      47,
+      56,
+      65,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 158
+  },
+  {
+    "ids": [
+      3,
+      4,
+      19,
+      22,
+      47,
+      56,
+      64,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 159
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      28,
+      36,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 160
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      28,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 161
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      39,
+      56,
+      62,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan"
+    ],
+    "candidate_id": 162
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      39,
+      56,
+      60,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 163
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      29,
+      39,
+      59,
+      78,
+      92
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 164
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      21,
+      35,
+      39,
+      56,
+      62,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 165
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      28,
+      39,
+      56,
+      78,
+      92
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 166
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      23,
+      29,
+      35,
+      56,
+      66,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 167
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      21,
+      39,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 168
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      39,
+      47,
+      56,
+      60,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 169
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      29,
+      47,
+      56,
+      66,
+      78,
+      99
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 170
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      22,
+      39,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 171
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      23,
+      39,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 172
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      21,
+      39,
+      47,
+      56,
+      63,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 173
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      23,
+      29,
+      47,
+      56,
+      66,
+      78
+    ],
+    "family": "C.J. Stroud",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 174
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      26,
+      43,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan"
+    ],
+    "candidate_id": 175
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      32,
+      35,
+      47,
+      65,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 176
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      26,
+      35,
+      57,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 177
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      26,
+      35,
+      43,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 178
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      26,
+      35,
+      36,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 179
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      23,
+      32,
+      36,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 180
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      26,
+      47,
+      55,
+      63,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 181
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      26,
+      47,
+      55,
+      60,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 182
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      22,
+      23,
+      47,
+      58,
+      60,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 183
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      27,
+      31,
+      47,
+      58,
+      60,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 184
+  },
+  {
+    "ids": [
+      0,
+      2,
+      22,
+      26,
+      43,
+      47,
+      48,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 185
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      26,
+      47,
+      55,
+      63,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 186
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      26,
+      32,
+      35,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 187
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      21,
+      26,
+      35,
+      58,
+      79,
+      92
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 188
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      26,
+      32,
+      36,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 189
+  },
+  {
+    "ids": [
+      3,
+      5,
+      8,
+      26,
+      32,
+      47,
+      60,
+      79,
+      100
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 190
+  },
+  {
+    "ids": [
+      0,
+      5,
+      26,
+      28,
+      32,
+      43,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 191
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      26,
+      32,
+      43,
+      47,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 192
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      23,
+      26,
+      47,
+      58,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 193
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      26,
+      32,
+      47,
+      48,
+      65,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 194
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      32,
+      47,
+      58,
+      60,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 195
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      26,
+      27,
+      47,
+      58,
+      63,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 196
+  },
+  {
+    "ids": [
+      0,
+      5,
+      22,
+      26,
+      35,
+      47,
+      58,
+      66,
+      79
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 197
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      26,
+      47,
+      58,
+      79,
+      92
+    ],
+    "family": "Bryce Young",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 198
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      20,
+      36,
+      43,
+      47,
+      63,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 199
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      20,
+      35,
+      43,
+      47,
+      60,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 200
+  },
+  {
+    "ids": [
+      2,
+      3,
+      4,
+      20,
+      21,
+      43,
+      47,
+      80,
+      91
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 201
+  },
+  {
+    "ids": [
+      0,
+      3,
+      10,
+      20,
+      22,
+      43,
+      47,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 202
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      20,
+      35,
+      39,
+      47,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 203
+  },
+  {
+    "ids": [
+      0,
+      2,
+      9,
+      20,
+      35,
+      43,
+      47,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 204
+  },
+  {
+    "ids": [
+      1,
+      2,
+      3,
+      20,
+      36,
+      43,
+      47,
+      63,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 205
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      20,
+      35,
+      36,
+      47,
+      70,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 206
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      23,
+      35,
+      47,
+      48,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 207
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      21,
+      43,
+      47,
+      48,
+      60,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 208
+  },
+  {
+    "ids": [
+      3,
+      10,
+      20,
+      22,
+      23,
+      47,
+      48,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 209
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      28,
+      47,
+      48,
+      70,
+      80,
+      99
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 210
+  },
+  {
+    "ids": [
+      0,
+      2,
+      20,
+      22,
+      43,
+      47,
+      55,
+      66,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 211
+  },
+  {
+    "ids": [
+      1,
+      3,
+      20,
+      21,
+      43,
+      47,
+      48,
+      63,
+      80
+    ],
+    "family": "Drew Lock",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 212
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      25,
+      35,
+      36,
+      47,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 213
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      25,
+      43,
+      55,
+      62,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 214
+  },
+  {
+    "ids": [
+      2,
+      3,
+      4,
+      21,
+      25,
+      43,
+      47,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 215
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      25,
+      35,
+      36,
+      47,
+      63,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 216
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      24,
+      36,
+      43,
+      47,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 217
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      25,
+      35,
+      43,
+      47,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 218
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      25,
+      36,
+      43,
+      47,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 219
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      25,
+      35,
+      47,
+      48,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 220
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      25,
+      47,
+      55,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 221
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      25,
+      47,
+      57,
+      81,
+      91
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 222
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      25,
+      36,
+      47,
+      52,
+      60,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 223
+  },
+  {
+    "ids": [
+      3,
+      4,
+      20,
+      22,
+      35,
+      50,
+      58,
+      81,
+      91
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 224
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      25,
+      43,
+      47,
+      55,
+      63,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 225
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      25,
+      36,
+      47,
+      52,
+      63,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 226
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      24,
+      25,
+      43,
+      47,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "lower_source",
+      "upside"
+    ],
+    "candidate_id": 227
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      24,
+      25,
+      43,
+      55,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 228
+  },
+  {
+    "ids": [
+      0,
+      3,
+      9,
+      25,
+      26,
+      43,
+      50,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 229
+  },
+  {
+    "ids": [
+      0,
+      2,
+      24,
+      25,
+      35,
+      43,
+      55,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 230
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      25,
+      36,
+      43,
+      50,
+      63,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "bijan"
+    ],
+    "candidate_id": 231
+  },
+  {
+    "ids": [
+      1,
+      3,
+      24,
+      25,
+      36,
+      43,
+      47,
+      63,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 232
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      25,
+      35,
+      36,
+      50,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 233
+  },
+  {
+    "ids": [
+      0,
+      3,
+      24,
+      25,
+      36,
+      47,
+      52,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 234
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      25,
+      35,
+      47,
+      50,
+      81,
+      92
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 235
+  },
+  {
+    "ids": [
+      2,
+      3,
+      21,
+      25,
+      35,
+      47,
+      50,
+      60,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 236
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      25,
+      43,
+      47,
+      50,
+      60,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 237
+  },
+  {
+    "ids": [
+      0,
+      3,
+      24,
+      25,
+      47,
+      52,
+      70,
+      81,
+      99
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 238
+  },
+  {
+    "ids": [
+      0,
+      1,
+      25,
+      35,
+      43,
+      47,
+      50,
+      66,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 239
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      25,
+      43,
+      47,
+      50,
+      60,
+      81
+    ],
+    "family": "Jordan Love",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 240
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      23,
+      35,
+      55,
+      66,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 241
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      35,
+      55,
+      65,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 242
+  },
+  {
+    "ids": [
+      0,
+      3,
+      16,
+      21,
+      22,
+      47,
+      63,
+      82,
+      89
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 243
+  },
+  {
+    "ids": [
+      1,
+      3,
+      5,
+      23,
+      28,
+      35,
+      55,
+      62,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 244
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      36,
+      43,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 245
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      28,
+      43,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 246
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      28,
+      47,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 247
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      55,
+      65,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 248
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      35,
+      47,
+      54,
+      82,
+      92
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 249
+  },
+  {
+    "ids": [
+      0,
+      3,
+      23,
+      28,
+      44,
+      47,
+      66,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 250
+  },
+  {
+    "ids": [
+      0,
+      5,
+      25,
+      29,
+      36,
+      47,
+      55,
+      82,
+      92
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 251
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      23,
+      35,
+      47,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 252
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      28,
+      47,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 253
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      55,
+      63,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 254
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      55,
+      62,
+      82,
+      89
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 255
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      54,
+      82,
+      87,
+      92
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 256
+  },
+  {
+    "ids": [
+      0,
+      3,
+      16,
+      19,
+      21,
+      55,
+      63,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 257
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      26,
+      55,
+      63,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 258
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      35,
+      55,
+      62,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 259
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      23,
+      28,
+      55,
+      66,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 260
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      54,
+      55,
+      62,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 261
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      47,
+      55,
+      60,
+      82,
+      89
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 262
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      23,
+      54,
+      55,
+      82,
+      92
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 263
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      44,
+      55,
+      62,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 264
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      28,
+      54,
+      55,
+      63,
+      82
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb",
+      "cmc"
+    ],
+    "candidate_id": 265
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      47,
+      55,
+      63,
+      82,
+      87
+    ],
+    "family": "Matthew Stafford",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 266
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      35,
+      47,
+      65,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 267
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      22,
+      23,
+      35,
+      47,
+      66,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 268
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      20,
+      34,
+      52,
+      66,
+      83,
+      87
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 269
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      23,
+      35,
+      36,
+      47,
+      66,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 270
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      23,
+      28,
+      43,
+      47,
+      63,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 271
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      51,
+      62,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 272
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      23,
+      47,
+      55,
+      83,
+      92
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 273
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      23,
+      47,
+      54,
+      83,
+      92
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 274
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      27,
+      47,
+      52,
+      60,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 275
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      35,
+      47,
+      52,
+      63,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 276
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      83,
+      92
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 277
+  },
+  {
+    "ids": [
+      1,
+      2,
+      3,
+      21,
+      23,
+      47,
+      62,
+      83,
+      90
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "lower_source",
+      "upside",
+      "cmc"
+    ],
+    "candidate_id": 278
+  },
+  {
+    "ids": [
+      2,
+      3,
+      4,
+      21,
+      23,
+      28,
+      52,
+      83,
+      92
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "no_thin"
+    ],
+    "candidate_id": 279
+  },
+  {
+    "ids": [
+      3,
+      6,
+      8,
+      19,
+      23,
+      43,
+      52,
+      60,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 280
+  },
+  {
+    "ids": [
+      1,
+      2,
+      4,
+      23,
+      36,
+      47,
+      66,
+      83,
+      90
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 281
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      52,
+      62,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "cmc",
+      "no_thin"
+    ],
+    "candidate_id": 282
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      23,
+      47,
+      52,
+      83,
+      92
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 283
+  },
+  {
+    "ids": [
+      3,
+      5,
+      20,
+      21,
+      23,
+      51,
+      52,
+      67,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 284
+  },
+  {
+    "ids": [
+      1,
+      2,
+      21,
+      23,
+      36,
+      47,
+      52,
+      62,
+      83
+    ],
+    "family": "Michael Penix Jr.",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 285
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      30,
+      35,
+      47,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 286
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      30,
+      35,
+      47,
+      65,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 287
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      23,
+      30,
+      36,
+      47,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 288
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      26,
+      30,
+      35,
+      47,
+      62,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 289
+  },
+  {
+    "ids": [
+      0,
+      1,
+      2,
+      30,
+      36,
+      43,
+      47,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 290
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      22,
+      30,
+      43,
+      47,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 291
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      30,
+      47,
+      48,
+      62,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 292
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      30,
+      47,
+      49,
+      84,
+      92
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 293
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      23,
+      30,
+      47,
+      48,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 294
+  },
+  {
+    "ids": [
+      0,
+      2,
+      22,
+      30,
+      35,
+      47,
+      48,
+      66,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 295
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      28,
+      30,
+      47,
+      48,
+      63,
+      84
+    ],
+    "family": "Geno Smith",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 296
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      28,
+      35,
+      47,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 297
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      35,
+      47,
+      65,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 298
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      47,
+      85,
+      92,
+      101
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 299
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      20,
+      34,
+      43,
+      51,
+      66,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 300
+  },
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      23,
+      35,
+      36,
+      47,
+      66,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 301
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      36,
+      47,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 302
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      23,
+      28,
+      47,
+      48,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 303
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      23,
+      47,
+      55,
+      85,
+      92
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 304
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      85,
+      92
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 305
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      57,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 306
+  },
+  {
+    "ids": [
+      2,
+      3,
+      20,
+      28,
+      31,
+      47,
+      52,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 307
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      28,
+      35,
+      47,
+      48,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 308
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      85,
+      92
+    ],
+    "family": "Daniel Jones",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 309
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      43,
+      47,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan"
+    ],
+    "candidate_id": 310
+  },
+  {
+    "ids": [
+      0,
+      3,
+      12,
+      19,
+      21,
+      43,
+      47,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 311
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      21,
+      22,
+      43,
+      47,
+      65,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 312
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      36,
+      43,
+      47,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 313
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      28,
+      43,
+      47,
+      62,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 314
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      21,
+      43,
+      47,
+      48,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 315
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      43,
+      45,
+      47,
+      85,
+      92
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 316
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      43,
+      47,
+      48,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 317
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      20,
+      43,
+      47,
+      57,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 318
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      43,
+      45,
+      47,
+      64,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 319
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      43,
+      47,
+      48,
+      60,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 320
+  },
+  {
+    "ids": [
+      1,
+      3,
+      20,
+      21,
+      43,
+      47,
+      48,
+      63,
+      85
+    ],
+    "family": "Daniel Jones",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 321
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      36,
+      43,
+      46,
+      63,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 322
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      35,
+      36,
+      46,
+      86,
+      91
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source",
+      "no_thin"
+    ],
+    "candidate_id": 323
+  },
+  {
+    "ids": [
+      0,
+      3,
+      14,
+      21,
+      22,
+      43,
+      46,
+      70,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 324
+  },
+  {
+    "ids": [
+      3,
+      4,
+      5,
+      23,
+      36,
+      40,
+      46,
+      68,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 325
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      35,
+      36,
+      43,
+      46,
+      66,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 326
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      43,
+      46,
+      86,
+      92
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 327
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      43,
+      46,
+      47,
+      63,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 328
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      35,
+      46,
+      47,
+      86,
+      92
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 329
+  },
+  {
+    "ids": [
+      2,
+      3,
+      20,
+      28,
+      43,
+      46,
+      47,
+      66,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 330
+  },
+  {
+    "ids": [
+      3,
+      11,
+      21,
+      26,
+      31,
+      46,
+      47,
+      65,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 331
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      36,
+      43,
+      46,
+      47,
+      63,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 332
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      43,
+      46,
+      47,
+      63,
+      86
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 333
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      36,
+      46,
+      47,
+      86,
+      91
+    ],
+    "family": "Fernando Mendoza",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_thin"
+    ],
+    "candidate_id": 334
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      47,
+      91,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 335
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      19,
+      39,
+      47,
+      66,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 336
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      21,
+      25,
+      55,
+      67,
+      94,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 337
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      22,
+      43,
+      47,
+      66,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 338
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      47,
+      62,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 339
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      47,
+      48,
+      60,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 340
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      47,
+      48,
+      92,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 341
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      47,
+      56,
+      60,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 342
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      22,
+      48,
+      56,
+      69,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 343
+  },
+  {
+    "ids": [
+      0,
+      2,
+      22,
+      23,
+      47,
+      52,
+      66,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 344
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      47,
+      48,
+      60,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 345
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      47,
+      62,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 346
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      56,
+      62,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 347
+  },
+  {
+    "ids": [
+      0,
+      3,
+      4,
+      23,
+      47,
+      66,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 348
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      36,
+      47,
+      66,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 349
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      28,
+      47,
+      66,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 350
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      47,
+      53,
+      60,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 351
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      47,
+      53,
+      91,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 352
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      53,
+      56,
+      62,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 353
+  },
+  {
+    "ids": [
+      3,
+      5,
+      22,
+      44,
+      45,
+      92,
+      94,
+      99,
+      100
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 354
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      28,
+      47,
+      53,
+      92,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 355
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      47,
+      53,
+      60,
+      94,
+      99
+    ],
+    "family": "Deshaun Watson",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 356
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      35,
+      36,
+      44,
+      66,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 357
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      23,
+      43,
+      44,
+      91,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 358
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      22,
+      35,
+      36,
+      44,
+      66,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 359
+  },
+  {
+    "ids": [
+      1,
+      3,
+      9,
+      21,
+      28,
+      43,
+      44,
+      63,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 360
+  },
+  {
+    "ids": [
+      0,
+      1,
+      2,
+      35,
+      36,
+      43,
+      44,
+      66,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 361
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      43,
+      44,
+      62,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 362
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      35,
+      44,
+      47,
+      63,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 363
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      35,
+      44,
+      47,
+      62,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 364
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      35,
+      44,
+      47,
+      92,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 365
+  },
+  {
+    "ids": [
+      3,
+      5,
+      21,
+      22,
+      28,
+      44,
+      47,
+      92,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 366
+  },
+  {
+    "ids": [
+      0,
+      3,
+      22,
+      28,
+      44,
+      47,
+      66,
+      95,
+      99
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 367
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      35,
+      36,
+      44,
+      47,
+      63,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 368
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      23,
+      35,
+      44,
+      47,
+      63,
+      95
+    ],
+    "family": "Carson Beck",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 369
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      47,
+      62,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 370
+  },
+  {
+    "ids": [
+      0,
+      3,
+      5,
+      21,
+      22,
+      47,
+      63,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 371
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      35,
+      47,
+      63,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 372
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      23,
+      47,
+      92,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 373
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      22,
+      23,
+      47,
+      57,
+      66,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 374
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      22,
+      47,
+      57,
+      92,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 375
+  },
+  {
+    "ids": [
+      2,
+      3,
+      19,
+      21,
+      22,
+      47,
+      57,
+      60,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 376
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      28,
+      49,
+      57,
+      68,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 377
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      23,
+      28,
+      47,
+      57,
+      62,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 378
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      21,
+      28,
+      47,
+      57,
+      62,
+      96
+    ],
+    "family": "Kyle McCord",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 379
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      23,
+      57,
+      63,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan",
+      "cmc",
+      "no_thin"
+    ],
+    "candidate_id": 380
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      19,
+      21,
+      57,
+      92,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 381
+  },
+  {
+    "ids": [
+      0,
+      3,
+      6,
+      21,
+      22,
+      57,
+      60,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 382
+  },
+  {
+    "ids": [
+      2,
+      3,
+      5,
+      20,
+      29,
+      57,
+      66,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 383
+  },
+  {
+    "ids": [
+      0,
+      1,
+      2,
+      21,
+      35,
+      57,
+      63,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 384
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      20,
+      47,
+      57,
+      66,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "upside",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 385
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      45,
+      57,
+      62,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 386
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      44,
+      57,
+      92,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 387
+  },
+  {
+    "ids": [
+      0,
+      1,
+      21,
+      22,
+      47,
+      57,
+      63,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "perturb",
+      "no_emmett"
+    ],
+    "candidate_id": 388
+  },
+  {
+    "ids": [
+      1,
+      3,
+      20,
+      21,
+      47,
+      57,
+      60,
+      96,
+      101
+    ],
+    "family": "Kyle McCord",
+    "partners": 2,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 389
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      36,
+      47,
+      92,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "spags",
+      "lower_source",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 390
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      22,
+      28,
+      36,
+      47,
+      66,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 391
+  },
+  {
+    "ids": [
+      3,
+      4,
+      9,
+      20,
+      28,
+      36,
+      47,
+      66,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 392
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      36,
+      43,
+      47,
+      63,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 393
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      36,
+      47,
+      60,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 394
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      22,
+      36,
+      47,
+      48,
+      66,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 395
+  },
+  {
+    "ids": [
+      0,
+      3,
+      19,
+      21,
+      36,
+      47,
+      48,
+      65,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags",
+      "lower_source"
+    ],
+    "candidate_id": 396
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      28,
+      36,
+      45,
+      47,
+      60,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 397
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      29,
+      36,
+      49,
+      55,
+      63,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 398
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      36,
+      47,
+      48,
+      92,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 399
+  },
+  {
+    "ids": [
+      1,
+      3,
+      19,
+      23,
+      36,
+      47,
+      48,
+      66,
+      97
+    ],
+    "family": "Cam Ward",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 400
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      43,
+      47,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "median",
+      "bijan"
+    ],
+    "candidate_id": 401
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      22,
+      35,
+      47,
+      91,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "spags",
+      "lower_source",
+      "no_thin"
+    ],
+    "candidate_id": 402
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      25,
+      43,
+      47,
+      65,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 403
+  },
+  {
+    "ids": [
+      0,
+      2,
+      3,
+      21,
+      28,
+      39,
+      47,
+      62,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 404
+  },
+  {
+    "ids": [
+      0,
+      2,
+      4,
+      21,
+      35,
+      43,
+      47,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 405
+  },
+  {
+    "ids": [
+      0,
+      1,
+      3,
+      21,
+      35,
+      36,
+      47,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 1,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 406
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      28,
+      47,
+      52,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "median",
+      "bijan",
+      "no_thin"
+    ],
+    "candidate_id": 407
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      55,
+      60,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "spags"
+    ],
+    "candidate_id": 408
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      23,
+      47,
+      48,
+      91,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "lower_source"
+    ],
+    "candidate_id": 409
+  },
+  {
+    "ids": [
+      0,
+      3,
+      21,
+      22,
+      25,
+      47,
+      55,
+      62,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "upside"
+    ],
+    "candidate_id": 410
+  },
+  {
+    "ids": [
+      0,
+      3,
+      20,
+      21,
+      35,
+      47,
+      56,
+      62,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "perturb"
+    ],
+    "candidate_id": 411
+  },
+  {
+    "ids": [
+      0,
+      2,
+      21,
+      22,
+      43,
+      47,
+      48,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "no_emmett"
+    ],
+    "candidate_id": 412
+  },
+  {
+    "ids": [
+      1,
+      3,
+      21,
+      22,
+      23,
+      47,
+      57,
+      63,
+      98
+    ],
+    "family": "Kirk Cousins",
+    "partners": 1,
+    "tes": 2,
+    "profiles": [
+      "cmc"
+    ],
+    "candidate_id": 413
+  }
+]

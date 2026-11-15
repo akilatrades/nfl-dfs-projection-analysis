@@ -1,0 +1,19 @@
+contest,slot,player,team,opponent,salary,projection,ownership_estimate,ownership_source
+fair_catch_60k,QB,Tyler Shough,NO,CAR,5600,19.6,18.3,FTA 11:20 AM ET
+fair_catch_60k,RB,Chuba Hubbard,CAR,NO,7200,19.6,17,analyst assumption
+fair_catch_60k,RB,Emmett Johnson,KC,ATL,4700,19.675,67.9,FTA 11:20 AM ET
+fair_catch_60k,WR,Chris Olave,NO,CAR,7000,17.43,21.6,FTA 11:20 AM ET
+fair_catch_60k,WR,Justin Jefferson,MIN,GB,6800,17.6,30.9,FTA 11:20 AM ET
+fair_catch_60k,WR,Drake London,ATL,KC,6600,16.1,11,analyst assumption
+fair_catch_60k,TE,Tyler Warren,IND,MIA,4400,13.7,20.2,FTA 11:20 AM ET
+fair_catch_60k,FLEX,Travis Kelce,KC,ATL,4700,12.43,6,analyst assumption
+fair_catch_60k,DST,Colts,IND,MIA,3000,7.3,13.6,FTA 11:20 AM ET
+fair_catch_125k,QB,Dak Prescott,DAL,SF,6400,19.35,4,analyst assumption
+fair_catch_125k,RB,Bijan Robinson,ATL,KC,8200,23.02,29.9,FTA 11:20 AM ET
+fair_catch_125k,RB,Emmett Johnson,KC,ATL,4700,19.675,67.9,FTA 11:20 AM ET
+fair_catch_125k,WR,George Pickens,DAL,SF,6300,14.155000000000001,11,analyst assumption
+fair_catch_125k,WR,Jakobi Meyers,JAX,TEN,4200,10.27,16,analyst assumption
+fair_catch_125k,WR,Wan'Dale Robinson,TEN,JAX,4500,10.899999999999999,7,analyst assumption
+fair_catch_125k,TE,Tyler Warren,IND,MIA,4400,13.7,20.2,FTA 11:20 AM ET
+fair_catch_125k,FLEX,CeeDee Lamb,DAL,SF,8800,20.765,21.8,FTA 11:20 AM ET
+fair_catch_125k,DST,Browns,CLE,HOU,2500,5.975,6,analyst assumption

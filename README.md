@@ -4,10 +4,12 @@
 
 Can writing down my assumptions about volume, scoring and lineup correlation, before kickoff, make my DraftKings lineups better over time?
 
-**Honest status: four weeks in, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The projections start from football inputs (pass attempts, targets, carries, efficiency, touchdown chances) rather than someone else's fantasy-point forecast, so a miss can be traced to a specific assumption.
+**Honest status: ongoing research, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The core projection engine starts from football inputs (pass attempts, targets, carries, efficiency, touchdown chances), so a miss can be traced to a specific assumption. Dated research may instead use clearly labeled public forecasts; Week 10 uses public mean estimates with a separate scenario simulator.
 
 ## Latest research
 
+- [Week 10: two $12 Fair Catch single-entry recommendations](weeks/2026_week_10/README.md), 102-player main-slate pool, executed candidate/field simulations, role and QB-failure stresses, and [prior lessons mapped to actions](weeks/2026_week_10/lessons_applied.md).
+- [Week 8 provisional Lamar/Bijan postmortem](weeks/2026_week_08/postmortem/README.md): shared quarterback downside and weak secondary-stack role; official contest result remains unconfirmed.
 - [Week 8: $27 / 2,591-entry maximum single-entry research](weeks/2026_week_08/README.md), reproducible candidate screen and saved forecasts.
 - [Week 7: verified 130.86 DK points, 67/431, $45 payout on $27 entry](weeks/2026_week_07/README.md), with corrected DST arithmetic and process lessons.
 
@@ -76,3 +78,4 @@ Tests cover projection arithmetic, value calculations, percentiles, hit probabil
 ## What I learned / what I would do differently
 
 A high simulated ceiling is not validation. I would build a longer record with contest rank, cash line, actual ownership and forecast error against a simple baseline before describing any advantage. The weekly files keep the assumptions and reviews that comparison will need.
+

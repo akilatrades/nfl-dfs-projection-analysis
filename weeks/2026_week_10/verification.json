@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "players": 102,
+  "legal_candidates": 414,
+  "selected_salary_checks": true,
+  "selected_slot_checks": true,
+  "main_slate_only": true,
+  "known_out_exclusions": true,
+  "qb_pairing_and_concentration_checks": true,
+  "deterministic_seed_check": true,
+  "independent_mean_sanity_error": 0.06652763366699332,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0"
+}

@@ -1,0 +1,155 @@
+{
+  "base": {
+    "draws": 10000,
+    "field_sizes": {
+      "5882": {
+        "fair_catch_60k": {
+          "first_share": 0.0013,
+          "top1": 0.04,
+          "top10": 0.2746,
+          "beat_fraction": 0.6927133
+        },
+        "fair_catch_125k": {
+          "first_share": 0.001,
+          "top1": 0.034,
+          "top10": 0.2065,
+          "beat_fraction": 0.6280336
+        }
+      },
+      "12254": {
+        "fair_catch_60k": {
+          "first_share": 0.0007,
+          "top1": 0.0411,
+          "top10": 0.2747,
+          "beat_fraction": 0.6928254
+        },
+        "fair_catch_125k": {
+          "first_share": 0.0004,
+          "top1": 0.0342,
+          "top10": 0.2066,
+          "beat_fraction": 0.6282542
+        }
+      }
+    },
+    "candidate_order": [
+      "fair_catch_60k",
+      "fair_catch_125k"
+    ],
+    "score_correlation": [
+      [
+        1.0,
+        0.2646
+      ],
+      [
+        0.2646,
+        1.0
+      ]
+    ],
+    "exact_matches_in_synthetic_field": {
+      "fair_catch_60k": 0,
+      "fair_catch_125k": 0
+    }
+  },
+  "flatter": {
+    "draws": 10000,
+    "field_sizes": {
+      "5882": {
+        "fair_catch_60k": {
+          "first_share": 0.0012,
+          "top1": 0.0421,
+          "top10": 0.2804,
+          "beat_fraction": 0.6942801
+        },
+        "fair_catch_125k": {
+          "first_share": 0.0011,
+          "top1": 0.034,
+          "top10": 0.2091,
+          "beat_fraction": 0.63043
+        }
+      },
+      "12254": {
+        "fair_catch_60k": {
+          "first_share": 0.0007,
+          "top1": 0.0426,
+          "top10": 0.2799,
+          "beat_fraction": 0.6944399
+        },
+        "fair_catch_125k": {
+          "first_share": 0.0004,
+          "top1": 0.0347,
+          "top10": 0.2084,
+          "beat_fraction": 0.6303283
+        }
+      }
+    },
+    "candidate_order": [
+      "fair_catch_60k",
+      "fair_catch_125k"
+    ],
+    "score_correlation": [
+      [
+        1.0,
+        0.2646
+      ],
+      [
+        0.2646,
+        1.0
+      ]
+    ],
+    "exact_matches_in_synthetic_field": {
+      "fair_catch_60k": 0,
+      "fair_catch_125k": 0
+    }
+  },
+  "stronger": {
+    "draws": 10000,
+    "field_sizes": {
+      "5882": {
+        "fair_catch_60k": {
+          "first_share": 0.0003,
+          "top1": 0.0175,
+          "top10": 0.1805,
+          "beat_fraction": 0.6387547
+        },
+        "fair_catch_125k": {
+          "first_share": 0.001,
+          "top1": 0.0299,
+          "top10": 0.1763,
+          "beat_fraction": 0.5513952
+        }
+      },
+      "12254": {
+        "fair_catch_60k": {
+          "first_share": 0.0001,
+          "top1": 0.0177,
+          "top10": 0.18,
+          "beat_fraction": 0.6385886
+        },
+        "fair_catch_125k": {
+          "first_share": 0.0006,
+          "top1": 0.0288,
+          "top10": 0.1745,
+          "beat_fraction": 0.5518277
+        }
+      }
+    },
+    "candidate_order": [
+      "fair_catch_60k",
+      "fair_catch_125k"
+    ],
+    "score_correlation": [
+      [
+        1.0,
+        0.2646
+      ],
+      [
+        0.2646,
+        1.0
+      ]
+    ],
+    "exact_matches_in_synthetic_field": {
+      "fair_catch_60k": 0,
+      "fair_catch_125k": 0
+    }
+  }
+}

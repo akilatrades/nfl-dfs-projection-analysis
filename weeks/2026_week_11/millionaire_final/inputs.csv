@@ -1,0 +1,138 @@
+id,name,pos,team,opp,game,salary,spags,fsc,ftn,mean,cover_own,millionaire_own,own,pass_td,rush_td,team_total,source_spags,source_fsc
+0,Josh Allen,QB,BUF,MIA,BUF_MIA,7700,22.3,24.29,,23.295,8.3,,8.3,0.0,0.88,31,Sunday,Sunday
+1,Dak Prescott,QB,DAL,TEN,DAL_TEN,6700,22,22.64,24.9,22.64,21.4,25.7,25.7,0.0,0.13,31,Sunday,Sunday
+2,Caleb Williams,QB,CHI,NO,CHI_NO,6300,20.3,20.84,22.3,20.84,11,,11,0.0,0.26,29.5,Sunday,Sunday
+3,Patrick Mahomes,QB,KC,ARI,ARI_KC,6500,19.2,21.47,,20.335,9.2,,9.2,0.0,0.15,28,Sunday,Sunday
+4,Trevor Lawrence,QB,JAX,NYG,JAX_NYG,6600,18.4,19.22,,18.81,6.2,,6.2,0.0,0.15,25.75,Sunday,Sunday
+5,Justin Herbert,QB,LAC,NYJ,LAC_NYJ,5100,18.4,16.53,,17.465,4.6,,4.6,0.0,0.16,22.75,Sunday,Sunday
+6,Cam Ward,QB,TEN,DAL,DAL_TEN,5500,18,17.93,20.3,18,9.2,,9.2,0.0,0.2,23.5,Sunday,Sunday
+7,Bo Nix,QB,DEN,LV,DEN_LV,5600,17.6,18.21,,17.905,4.1,,4.1,0.0,0.21,25.5,Sunday,Sunday
+8,Jared Goff,QB,DET,TB,DET_TB,6100,17.7,18.22,,17.96,4.4,,4.4,0.0,0.06,26,Sunday,Sunday
+9,Tyler Shough,QB,NO,CHI,CHI_NO,5800,16.9,17.37,,17.135,2.4,,2.4,0.0,0.15,18,Sunday,Sunday
+10,Joe Milton III,QB,PHI,PIT,PHI_PIT,4700,16.7,15.02,,15.86,2,,2,0.0,0.14,17,Sunday,Sunday
+11,Bryce Young,QB,CAR,BAL,BAL_CAR,5700,16.9,18.27,,17.585,3.7,,3.7,0.0,0.11,23.5,Sunday,Sunday
+12,Baker Mayfield,QB,TB,DET,DET_TB,5300,16.1,15.28,,15.69,1.5,,1.5,0.0,0.15,22.5,Sunday,Sunday
+13,J.J. McCarthy,QB,NYG,JAX,JAX_NYG,4800,15.8,16.33,,16.065,2.6,,2.6,0.0,0.16,19.75,Sunday,Sunday
+14,Jacoby Brissett,QB,BAL,CAR,BAL_CAR,5200,15.2,14.38,,14.79,2.4,,2.4,0.0,0.09,21,Sunday,Sunday
+15,Geno Smith,QB,NYJ,LAC,LAC_NYJ,4900,14.8,15.39,,15.095,1.9,,1.9,0.0,0.08,19.75,Sunday,Sunday
+16,Jahmyr Gibbs,RB,DET,TB,DET_TB,10000,26.8,24.83,,25.815,20.5,,20.5,0.21,0.86,26,Sunday,Sunday
+17,Emmett Johnson,RB,KC,ARI,ARI_KC,6000,23.1,23.81,,23.455,40.3,56.6,56.6,0.26,0.79,28,Sunday,Sunday
+18,Javonte Williams,RB,DAL,TEN,DAL_TEN,7300,20.7,18.93,17.9,18.93,8.4,,8.4,0.12,1,31,Sunday,Sunday
+19,James Cook III,RB,BUF,MIA,BUF_MIA,7900,20.8,19.76,,20.28,14.1,,14.1,0.11,0.82,31,Sunday,Sunday
+20,Chuba Hubbard,RB,CAR,BAL,BAL_CAR,7500,20.4,19.06,,19.73,10.8,,10.8,0.16,0.65,23.5,Sunday,Sunday
+21,Jonah Coleman,RB,DEN,LV,DEN_LV,6300,18.8,18.59,17.6,18.59,28,36.6,36.6,0.13,0.65,25.5,Sunday,Sunday
+22,Tony Pollard,RB,TEN,DAL,DAL_TEN,6500,18.5,18.92,17.4,18.5,17.9,,17.9,0.09,0.74,23.5,Sunday,Sunday
+23,Jaylen Warren,RB,PIT,PHI,PHI_PIT,6600,17.3,15.94,,16.62,6.4,,6.4,0.12,0.32,20.5,Sunday,Sunday
+24,Bucky Irving,RB,TB,DET,DET_TB,7000,17.3,16.81,,17.055,9.4,,9.4,0.13,0.53,22.5,Sunday,Sunday
+25,Bhayshul Tuten,RB,JAX,NYG,JAX_NYG,6800,15.9,15.78,,15.84,8.7,,8.7,0.15,0.5,25.75,Sunday,Sunday
+26,D'Andre Swift,RB,CHI,NO,CHI_NO,6900,15.9,17.42,,16.66,6,,6,0.11,0.85,29.5,Sunday,Sunday
+27,Derrick Henry,RB,BAL,CAR,BAL_CAR,6700,14.4,15.52,,14.96,3.5,,3.5,0.05,0.76,21,Sunday,Sunday
+28,Cam Skattebo,RB,NYG,JAX,JAX_NYG,5800,13.7,14.34,,14.02,13.4,,13.4,0.08,0.48,19.75,Sunday,Sunday
+29,Omarion Hampton,RB,LAC,NYJ,LAC_NYJ,5200,12.9,11.5,,12.2,5.2,16.2,16.2,0.07,0.46,22.75,Sunday,Sunday
+30,Breece Hall,RB,NYJ,LAC,LAC_NYJ,5900,12.5,13.79,,13.145,9.2,,9.2,0.12,0.32,19.75,Sunday,Sunday
+31,Ashton Jeanty,RB,LV,DEN,DEN_LV,5500,12.8,13.21,,13.005,3.3,,3.3,0.16,0.16,15,Sunday,Sunday
+32,Ollie Gordon II,RB,MIA,BUF,BUF_MIA,5600,12.2,12.88,,12.54,6.9,,6.9,0.05,0.43,14.5,Sunday,Sunday
+33,Kyle Monangai,RB,CHI,NO,CHI_NO,5400,10.6,10.53,,10.565,8.5,,8.5,0.03,0.48,29.5,Sunday,Sunday
+34,Rico Dowdle,RB,PIT,PHI,PHI_PIT,5100,10.1,9.39,,9.745,1,,1,0.11,0.2,20.5,Sunday,Sunday
+35,Saquon Barkley,RB,PHI,PIT,PHI_PIT,6100,9.4,11.08,,10.24,1.7,,1.7,0.07,0.39,17,Sunday,Sunday
+36,Braelon Allen,RB,NYJ,LAC,LAC_NYJ,4900,9.6,8.31,,8.955,3.9,,3.9,0.05,0.23,19.75,Sunday,Sunday
+37,Travis Etienne Jr.,RB,NO,CHI,CHI_NO,5300,8.8,10.11,,9.455,1.3,,1.3,0.11,0.21,18,Sunday,Sunday
+38,Kenny Gainwell,RB,TB,DET,DET_TB,5000,8.5,,,8.5,1.3,,1.3,0.15,0.55,22.5,Sunday,
+39,Tyler Allgeier,RB,ARI,KC,ARI_KC,4900,7.6,8.48,,8.04,0.5,,0.5,0.04,0.2,12.5,Sunday,Sunday
+40,Justice Hill,RB,BAL,CAR,BAL_CAR,4700,7.6,,,7.6,1.5,,1.5,0.15,0.55,21,Sunday,
+41,Elijah Mitchell,RB,PHI,PIT,PHI_PIT,4000,6.6,,,6.6,0.7,,0.7,0.15,0.55,17,Sunday,
+42,Bam Knight,RB,ARI,KC,ARI_KC,4400,6.8,,,6.8,0.5,,0.5,0.15,0.55,12.5,Sunday,
+43,Alvin Kamara,RB,NO,CHI,CHI_NO,5100,6.5,,,6.5,1.4,,1.4,0.15,0.55,18,Sunday,
+44,Keaton Mitchell,RB,LAC,NYJ,LAC_NYJ,4200,6,,,6,0.3,,0.3,0.15,0.55,22.75,Sunday,
+45,Ty Johnson,RB,BUF,MIA,BUF_MIA,4900,5.5,,,5.5,0.3,,0.3,0.15,0.55,31,Sunday,
+46,Chris Rodriguez Jr.,RB,JAX,NYG,JAX_NYG,4800,5.5,,,5.5,0.2,,0.2,0.15,0.55,25.75,Sunday,
+47,Kimani Vidal,RB,LAC,NYJ,LAC_NYJ,4700,5.5,,,5.5,0.4,,0.4,0.15,0.55,22.75,Sunday,
+48,CeeDee Lamb,WR,DAL,TEN,DAL_TEN,8800,21.5,22.75,24.4,22.75,26.2,24.1,24.1,0.73,0.01,31,Sunday,Sunday
+49,Amon-Ra St. Brown,WR,DET,TB,DET_TB,8200,18.7,20.2,,19.45,16.6,24.6,24.6,0.65,0,26,Sunday,Sunday
+50,George Pickens,WR,DAL,TEN,DAL_TEN,6800,16.6,16.61,18.0,16.61,20.2,26.8,26.8,0.51,0,31,Sunday,Sunday
+51,Malik Nabers,WR,NYG,JAX,JAX_NYG,7100,14.8,16.66,,15.73,12.9,,12.9,0.36,0,19.75,Sunday,Sunday
+52,Carnell Tate,WR,TEN,DAL,DAL_TEN,5500,14.9,15.12,15.7,15.12,17.5,21.9,21.9,0.35,0,23.5,Sunday,Sunday
+53,Parker Washington,WR,JAX,NYG,JAX_NYG,6700,14.5,14.92,,14.71,10.1,,10.1,0.5,0,25.75,Sunday,Sunday
+54,Zay Flowers,WR,BAL,CAR,BAL_CAR,7400,14.7,15.49,,15.095,5.3,,5.3,0.35,0,21,Sunday,Sunday
+55,Luther Burden III,WR,CHI,NO,CHI_NO,6300,14,15.4,,14.7,13.5,,13.5,0.4,0.01,29.5,Sunday,Sunday
+56,Chris Olave,WR,NO,CHI,CHI_NO,7200,14.6,15.39,,14.995,5.5,,5.5,0.31,0,18,Sunday,Sunday
+57,Garrett Wilson,WR,NYJ,LAC,LAC_NYJ,6400,13.9,16.02,,14.96,8.1,,8.1,0.41,0,19.75,Sunday,Sunday
+58,Tetairoa McMillan,WR,CAR,BAL,BAL_CAR,6900,13.8,15.58,,14.69,8.7,,8.7,0.4,0,23.5,Sunday,Sunday
+59,DeVonta Smith,WR,PHI,PIT,PHI_PIT,6500,12.8,13.57,,13.185,5.9,,5.9,0.3,0,17,Sunday,Sunday
+60,DJ Moore,WR,BUF,MIA,BUF_MIA,6000,12,12.17,,12.085,5.2,,5.2,0.38,0,31,Sunday,Sunday
+61,Emeka Egbuka,WR,TB,DET,DET_TB,5200,11.8,11.99,,11.895,3.8,,3.8,0.35,0,22.5,Sunday,Sunday
+62,Jameson Williams,WR,DET,TB,DET_TB,5900,11.7,11.91,,11.805,8.1,,8.1,0.36,0.01,26,Sunday,Sunday
+63,Rashee Rice,WR,KC,ARI,ARI_KC,6100,11.4,13.52,,12.46,6.1,,6.1,0.42,0.01,28,Sunday,Sunday
+64,Jordyn Tyson,WR,NO,CHI,CHI_NO,5200,11.4,13.04,,12.22,6.9,,6.9,0.29,0,18,Sunday,Sunday
+65,Rome Odunze,WR,CHI,NO,CHI_NO,4600,11.1,11.54,,11.32,12.5,,12.5,0.32,0,29.5,Sunday,Sunday
+66,Jaylen Waddle,WR,DEN,LV,DEN_LV,5700,10.6,10.79,,10.695,1.8,,1.8,0.32,0,25.5,Sunday,Sunday
+67,Ryan Flournoy,WR,DAL,TEN,DAL_TEN,5300,10.6,11.15,,10.875,10.1,,10.1,0.36,0,31,Sunday,Sunday
+68,DK Metcalf,WR,PIT,PHI,PHI_PIT,5300,10.3,10.46,,10.38,5.9,,5.9,0.3,0,20.5,Sunday,Sunday
+69,Caleb Douglas,WR,MIA,BUF,BUF_MIA,4400,10.1,9.9,,10.0,6.9,,6.9,0.2,0,14.5,Sunday,Sunday
+70,Khalil Shakir,WR,BUF,MIA,BUF_MIA,5100,10.4,9.66,,10.03,5.6,,5.6,0.27,0,31,Sunday,Sunday
+71,Jakobi Meyers,WR,JAX,NYG,JAX_NYG,4500,10,9.74,,9.87,5.8,,5.8,0.28,0,25.75,Sunday,Sunday
+72,Jalen Coker,WR,CAR,BAL,BAL_CAR,5800,10.1,11.34,,10.72,1.6,,1.6,0.33,0,23.5,Sunday,Sunday
+73,Elic Ayomanor,WR,TEN,DAL,DAL_TEN,3700,9.7,9.54,,9.62,17.5,19.1,19.1,0.29,0,23.5,Sunday,Sunday
+74,Adonai Mitchell,WR,NYJ,LAC,LAC_NYJ,4900,9.8,9.8,,9.8,5.2,,5.2,0.25,0,19.75,Sunday,Sunday
+75,Tre' Harris,WR,LAC,NYJ,LAC_NYJ,4000,9.3,8.07,,8.685,5.2,,5.2,0.2,0,22.75,Sunday,Sunday
+76,Courtland Sutton,WR,DEN,LV,DEN_LV,4700,8.7,8.37,,8.535,4,,4,0.29,0,25.5,Sunday,Sunday
+77,Josh Downs,WR,KC,ARI,ARI_KC,5100,8.9,10,,9.45,4.1,,4.1,0.3,0,28,Sunday,Sunday
+78,Ladd McConkey,WR,LAC,NYJ,LAC_NYJ,5000,8.9,10.08,,9.49,1.7,,1.7,0.29,0,22.75,Sunday,Sunday
+79,Keon Coleman,WR,BUF,MIA,BUF_MIA,4300,8.5,8.55,,8.525,1.9,,1.9,0.3,0,31,Sunday,Sunday
+80,Chris Godwin Jr.,WR,TB,DET,DET_TB,4200,8.6,8.42,,8.51,1.2,,1.2,0.19,0,22.5,Sunday,Sunday
+81,Malik Washington,WR,MIA,BUF,BUF_MIA,4900,8.1,,,8.1,2.8,,2.8,0.35,0.0,14.5,Sunday,
+82,Ja'Kobi Lane,WR,BAL,CAR,BAL_CAR,3400,7.8,7.08,,7.44,3.8,,3.8,0.18,0,21,Sunday,Sunday
+83,Trey McBride,TE,ARI,KC,ARI_KC,6600,14.1,14.79,,14.445,4.4,,4.4,0.31,0,12.5,Sunday,Sunday
+84,Brock Bowers,TE,LV,DEN,DEN_LV,7300,13.4,14.72,,14.06,4.1,,4.1,0.39,0,,morning,Sunday
+85,Colston Loveland,TE,CHI,NO,CHI_NO,5100,13.1,12.24,12.2,12.24,14.9,21.3,21.3,0.4,0,29.5,Sunday,Sunday
+86,Isaiah Likely,TE,NYG,JAX,JAX_NYG,5600,12.4,14.67,14.2,14.2,10.1,,10.1,0.49,0,19.75,Sunday,Sunday
+87,Travis Kelce,TE,KC,ARI,ARI_KC,4700,11.5,11.5,,11.5,5.3,,5.3,0.38,0,28,Sunday,Sunday
+88,Sam LaPorta,TE,DET,TB,DET_TB,4400,10.5,10.59,11.4,10.59,4.1,,4.1,0.34,0,26,Sunday,Sunday
+89,Brenton Strange,TE,JAX,NYG,JAX_NYG,4100,9.4,8.79,,9.095,5.3,,5.3,0.26,0,25.75,Sunday,Sunday
+90,Mark Andrews,TE,BAL,CAR,BAL_CAR,3500,9.4,8.46,,8.93,7.7,,7.7,0.24,0,21,Sunday,Sunday
+91,Cade Otton,TE,TB,DET,DET_TB,3300,8.4,7.25,,7.825,3.1,,3.1,0.17,0,22.5,Sunday,Sunday
+92,Darren Waller,TE,CAR,BAL,BAL_CAR,3400,7.8,8.09,,7.945,2.5,,2.5,0.3,0,23.5,Sunday,Sunday
+93,Dallas Goedert,TE,PHI,PIT,PHI_PIT,4600,7.7,9.11,,8.405,3.2,,3.2,0.26,0,17,Sunday,Sunday
+94,Gunnar Helm,TE,TEN,DAL,DAL_TEN,3300,7.5,6.88,,7.19,3.1,,3.1,0.2,0,23.5,Sunday,Sunday
+95,Greg Dulcich,TE,MIA,BUF,BUF_MIA,3200,6.7,6.64,,6.67,1.3,,1.3,0.12,0,14.5,Sunday,Sunday
+96,Evan Engram,TE,DEN,LV,DEN_LV,3000,6.7,5.72,,6.21,2.3,,2.3,0.18,0,25.5,Sunday,Sunday
+97,Brevyn Spann-Ford,TE,DAL,TEN,DAL_TEN,3100,6.9,6.93,,6.915,2.1,,2.1,0.22,0,31,Sunday,Sunday
+98,Dawson Knox,TE,BUF,MIA,BUF_MIA,2800,7,5.76,,6.38,1.5,,1.5,0.21,0,31,Sunday,Sunday
+99,Chiefs,DST,KC,ARI,ARI_KC,4000,8.8,12.05,,10.425,11.3,,11.3,0.0,0.0,28,Sunday,Sunday
+100,Bills,DST,BUF,MIA,BUF_MIA,3900,8,11.3,,9.65,5.6,,5.6,0.0,0.0,31,Sunday,Sunday
+101,Broncos,DST,DEN,LV,DEN_LV,3600,8.2,10.77,,9.485,7.2,,7.2,0.0,0.0,25.5,Sunday,Sunday
+102,Bears,DST,CHI,NO,CHI_NO,3700,8,9.26,,8.63,4.4,,4.4,0.0,0.0,29.5,Sunday,Sunday
+103,Jaguars,DST,JAX,NYG,JAX_NYG,3500,7.7,8.48,,8.09,3.5,,3.5,0.0,0.0,25.75,Sunday,Sunday
+104,Steelers,DST,PIT,PHI,PHI_PIT,3300,7.4,9.53,,8.465,8.9,,8.9,0.0,0.0,20.5,Sunday,Sunday
+105,Chargers,DST,LAC,NYJ,LAC_NYJ,3000,7.2,7.98,,7.59,5.3,,5.3,0.0,0.0,22.75,Sunday,Sunday
+106,Panthers,DST,CAR,BAL,BAL_CAR,3100,5.8,7.88,,6.84,4.6,,4.6,0.0,0.0,23.5,Sunday,Sunday
+107,Lions,DST,DET,TB,DET_TB,3400,5.8,7.37,,6.585,3.9,,3.9,0.0,0.0,26,Sunday,Sunday
+108,Eagles,DST,PHI,PIT,PHI_PIT,2700,5.9,7.54,,6.72,7.5,,7.5,0.0,0.0,17,Sunday,Sunday
+109,Jets,DST,NYJ,LAC,LAC_NYJ,2600,5.6,6.89,,6.245,6.7,,6.7,0.0,0.0,19.75,Sunday,Sunday
+110,Cowboys,DST,DAL,TEN,DAL_TEN,2900,5.4,6.74,,6.07,2.2,,2.2,0.0,0.0,31,Sunday,Sunday
+111,Germie Bernard,WR,PIT,PHI,PHI_PIT,4800,7.7,8.74,,8.22,1.7,,1.7,0.21,0,20.5,Sunday,Sunday
+112,Xavier Worthy,WR,KC,ARI,ARI_KC,4100,7.6,,,7.6,1.7,,1.7,0.35,0.0,28,Sunday,
+113,Kalif Raymond,WR,CHI,NO,CHI_NO,3800,7.3,7.13,,7.215,1.8,,1.8,0.21,0,29.5,Sunday,Sunday
+114,Makai Lemon,WR,PHI,PIT,PHI_PIT,4600,7.2,7.88,,7.54,4.5,,4.5,0.17,0,17,Sunday,Sunday
+115,Malachi Fields,WR,NYG,JAX,JAX_NYG,3700,7.2,6.25,,6.725,6.1,,6.1,0.13,0,,morning,Sunday
+116,Aaron Rodgers,QB,PIT,PHI,PHI_PIT,5400,,15.54,,15.54,2.1,,2.1,0.0,0.06,,,Sunday
+117,Josh Johnson,QB,ARI,KC,ARI_KC,4000,,11.06,,11.06,0.8,,0.8,0.0,0.06,,,Sunday
+118,Fernando Mendoza,QB,LV,DEN,DEN_LV,5000,,13.75,,13.75,1,,1,0.0,0.1,,,Sunday
+119,Kyle McCord,QB,MIA,BUF,BUF_MIA,4500,,11.27,,11.27,1.2,,1.2,0.0,0.08,,,Sunday
+120,Ravens,DST,BAL,CAR,BAL_CAR,2800,,6.71,,6.71,3.5,,3.5,0.0,0.0,,,Sunday
+121,Giants,DST,NYG,JAX,JAX_NYG,2200,,5.14,,5.14,4.7,,4.7,0.0,0.0,,,Sunday
+122,Buccaneers,DST,TB,DET,DET_TB,2500,,5.28,,5.28,4.8,,4.8,0.0,0.0,,,Sunday
+123,Raiders,DST,LV,DEN,DEN_LV,2400,,4.77,,4.77,4.4,,4.4,0.0,0.0,,,Sunday
+124,Cardinals,DST,ARI,KC,ARI_KC,2000,,3.88,,3.88,2.9,,2.9,0.0,0.0,,,Sunday
+125,Saints,DST,NO,CHI,CHI_NO,2200,,4.07,,4.07,2.6,,2.6,0.0,0.0,,,Sunday
+126,Titans,DST,TEN,DAL,DAL_TEN,2300,,3.59,,3.59,1.7,,1.7,0.0,0.0,,,Sunday
+127,Dolphins,DST,MIA,BUF,BUF_MIA,2100,,2.83,,2.83,4.3,,4.3,0.0,0.0,,,Sunday
+128,Mason Taylor,TE,NYJ,LAC,LAC_NYJ,3100,,6.83,,6.83,2.5,,2.5,0.21,0,,,Sunday
+129,Tommy Tremble,TE,CAR,BAL,BAL_CAR,2900,,6.15,,6.15,2,,2,0.21,0,,,Sunday
+130,Chimere Dike,WR,TEN,DAL,DAL_TEN,3500,,7.2,,7.2,1.5,,1.5,0.22,0,,,Sunday
+131,Pat Freiermuth,TE,PIT,PHI,PHI_PIT,3900,,7.88,,7.88,2.5,,2.5,0.32,0,,,Sunday
+132,Kenyon Sadiq,TE,NYJ,LAC,LAC_NYJ,2900,,5.74,,5.74,1.2,,1.2,0.16,0,,,Sunday
+133,Pat Bryant,WR,DEN,LV,DEN_LV,4200,,7.87,,7.87,3.5,,3.5,0.25,0,,,Sunday
+134,Juwan Johnson,TE,NO,CHI,CHI_NO,3800,,7.05,,7.05,1.3,,1.3,0.2,0,,,Sunday
+135,Rashod Bateman,WR,BAL,CAR,BAL_CAR,3200,,5.59,,5.59,2.9,,2.9,0.14,0,,,Sunday
+136,Darnell Washington,TE,PIT,PHI,PHI_PIT,3400,,5.9,,5.9,1.2,,1.2,0.19,0,,,Sunday

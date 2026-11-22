@@ -1,0 +1,1659 @@
+{
+  "draws": 24000,
+  "stress_draws": 16000,
+  "field_size_with_entry": 147058,
+  "final_projection_board": "November 22, 11:59 AM ET",
+  "candidates": {
+    "original 143": {
+      "roster": [
+        "Patrick Mahomes",
+        "Emmett Johnson",
+        "Tony Pollard",
+        "CeeDee Lamb",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Travis Kelce",
+        "Eagles"
+      ],
+      "salary": 50000,
+      "projected": 142.05,
+      "median": 138.47,
+      "p95": 206.29,
+      "p99": 242.76,
+      "pct_200": 6.475
+    },
+    "original 253": {
+      "roster": [
+        "Cam Ward",
+        "Jahmyr Gibbs",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Carnell Tate",
+        "Rome Odunze",
+        "Elic Ayomanor",
+        "Sam LaPorta",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 140.14,
+      "median": 137.3,
+      "p95": 198.04,
+      "p99": 229.6,
+      "pct_200": 4.575
+    },
+    "original 328": {
+      "roster": [
+        "Jared Goff",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Tony Pollard",
+        "Amon-Ra St. Brown",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Sam LaPorta",
+        "Steelers"
+      ],
+      "salary": 50000,
+      "projected": 141.55,
+      "median": 138.48,
+      "p95": 200.78,
+      "p99": 233.65,
+      "pct_200": 5.204
+    },
+    "original 370": {
+      "roster": [
+        "Tyler Shough",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Tony Pollard",
+        "Carnell Tate",
+        "Chris Olave",
+        "Jordyn Tyson",
+        "Travis Kelce",
+        "Eagles"
+      ],
+      "salary": 49900,
+      "projected": 138.23,
+      "median": 135.56,
+      "p95": 195.53,
+      "p99": 227.04,
+      "pct_200": 4.048
+    },
+    "original 431": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Jonah Coleman",
+        "CeeDee Lamb",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Darren Waller",
+        "Chargers"
+      ],
+      "salary": 49900,
+      "projected": 142.34,
+      "median": 139.44,
+      "p95": 201.06,
+      "p99": 233.21,
+      "pct_200": 5.249
+    },
+    "original 441": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Jets"
+      ],
+      "salary": 50000,
+      "projected": 138.84,
+      "median": 135.79,
+      "p95": 198.34,
+      "p99": 230.61,
+      "pct_200": 4.609
+    },
+    "original 463": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Tony Pollard",
+        "Jaylen Warren",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Jalen Coker",
+        "Sam LaPorta",
+        "Jets"
+      ],
+      "salary": 50000,
+      "projected": 133.53,
+      "median": 130.96,
+      "p95": 188.03,
+      "p99": 217.13,
+      "pct_200": 2.69
+    },
+    "original 544": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "James Cook III",
+        "Jonah Coleman",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 49900,
+      "projected": 140.45,
+      "median": 137.65,
+      "p95": 197.3,
+      "p99": 227.86,
+      "pct_200": 4.37
+    },
+    "original 545": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Tony Pollard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Jordyn Tyson",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 141.52,
+      "median": 138.83,
+      "p95": 199.35,
+      "p99": 230.35,
+      "pct_200": 4.839
+    },
+    "original 547": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Steelers"
+      ],
+      "salary": 50000,
+      "projected": 140.74,
+      "median": 137.65,
+      "p95": 199.67,
+      "p99": 231.92,
+      "pct_200": 4.906
+    },
+    "Young, Coleman and Eagles": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Jonah Coleman",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Eagles"
+      ],
+      "salary": 49900,
+      "projected": 139.46,
+      "median": 136.52,
+      "p95": 196.53,
+      "p99": 227.32,
+      "pct_200": 4.226
+    },
+    "Young and Egbuka": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Tetairoa McMillan",
+        "Emeka Egbuka",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Eagles"
+      ],
+      "salary": 49800,
+      "projected": 135.94,
+      "median": 133.28,
+      "p95": 191.77,
+      "p99": 222.5,
+      "pct_200": 3.338
+    },
+    "Young, Javonte and LaPorta": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Chuba Hubbard",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Elic Ayomanor",
+        "Sam LaPorta",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 137.01,
+      "median": 134.14,
+      "p95": 193.98,
+      "p99": 225.54,
+      "pct_200": 3.805
+    },
+    "Young, Javonte and Kelce": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Chuba Hubbard",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Elic Ayomanor",
+        "Travis Kelce",
+        "Jets"
+      ],
+      "salary": 49900,
+      "projected": 136.57,
+      "median": 133.51,
+      "p95": 195.2,
+      "p99": 227.44,
+      "pct_200": 4.053
+    },
+    "Young, Coker and Pickens": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "George Pickens",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Jalen Coker",
+        "Sam LaPorta",
+        "Jets"
+      ],
+      "salary": 50000,
+      "projected": 133.6,
+      "median": 131.13,
+      "p95": 188.16,
+      "p99": 217.56,
+      "pct_200": 2.691
+    },
+    "Young, Javonte and Coleman": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Jonah Coleman",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 139.48,
+      "median": 137.04,
+      "p95": 193.24,
+      "p99": 221.76,
+      "pct_200": 3.567
+    },
+    "Young, Tuten and Egbuka": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Bhayshul Tuten",
+        "Tetairoa McMillan",
+        "Emeka Egbuka",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Jets"
+      ],
+      "salary": 50000,
+      "projected": 132.76,
+      "median": 129.93,
+      "p95": 187.36,
+      "p99": 217.25,
+      "pct_200": 2.592
+    },
+    "Young, Pollard and Godwin": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Chris Godwin Jr.",
+        "Sam LaPorta",
+        "Steelers"
+      ],
+      "salary": 50000,
+      "projected": 136.5,
+      "median": 133.71,
+      "p95": 192.89,
+      "p99": 224.16,
+      "pct_200": 3.583
+    },
+    "Young, Pollard and Egbuka": {
+      "roster": [
+        "Bryce Young",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Carnell Tate",
+        "Tetairoa McMillan",
+        "Emeka Egbuka",
+        "Sam LaPorta",
+        "Giants"
+      ],
+      "salary": 49900,
+      "projected": 136.41,
+      "median": 133.58,
+      "p95": 193.56,
+      "p99": 224.97,
+      "pct_200": 3.694
+    },
+    "McCarthy and Egbuka": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Tony Pollard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Emeka Egbuka",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 140.9,
+      "median": 138.14,
+      "p95": 198.33,
+      "p99": 229.55,
+      "pct_200": 4.605
+    },
+    "McCarthy, Egbuka and Tuten": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Bhayshul Tuten",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Emeka Egbuka",
+        "Isaiah Likely",
+        "Eagles"
+      ],
+      "salary": 50000,
+      "projected": 137.41,
+      "median": 134.58,
+      "p95": 194.42,
+      "p99": 225.48,
+      "pct_200": 3.791
+    },
+    "McCarthy, Meyers and Broncos": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Jonah Coleman",
+        "Tony Pollard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Jakobi Meyers",
+        "Isaiah Likely",
+        "Broncos"
+      ],
+      "salary": 49900,
+      "projected": 141.01,
+      "median": 138.27,
+      "p95": 199.06,
+      "p99": 231.67,
+      "pct_200": 4.762
+    },
+    "McCarthy and Parker Washington": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Tony Pollard",
+        "Omarion Hampton",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Parker Washington",
+        "Isaiah Likely",
+        "Buccaneers"
+      ],
+      "salary": 49900,
+      "projected": 135.26,
+      "median": 132.21,
+      "p95": 193.36,
+      "p99": 225.91,
+      "pct_200": 3.62
+    },
+    "McCarthy, Javonte and LaPorta": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Chuba Hubbard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Sam LaPorta",
+        "Steelers"
+      ],
+      "salary": 49600,
+      "projected": 137.56,
+      "median": 135.13,
+      "p95": 190.59,
+      "p99": 218.83,
+      "pct_200": 2.972
+    },
+    "McCarthy, Hubbard and Coleman": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Jonah Coleman",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Steelers"
+      ],
+      "salary": 49800,
+      "projected": 140.82,
+      "median": 138.07,
+      "p95": 197.29,
+      "p99": 227.78,
+      "pct_200": 4.397
+    },
+    "McCarthy, Hubbard and Pickens": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "George Pickens",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 50000,
+      "projected": 137.92,
+      "median": 134.85,
+      "p95": 195.7,
+      "p99": 227.25,
+      "pct_200": 4.102
+    },
+    "McCarthy, Hubbard and Javonte": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Javonte Williams",
+        "Chuba Hubbard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Buccaneers"
+      ],
+      "salary": 50000,
+      "projected": 137.98,
+      "median": 135.08,
+      "p95": 195.46,
+      "p99": 227.46,
+      "pct_200": 3.985
+    },
+    "McCarthy, Hubbard and Warren": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Jaylen Warren",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 49800,
+      "projected": 137.93,
+      "median": 135.17,
+      "p95": 193.3,
+      "p99": 223.9,
+      "pct_200": 3.63
+    },
+    "McCarthy, Hubbard and Egbuka": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Tony Pollard",
+        "Malik Nabers",
+        "Emeka Egbuka",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Steelers"
+      ],
+      "salary": 49700,
+      "projected": 137.31,
+      "median": 134.42,
+      "p95": 192.69,
+      "p99": 223.21,
+      "pct_200": 3.422
+    },
+    "McCarthy, Hubbard and Parker": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Parker Washington",
+        "Elic Ayomanor",
+        "Isaiah Likely",
+        "Chargers"
+      ],
+      "salary": 49900,
+      "projected": 136.02,
+      "median": 132.91,
+      "p95": 193.37,
+      "p99": 225.62,
+      "pct_200": 3.614
+    },
+    "McCarthy, Hubbard and Meyers": {
+      "roster": [
+        "J.J. McCarthy",
+        "Emmett Johnson",
+        "Chuba Hubbard",
+        "Jonah Coleman",
+        "Malik Nabers",
+        "Carnell Tate",
+        "Jakobi Meyers",
+        "Isaiah Likely",
+        "Eagles"
+      ],
+      "salary": 50000,
+      "projected": 139.48,
+      "median": 136.69,
+      "p95": 196.41,
+      "p99": 226.85,
+      "pct_200": 4.178
+    }
+  },
+  "fields": {
+    "replicate": {
+      "min_salary": 47500,
+      "min_projection": 112,
+      "extra_probability_own_qb_rb_pair": 0.0,
+      "mean_field_salary": 48837.37,
+      "mean_field_projection": 124.68,
+      "realized_ownership": {
+        "Josh Allen": 4.9,
+        "Dak Prescott": 25.67,
+        "Caleb Williams": 9.1,
+        "Patrick Mahomes": 7.12,
+        "Trevor Lawrence": 4.93,
+        "Justin Herbert": 5.43,
+        "Cam Ward": 9.2,
+        "Bo Nix": 4.27,
+        "Jared Goff": 4.0,
+        "Tyler Shough": 2.45,
+        "Joe Milton III": 2.55,
+        "Bryce Young": 3.82,
+        "Baker Mayfield": 1.72,
+        "J.J. McCarthy": 3.43,
+        "Jacoby Brissett": 2.8,
+        "Geno Smith": 2.37,
+        "Jahmyr Gibbs": 19.24,
+        "Emmett Johnson": 54.53,
+        "Javonte Williams": 7.9,
+        "James Cook III": 7.44,
+        "Chuba Hubbard": 6.43,
+        "Jonah Coleman": 34.97,
+        "Tony Pollard": 14.19,
+        "Jaylen Warren": 4.8,
+        "Bucky Irving": 6.37,
+        "Bhayshul Tuten": 6.27,
+        "D'Andre Swift": 4.06,
+        "Derrick Henry": 2.43,
+        "Cam Skattebo": 12.32,
+        "Omarion Hampton": 15.92,
+        "Breece Hall": 8.76,
+        "Ashton Jeanty": 3.39,
+        "Ollie Gordon II": 7.13,
+        "Kyle Monangai": 9.02,
+        "Rico Dowdle": 1.12,
+        "Saquon Barkley": 1.51,
+        "Braelon Allen": 4.83,
+        "Travis Etienne Jr.": 1.39,
+        "Kenny Gainwell": 1.6,
+        "Tyler Allgeier": 1.72,
+        "Justice Hill": 1.95,
+        "Elijah Mitchell": 1.05,
+        "Bam Knight": 2.07,
+        "Alvin Kamara": 1.46,
+        "Keaton Mitchell": 0.47,
+        "Ty Johnson": 0.42,
+        "Chris Rodriguez Jr.": 0.25,
+        "Kimani Vidal": 0.53,
+        "CeeDee Lamb": 23.79,
+        "Amon-Ra St. Brown": 23.42,
+        "George Pickens": 27.37,
+        "Malik Nabers": 8.91,
+        "Carnell Tate": 22.33,
+        "Parker Washington": 7.6,
+        "Zay Flowers": 3.5,
+        "Luther Burden III": 11.73,
+        "Chris Olave": 3.6,
+        "Garrett Wilson": 6.5,
+        "Tetairoa McMillan": 6.21,
+        "DeVonta Smith": 4.72,
+        "DJ Moore": 4.94,
+        "Emeka Egbuka": 4.61,
+        "Jameson Williams": 7.72,
+        "Rashee Rice": 5.06,
+        "Jordyn Tyson": 7.82,
+        "Rome Odunze": 12.62,
+        "Jaylen Waddle": 1.95,
+        "Ryan Flournoy": 11.52,
+        "DK Metcalf": 6.74,
+        "Caleb Douglas": 10.15,
+        "Khalil Shakir": 7.01,
+        "Jakobi Meyers": 8.42,
+        "Jalen Coker": 1.65,
+        "Elic Ayomanor": 19.89,
+        "Adonai Mitchell": 6.6,
+        "Tre' Harris": 8.67,
+        "Courtland Sutton": 5.34,
+        "Josh Downs": 4.77,
+        "Ladd McConkey": 2.05,
+        "Keon Coleman": 3.09,
+        "Chris Godwin Jr.": 2.04,
+        "Malik Washington": 3.75,
+        "Ja'Kobi Lane": 7.25,
+        "Trey McBride": 2.84,
+        "Brock Bowers": 2.06,
+        "Colston Loveland": 20.74,
+        "Isaiah Likely": 8.45,
+        "Travis Kelce": 5.82,
+        "Sam LaPorta": 4.26,
+        "Brenton Strange": 6.9,
+        "Mark Andrews": 11.87,
+        "Cade Otton": 5.45,
+        "Darren Waller": 4.02,
+        "Dallas Goedert": 3.58,
+        "Gunnar Helm": 4.8,
+        "Greg Dulcich": 2.19,
+        "Evan Engram": 4.14,
+        "Brevyn Spann-Ford": 3.73,
+        "Dawson Knox": 2.87,
+        "Chiefs": 8.45,
+        "Bills": 4.28,
+        "Broncos": 6.26,
+        "Bears": 3.65,
+        "Jaguars": 3.04,
+        "Steelers": 7.94,
+        "Chargers": 5.23,
+        "Panthers": 4.4,
+        "Lions": 3.63,
+        "Eagles": 8.71,
+        "Jets": 7.35,
+        "Cowboys": 2.09,
+        "Germie Bernard": 2.17,
+        "Xavier Worthy": 2.73,
+        "Kalif Raymond": 2.99,
+        "Makai Lemon": 5.92,
+        "Malachi Fields": 10.91,
+        "Aaron Rodgers": 2.29,
+        "Josh Johnson": 1.22,
+        "Fernando Mendoza": 1.12,
+        "Kyle McCord": 1.62,
+        "Ravens": 3.64,
+        "Giants": 5.94,
+        "Buccaneers": 5.57,
+        "Raiders": 5.37,
+        "Cardinals": 3.99,
+        "Saints": 3.25,
+        "Titans": 1.91,
+        "Dolphins": 5.28,
+        "Mason Taylor": 4.66,
+        "Tommy Tremble": 3.84,
+        "Chimere Dike": 3.05,
+        "Pat Freiermuth": 3.3,
+        "Kenyon Sadiq": 2.26,
+        "Pat Bryant": 5.42,
+        "Juwan Johnson": 1.73,
+        "Rashod Bateman": 6.28,
+        "Darnell Washington": 2.14
+      },
+      "results": {
+        "original 143": {
+          "top_1": 6,
+          "top_15": 48,
+          "top_147": 236,
+          "top_1470": 1320,
+          "split_first_equivalent": 6.0,
+          "exact_opponent_copies": 0
+        },
+        "original 253": {
+          "top_1": 2,
+          "top_15": 14,
+          "top_147": 122,
+          "top_1470": 871,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 328": {
+          "top_1": 3,
+          "top_15": 26,
+          "top_147": 190,
+          "top_1470": 1124,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "original 370": {
+          "top_1": 2,
+          "top_15": 51,
+          "top_147": 229,
+          "top_1470": 1107,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 431": {
+          "top_1": 3,
+          "top_15": 25,
+          "top_147": 192,
+          "top_1470": 1132,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "original 441": {
+          "top_1": 2,
+          "top_15": 58,
+          "top_147": 276,
+          "top_1470": 1312,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 463": {
+          "top_1": 2,
+          "top_15": 29,
+          "top_147": 141,
+          "top_1470": 819,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 544": {
+          "top_1": 2,
+          "top_15": 35,
+          "top_147": 202,
+          "top_1470": 1185,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 545": {
+          "top_1": 2,
+          "top_15": 35,
+          "top_147": 220,
+          "top_1470": 1280,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 547": {
+          "top_1": 7,
+          "top_15": 55,
+          "top_147": 272,
+          "top_1470": 1375,
+          "split_first_equivalent": 7.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coleman and Eagles": {
+          "top_1": 4,
+          "top_15": 34,
+          "top_147": 253,
+          "top_1470": 1265,
+          "split_first_equivalent": 4.0,
+          "exact_opponent_copies": 0
+        },
+        "Young and Egbuka": {
+          "top_1": 0,
+          "top_15": 31,
+          "top_147": 191,
+          "top_1470": 1071,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and LaPorta": {
+          "top_1": 3,
+          "top_15": 41,
+          "top_147": 200,
+          "top_1470": 1106,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Kelce": {
+          "top_1": 2,
+          "top_15": 43,
+          "top_147": 231,
+          "top_1470": 1154,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coker and Pickens": {
+          "top_1": 0,
+          "top_15": 10,
+          "top_147": 84,
+          "top_1470": 593,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Coleman": {
+          "top_1": 1,
+          "top_15": 10,
+          "top_147": 97,
+          "top_1470": 747,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Tuten and Egbuka": {
+          "top_1": 3,
+          "top_15": 31,
+          "top_147": 174,
+          "top_1470": 929,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Godwin": {
+          "top_1": 2,
+          "top_15": 40,
+          "top_147": 231,
+          "top_1470": 1104,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Egbuka": {
+          "top_1": 2,
+          "top_15": 40,
+          "top_147": 242,
+          "top_1470": 1149,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Egbuka": {
+          "top_1": 3,
+          "top_15": 31,
+          "top_147": 218,
+          "top_1470": 1180,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Egbuka and Tuten": {
+          "top_1": 0,
+          "top_15": 17,
+          "top_147": 176,
+          "top_1470": 1068,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Meyers and Broncos": {
+          "top_1": 3,
+          "top_15": 38,
+          "top_147": 234,
+          "top_1470": 1305,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Parker Washington": {
+          "top_1": 1,
+          "top_15": 14,
+          "top_147": 164,
+          "top_1470": 989,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Javonte and LaPorta": {
+          "top_1": 2,
+          "top_15": 15,
+          "top_147": 90,
+          "top_1470": 696,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Coleman": {
+          "top_1": 3,
+          "top_15": 35,
+          "top_147": 209,
+          "top_1470": 1238,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Pickens": {
+          "top_1": 1,
+          "top_15": 22,
+          "top_147": 163,
+          "top_1470": 961,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Javonte": {
+          "top_1": 4,
+          "top_15": 43,
+          "top_147": 207,
+          "top_1470": 1114,
+          "split_first_equivalent": 4.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Warren": {
+          "top_1": 8,
+          "top_15": 33,
+          "top_147": 217,
+          "top_1470": 1150,
+          "split_first_equivalent": 8.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Egbuka": {
+          "top_1": 3,
+          "top_15": 27,
+          "top_147": 180,
+          "top_1470": 1001,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Parker": {
+          "top_1": 3,
+          "top_15": 27,
+          "top_147": 199,
+          "top_1470": 1080,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Meyers": {
+          "top_1": 4,
+          "top_15": 32,
+          "top_147": 213,
+          "top_1470": 1241,
+          "split_first_equivalent": 4.0,
+          "exact_opponent_copies": 0
+        }
+      }
+    },
+    "near_cap": {
+      "min_salary": 49400,
+      "min_projection": 124,
+      "extra_probability_own_qb_rb_pair": 0.16,
+      "mean_field_salary": 49706.45,
+      "mean_field_projection": 130.56,
+      "realized_ownership": {
+        "Josh Allen": 5.07,
+        "Dak Prescott": 32.66,
+        "Caleb Williams": 10.22,
+        "Patrick Mahomes": 6.58,
+        "Trevor Lawrence": 4.04,
+        "Justin Herbert": 4.85,
+        "Cam Ward": 11.03,
+        "Bo Nix": 3.25,
+        "Jared Goff": 3.48,
+        "Tyler Shough": 1.69,
+        "Joe Milton III": 1.91,
+        "Bryce Young": 3.4,
+        "Baker Mayfield": 1.39,
+        "J.J. McCarthy": 2.94,
+        "Jacoby Brissett": 1.99,
+        "Geno Smith": 1.8,
+        "Jahmyr Gibbs": 18.33,
+        "Emmett Johnson": 76.05,
+        "Javonte Williams": 9.42,
+        "James Cook III": 8.19,
+        "Chuba Hubbard": 7.06,
+        "Jonah Coleman": 39.71,
+        "Tony Pollard": 16.31,
+        "Jaylen Warren": 4.34,
+        "Bucky Irving": 6.11,
+        "Bhayshul Tuten": 5.21,
+        "D'Andre Swift": 4.03,
+        "Derrick Henry": 2.01,
+        "Cam Skattebo": 10.79,
+        "Omarion Hampton": 14.07,
+        "Breece Hall": 6.76,
+        "Ashton Jeanty": 2.32,
+        "Ollie Gordon II": 5.72,
+        "Kyle Monangai": 6.04,
+        "Rico Dowdle": 0.72,
+        "Saquon Barkley": 0.65,
+        "Braelon Allen": 2.98,
+        "Travis Etienne Jr.": 0.87,
+        "Kenny Gainwell": 0.79,
+        "Tyler Allgeier": 1.16,
+        "Justice Hill": 1.09,
+        "Elijah Mitchell": 0.56,
+        "Bam Knight": 1.13,
+        "Alvin Kamara": 0.55,
+        "Keaton Mitchell": 0.17,
+        "Ty Johnson": 0.12,
+        "Chris Rodriguez Jr.": 0.1,
+        "Kimani Vidal": 0.17,
+        "CeeDee Lamb": 28.17,
+        "Amon-Ra St. Brown": 23.04,
+        "George Pickens": 30.16,
+        "Malik Nabers": 9.42,
+        "Carnell Tate": 25.87,
+        "Parker Washington": 7.64,
+        "Zay Flowers": 3.28,
+        "Luther Burden III": 13.14,
+        "Chris Olave": 3.64,
+        "Garrett Wilson": 7.37,
+        "Tetairoa McMillan": 6.48,
+        "DeVonta Smith": 4.44,
+        "DJ Moore": 4.4,
+        "Emeka Egbuka": 4.25,
+        "Jameson Williams": 6.94,
+        "Rashee Rice": 5.03,
+        "Jordyn Tyson": 8.31,
+        "Rome Odunze": 13.76,
+        "Jaylen Waddle": 1.65,
+        "Ryan Flournoy": 12.12,
+        "DK Metcalf": 5.22,
+        "Caleb Douglas": 9.0,
+        "Khalil Shakir": 5.57,
+        "Jakobi Meyers": 7.36,
+        "Jalen Coker": 1.47,
+        "Elic Ayomanor": 23.49,
+        "Adonai Mitchell": 5.92,
+        "Tre' Harris": 7.46,
+        "Courtland Sutton": 4.2,
+        "Josh Downs": 3.97,
+        "Ladd McConkey": 1.84,
+        "Keon Coleman": 2.54,
+        "Chris Godwin Jr.": 1.65,
+        "Malik Washington": 2.6,
+        "Ja'Kobi Lane": 6.25,
+        "Trey McBride": 2.9,
+        "Brock Bowers": 1.91,
+        "Colston Loveland": 21.51,
+        "Isaiah Likely": 10.65,
+        "Travis Kelce": 6.07,
+        "Sam LaPorta": 4.01,
+        "Brenton Strange": 6.25,
+        "Mark Andrews": 11.75,
+        "Cade Otton": 4.76,
+        "Darren Waller": 3.94,
+        "Dallas Goedert": 3.14,
+        "Gunnar Helm": 4.84,
+        "Greg Dulcich": 1.81,
+        "Evan Engram": 3.58,
+        "Brevyn Spann-Ford": 3.89,
+        "Dawson Knox": 2.37,
+        "Chiefs": 10.21,
+        "Bills": 5.1,
+        "Broncos": 7.05,
+        "Bears": 3.88,
+        "Jaguars": 3.07,
+        "Steelers": 9.01,
+        "Chargers": 5.63,
+        "Panthers": 4.52,
+        "Lions": 3.18,
+        "Eagles": 8.56,
+        "Jets": 7.23,
+        "Cowboys": 1.8,
+        "Germie Bernard": 1.53,
+        "Xavier Worthy": 2.02,
+        "Kalif Raymond": 2.5,
+        "Makai Lemon": 4.51,
+        "Malachi Fields": 8.47,
+        "Aaron Rodgers": 1.3,
+        "Josh Johnson": 0.79,
+        "Fernando Mendoza": 0.63,
+        "Kyle McCord": 0.99,
+        "Ravens": 3.5,
+        "Giants": 5.92,
+        "Buccaneers": 5.52,
+        "Raiders": 4.61,
+        "Cardinals": 1.93,
+        "Saints": 2.99,
+        "Titans": 1.43,
+        "Dolphins": 4.85,
+        "Mason Taylor": 4.07,
+        "Tommy Tremble": 3.44,
+        "Chimere Dike": 2.6,
+        "Pat Freiermuth": 2.74,
+        "Kenyon Sadiq": 1.73,
+        "Pat Bryant": 4.09,
+        "Juwan Johnson": 1.53,
+        "Rashod Bateman": 4.65,
+        "Darnell Washington": 1.54
+      },
+      "results": {
+        "original 143": {
+          "top_1": 4,
+          "top_15": 22,
+          "top_147": 114,
+          "top_1470": 795,
+          "split_first_equivalent": 4.0,
+          "exact_opponent_copies": 0
+        },
+        "original 253": {
+          "top_1": 0,
+          "top_15": 9,
+          "top_147": 71,
+          "top_1470": 555,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 328": {
+          "top_1": 0,
+          "top_15": 9,
+          "top_147": 88,
+          "top_1470": 714,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 370": {
+          "top_1": 2,
+          "top_15": 28,
+          "top_147": 152,
+          "top_1470": 776,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 431": {
+          "top_1": 1,
+          "top_15": 6,
+          "top_147": 90,
+          "top_1470": 721,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "original 441": {
+          "top_1": 0,
+          "top_15": 20,
+          "top_147": 149,
+          "top_1470": 904,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 463": {
+          "top_1": 0,
+          "top_15": 13,
+          "top_147": 89,
+          "top_1470": 566,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 544": {
+          "top_1": 1,
+          "top_15": 13,
+          "top_147": 112,
+          "top_1470": 793,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "original 545": {
+          "top_1": 2,
+          "top_15": 12,
+          "top_147": 126,
+          "top_1470": 851,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "original 547": {
+          "top_1": 7,
+          "top_15": 29,
+          "top_147": 141,
+          "top_1470": 935,
+          "split_first_equivalent": 7.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coleman and Eagles": {
+          "top_1": 1,
+          "top_15": 14,
+          "top_147": 112,
+          "top_1470": 897,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young and Egbuka": {
+          "top_1": 1,
+          "top_15": 11,
+          "top_147": 96,
+          "top_1470": 727,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and LaPorta": {
+          "top_1": 0,
+          "top_15": 21,
+          "top_147": 101,
+          "top_1470": 757,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Kelce": {
+          "top_1": 2,
+          "top_15": 22,
+          "top_147": 111,
+          "top_1470": 798,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coker and Pickens": {
+          "top_1": 0,
+          "top_15": 1,
+          "top_147": 53,
+          "top_1470": 399,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Coleman": {
+          "top_1": 0,
+          "top_15": 2,
+          "top_147": 47,
+          "top_1470": 433,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Tuten and Egbuka": {
+          "top_1": 1,
+          "top_15": 15,
+          "top_147": 90,
+          "top_1470": 658,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Godwin": {
+          "top_1": 1,
+          "top_15": 15,
+          "top_147": 119,
+          "top_1470": 777,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Egbuka": {
+          "top_1": 2,
+          "top_15": 11,
+          "top_147": 131,
+          "top_1470": 789,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Egbuka": {
+          "top_1": 0,
+          "top_15": 15,
+          "top_147": 114,
+          "top_1470": 831,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Egbuka and Tuten": {
+          "top_1": 0,
+          "top_15": 5,
+          "top_147": 96,
+          "top_1470": 740,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Meyers and Broncos": {
+          "top_1": 2,
+          "top_15": 15,
+          "top_147": 123,
+          "top_1470": 899,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Parker Washington": {
+          "top_1": 0,
+          "top_15": 7,
+          "top_147": 73,
+          "top_1470": 679,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Javonte and LaPorta": {
+          "top_1": 4,
+          "top_15": 9,
+          "top_147": 54,
+          "top_1470": 432,
+          "split_first_equivalent": 4.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Coleman": {
+          "top_1": 1,
+          "top_15": 20,
+          "top_147": 119,
+          "top_1470": 808,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Pickens": {
+          "top_1": 1,
+          "top_15": 12,
+          "top_147": 94,
+          "top_1470": 621,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Javonte": {
+          "top_1": 3,
+          "top_15": 24,
+          "top_147": 122,
+          "top_1470": 754,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Warren": {
+          "top_1": 2,
+          "top_15": 26,
+          "top_147": 133,
+          "top_1470": 823,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Egbuka": {
+          "top_1": 1,
+          "top_15": 10,
+          "top_147": 97,
+          "top_1470": 686,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Parker": {
+          "top_1": 1,
+          "top_15": 11,
+          "top_147": 109,
+          "top_1470": 740,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Meyers": {
+          "top_1": 1,
+          "top_15": 11,
+          "top_147": 126,
+          "top_1470": 864,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        }
+      },
+      "run_pass_tradeoff_and_role_stress": {
+        "original 143": {
+          "top_1": 0,
+          "top_15": 3,
+          "top_147": 41,
+          "top_1470": 334,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 253": {
+          "top_1": 0,
+          "top_15": 6,
+          "top_147": 57,
+          "top_1470": 345,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 328": {
+          "top_1": 1,
+          "top_15": 9,
+          "top_147": 62,
+          "top_1470": 486,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "original 370": {
+          "top_1": 0,
+          "top_15": 6,
+          "top_147": 56,
+          "top_1470": 337,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 431": {
+          "top_1": 0,
+          "top_15": 1,
+          "top_147": 31,
+          "top_1470": 275,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 441": {
+          "top_1": 0,
+          "top_15": 3,
+          "top_147": 46,
+          "top_1470": 402,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 463": {
+          "top_1": 3,
+          "top_15": 11,
+          "top_147": 68,
+          "top_1470": 425,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "original 544": {
+          "top_1": 0,
+          "top_15": 13,
+          "top_147": 88,
+          "top_1470": 569,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 545": {
+          "top_1": 0,
+          "top_15": 5,
+          "top_147": 67,
+          "top_1470": 500,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "original 547": {
+          "top_1": 2,
+          "top_15": 11,
+          "top_147": 112,
+          "top_1470": 660,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coleman and Eagles": {
+          "top_1": 1,
+          "top_15": 4,
+          "top_147": 39,
+          "top_1470": 390,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young and Egbuka": {
+          "top_1": 0,
+          "top_15": 9,
+          "top_147": 65,
+          "top_1470": 428,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and LaPorta": {
+          "top_1": 1,
+          "top_15": 9,
+          "top_147": 58,
+          "top_1470": 425,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Kelce": {
+          "top_1": 0,
+          "top_15": 4,
+          "top_147": 58,
+          "top_1470": 415,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Coker and Pickens": {
+          "top_1": 0,
+          "top_15": 3,
+          "top_147": 30,
+          "top_1470": 268,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Javonte and Coleman": {
+          "top_1": 1,
+          "top_15": 5,
+          "top_147": 48,
+          "top_1470": 359,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Tuten and Egbuka": {
+          "top_1": 0,
+          "top_15": 8,
+          "top_147": 55,
+          "top_1470": 353,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Godwin": {
+          "top_1": 0,
+          "top_15": 3,
+          "top_147": 40,
+          "top_1470": 344,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "Young, Pollard and Egbuka": {
+          "top_1": 0,
+          "top_15": 6,
+          "top_147": 41,
+          "top_1470": 333,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Egbuka": {
+          "top_1": 0,
+          "top_15": 10,
+          "top_147": 76,
+          "top_1470": 551,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Egbuka and Tuten": {
+          "top_1": 0,
+          "top_15": 5,
+          "top_147": 72,
+          "top_1470": 538,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Meyers and Broncos": {
+          "top_1": 0,
+          "top_15": 5,
+          "top_147": 57,
+          "top_1470": 600,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy and Parker Washington": {
+          "top_1": 0,
+          "top_15": 12,
+          "top_147": 70,
+          "top_1470": 478,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Javonte and LaPorta": {
+          "top_1": 0,
+          "top_15": 9,
+          "top_147": 48,
+          "top_1470": 380,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Coleman": {
+          "top_1": 0,
+          "top_15": 11,
+          "top_147": 89,
+          "top_1470": 578,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Pickens": {
+          "top_1": 0,
+          "top_15": 7,
+          "top_147": 60,
+          "top_1470": 445,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Javonte": {
+          "top_1": 2,
+          "top_15": 25,
+          "top_147": 110,
+          "top_1470": 591,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Warren": {
+          "top_1": 1,
+          "top_15": 11,
+          "top_147": 94,
+          "top_1470": 564,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Egbuka": {
+          "top_1": 3,
+          "top_15": 24,
+          "top_147": 115,
+          "top_1470": 624,
+          "split_first_equivalent": 3.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Parker": {
+          "top_1": 2,
+          "top_15": 13,
+          "top_147": 81,
+          "top_1470": 525,
+          "split_first_equivalent": 2.0,
+          "exact_opponent_copies": 0
+        },
+        "McCarthy, Hubbard and Meyers": {
+          "top_1": 0,
+          "top_15": 7,
+          "top_147": 73,
+          "top_1470": 550,
+          "split_first_equivalent": 0.0,
+          "exact_opponent_copies": 0
+        }
+      },
+      "likely_quarter_role_loss": {
+        "original 253": {
+          "top_1": 1,
+          "top_15": 5,
+          "top_147": 48,
+          "top_1470": 370,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        },
+        "original 547": {
+          "top_1": 1,
+          "top_15": 19,
+          "top_147": 85,
+          "top_1470": 501,
+          "split_first_equivalent": 1.0,
+          "exact_opponent_copies": 0
+        }
+      }
+    }
+  }
+}

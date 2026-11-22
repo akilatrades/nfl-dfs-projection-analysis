@@ -1,5 +1,7 @@
 # Week 11 — November 22, 2026 DraftKings main slate
 
+For the $20, 147,058-entry contest with $1 million to first, use the [final Sunday Millionaire lineup and simulations](millionaire_final/README.md).
+
 Frozen 2026-11-22T09:15:37-06:00. Early recommendations, before official 10:30 AM Central inactive releases. Main slate locks noon Central. Assuming the same $12 single-entry Fair Catch contests as the user's previous screenshots: 5,882 and 12,254 maximum entries. No current contest ID or payout structure supplied. Nothing was submitted.
 
 **If choosing only one, prefer the Dak build.** The Ward/Gibbs build is a different tournament construction, not a proven higher-EV lineup. It gives up 4.74 mean projected points and roughly 9.4 points at the modeled 95th percentile. It performed relatively better against one projection-conscious hypothetical field; that advantage weakens when Gibbs' assumed field exposure rises. This is a material modeling uncertainty, not an established edge.

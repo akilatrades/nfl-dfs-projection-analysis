@@ -1,0 +1,15 @@
+{
+  "max_mean_error": 0.0658470916748044,
+  "all_rosters_legal": true,
+  "all_scores_finite": true,
+  "pair_correlations": {
+    "Dak Prescott / CeeDee Lamb": 0.4298382940141964,
+    "Dak Prescott / George Pickens": 0.414745522870214,
+    "Caleb Williams / Colston Loveland": 0.37761428996422486,
+    "Cam Ward / Carnell Tate": 0.38432317020227824,
+    "Jared Goff / Amon-Ra St. Brown": 0.437177156693906
+  },
+  "draws_per_stress": 50000,
+  "sanity_draws": 100000,
+  "note": "No measured probability for adverse roles/weather/QB exit. Non-TD gamma approximates PPR/yardage/bonuses; offense turnover negatives absent."
+}

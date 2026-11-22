@@ -1,0 +1,22 @@
+{
+  "all_634_candidates_legal": true,
+  "recommended_salaries": [
+    50000,
+    50000
+  ],
+  "shared_players": [
+    "Emmett Johnson",
+    "Jonah Coleman",
+    "Sam LaPorta"
+  ],
+  "pool_players": 116,
+  "two_or_more_projection_sources": 67,
+  "official_dk_export_verified": false,
+  "official_inactives_verified": false,
+  "contest_sizes_assumed": [
+    5882,
+    12254
+  ],
+  "week_10_results_supplied": false,
+  "not_entered_by_assistant": true
+}

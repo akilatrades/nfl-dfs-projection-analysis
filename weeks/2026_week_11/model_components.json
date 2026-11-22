@@ -1,0 +1,522 @@
+{
+  "Tyler Allgeier": {
+    "mean_target": 7.7,
+    "expected_td_points": 2.25,
+    "non_td_mean": 5.45
+  },
+  "Bam Knight": {
+    "mean_target": 6.8,
+    "expected_td_points": 2.25,
+    "non_td_mean": 4.55
+  },
+  "Trey McBride": {
+    "mean_target": 14.575,
+    "expected_td_points": 1.92,
+    "non_td_mean": 12.655
+  },
+  "Jacoby Brissett": {
+    "mean_target": 14.9,
+    "expected_td_points": 6.384191808191808,
+    "non_td_mean": 8.515808191808192
+  },
+  "Derrick Henry": {
+    "mean_target": 14.815000000000001,
+    "expected_td_points": 2.6846433566433556,
+    "non_td_mean": 12.130356643356645
+  },
+  "Justice Hill": {
+    "mean_target": 7.5,
+    "expected_td_points": 2.5823076923076917,
+    "non_td_mean": 4.917692307692308
+  },
+  "Zay Flowers": {
+    "mean_target": 14.98,
+    "expected_td_points": 2.04,
+    "non_td_mean": 12.940000000000001
+  },
+  "Ja'Kobi Lane": {
+    "mean_target": 7.175000000000001,
+    "expected_td_points": 1.08,
+    "non_td_mean": 6.095000000000001
+  },
+  "Mark Andrews": {
+    "mean_target": 8.71,
+    "expected_td_points": 1.44,
+    "non_td_mean": 7.270000000000001
+  },
+  "Josh Allen": {
+    "mean_target": 22.0,
+    "expected_td_points": 10.388029556650247,
+    "non_td_mean": 11.611970443349753
+  },
+  "James Cook III": {
+    "mean_target": 20.195,
+    "expected_td_points": 3.840413793103449,
+    "non_td_mean": 16.354586206896553
+  },
+  "Ty Johnson": {
+    "mean_target": 5.7,
+    "expected_td_points": 2.982413793103449,
+    "non_td_mean": 2.7175862068965513
+  },
+  "DJ Moore": {
+    "mean_target": 12.219999999999999,
+    "expected_td_points": 2.4000000000000004,
+    "non_td_mean": 9.819999999999999
+  },
+  "Khalil Shakir": {
+    "mean_target": 10.094999999999999,
+    "expected_td_points": 1.6800000000000002,
+    "non_td_mean": 8.415
+  },
+  "Keon Coleman": {
+    "mean_target": 8.675,
+    "expected_td_points": 1.8599999999999999,
+    "non_td_mean": 6.815000000000001
+  },
+  "Dawson Knox": {
+    "mean_target": 6.145,
+    "expected_td_points": 1.26,
+    "non_td_mean": 4.885
+  },
+  "Bryce Young": {
+    "mean_target": 16.8,
+    "expected_td_points": 7.628571428571429,
+    "non_td_mean": 9.17142857142857
+  },
+  "Chuba Hubbard": {
+    "mean_target": 19.53,
+    "expected_td_points": 4.92,
+    "non_td_mean": 14.610000000000001
+  },
+  "Tetairoa McMillan": {
+    "mean_target": 14.43,
+    "expected_td_points": 2.4000000000000004,
+    "non_td_mean": 12.03
+  },
+  "Jalen Coker": {
+    "mean_target": 10.725000000000001,
+    "expected_td_points": 2.04,
+    "non_td_mean": 8.685000000000002
+  },
+  "Darren Waller": {
+    "mean_target": 7.869999999999999,
+    "expected_td_points": 1.7999999999999998,
+    "non_td_mean": 6.069999999999999
+  },
+  "Caleb Williams": {
+    "mean_target": 21.85,
+    "expected_td_points": 10.248403361344538,
+    "non_td_mean": 11.601596638655463
+  },
+  "D'Andre Swift": {
+    "mean_target": 16.67,
+    "expected_td_points": 3.9762352941176475,
+    "non_td_mean": 12.693764705882355
+  },
+  "Kyle Monangai": {
+    "mean_target": 10.52,
+    "expected_td_points": 1.9115294117647061,
+    "non_td_mean": 8.608470588235294
+  },
+  "Luther Burden III": {
+    "mean_target": 14.885000000000002,
+    "expected_td_points": 2.5581176470588236,
+    "non_td_mean": 12.326882352941178
+  },
+  "Rome Odunze": {
+    "mean_target": 11.16,
+    "expected_td_points": 1.92,
+    "non_td_mean": 9.24
+  },
+  "Colston Loveland": {
+    "mean_target": 12.4,
+    "expected_td_points": 2.52,
+    "non_td_mean": 9.88
+  },
+  "Kalif Raymond": {
+    "mean_target": 7.25,
+    "expected_td_points": 1.26,
+    "non_td_mean": 5.99
+  },
+  "Dak Prescott": {
+    "mean_target": 23.4,
+    "expected_td_points": 9.922508217446271,
+    "non_td_mean": 13.477491782553727
+  },
+  "Javonte Williams": {
+    "mean_target": 19.01,
+    "expected_td_points": 6.645663716814159,
+    "non_td_mean": 12.364336283185843
+  },
+  "CeeDee Lamb": {
+    "mean_target": 22.88,
+    "expected_td_points": 4.559256637168142,
+    "non_td_mean": 18.320743362831855
+  },
+  "George Pickens": {
+    "mean_target": 16.71,
+    "expected_td_points": 3.06,
+    "non_td_mean": 13.65
+  },
+  "Ryan Flournoy": {
+    "mean_target": 10.66,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 8.56
+  },
+  "Brevyn Spann-Ford": {
+    "mean_target": 6.795,
+    "expected_td_points": 1.32,
+    "non_td_mean": 5.475
+  },
+  "Bo Nix": {
+    "mean_target": 17.9,
+    "expected_td_points": 8.445714285714287,
+    "non_td_mean": 9.454285714285712
+  },
+  "Jonah Coleman": {
+    "mean_target": 18.31,
+    "expected_td_points": 4.68,
+    "non_td_mean": 13.629999999999999
+  },
+  "Jaylen Waddle": {
+    "mean_target": 10.79,
+    "expected_td_points": 1.98,
+    "non_td_mean": 8.809999999999999
+  },
+  "Courtland Sutton": {
+    "mean_target": 8.9,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 6.800000000000001
+  },
+  "Evan Engram": {
+    "mean_target": 6.3,
+    "expected_td_points": 1.08,
+    "non_td_mean": 5.22
+  },
+  "Jared Goff": {
+    "mean_target": 17.5,
+    "expected_td_points": 8.238102857142858,
+    "non_td_mean": 9.261897142857142
+  },
+  "Jahmyr Gibbs": {
+    "mean_target": 25.57,
+    "expected_td_points": 6.05196,
+    "non_td_mean": 19.51804
+  },
+  "Amon-Ra St. Brown": {
+    "mean_target": 19.37,
+    "expected_td_points": 3.84,
+    "non_td_mean": 15.530000000000001
+  },
+  "Jameson Williams": {
+    "mean_target": 11.684999999999999,
+    "expected_td_points": 2.21508,
+    "non_td_mean": 9.469919999999998
+  },
+  "Sam LaPorta": {
+    "mean_target": 10.88,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 8.780000000000001
+  },
+  "Trevor Lawrence": {
+    "mean_target": 18.3,
+    "expected_td_points": 8.212302521008404,
+    "non_td_mean": 10.087697478991597
+  },
+  "Bhayshul Tuten": {
+    "mean_target": 15.989999999999998,
+    "expected_td_points": 3.3904537815126057,
+    "non_td_mean": 12.599546218487394
+  },
+  "Chris Rodriguez Jr.": {
+    "mean_target": 5.5,
+    "expected_td_points": 3.4706722689075638,
+    "non_td_mean": 2.0293277310924362
+  },
+  "Parker Washington": {
+    "mean_target": 14.719999999999999,
+    "expected_td_points": 3.0,
+    "non_td_mean": 11.719999999999999
+  },
+  "Jakobi Meyers": {
+    "mean_target": 9.870000000000001,
+    "expected_td_points": 1.7399999999999998,
+    "non_td_mean": 8.13
+  },
+  "Brenton Strange": {
+    "mean_target": 9.135,
+    "expected_td_points": 1.5,
+    "non_td_mean": 7.635
+  },
+  "Patrick Mahomes": {
+    "mean_target": 19.2,
+    "expected_td_points": 9.040000000000001,
+    "non_td_mean": 10.159999999999998
+  },
+  "Emmett Johnson": {
+    "mean_target": 23.415,
+    "expected_td_points": 6.36,
+    "non_td_mean": 17.055
+  },
+  "Rashee Rice": {
+    "mean_target": 12.615,
+    "expected_td_points": 2.64,
+    "non_td_mean": 9.975
+  },
+  "Josh Downs": {
+    "mean_target": 9.495000000000001,
+    "expected_td_points": 1.8599999999999999,
+    "non_td_mean": 7.635000000000002
+  },
+  "Travis Kelce": {
+    "mean_target": 11.665,
+    "expected_td_points": 2.34,
+    "non_td_mean": 9.325
+  },
+  "Xavier Worthy": {
+    "mean_target": 7.6,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 5.5
+  },
+  "Justin Herbert": {
+    "mean_target": 18.2,
+    "expected_td_points": 6.9506756302521016,
+    "non_td_mean": 11.249324369747898
+  },
+  "Omarion Hampton": {
+    "mean_target": 12.28,
+    "expected_td_points": 1.8369882352941176,
+    "non_td_mean": 10.443011764705881
+  },
+  "Keaton Mitchell": {
+    "mean_target": 5.9,
+    "expected_td_points": 2.4548823529411767,
+    "non_td_mean": 3.4451176470588236
+  },
+  "Kimani Vidal": {
+    "mean_target": 5.5,
+    "expected_td_points": 2.4548823529411767,
+    "non_td_mean": 3.0451176470588233
+  },
+  "Tre' Harris": {
+    "mean_target": 8.765,
+    "expected_td_points": 1.26,
+    "non_td_mean": 7.505000000000001
+  },
+  "Ladd McConkey": {
+    "mean_target": 9.445,
+    "expected_td_points": 1.7399999999999998,
+    "non_td_mean": 7.705
+  },
+  "Ashton Jeanty": {
+    "mean_target": 12.665,
+    "expected_td_points": 1.98,
+    "non_td_mean": 10.684999999999999
+  },
+  "Brock Bowers": {
+    "mean_target": 14.045,
+    "expected_td_points": 2.46,
+    "non_td_mean": 11.585
+  },
+  "Ollie Gordon II": {
+    "mean_target": 12.0,
+    "expected_td_points": 3.924,
+    "non_td_mean": 8.076
+  },
+  "Caleb Douglas": {
+    "mean_target": 9.969999999999999,
+    "expected_td_points": 1.2000000000000002,
+    "non_td_mean": 8.77
+  },
+  "Malik Washington": {
+    "mean_target": 7.8,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 5.7
+  },
+  "Greg Dulcich": {
+    "mean_target": 6.68,
+    "expected_td_points": 0.72,
+    "non_td_mean": 5.96
+  },
+  "Tyler Shough": {
+    "mean_target": 17.2,
+    "expected_td_points": 5.890192037470726,
+    "non_td_mean": 11.309807962529273
+  },
+  "Travis Etienne Jr.": {
+    "mean_target": 9.0,
+    "expected_td_points": 2.701475409836066,
+    "non_td_mean": 6.298524590163934
+  },
+  "Alvin Kamara": {
+    "mean_target": 6.6,
+    "expected_td_points": 2.701475409836066,
+    "non_td_mean": 3.898524590163934
+  },
+  "Chris Olave": {
+    "mean_target": 14.3,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 12.200000000000001
+  },
+  "Jordyn Tyson": {
+    "mean_target": 11.989999999999998,
+    "expected_td_points": 1.62,
+    "non_td_mean": 10.369999999999997
+  },
+  "J.J. McCarthy": {
+    "mean_target": 15.8,
+    "expected_td_points": 6.588571428571428,
+    "non_td_mean": 9.211428571428574
+  },
+  "Cam Skattebo": {
+    "mean_target": 14.245,
+    "expected_td_points": 3.6,
+    "non_td_mean": 10.645
+  },
+  "Malik Nabers": {
+    "mean_target": 15.765,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 13.665000000000001
+  },
+  "Isaiah Likely": {
+    "mean_target": 14.2,
+    "expected_td_points": 3.0,
+    "non_td_mean": 11.2
+  },
+  "Malachi Fields": {
+    "mean_target": 7.2,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 5.1000000000000005
+  },
+  "Geno Smith": {
+    "mean_target": 14.6,
+    "expected_td_points": 6.224,
+    "non_td_mean": 8.376
+  },
+  "Breece Hall": {
+    "mean_target": 13.115,
+    "expected_td_points": 2.064,
+    "non_td_mean": 11.051
+  },
+  "Braelon Allen": {
+    "mean_target": 9.4,
+    "expected_td_points": 3.2100000000000004,
+    "non_td_mean": 6.1899999999999995
+  },
+  "Garrett Wilson": {
+    "mean_target": 14.815,
+    "expected_td_points": 2.46,
+    "non_td_mean": 12.355
+  },
+  "Adonai Mitchell": {
+    "mean_target": 9.76,
+    "expected_td_points": 1.44,
+    "non_td_mean": 8.32
+  },
+  "Joe Milton III": {
+    "mean_target": 17.0,
+    "expected_td_points": 5.937773399014779,
+    "non_td_mean": 11.06222660098522
+  },
+  "Saquon Barkley": {
+    "mean_target": 9.7,
+    "expected_td_points": 2.2312819187595903,
+    "non_td_mean": 7.468718081240409
+  },
+  "Elijah Mitchell": {
+    "mean_target": 7.2,
+    "expected_td_points": 2.2312819187595903,
+    "non_td_mean": 4.96871808124041
+  },
+  "DeVonta Smith": {
+    "mean_target": 13.094999999999999,
+    "expected_td_points": 1.6769086651053868,
+    "non_td_mean": 11.418091334894612
+  },
+  "Dallas Goedert": {
+    "mean_target": 8.48,
+    "expected_td_points": 1.5092177985948483,
+    "non_td_mean": 6.970782201405152
+  },
+  "Makai Lemon": {
+    "mean_target": 7.3,
+    "expected_td_points": 1.956393442622951,
+    "non_td_mean": 5.343606557377049
+  },
+  "Jaylen Warren": {
+    "mean_target": 16.68,
+    "expected_td_points": 2.3486896551724135,
+    "non_td_mean": 14.331310344827585
+  },
+  "Rico Dowdle": {
+    "mean_target": 10.8,
+    "expected_td_points": 3.699310344827586,
+    "non_td_mean": 7.100689655172415
+  },
+  "DK Metcalf": {
+    "mean_target": 10.25,
+    "expected_td_points": 1.7399999999999998,
+    "non_td_mean": 8.51
+  },
+  "Germie Bernard": {
+    "mean_target": 7.7,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 5.6000000000000005
+  },
+  "Baker Mayfield": {
+    "mean_target": 15.9,
+    "expected_td_points": 7.004552693208432,
+    "non_td_mean": 8.895447306791567
+  },
+  "Bucky Irving": {
+    "mean_target": 17.095,
+    "expected_td_points": 2.862295081967213,
+    "non_td_mean": 14.232704918032786
+  },
+  "Kenny Gainwell": {
+    "mean_target": 8.4,
+    "expected_td_points": 3.042295081967213,
+    "non_td_mean": 5.357704918032788
+  },
+  "Emeka Egbuka": {
+    "mean_target": 11.6,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 9.5
+  },
+  "Chris Godwin Jr.": {
+    "mean_target": 8.36,
+    "expected_td_points": 1.1400000000000001,
+    "non_td_mean": 7.219999999999999
+  },
+  "Cade Otton": {
+    "mean_target": 7.755000000000001,
+    "expected_td_points": 1.02,
+    "non_td_mean": 6.735000000000001
+  },
+  "Cam Ward": {
+    "mean_target": 19.1,
+    "expected_td_points": 7.702857142857144,
+    "non_td_mean": 11.397142857142857
+  },
+  "Tony Pollard": {
+    "mean_target": 17.4,
+    "expected_td_points": 4.62,
+    "non_td_mean": 12.779999999999998
+  },
+  "Carnell Tate": {
+    "mean_target": 14.9,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 12.8
+  },
+  "Elic Ayomanor": {
+    "mean_target": 9.44,
+    "expected_td_points": 1.6800000000000002,
+    "non_td_mean": 7.76
+  },
+  "Gunnar Helm": {
+    "mean_target": 7.3,
+    "expected_td_points": 2.0999999999999996,
+    "non_td_mean": 5.2
+  }
+}

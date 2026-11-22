@@ -4,10 +4,11 @@
 
 Can writing down my assumptions about volume, scoring and lineup correlation, before kickoff, make my DraftKings lineups better over time?
 
-**Honest status: ongoing research, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The core projection engine starts from football inputs (pass attempts, targets, carries, efficiency, touchdown chances), so a miss can be traced to a specific assumption. Dated research may instead use clearly labeled public forecasts; Week 10 uses public mean estimates with a separate scenario simulator.
+**Honest status: ongoing research, no edge claimed.** What this repository does is keep the pre-game reasoning and the post-game review side by side so I can see where I was wrong. The core projection engine starts from football inputs (pass attempts, targets, carries, efficiency, touchdown chances), so a miss can be traced to a specific assumption. Dated research may instead use clearly labeled public forecasts; Weeks 10–11 use public mean estimates with a separate scenario simulator.
 
 ## Latest research
 
+- [Week 11: November 22 main-slate lineups](weeks/2026_week_11/README.md), saved public forecasts, executed Monte Carlo comparisons, ownership/role/weather stresses and [prior lessons applied](weeks/2026_week_11/lessons_applied.md). Early recommendations remain conditional on official inactives.
 - [Week 10: two $12 Fair Catch single-entry recommendations](weeks/2026_week_10/README.md), 102-player main-slate pool, executed candidate/field simulations, role and QB-failure stresses, and [prior lessons mapped to actions](weeks/2026_week_10/lessons_applied.md).
 - [Week 8 provisional Lamar/Bijan postmortem](weeks/2026_week_08/postmortem/README.md): shared quarterback downside and weak secondary-stack role; official contest result remains unconfirmed.
 - [Week 8: $27 / 2,591-entry maximum single-entry research](weeks/2026_week_08/README.md), reproducible candidate screen and saved forecasts.
@@ -24,7 +25,7 @@ Can writing down my assumptions about volume, scoring and lineup correlation, be
 
 Week 4 in a little more detail, because it was the first real test: Burrow (28.7), Higgins (29.7), Kyren Williams (36.7) and Hockenson (27.9) did what the game-environment thesis said. Chase scored 5.7 after a concussion, which I count as noise. Parker Washington scored 2.0, and he is the real lesson: he was chosen as the Jacksonville piece to pair with the Cincinnati stack, and his own role was too thin for the correlation to matter.
 
-The simulations are scenario estimates of my own lineups' scores. They are not contest win probabilities, because I do not model the rest of the field. Until contest rank, the cash line and actual ownership are in the records, I cannot say whether any of this beats a simple projection.
+The simulations are scenario estimates of my own lineups' scores. They are not contest win probabilities, because the core research does not reconstruct the real opponent field. Weeks 10–11 add explicitly hypothetical field scenarios, which remain uncalibrated. Until contest rank, the cash line and actual ownership are in the records, I cannot say whether any of this beats a simple projection.
 
 ## How the process works
 
